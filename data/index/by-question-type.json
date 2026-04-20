@@ -1,0 +1,93 @@
+{
+  "_description": "Index câu hỏi theo dạng bài (question type). Dùng để chọn câu hỏi phù hợp với từng mini-game.",
+  "_updated": "2026-04-20",
+  "multiple-choice-image": {
+    "label": "Trắc nghiệm có hình ảnh (A/B/C/D)",
+    "description": "Trẻ nghe câu hỏi và chạm/click vào hình ảnh đúng",
+    "default_mini_game": "bat-chu",
+    "questions": [
+      { "id": "ARCH-PATT-0005", "skill": "geometry" },
+      { "id": "DTD-IQ-0001", "skill": "iq-observation" },
+      { "id": "DTD-IQ-0002", "skill": "iq-observation" },
+      { "id": "DTD-MEM-0001", "skill": "iq-memory" },
+      { "id": "GEN-LETT-0001", "skill": "letter-recognition" },
+      { "id": "GEN-LETT-0002", "skill": "letter-recognition" },
+      { "id": "GEN-LETT-0003", "skill": "letter-recognition" },
+      { "id": "NSPS-STOR-0001", "skill": "storytelling" },
+      { "id": "NSPS-STOR-0002", "skill": "reading-comprehension" },
+      { "id": "NSPS-EMOQ-0001", "skill": "emotion-recognition" },
+      { "id": "VIN-ENG-0005", "skill": "english-vocabulary" }
+    ]
+  },
+  "pattern-next": {
+    "label": "Hoàn thiện quy luật / Chọn hình tiếp theo",
+    "description": "Trẻ quan sát dãy hình và chọn hình tiếp theo hoặc mảnh còn thiếu",
+    "default_mini_game": "doan-tau-hoa-tiet",
+    "questions": [
+      { "id": "ARCH-PATT-0001", "skill": "pattern-recognition" },
+      { "id": "ARCH-PATT-0002", "skill": "pattern-recognition" },
+      { "id": "ARCH-PATT-0003", "skill": "pattern-recognition" }
+    ]
+  },
+  "counting": {
+    "label": "Đếm và chọn số",
+    "description": "Trẻ đếm vật thể trong tranh và chọn số đúng",
+    "default_mini_game": "cho-que",
+    "questions": [
+      { "id": "ARCH-PATT-0004", "skill": "counting" }
+    ]
+  },
+  "spot-difference": {
+    "label": "Tìm điểm khác biệt",
+    "description": "Trẻ so sánh 2 tranh và tìm các điểm khác nhau",
+    "default_mini_game": "hai-buc-tranh",
+    "questions": [
+      { "id": "DTD-IQ-0003", "skill": "iq-observation" }
+    ]
+  },
+  "story-arrange": {
+    "label": "Sắp xếp tranh kể chuyện",
+    "description": "Trẻ kéo-thả các tranh vào đúng thứ tự để tạo thành câu chuyện",
+    "default_mini_game": "ke-chuyen",
+    "questions": [
+      { "id": "DTD-STORY-0001", "skill": "storytelling" }
+    ]
+  },
+  "matching": {
+    "label": "Nối đôi / Ghép cặp",
+    "description": "Trẻ nối các vật với nhau theo logic (con vật - ngôi nhà, chữ - hình...)",
+    "default_mini_game": "ke-chuyen",
+    "questions": [
+      { "id": "DTD-IQ-0004", "skill": "iq-logic" }
+    ]
+  },
+  "multiple-choice": {
+    "label": "Trắc nghiệm chữ (A/B/C/D)",
+    "description": "Trẻ nghe và chọn đáp án bằng chữ (dùng cho trẻ đã biết chữ hoặc GV đọc to)",
+    "default_mini_game": "bat-chu",
+    "questions": [
+      { "id": "GEN-SYLL-0001", "skill": "syllable-blending" },
+      { "id": "GEN-LETT-0003", "skill": "letter-recognition" }
+    ]
+  },
+  "listen-choose": {
+    "label": "Nghe và chọn hình",
+    "description": "Trẻ nghe âm thanh (từ tiếng Việt hoặc tiếng Anh) và chọn hình phù hợp",
+    "default_mini_game": "touch-and-say",
+    "questions": [
+      { "id": "GEN-SYLL-0002", "skill": "syllable-blending" },
+      { "id": "VIN-ENG-0001", "skill": "english-vocabulary" },
+      { "id": "VIN-ENG-0002", "skill": "english-listening" },
+      { "id": "VIN-ENG-0003", "skill": "english-vocabulary" }
+    ]
+  },
+  "sequence": {
+    "label": "Sắp xếp thứ tự",
+    "description": "Trẻ sắp xếp hình/vật/hành động vào đúng thứ tự",
+    "default_mini_game": "lat-the-doi",
+    "questions": [
+      { "id": "NSPS-MEM-0001", "skill": "iq-memory" },
+      { "id": "VIN-ENG-0004", "skill": "english-following-instructions" }
+    ]
+  }
+}

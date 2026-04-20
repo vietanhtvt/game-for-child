@@ -1,0 +1,244 @@
+{
+  "version": "1.0.0",
+  "set_id": "arch-math-pattern-v1",
+  "title": "Toán Tư Duy — Quy Luật Hình (Archimedes)",
+  "description": "Bài tập nhận diện và hoàn thiện quy luật dãy hình. Dựa theo cấu trúc đề thi thử Archimedes School (vndoc.com). Yêu cầu trẻ xác định hình tiếp theo trong dãy.",
+  "school": "archimedes",
+  "skill": "pattern-recognition",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "ARCH-PATT-0001",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 2,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/de-thi-thu-mon-toan-lop-1-truong-archimedes-school-co-dap-an-167673",
+        "crawled_at": "2026-04-20",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào đến tiếp theo trong dãy?",
+        "audio": {
+          "path": "questions/arch-patt-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-patt-0001-sequence.webp",
+          "alt": "Dãy hình: tròn đỏ, vuông xanh, tròn đỏ, vuông xanh, dấu hỏi",
+          "width": 600,
+          "height": 120
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/arch-patt-0001-A.webp",
+            "alt": "Hình tròn đỏ"
+          },
+          "audio": {
+            "path": "options/arch-patt-0001-A.mp3",
+            "locale": "vi-VN"
+          }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/arch-patt-0001-B.webp",
+            "alt": "Hình vuông xanh"
+          },
+          "audio": {
+            "path": "options/arch-patt-0001-B.mp3",
+            "locale": "vi-VN"
+          }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/arch-patt-0001-C.webp",
+            "alt": "Hình tam giác vàng"
+          }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/arch-patt-0001-D.webp",
+            "alt": "Hình tròn xanh"
+          }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Dãy lặp lại: tròn đỏ → vuông xanh → tròn đỏ…",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhìn kỹ xem dãy hình lặp lại như thế nào nhé.",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "mini_game": "doan-tau-hoa-tiet",
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "mau-sac", "hinh-hoc"]
+    },
+    {
+      "id": "ARCH-PATT-0002",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 3,
+      "school": ["archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-20",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào còn thiếu trong dãy?",
+        "audio": {
+          "path": "questions/arch-patt-0002-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/arch-patt-0002-sequence.webp",
+          "alt": "Dãy hình: ngôi sao lớn, ngôi sao nhỏ, ngôi sao lớn, dấu hỏi, ngôi sao lớn",
+          "width": 700,
+          "height": 140
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/arch-patt-0002-A.webp", "alt": "Ngôi sao nhỏ" } },
+        { "id": "B", "image": { "path": "options/arch-patt-0002-B.webp", "alt": "Ngôi sao lớn" } },
+        { "id": "C", "image": { "path": "options/arch-patt-0002-C.webp", "alt": "Hình tròn nhỏ" } },
+        { "id": "D", "image": { "path": "options/arch-patt-0002-D.webp", "alt": "Hình vuông" } }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "Nhìn xem: lớn → nhỏ → lớn → ? Hình nào điền vào dấu hỏi?",
+        "audio": { "path": "questions/arch-patt-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "kich-thuoc", "ngoi-sao"]
+    },
+    {
+      "id": "ARCH-PATT-0003",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 3,
+      "school": ["archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Mảnh ghép nào phù hợp với dấu hỏi?",
+        "audio": {
+          "path": "questions/arch-patt-0003-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/arch-patt-0003-matrix.webp",
+          "alt": "Ma trận 3x3: các hình với quy luật màu và kích thước, ô cuối là dấu hỏi",
+          "width": 360,
+          "height": 360
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/arch-patt-0003-A.webp", "alt": "Hình tròn xanh lớn" } },
+        { "id": "B", "image": { "path": "options/arch-patt-0003-B.webp", "alt": "Hình tròn đỏ nhỏ" } },
+        { "id": "C", "image": { "path": "options/arch-patt-0003-C.webp", "alt": "Hình vuông xanh lớn" } },
+        { "id": "D", "image": { "path": "options/arch-patt-0003-D.webp", "alt": "Hình tam giác vàng" } }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "ma-tran", "iq"]
+    },
+    {
+      "id": "ARCH-PATT-0004",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "khotientieuhoc.com",
+        "crawled_at": "2026-04-20",
+        "verified": false
+      },
+      "stem": {
+        "text": "Có mấy con bướm trong tranh? Chọn số đúng.",
+        "audio": {
+          "path": "questions/arch-count-0004-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/arch-count-0004-butterflies.webp",
+          "alt": "Tranh vẽ 7 con bướm màu sắc khác nhau đậu trên hoa",
+          "width": 500,
+          "height": 400
+        }
+      },
+      "options": [
+        { "id": "A", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "con-vat", "buom"]
+    },
+    {
+      "id": "ARCH-PATT-0005",
+      "type": "multiple-choice-image",
+      "skill": "geometry",
+      "difficulty": 3,
+      "school": ["archimedes", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào KHÁC với các hình còn lại?",
+        "audio": {
+          "path": "questions/arch-geo-0005-stem.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/arch-geo-0005-A.webp", "alt": "Hình tam giác xanh" } },
+        { "id": "B", "image": { "path": "options/arch-geo-0005-B.webp", "alt": "Hình tam giác đỏ" } },
+        { "id": "C", "image": { "path": "options/arch-geo-0005-C.webp", "alt": "Hình tròn vàng" } },
+        { "id": "D", "image": { "path": "options/arch-geo-0005-D.webp", "alt": "Hình tam giác vàng" } }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "max_attempts": 3
+      },
+      "tags": ["hinh-hoc", "phan-biet", "iq-quan-sat"]
+    }
+  ]
+}

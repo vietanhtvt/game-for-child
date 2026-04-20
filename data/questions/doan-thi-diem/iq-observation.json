@@ -1,0 +1,321 @@
+{
+  "version": "1.0.0",
+  "set_id": "dtd-iq-observation-v1",
+  "title": "IQ — Quan Sát & Tìm Hình Khác Biệt (Đoàn Thị Điểm)",
+  "description": "Dạng bài kiểm tra IQ quan sát trong đề thi lớp 1 trường Đoàn Thị Điểm (cả hệ chuẩn và Cambridge). Trẻ cần tìm hình khác biệt trong hàng, sắp xếp tranh kể chuyện, và chọn mảnh ghép còn thiếu. Nguồn: 123docz PDF, tailieuonthi.io.vn, lop5.net.",
+  "school": "doan-thi-diem",
+  "skill": "iq-observation",
+  "difficulty_range": [3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "DTD-IQ-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "doan-thi-diem-cambridge"],
+      "source": {
+        "origin": "123docz.net",
+        "url": "https://demo.smarttrainerlms.com/uploads/0003/trainings/course/565/modules/%5B123doc%5D%20-%20de-thi-vao-lop-1-truong-doan-thi-diem_16169860401505482402.pdf",
+        "crawled_at": "2026-04-20",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào KHÁC với các hình còn lại trong hàng? Gạch vào hình đó.",
+        "audio": {
+          "path": "questions/dtd-iq-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/dtd-iq-0001-A.webp",
+            "alt": "Con mèo đang ngồi"
+          }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/dtd-iq-0001-B.webp",
+            "alt": "Con mèo đang đứng"
+          }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/dtd-iq-0001-C.webp",
+            "alt": "Con chó đang ngồi"
+          }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/dtd-iq-0001-D.webp",
+            "alt": "Con mèo đang chạy"
+          }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con chó khác vì 3 hình kia đều là con mèo.",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhìn xem: 3 hình kia giống nhau ở điểm nào?",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["iq-phan-biet", "con-vat", "quan-sat"]
+    },
+    {
+      "id": "DTD-IQ-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["doan-thi-diem"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-04-20",
+        "verified": false
+      },
+      "stem": {
+        "text": "Mảnh ghép nào điền vào ô còn trống?",
+        "audio": {
+          "path": "questions/dtd-iq-0002-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/dtd-iq-0002-puzzle.webp",
+          "alt": "Bức tranh ngôi nhà bị thiếu một mảnh ở góc phải trên",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/dtd-iq-0002-A.webp", "alt": "Mảnh có cửa sổ nhỏ màu xanh" } },
+        { "id": "B", "image": { "path": "options/dtd-iq-0002-B.webp", "alt": "Mảnh có mái ngói đỏ" } },
+        { "id": "C", "image": { "path": "options/dtd-iq-0002-C.webp", "alt": "Mảnh có tường vàng trơn" } },
+        { "id": "D", "image": { "path": "options/dtd-iq-0002-D.webp", "alt": "Mảnh có bầu trời xanh" } }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "max_attempts": 3
+      },
+      "tags": ["iq-ghep-hinh", "nha", "quan-sat"]
+    },
+    {
+      "id": "DTD-IQ-0003",
+      "type": "spot-difference",
+      "skill": "iq-observation",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tìm 3 điểm khác nhau giữa hai bức tranh.",
+        "audio": {
+          "path": "questions/dtd-iq-0003-stem.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "context_image_pair": [
+        {
+          "path": "questions/dtd-iq-0003-left.webp",
+          "alt": "Cảnh công viên: cây xanh, ghế đá, 2 em bé chơi bóng, con chim trên cành",
+          "width": 500,
+          "height": 400
+        },
+        {
+          "path": "questions/dtd-iq-0003-right.webp",
+          "alt": "Cảnh công viên tương tự nhưng có 3 điểm khác: ghế màu khác, không có con chim, 1 em bé thêm mũ",
+          "width": 500,
+          "height": 400
+        }
+      ],
+      "answer": ["difference-1", "difference-2", "difference-3"],
+      "feedback": {
+        "correct": {
+          "text": "Giỏi quá! Con đã tìm được đủ 3 điểm khác nhau!",
+          "audio": { "path": "feedback/correct-spot-diff.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Gần đúng rồi! Con tìm được mấy điểm? Thử nhìn kỹ hơn nhé.",
+          "audio": { "path": "feedback/keep-trying-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 120
+      },
+      "tags": ["tim-diem-khac", "cong-vien", "quan-sat-tinh"]
+    },
+    {
+      "id": "DTD-STORY-0001",
+      "type": "story-arrange",
+      "skill": "storytelling",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-04-20",
+        "verified": false
+      },
+      "stem": {
+        "text": "Sắp xếp 4 bức tranh theo đúng thứ tự để thành câu chuyện.",
+        "audio": {
+          "path": "questions/dtd-story-0001-stem.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "options": [
+        {
+          "id": "1",
+          "image": {
+            "path": "questions/dtd-story-0001-card1.webp",
+            "alt": "Bé gặt lúa cùng bà nội ở cánh đồng"
+          }
+        },
+        {
+          "id": "2",
+          "image": {
+            "path": "questions/dtd-story-0001-card2.webp",
+            "alt": "Bé và bà đang nấu cơm"
+          }
+        },
+        {
+          "id": "3",
+          "image": {
+            "path": "questions/dtd-story-0001-card3.webp",
+            "alt": "Cả nhà quây quần ăn cơm vui vẻ"
+          }
+        },
+        {
+          "id": "4",
+          "image": {
+            "path": "questions/dtd-story-0001-card4.webp",
+            "alt": "Bé và bà đang giã gạo"
+          }
+        }
+      ],
+      "answer": ["1", "4", "2", "3"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Con kể chuyện rất hay: gặt lúa → giã gạo → nấu cơm → ăn cơm.",
+          "audio": { "path": "feedback/story-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Trước tiên cần làm gì với lúa?",
+          "audio": { "path": "feedback/story-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 180
+      },
+      "tags": ["ke-chuyen", "sap-xep", "logic-tu-duy", "nong-nghiep"]
+    },
+    {
+      "id": "DTD-IQ-0004",
+      "type": "matching",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối mỗi con vật với ngôi nhà của nó.",
+        "audio": {
+          "path": "questions/dtd-iq-0004-stem.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "options": [
+        { "id": "left-A", "image": { "path": "options/dtd-iq-0004-bird.webp", "alt": "Con chim" } },
+        { "id": "left-B", "image": { "path": "options/dtd-iq-0004-fish.webp", "alt": "Con cá" } },
+        { "id": "left-C", "image": { "path": "options/dtd-iq-0004-dog.webp", "alt": "Con chó" } },
+        { "id": "right-1", "image": { "path": "options/dtd-iq-0004-kennel.webp", "alt": "Cái chuồng chó" } },
+        { "id": "right-2", "image": { "path": "options/dtd-iq-0004-nest.webp", "alt": "Tổ chim" } },
+        { "id": "right-3", "image": { "path": "options/dtd-iq-0004-aquarium.webp", "alt": "Bể cá" } }
+      ],
+      "answer": {
+        "left-A": "right-2",
+        "left-B": "right-3",
+        "left-C": "right-1"
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "max_attempts": 3
+      },
+      "tags": ["noi-doi", "con-vat", "logic"]
+    },
+    {
+      "id": "DTD-MEM-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-memory",
+      "difficulty": 4,
+      "school": ["nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn thật kỹ các đồ vật này trong 5 giây rồi nhớ nhé!",
+        "audio": {
+          "path": "questions/dtd-mem-0001-memorize.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/dtd-mem-0001-objects.webp",
+          "alt": "5 đồ vật: quả táo, chiếc ô tô xanh, con búp bê, quyển sách đỏ, chiếc mũ vàng",
+          "width": 600,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/dtd-mem-0001-A.webp", "alt": "Quả cam" } },
+        { "id": "B", "image": { "path": "options/dtd-mem-0001-B.webp", "alt": "Chiếc mũ vàng" } },
+        { "id": "C", "image": { "path": "options/dtd-mem-0001-C.webp", "alt": "Con mèo" } },
+        { "id": "D", "image": { "path": "options/dtd-mem-0001-D.webp", "alt": "Bóng đỏ" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Trí nhớ của con thật tốt! Đúng rồi, có chiếc mũ vàng!",
+          "audio": { "path": "feedback/memory-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Con nhớ lại xem có vật nào màu vàng không?",
+          "audio": { "path": "feedback/memory-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 30
+      },
+      "tags": ["tri-nho", "working-memory", "do-vat"]
+    }
+  ]
+}

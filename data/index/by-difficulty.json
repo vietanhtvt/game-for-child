@@ -1,0 +1,54 @@
+{
+  "_description": "Index câu hỏi theo độ khó (1=3 tuổi, 2=4 tuổi, 3=5 tuổi, 4=6 tuổi/chuẩn bị vào lớp 1).",
+  "_updated": "2026-04-20",
+  "1": {
+    "label": "Mức 1 — 3 tuổi",
+    "description": "Nhận biết đơn giản: hình dạng, màu sắc cơ bản, chữ cái đơn, số 1-5",
+    "questions": [
+      { "id": "GEN-LETT-0001", "skill": "letter-recognition", "file": "questions/general/vietnamese-letters.json" }
+    ]
+  },
+  "2": {
+    "label": "Mức 2 — 4 tuổi",
+    "description": "Đếm 1-10, ghép âm đơn giản, quy luật đơn giản, nhận diện cảm xúc cơ bản",
+    "questions": [
+      { "id": "ARCH-PATT-0001", "skill": "pattern-recognition", "file": "questions/archimedes/math-pattern.json" },
+      { "id": "ARCH-PATT-0004", "skill": "counting", "file": "questions/archimedes/math-pattern.json" },
+      { "id": "GEN-LETT-0002", "skill": "letter-recognition", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "GEN-SYLL-0001", "skill": "syllable-blending", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "NSPS-EMOQ-0001", "skill": "emotion-recognition", "file": "questions/nguyen-sieu/storytelling.json" }
+    ]
+  },
+  "3": {
+    "label": "Mức 3 — 5 tuổi",
+    "description": "Quy luật phức tạp hơn, ghép vần nghe-chọn, IQ quan sát, Tiếng Anh cơ bản, đếm 1-20",
+    "questions": [
+      { "id": "ARCH-PATT-0002", "skill": "pattern-recognition", "file": "questions/archimedes/math-pattern.json" },
+      { "id": "ARCH-PATT-0003", "skill": "pattern-recognition", "file": "questions/archimedes/math-pattern.json" },
+      { "id": "ARCH-PATT-0005", "skill": "geometry", "file": "questions/archimedes/math-pattern.json" },
+      { "id": "DTD-IQ-0001", "skill": "iq-observation", "file": "questions/doan-thi-diem/iq-observation.json" },
+      { "id": "DTD-IQ-0002", "skill": "iq-observation", "file": "questions/doan-thi-diem/iq-observation.json" },
+      { "id": "DTD-IQ-0004", "skill": "iq-logic", "file": "questions/doan-thi-diem/iq-observation.json" },
+      { "id": "GEN-LETT-0003", "skill": "letter-recognition", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "GEN-SYLL-0002", "skill": "syllable-blending", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "VIN-ENG-0001", "skill": "english-vocabulary", "file": "questions/vinschool/english-listening.json" },
+      { "id": "VIN-ENG-0002", "skill": "english-listening", "file": "questions/vinschool/english-listening.json" },
+      { "id": "VIN-ENG-0003", "skill": "english-vocabulary", "file": "questions/vinschool/english-listening.json" }
+    ]
+  },
+  "4": {
+    "label": "Mức 4 — 6 tuổi (chuẩn bị thi lớp 1)",
+    "description": "Đầy đủ kỹ năng thi: kể chuyện, trí nhớ làm việc, IQ tìm điểm khác, Tiếng Anh làm theo chỉ dẫn, đọc hiểu đoạn ngắn",
+    "questions": [
+      { "id": "DTD-IQ-0003", "skill": "iq-observation", "file": "questions/doan-thi-diem/iq-observation.json" },
+      { "id": "DTD-STORY-0001", "skill": "storytelling", "file": "questions/doan-thi-diem/iq-observation.json" },
+      { "id": "DTD-MEM-0001", "skill": "iq-memory", "file": "questions/doan-thi-diem/iq-observation.json" },
+      { "id": "NSPS-STOR-0001", "skill": "storytelling", "file": "questions/nguyen-sieu/storytelling.json" },
+      { "id": "NSPS-STOR-0002", "skill": "reading-comprehension", "file": "questions/nguyen-sieu/storytelling.json" },
+      { "id": "NSPS-MEM-0001", "skill": "iq-memory", "file": "questions/nguyen-sieu/storytelling.json" },
+      { "id": "GEN-READ-0001", "skill": "reading-comprehension", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "VIN-ENG-0004", "skill": "english-following-instructions", "file": "questions/vinschool/english-listening.json" },
+      { "id": "VIN-ENG-0005", "skill": "english-vocabulary", "file": "questions/vinschool/english-listening.json" }
+    ]
+  }
+}
