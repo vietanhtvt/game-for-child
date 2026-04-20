@@ -1,0 +1,272 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-viet-letters-v1",
+  "title": "Tiếng Việt — Nhận Diện Chữ Cái & Ghép Vần",
+  "description": "Bài tập nhận diện 29 chữ cái, dấu thanh và ghép vần cơ bản. Phù hợp với đề thi của tất cả các trường tư ở Hà Nội. Bám sát sách giáo khoa Tiếng Việt 1 (chương trình GDPT 2018). Có thể kết hợp VMonkey làm nguồn tham khảo âm chuẩn.",
+  "school": "general",
+  "skill": "letter-recognition",
+  "difficulty_range": [1, 2, 3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "GEN-LETT-0001",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 1,
+      "school": ["general", "archimedes", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Chữ nào là chữ A?",
+        "audio": {
+          "path": "questions/gen-lett-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "A", "audio": { "path": "options/letter-A.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "B", "audio": { "path": "options/letter-B.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "O", "audio": { "path": "options/letter-O.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "E", "audio": { "path": "options/letter-E.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Chữ A — A như con Áo!",
+          "audio": { "path": "feedback/letter-A-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Chữ A có hai chân dang rộng và một nét ngang.",
+          "audio": { "path": "feedback/letter-A-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "a", "nguyen-am", "in-hoa"],
+      "metadata": {
+        "curriculum_ref": "GDPT-2018-TV1-Bai1"
+      }
+    },
+    {
+      "id": "GEN-LETT-0002",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Chữ nào đứng đầu tiên trong tên con vật này?",
+        "audio": {
+          "path": "questions/gen-lett-0002-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/gen-lett-0002-elephant.webp",
+          "alt": "Hình con voi",
+          "width": 300,
+          "height": 250
+        }
+      },
+      "options": [
+        { "id": "A", "text": "V", "audio": { "path": "options/letter-V.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "O", "audio": { "path": "options/letter-O.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "I", "audio": { "path": "options/letter-I.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "N", "audio": { "path": "options/letter-N.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! VOI bắt đầu bằng chữ V!",
+          "audio": { "path": "feedback/letter-V-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nói to: V-O-I. Chữ đầu tiên là gì?",
+          "audio": { "path": "feedback/letter-V-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "v", "con-vat", "voi"]
+    },
+    {
+      "id": "GEN-SYLL-0001",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 2,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-20",
+        "verified": false
+      },
+      "stem": {
+        "text": "Kéo phụ âm 'B' + nguyên âm 'A' + thanh sắc → đọc thành tiếng gì?",
+        "audio": {
+          "path": "questions/gen-syll-0001-stem.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "bá", "audio": { "path": "options/syllable-ba-sac.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "bà", "audio": { "path": "options/syllable-ba-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "ba", "audio": { "path": "options/syllable-ba-flat.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "bã", "audio": { "path": "options/syllable-ba-nga.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! B + A + dấu sắc = BÁ!",
+          "audio": { "path": "feedback/syllable-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại nhé! Dấu sắc ( ́) làm giọng lên cao.",
+          "audio": { "path": "feedback/syllable-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "dau-thanh", "tien-doc"]
+    },
+    {
+      "id": "GEN-SYLL-0002",
+      "type": "listen-choose",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["archimedes", "doan-thi-diem", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe âm thanh và chọn ảnh phù hợp.",
+        "audio": {
+          "path": "questions/gen-syll-0002-word-audio.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/gen-syll-0002-A-bao.webp", "alt": "Cái bao tải" } },
+        { "id": "B", "image": { "path": "options/gen-syll-0002-B-bao.webp", "alt": "Cái bào gỗ" } },
+        { "id": "C", "image": { "path": "options/gen-syll-0002-C-bao.webp", "alt": "Bao nhiêu? (câu hỏi)" } },
+        { "id": "D", "image": { "path": "options/gen-syll-0002-D-bau.webp", "alt": "Quả bầu" } }
+      ],
+      "answer": "A",
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-chon", "ghep-van", "tien-doc"]
+    },
+    {
+      "id": "GEN-READ-0001",
+      "type": "multiple-choice",
+      "skill": "reading-comprehension",
+      "difficulty": 4,
+      "school": ["archimedes", "nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu chuyện ngắn rồi trả lời: Con gì đang ăn cà rốt?",
+        "audio": {
+          "path": "questions/gen-read-0001-story.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 12000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/gen-read-0001-A-rabbit.webp", "alt": "Con thỏ" },
+          "audio": { "path": "options/animal-tho.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/gen-read-0001-B-cat.webp", "alt": "Con mèo" },
+          "audio": { "path": "options/animal-meo.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/gen-read-0001-C-elephant.webp", "alt": "Con voi" },
+          "audio": { "path": "options/animal-voi.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/gen-read-0001-D-bear.webp", "alt": "Con gấu" },
+          "audio": { "path": "options/animal-gau.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con thỏ thích ăn cà rốt!",
+          "audio": { "path": "feedback/story-correct-rabbit.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu chuyện nào! Con vật nào có tai dài?",
+          "audio": { "path": "feedback/story-retry-rabbit.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-hieu", "cau-chuyen", "con-vat", "tho", "ca-rot"]
+    },
+    {
+      "id": "GEN-LETT-0003",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 3,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Chữ in thường và chữ in hoa nào là cùng một chữ?",
+        "audio": {
+          "path": "questions/gen-lett-0003-stem.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "A — a", "audio": { "path": "options/letter-pair-Aa.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "B — d", "audio": { "path": "options/letter-pair-Bd.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "P — q", "audio": { "path": "options/letter-pair-Pq.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "D — b", "audio": { "path": "options/letter-pair-Db.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "in-hoa", "in-thuong", "nhan-dang"]
+    }
+  ]
+}

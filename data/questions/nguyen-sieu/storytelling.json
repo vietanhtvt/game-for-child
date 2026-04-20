@@ -1,0 +1,246 @@
+{
+  "version": "1.0.0",
+  "set_id": "nsps-storytelling-v1",
+  "title": "Kể Chuyện Theo Tranh & Trí Nhớ (Nguyễn Siêu — Spark in Me)",
+  "description": "Bài tập kể chuyện theo tranh và trí nhớ làm việc — dạng bài đặc trưng của chương trình 'Spark in Me' tại Nguyễn Siêu. GV kể câu chuyện → trẻ trả lời trắc nghiệm A/B/C/D về nội dung. Kết hợp kiểm tra khả năng nghe hiểu, trí nhớ và logic tường thuật.",
+  "school": "nguyen-sieu",
+  "skill": "storytelling",
+  "difficulty_range": [3, 4],
+  "total_questions": 4,
+  "questions": [
+    {
+      "id": "NSPS-STOR-0001",
+      "type": "multiple-choice",
+      "skill": "storytelling",
+      "difficulty": 4,
+      "school": ["nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu chuyện. Cuối truyện, con thỏ làm gì?",
+        "audio": {
+          "path": "questions/nsps-stor-0001-story.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 35000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Về nhà ngủ",
+          "image": { "path": "options/nsps-stor-0001-A-sleep.webp", "alt": "Con thỏ đang ngủ trong hang" },
+          "audio": { "path": "options/nsps-stor-0001-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Chia cà rốt cho bạn",
+          "image": { "path": "options/nsps-stor-0001-B-share.webp", "alt": "Con thỏ chia cà rốt cho con sóc" },
+          "audio": { "path": "options/nsps-stor-0001-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Leo lên cây",
+          "image": { "path": "options/nsps-stor-0001-C-climb.webp", "alt": "Con thỏ leo cây" },
+          "audio": { "path": "options/nsps-stor-0001-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Chạy vào rừng",
+          "image": { "path": "options/nsps-stor-0001-D-run.webp", "alt": "Con thỏ chạy vào rừng" },
+          "audio": { "path": "options/nsps-stor-0001-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con thỏ biết chia sẻ. Con giỏi lắm!",
+          "audio": { "path": "feedback/story-correct-share.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu chuyện nào! Con thỏ tìm được cà rốt rồi làm gì?",
+          "audio": { "path": "feedback/story-retry-share.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 90
+      },
+      "tags": ["ke-chuyen", "nghe-hieu", "con-tho", "chia-se", "cam-xuc"]
+    },
+    {
+      "id": "NSPS-STOR-0002",
+      "type": "multiple-choice",
+      "skill": "reading-comprehension",
+      "difficulty": 4,
+      "school": ["nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Ai là bạn của con gấu trong câu chuyện?",
+        "audio": {
+          "path": "questions/nsps-stor-0002-question.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Con sư tử",
+          "image": { "path": "options/nsps-stor-0002-A-lion.webp", "alt": "Con sư tử" },
+          "audio": { "path": "options/animal-su-tu.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Con ong",
+          "image": { "path": "options/nsps-stor-0002-B-bee.webp", "alt": "Con ong" },
+          "audio": { "path": "options/animal-ong.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Con cáo",
+          "image": { "path": "options/nsps-stor-0002-C-fox.webp", "alt": "Con cáo" },
+          "audio": { "path": "options/animal-cao.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Con rùa",
+          "image": { "path": "options/nsps-stor-0002-D-turtle.webp", "alt": "Con rùa" },
+          "audio": { "path": "options/animal-rua.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "D",
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 2
+      },
+      "tags": ["ke-chuyen", "nhan-vat", "con-gau", "con-rua"]
+    },
+    {
+      "id": "NSPS-MEM-0001",
+      "type": "sequence",
+      "skill": "iq-memory",
+      "difficulty": 4,
+      "school": ["nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn thứ tự này trong 5 giây. Sau đó chọn lại đúng thứ tự!",
+        "audio": {
+          "path": "questions/nsps-mem-0001-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/nsps-mem-0001-sequence.webp",
+          "alt": "Dãy 4 vật: quả cam → con mèo → quyển sách → mũ xanh (hiển thị 5 giây rồi ẩn đi)",
+          "width": 600,
+          "height": 150
+        }
+      },
+      "options": [
+        { "id": "1", "image": { "path": "options/nsps-mem-0001-orange.webp", "alt": "Quả cam" } },
+        { "id": "2", "image": { "path": "options/nsps-mem-0001-cat.webp", "alt": "Con mèo" } },
+        { "id": "3", "image": { "path": "options/nsps-mem-0001-book.webp", "alt": "Quyển sách" } },
+        { "id": "4", "image": { "path": "options/nsps-mem-0001-hat.webp", "alt": "Mũ xanh" } }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "feedback": {
+        "correct": {
+          "text": "Trí nhớ của con thật xuất sắc! Con nhớ đúng thứ tự rồi!",
+          "audio": { "path": "feedback/memory-sequence-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Gần đúng rồi! Thử nhớ lại: vật nào đứng đầu tiên?",
+          "audio": { "path": "feedback/memory-sequence-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 30
+      },
+      "tags": ["tri-nho", "thu-tu", "working-memory", "spark-in-me"]
+    },
+    {
+      "id": "NSPS-EMOQ-0001",
+      "type": "multiple-choice-image",
+      "skill": "emotion-recognition",
+      "difficulty": 2,
+      "school": ["general", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bạn nhỏ này đang có cảm xúc gì?",
+        "audio": {
+          "path": "questions/nsps-emoq-0001-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/nsps-emoq-0001-sad-child.webp",
+          "alt": "Một bé trai đang cụp môi, mắt ướt, ngồi một mình",
+          "width": 300,
+          "height": 400
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Vui",
+          "image": { "path": "options/emotion-happy.webp", "alt": "Mặt cười vui" },
+          "audio": { "path": "options/emotion-vui.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Buồn",
+          "image": { "path": "options/emotion-sad.webp", "alt": "Mặt buồn" },
+          "audio": { "path": "options/emotion-buon.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Tức giận",
+          "image": { "path": "options/emotion-angry.webp", "alt": "Mặt tức giận" },
+          "audio": { "path": "options/emotion-tuc.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Sợ hãi",
+          "image": { "path": "options/emotion-scared.webp", "alt": "Mặt sợ hãi" },
+          "audio": { "path": "options/emotion-so.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Bạn ấy đang buồn. Khi bạn buồn, mình nên làm gì để an ủi bạn nhỉ?",
+          "audio": { "path": "feedback/emotion-buon-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ mắt bạn ấy xem sao!",
+          "audio": { "path": "feedback/emotion-look-again.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cam-xuc", "buon", "EQ", "ky-nang-xa-hoi"]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "_description": "Index câu hỏi theo kỹ năng. Mỗi entry là danh sách các question_id và file chứa câu hỏi đó.",
+  "_updated": "2026-04-20",
+  "letter-recognition": {
+    "label": "Nhận diện chữ cái",
+    "mini_games": ["bat-chu"],
+    "questions": [
+      { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json", "difficulty": 1 },
+      { "id": "GEN-LETT-0002", "file": "questions/general/vietnamese-letters.json", "difficulty": 2 },
+      { "id": "GEN-LETT-0003", "file": "questions/general/vietnamese-letters.json", "difficulty": 3 }
+    ]
+  },
+  "syllable-blending": {
+    "label": "Ghép vần / Đọc âm tiết",
+    "mini_games": ["ghep-van"],
+    "questions": [
+      { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json", "difficulty": 2 },
+      { "id": "GEN-SYLL-0002", "file": "questions/general/vietnamese-letters.json", "difficulty": 3 }
+    ]
+  },
+  "reading-comprehension": {
+    "label": "Đọc hiểu / Nghe hiểu",
+    "mini_games": ["ke-chuyen"],
+    "questions": [
+      { "id": "GEN-READ-0001", "file": "questions/general/vietnamese-letters.json", "difficulty": 4 },
+      { "id": "NSPS-STOR-0002", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 }
+    ]
+  },
+  "storytelling": {
+    "label": "Kể chuyện theo tranh / Sắp xếp tranh",
+    "mini_games": ["ke-chuyen"],
+    "questions": [
+      { "id": "DTD-STORY-0001", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 },
+      { "id": "NSPS-STOR-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 }
+    ]
+  },
+  "counting": {
+    "label": "Đếm số / Nhận biết số lượng",
+    "mini_games": ["cho-que"],
+    "questions": [
+      { "id": "ARCH-PATT-0004", "file": "questions/archimedes/math-pattern.json", "difficulty": 2 }
+    ]
+  },
+  "pattern-recognition": {
+    "label": "Quy luật hình / Dãy hình",
+    "mini_games": ["doan-tau-hoa-tiet"],
+    "questions": [
+      { "id": "ARCH-PATT-0001", "file": "questions/archimedes/math-pattern.json", "difficulty": 2 },
+      { "id": "ARCH-PATT-0002", "file": "questions/archimedes/math-pattern.json", "difficulty": 3 },
+      { "id": "ARCH-PATT-0003", "file": "questions/archimedes/math-pattern.json", "difficulty": 3 }
+    ]
+  },
+  "geometry": {
+    "label": "Hình học cơ bản / Nhận diện hình",
+    "mini_games": ["xep-tangram", "hai-buc-tranh"],
+    "questions": [
+      { "id": "ARCH-PATT-0005", "file": "questions/archimedes/math-pattern.json", "difficulty": 3 }
+    ]
+  },
+  "iq-observation": {
+    "label": "IQ Quan sát / Tìm hình khác biệt",
+    "mini_games": ["hai-buc-tranh"],
+    "questions": [
+      { "id": "DTD-IQ-0001", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
+      { "id": "DTD-IQ-0002", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
+      { "id": "DTD-IQ-0003", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 }
+    ]
+  },
+  "iq-memory": {
+    "label": "Trí nhớ làm việc / Working Memory",
+    "mini_games": ["lat-the-doi"],
+    "questions": [
+      { "id": "DTD-MEM-0001", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 },
+      { "id": "NSPS-MEM-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 }
+    ]
+  },
+  "iq-logic": {
+    "label": "Tư duy logic / Nối hình",
+    "mini_games": ["ke-chuyen", "doan-tau-hoa-tiet"],
+    "questions": [
+      { "id": "DTD-IQ-0004", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 }
+    ]
+  },
+  "english-vocabulary": {
+    "label": "Từ vựng Tiếng Anh",
+    "mini_games": ["touch-and-say"],
+    "questions": [
+      { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json", "difficulty": 3 },
+      { "id": "VIN-ENG-0003", "file": "questions/vinschool/english-listening.json", "difficulty": 3 },
+      { "id": "VIN-ENG-0005", "file": "questions/vinschool/english-listening.json", "difficulty": 4 }
+    ]
+  },
+  "english-listening": {
+    "label": "Nghe hiểu Tiếng Anh",
+    "mini_games": ["touch-and-say"],
+    "questions": [
+      { "id": "VIN-ENG-0002", "file": "questions/vinschool/english-listening.json", "difficulty": 3 }
+    ]
+  },
+  "english-following-instructions": {
+    "label": "Làm theo chỉ dẫn bằng Tiếng Anh",
+    "mini_games": ["touch-and-say"],
+    "questions": [
+      { "id": "VIN-ENG-0004", "file": "questions/vinschool/english-listening.json", "difficulty": 4 }
+    ]
+  },
+  "emotion-recognition": {
+    "label": "Nhận diện cảm xúc / EQ",
+    "mini_games": ["be-cam-xuc"],
+    "questions": [
+      { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 2 }
+    ]
+  }
+}

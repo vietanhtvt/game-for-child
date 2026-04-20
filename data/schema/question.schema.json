@@ -1,0 +1,339 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-for-child/schemas/question.schema.json",
+  "title": "Question",
+  "description": "Một câu hỏi/bài tập trong game tiền tiểu học. Hỗ trợ hình ảnh và âm thanh ở mọi trường (stem, options, feedback).",
+  "type": "object",
+  "required": ["id", "type", "skill", "difficulty", "stem"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Mã định danh duy nhất. Quy ước: {school_code}-{skill_code}-{index4d}. VD: ARCH-PATT-0001",
+      "pattern": "^[A-Z0-9]+-[A-Z0-9]+-[0-9]{4}$"
+    },
+    "type": {
+      "type": "string",
+      "description": "Dạng câu hỏi — xác định cách render và tương tác",
+      "enum": [
+        "multiple-choice",
+        "multiple-choice-image",
+        "matching",
+        "sequence",
+        "spot-difference",
+        "pattern-next",
+        "fill-blank",
+        "listen-choose",
+        "counting",
+        "connect-dots",
+        "coloring",
+        "drag-drop",
+        "story-arrange"
+      ]
+    },
+    "skill": {
+      "type": "string",
+      "description": "Kỹ năng chính được kiểm tra",
+      "enum": [
+        "letter-recognition",
+        "syllable-blending",
+        "word-reading",
+        "reading-comprehension",
+        "storytelling",
+        "counting",
+        "number-comparison",
+        "addition",
+        "subtraction",
+        "pattern-recognition",
+        "geometry",
+        "spatial-orientation",
+        "dot-connection",
+        "iq-observation",
+        "iq-memory",
+        "iq-logic",
+        "english-vocabulary",
+        "english-listening",
+        "english-following-instructions",
+        "fine-motor",
+        "emotion-recognition",
+        "social-skills"
+      ]
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4,
+      "description": "Độ khó: 1=3 tuổi, 2=4 tuổi, 3=5 tuổi, 4=6 tuổi (chuẩn bị vào lớp 1)"
+    },
+    "school": {
+      "type": "array",
+      "description": "Trường tham chiếu. Dùng mảng vì một câu có thể phù hợp nhiều trường.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "archimedes",
+          "nguyen-sieu",
+          "doan-thi-diem",
+          "doan-thi-diem-cambridge",
+          "vinschool",
+          "vinschool-cambridge",
+          "ngoi-sao",
+          "general"
+        ]
+      }
+    },
+    "source": {
+      "type": "object",
+      "description": "Nguồn gốc câu hỏi — bắt buộc ghi rõ để tuân thủ bản quyền",
+      "properties": {
+        "origin": {
+          "type": "string",
+          "enum": [
+            "vndoc.com",
+            "tailieuonthi.io.vn",
+            "lop5.net",
+            "mathx.vn",
+            "mathexpress.vn",
+            "khotientieuhoc.com",
+            "bevaolop1.com",
+            "giaovienvietnam.com",
+            "download.vn",
+            "123docz.net",
+            "haysiri.com",
+            "afamily.vn",
+            "lamchame.com",
+            "contuhoc.com",
+            "official-school",
+            "original"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL cụ thể nơi lấy câu hỏi (nếu có)"
+        },
+        "crawled_at": {
+          "type": "string",
+          "format": "date",
+          "description": "Ngày crawl YYYY-MM-DD"
+        },
+        "verified": {
+          "type": "boolean",
+          "description": "Đã được giáo viên/chuyên gia xác nhận tính chính xác"
+        }
+      },
+      "required": ["origin"]
+    },
+    "stem": {
+      "$ref": "#/definitions/ContentBlock",
+      "description": "Nội dung câu hỏi/đề bài — bao gồm text, audio và/hoặc image"
+    },
+    "context_image": {
+      "$ref": "#/definitions/ImageAsset",
+      "description": "Hình ảnh ngữ cảnh lớn (VD: bức tranh để kể chuyện, hai ảnh để tìm điểm khác)"
+    },
+    "context_image_pair": {
+      "type": "array",
+      "maxItems": 2,
+      "items": { "$ref": "#/definitions/ImageAsset" },
+      "description": "Cặp hình ảnh — dùng cho dạng tìm điểm khác biệt"
+    },
+    "options": {
+      "type": "array",
+      "description": "Các lựa chọn trả lời (cho multiple-choice, matching, pattern-next)",
+      "minItems": 2,
+      "maxItems": 6,
+      "items": { "$ref": "#/definitions/Option" }
+    },
+    "answer": {
+      "$ref": "#/definitions/Answer",
+      "description": "Đáp án đúng"
+    },
+    "hint": {
+      "$ref": "#/definitions/ContentBlock",
+      "description": "Gợi ý sau lần thử sai thứ 2 (tùy chọn)"
+    },
+    "feedback": {
+      "type": "object",
+      "description": "Phản hồi sau khi trả lời",
+      "properties": {
+        "correct": { "$ref": "#/definitions/ContentBlock" },
+        "incorrect": { "$ref": "#/definitions/ContentBlock" },
+        "explanation": { "$ref": "#/definitions/ContentBlock" }
+      }
+    },
+    "game_config": {
+      "type": "object",
+      "description": "Cấu hình hiển thị và tương tác trong game",
+      "properties": {
+        "time_limit_seconds": {
+          "type": "integer",
+          "description": "Giới hạn thời gian (giây). null = không giới hạn",
+          "minimum": 10,
+          "maximum": 300
+        },
+        "max_attempts": {
+          "type": "integer",
+          "description": "Số lần thử tối đa. 0 = không giới hạn",
+          "default": 3
+        },
+        "auto_play_audio": {
+          "type": "boolean",
+          "description": "Tự động phát audio khi câu hỏi xuất hiện",
+          "default": true
+        },
+        "shuffle_options": {
+          "type": "boolean",
+          "description": "Xáo trộn thứ tự lựa chọn mỗi lần chơi",
+          "default": true
+        },
+        "mini_game": {
+          "type": "string",
+          "description": "Mini-game cụ thể trong game để hiển thị câu hỏi này",
+          "enum": [
+            "bat-chu",
+            "ghep-van",
+            "cho-que",
+            "can-voi",
+            "doan-tau-hoa-tiet",
+            "xep-tangram",
+            "hai-buc-tranh",
+            "lat-the-doi",
+            "ke-chuyen",
+            "to-net",
+            "touch-and-say",
+            "be-cam-xuc"
+          ]
+        },
+        "background_audio": {
+          "$ref": "#/definitions/AudioAsset",
+          "description": "Nhạc nền cho câu hỏi này"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags bổ sung để lọc/tìm kiếm",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        ["con-vat", "rung"],
+        ["hinh-hoc", "tam-giac"],
+        ["chu-cai", "a"],
+        ["am-thanh", "tieng-anh"]
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadata bổ sung",
+      "properties": {
+        "created_at": { "type": "string", "format": "date" },
+        "updated_at": { "type": "string", "format": "date" },
+        "created_by": { "type": "string" },
+        "curriculum_ref": {
+          "type": "string",
+          "description": "Tham chiếu đến Chương trình GDMN 2021 hoặc Chuẩn phát triển trẻ 5 tuổi"
+        },
+        "notes": { "type": "string" }
+      }
+    }
+  },
+  "definitions": {
+    "ContentBlock": {
+      "type": "object",
+      "description": "Khối nội dung hỗ trợ text + audio + image",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Văn bản hiển thị (UTF-8, tiếng Việt đầy đủ dấu)"
+        },
+        "text_en": {
+          "type": "string",
+          "description": "Văn bản tiếng Anh (dùng cho câu hỏi English)"
+        },
+        "audio": { "$ref": "#/definitions/AudioAsset" },
+        "image": { "$ref": "#/definitions/ImageAsset" }
+      }
+    },
+    "Option": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Mã lựa chọn: A, B, C, D hoặc số 1,2,3,4",
+          "pattern": "^[A-D1-6]$"
+        },
+        "text": { "type": "string" },
+        "text_en": { "type": "string" },
+        "image": { "$ref": "#/definitions/ImageAsset" },
+        "audio": { "$ref": "#/definitions/AudioAsset" }
+      }
+    },
+    "Answer": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "ID của lựa chọn đúng (cho single-answer)"
+        },
+        {
+          "type": "array",
+          "description": "Danh sách ID đúng (cho multiple-answer hoặc sequence)",
+          "items": { "type": "string" }
+        },
+        {
+          "type": "object",
+          "description": "Đáp án dạng key-value (cho matching)",
+          "additionalProperties": { "type": "string" }
+        }
+      ]
+    },
+    "ImageAsset": {
+      "type": "object",
+      "required": ["path"],
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Đường dẫn tương đối từ gốc data/assets/images/. VD: questions/arch-pattern-0001.webp",
+          "pattern": "^[a-z0-9/_-]+\\.(png|jpg|webp|svg|gif)$"
+        },
+        "alt": {
+          "type": "string",
+          "description": "Mô tả hình ảnh (accessibility + dùng khi TTS)"
+        },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "license": {
+          "type": "string",
+          "description": "Giấy phép: CC0, CC-BY, CC-BY-SA, original, school-sourced"
+        }
+      }
+    },
+    "AudioAsset": {
+      "type": "object",
+      "required": ["path"],
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Đường dẫn tương đối từ gốc data/assets/audio/. VD: questions/arch-pattern-0001.mp3",
+          "pattern": "^[a-z0-9/_-]+\\.(mp3|ogg|m4a|wav)$"
+        },
+        "duration_ms": {
+          "type": "integer",
+          "description": "Thời lượng âm thanh (milliseconds)",
+          "minimum": 0
+        },
+        "locale": {
+          "type": "string",
+          "description": "Ngôn ngữ/giọng: vi-VN, en-US, en-GB",
+          "enum": ["vi-VN", "en-US", "en-GB", "vi-VN-north", "vi-VN-south"]
+        },
+        "speaker": {
+          "type": "string",
+          "description": "Người đọc / TTS engine. VD: 'female-child-north', 'native-english', 'gts-vi'"
+        }
+      }
+    }
+  }
+}

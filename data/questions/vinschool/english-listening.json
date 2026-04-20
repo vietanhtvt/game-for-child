@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-eng-listening-v1",
+  "title": "Tiếng Anh — Nghe Hiểu & Từ Vựng (Vinschool / Archimedes)",
+  "description": "Bài tập Tiếng Anh cho trẻ chuẩn bị thi lớp 1 hệ song ngữ (Vinschool, Archimedes). Kiểm tra khả năng nghe hiểu chỉ dẫn từ GV nước ngoài, nhận diện từ vựng cơ bản qua hình ảnh, và làm theo chỉ dẫn ('touch the...', 'show me...'). Âm thanh cần giọng native English.",
+  "school": "vinschool",
+  "skill": "english-listening",
+  "difficulty_range": [3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "VIN-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Touch the apple!",
+        "text_en": "Touch the apple!",
+        "audio": {
+          "path": "questions/vin-eng-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/vin-eng-0001-A-apple.webp", "alt": "A red apple" },
+          "audio": { "path": "options/eng-word-apple.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/vin-eng-0001-B-banana.webp", "alt": "A yellow banana" },
+          "audio": { "path": "options/eng-word-banana.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/vin-eng-0001-C-orange.webp", "alt": "An orange" },
+          "audio": { "path": "options/eng-word-orange.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/vin-eng-0001-D-grape.webp", "alt": "Purple grapes" },
+          "audio": { "path": "options/eng-word-grape.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Great job! That's an apple! 🍎",
+          "audio": { "path": "feedback/eng-correct-apple.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's try again! Can you find the apple?",
+          "audio": { "path": "feedback/eng-try-again.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "trai-cay", "tuch-the", "tu-vung"]
+    },
+    {
+      "id": "VIN-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-following-instructions",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Show me the BIG circle!",
+        "text_en": "Show me the BIG circle!",
+        "audio": {
+          "path": "questions/vin-eng-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/vin-eng-0002-A-big-circle.webp", "alt": "A big blue circle" },
+          "audio": { "path": "options/eng-big-circle.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/vin-eng-0002-B-small-circle.webp", "alt": "A small red circle" },
+          "audio": { "path": "options/eng-small-circle.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/vin-eng-0002-C-big-square.webp", "alt": "A big green square" },
+          "audio": { "path": "options/eng-big-square.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/vin-eng-0002-D-small-square.webp", "alt": "A small yellow square" },
+          "audio": { "path": "options/eng-small-square.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Excellent! You found the BIG circle!",
+          "audio": { "path": "feedback/eng-correct-big.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Hmm, try again! Which one is BIG?",
+          "audio": { "path": "feedback/eng-try-again-big.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "hinh-hoc", "kich-thuoc", "lam-theo-chi-dan"]
+    },
+    {
+      "id": "VIN-ENG-0003",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["vinschool", "nguyen-sieu", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Which animal says 'Moo'?",
+        "text_en": "Which animal says 'Moo'?",
+        "audio": {
+          "path": "questions/vin-eng-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/vin-eng-0003-A-cow.webp", "alt": "A brown cow" },
+          "audio": { "path": "options/eng-word-cow.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/vin-eng-0003-B-dog.webp", "alt": "A dog" },
+          "audio": { "path": "options/eng-word-dog.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/vin-eng-0003-C-cat.webp", "alt": "A cat" },
+          "audio": { "path": "options/eng-word-cat.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/vin-eng-0003-D-duck.webp", "alt": "A yellow duck" },
+          "audio": { "path": "options/eng-word-duck.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "con-vat", "am-thanh-dong-vat", "tu-vung"]
+    },
+    {
+      "id": "VIN-ENG-0004",
+      "type": "sequence",
+      "skill": "english-following-instructions",
+      "difficulty": 4,
+      "school": ["vinschool-cambridge", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Listen and do: First clap your hands, then touch your nose, then jump!",
+        "text_en": "Listen and do: First clap your hands, then touch your nose, then jump!",
+        "audio": {
+          "path": "questions/vin-eng-0004-instructions.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 5000
+        }
+      },
+      "options": [
+        {
+          "id": "1",
+          "image": { "path": "options/vin-eng-0004-clap.webp", "alt": "Child clapping hands" },
+          "audio": { "path": "options/eng-clap.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "2",
+          "image": { "path": "options/vin-eng-0004-jump.webp", "alt": "Child jumping" },
+          "audio": { "path": "options/eng-jump.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "3",
+          "image": { "path": "options/vin-eng-0004-nose.webp", "alt": "Child touching nose" },
+          "audio": { "path": "options/eng-touch-nose.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": ["1", "3", "2"],
+      "feedback": {
+        "correct": {
+          "text_en": "Amazing! You followed all 3 instructions!",
+          "audio": { "path": "feedback/eng-correct-sequence.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's listen again! What did we do FIRST?",
+          "audio": { "path": "feedback/eng-retry-sequence.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "lam-theo-chi-dan", "thu-tu", "van-dong"]
+    },
+    {
+      "id": "VIN-ENG-0005",
+      "type": "multiple-choice-image",
+      "skill": "english-vocabulary",
+      "difficulty": 4,
+      "school": ["vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "The teacher shows a picture and asks: What color is the sky?",
+        "text_en": "What color is the sky?",
+        "audio": {
+          "path": "questions/vin-eng-0005-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/vin-eng-0005-sky.webp",
+          "alt": "A daytime scene with blue sky and white clouds",
+          "width": 400,
+          "height": 300
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Blue", "audio": { "path": "options/eng-color-blue.mp3", "locale": "en-US" } },
+        { "id": "B", "text": "Green", "audio": { "path": "options/eng-color-green.mp3", "locale": "en-US" } },
+        { "id": "C", "text": "Red", "audio": { "path": "options/eng-color-red.mp3", "locale": "en-US" } },
+        { "id": "D", "text": "Yellow", "audio": { "path": "options/eng-color-yellow.mp3", "locale": "en-US" } }
+      ],
+      "answer": "A",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "mau-sac", "tu-vung", "bau-troi"]
+    }
+  ]
+}
