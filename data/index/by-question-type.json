@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo dạng bài (question type). Dùng để chọn câu hỏi phù hợp với từng mini-game.",
-  "_updated": "2026-04-20",
+  "_updated": "2026-04-21",
   "multiple-choice-image": {
     "label": "Trắc nghiệm có hình ảnh (A/B/C/D)",
     "description": "Trẻ nghe câu hỏi và chạm/click vào hình ảnh đúng",
@@ -13,10 +13,21 @@
       { "id": "GEN-LETT-0001", "skill": "letter-recognition" },
       { "id": "GEN-LETT-0002", "skill": "letter-recognition" },
       { "id": "GEN-LETT-0003", "skill": "letter-recognition" },
-      { "id": "NSPS-STOR-0001", "skill": "storytelling" },
-      { "id": "NSPS-STOR-0002", "skill": "reading-comprehension" },
       { "id": "NSPS-EMOQ-0001", "skill": "emotion-recognition" },
-      { "id": "VIN-ENG-0005", "skill": "english-vocabulary" }
+      { "id": "VIN-ENG-0005", "skill": "english-vocabulary" },
+      { "id": "NGS-NUM-0001", "skill": "number-comparison" },
+      { "id": "NGS-GEO-0001", "skill": "geometry" },
+      { "id": "NGS-LETT-0001", "skill": "letter-recognition" },
+      { "id": "NGS-LETT-0002", "skill": "letter-recognition" },
+      { "id": "ARCH-SPAT-0001", "skill": "spatial-orientation" },
+      { "id": "ARCH-SPAT-0002", "skill": "spatial-orientation" },
+      { "id": "ARCH-NUM-0002", "skill": "number-comparison" },
+      { "id": "DTD-COUNT-0003", "skill": "number-comparison" },
+      { "id": "GEN-SPAT-0001", "skill": "spatial-orientation" },
+      { "id": "GEN-SPAT-0002", "skill": "spatial-orientation" },
+      { "id": "GEN-SPAT-0003", "skill": "spatial-orientation" },
+      { "id": "GEN-EMO-0002", "skill": "emotion-recognition" },
+      { "id": "GEN-EMO-0003", "skill": "emotion-recognition" }
     ]
   },
   "pattern-next": {
@@ -26,7 +37,10 @@
     "questions": [
       { "id": "ARCH-PATT-0001", "skill": "pattern-recognition" },
       { "id": "ARCH-PATT-0002", "skill": "pattern-recognition" },
-      { "id": "ARCH-PATT-0003", "skill": "pattern-recognition" }
+      { "id": "ARCH-PATT-0003", "skill": "pattern-recognition" },
+      { "id": "NGS-PATT-0001", "skill": "pattern-recognition" },
+      { "id": "NGS-PATT-0002", "skill": "pattern-recognition" },
+      { "id": "DTD-PATT-0001", "skill": "pattern-recognition" }
     ]
   },
   "counting": {
@@ -34,7 +48,10 @@
     "description": "Trẻ đếm vật thể trong tranh và chọn số đúng",
     "default_mini_game": "cho-que",
     "questions": [
-      { "id": "ARCH-PATT-0004", "skill": "counting" }
+      { "id": "ARCH-PATT-0004", "skill": "counting" },
+      { "id": "NGS-COUNT-0001", "skill": "counting" },
+      { "id": "NGS-COUNT-0002", "skill": "counting" },
+      { "id": "DTD-COUNT-0001", "skill": "counting" }
     ]
   },
   "spot-difference": {
@@ -55,10 +72,11 @@
   },
   "matching": {
     "label": "Nối đôi / Ghép cặp",
-    "description": "Trẻ nối các vật với nhau theo logic (con vật - ngôi nhà, chữ - hình...)",
+    "description": "Trẻ nối các vật với nhau theo logic (con vật - ngôi nhà, chữ - hình, số - nhóm...)",
     "default_mini_game": "ke-chuyen",
     "questions": [
-      { "id": "DTD-IQ-0004", "skill": "iq-logic" }
+      { "id": "DTD-IQ-0004", "skill": "iq-logic" },
+      { "id": "DTD-COUNT-0002", "skill": "counting" }
     ]
   },
   "multiple-choice": {
@@ -67,7 +85,12 @@
     "default_mini_game": "bat-chu",
     "questions": [
       { "id": "GEN-SYLL-0001", "skill": "syllable-blending" },
-      { "id": "GEN-LETT-0003", "skill": "letter-recognition" }
+      { "id": "GEN-LETT-0003", "skill": "letter-recognition" },
+      { "id": "NSPS-STOR-0001", "skill": "storytelling" },
+      { "id": "NSPS-STOR-0002", "skill": "reading-comprehension" },
+      { "id": "NGS-SYLL-0001", "skill": "syllable-blending" },
+      { "id": "ARCH-NUM-0001", "skill": "addition" },
+      { "id": "DTD-COUNT-0004", "skill": "addition" }
     ]
   },
   "listen-choose": {
@@ -78,7 +101,8 @@
       { "id": "GEN-SYLL-0002", "skill": "syllable-blending" },
       { "id": "VIN-ENG-0001", "skill": "english-vocabulary" },
       { "id": "VIN-ENG-0002", "skill": "english-listening" },
-      { "id": "VIN-ENG-0003", "skill": "english-vocabulary" }
+      { "id": "VIN-ENG-0003", "skill": "english-vocabulary" },
+      { "id": "NGS-READ-0001", "skill": "reading-comprehension" }
     ]
   },
   "sequence": {
@@ -88,6 +112,22 @@
     "questions": [
       { "id": "NSPS-MEM-0001", "skill": "iq-memory" },
       { "id": "VIN-ENG-0004", "skill": "english-following-instructions" }
+    ]
+  },
+  "fill-blank": {
+    "label": "Điền vào chỗ trống",
+    "description": "Trẻ điền số, âm tiết, hoặc từ còn thiếu vào ô trống",
+    "default_mini_game": "ghep-van",
+    "questions": [
+      { "id": "GEN-SYLL-0001", "skill": "syllable-blending" }
+    ]
+  },
+  "drag-drop": {
+    "label": "Kéo thả vào vị trí",
+    "description": "Trẻ kéo hình/vật vào đúng vị trí trên màn hình",
+    "default_mini_game": "xep-tangram",
+    "questions": [
+      { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation" }
     ]
   }
 }

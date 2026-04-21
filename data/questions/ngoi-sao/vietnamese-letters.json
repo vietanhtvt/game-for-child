@@ -1,0 +1,209 @@
+{
+  "version": "1.0.0",
+  "set_id": "ngs-viet-letters-v1",
+  "title": "Tiếng Việt — Chữ Cái & Ghép Vần (Ngôi Sao Hà Nội)",
+  "description": "Bài tập Tiếng Việt trong kỳ thi tuyển sinh lớp 1 trường Ngôi Sao Hà Nội. Kiểm tra nhận diện chữ cái, ghép vần đơn giản và đọc hiểu. Nguồn: ngoisaohanoi.edu.vn, mathx.vn, tổng hợp từ phụ huynh thực tế.",
+  "school": "ngoi-sao",
+  "skill": "letter-recognition",
+  "difficulty_range": [2, 3],
+  "total_questions": 4,
+  "questions": [
+    {
+      "id": "NGS-LETT-0001",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Chữ nào là chữ B?",
+        "audio": {
+          "path": "questions/ngs-lett-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "A", "audio": { "path": "options/letter-A.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "B", "audio": { "path": "options/letter-B.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "D", "audio": { "path": "options/letter-D.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "P", "audio": { "path": "options/letter-P.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Chữ B có hai cái bụng tròn bên phải!",
+          "audio": { "path": "feedback/letter-B-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chữ B — B như con Bò. Nhìn kỹ hình dáng nhé.",
+          "audio": { "path": "feedback/letter-B-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "b", "phu-am", "in-hoa"],
+      "metadata": {
+        "curriculum_ref": "GDPT-2018-TV1-Bai3"
+      }
+    },
+    {
+      "id": "NGS-LETT-0002",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tên con vật này bắt đầu bằng chữ nào?",
+        "audio": {
+          "path": "questions/ngs-lett-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-lett-0002-cat.webp",
+          "alt": "Hình con mèo",
+          "width": 280,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "M", "audio": { "path": "options/letter-M.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "N", "audio": { "path": "options/letter-N.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "G", "audio": { "path": "options/letter-G.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "T", "audio": { "path": "options/letter-T.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! MÈO bắt đầu bằng chữ M!",
+          "audio": { "path": "feedback/letter-M-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nói thật to: M-È-O. Chữ đầu tiên là gì?",
+          "audio": { "path": "feedback/letter-M-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "m", "con-vat", "meo"]
+    },
+    {
+      "id": "NGS-SYLL-0001",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "C + A + dấu sắc đọc thành tiếng gì?",
+        "audio": {
+          "path": "questions/ngs-syll-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "cả", "audio": { "path": "options/syllable-ca-hoi.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "cá", "audio": { "path": "options/syllable-ca-sac.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "ca", "audio": { "path": "options/syllable-ca-flat.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "cà", "audio": { "path": "options/syllable-ca-huyen.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! C + A + dấu sắc = CÁ! (như con cá bơi dưới nước)",
+          "audio": { "path": "feedback/syllable-ca-sac-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại nhé! Dấu sắc ( ́) làm giọng lên cao — đọc thành CÁ.",
+          "audio": { "path": "feedback/syllable-sac-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "c", "a", "dau-sac", "tien-doc"]
+    },
+    {
+      "id": "NGS-READ-0001",
+      "type": "listen-choose",
+      "skill": "reading-comprehension",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe rồi chỉ vào đúng hình: \"Con mèo đang ngủ.\"",
+        "audio": {
+          "path": "questions/ngs-read-0001-sentence.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-read-0001-A-cat-sleeping.webp", "alt": "Con mèo đang nằm ngủ" },
+          "audio": { "path": "options/ngs-read-0001-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-read-0001-B-cat-running.webp", "alt": "Con mèo đang chạy" },
+          "audio": { "path": "options/ngs-read-0001-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-read-0001-C-cat-eating.webp", "alt": "Con mèo đang ăn" },
+          "audio": { "path": "options/ngs-read-0001-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-read-0001-D-dog-sleeping.webp", "alt": "Con chó đang ngủ" },
+          "audio": { "path": "options/ngs-read-0001-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con mèo đang NGỦ — nằm nhắm mắt!",
+          "audio": { "path": "feedback/read-correct-sleep.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu: \"Con mèo đang ngủ.\" Ngủ nghĩa là làm gì?",
+          "audio": { "path": "feedback/read-retry-sleep.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-hieu", "cau-don", "con-vat", "hanh-dong"]
+    }
+  ]
+}

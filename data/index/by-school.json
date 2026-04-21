@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo trường tham chiếu. Dùng để hiển thị 'Luyện thi trường X' trong game.",
-  "_updated": "2026-04-20",
+  "_updated": "2026-04-21",
   "archimedes": {
     "label": "Archimedes Academy (AAPS/ADAS)",
     "program": "LET'S START",
@@ -12,6 +12,11 @@
       { "id": "ARCH-PATT-0003", "file": "questions/archimedes/math-pattern.json" },
       { "id": "ARCH-PATT-0004", "file": "questions/archimedes/math-pattern.json" },
       { "id": "ARCH-PATT-0005", "file": "questions/archimedes/math-pattern.json" },
+      { "id": "ARCH-SPAT-0001", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-SPAT-0002", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-SPAT-0003", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-NUM-0001", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-NUM-0002", "file": "questions/archimedes/spatial-number.json" },
       { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" },
@@ -37,14 +42,19 @@
     "label": "Tiểu học Đoàn Thị Điểm (hệ chuẩn)",
     "program": "Thi tuyển sinh — 60 phút",
     "exam_format": "IQ Quan sát + Toán + Tiếng Việt + Kể chuyện theo tranh",
-    "key_skills": ["iq-observation", "storytelling", "pattern-recognition", "counting"],
+    "key_skills": ["iq-observation", "storytelling", "pattern-recognition", "counting", "number-comparison"],
     "questions": [
       { "id": "DTD-IQ-0001", "file": "questions/doan-thi-diem/iq-observation.json" },
       { "id": "DTD-IQ-0002", "file": "questions/doan-thi-diem/iq-observation.json" },
       { "id": "DTD-IQ-0003", "file": "questions/doan-thi-diem/iq-observation.json" },
       { "id": "DTD-STORY-0001", "file": "questions/doan-thi-diem/iq-observation.json" },
       { "id": "DTD-IQ-0004", "file": "questions/doan-thi-diem/iq-observation.json" },
-      { "id": "DTD-MEM-0001", "file": "questions/doan-thi-diem/iq-observation.json" }
+      { "id": "DTD-MEM-0001", "file": "questions/doan-thi-diem/iq-observation.json" },
+      { "id": "DTD-COUNT-0001", "file": "questions/doan-thi-diem/math-counting.json" },
+      { "id": "DTD-COUNT-0002", "file": "questions/doan-thi-diem/math-counting.json" },
+      { "id": "DTD-COUNT-0003", "file": "questions/doan-thi-diem/math-counting.json" },
+      { "id": "DTD-COUNT-0004", "file": "questions/doan-thi-diem/math-counting.json" },
+      { "id": "DTD-PATT-0001", "file": "questions/doan-thi-diem/math-counting.json" }
     ]
   },
   "doan-thi-diem-cambridge": {
@@ -73,14 +83,21 @@
     ]
   },
   "ngoi-sao": {
-    "label": "Ngôi Sao Hà Nội (situ.edu.vn)",
-    "program": "LET'S START / Thi học bổng",
-    "exam_format": "Toán + Tiếng Việt + Tiếng Anh (3 môn)",
-    "key_skills": ["pattern-recognition", "counting", "letter-recognition", "english-vocabulary"],
+    "label": "Ngôi Sao Hà Nội (ngoisaohanoi.edu.vn)",
+    "program": "LET'S START 2026 / Thi học bổng",
+    "exam_format": "Toán + Tiếng Việt + Tiếng Anh (3 môn — 2026-2027: 9 lớp, 32 HS/lớp)",
+    "key_skills": ["pattern-recognition", "counting", "number-comparison", "geometry", "letter-recognition", "syllable-blending"],
     "questions": [
-      { "id": "ARCH-PATT-0001", "file": "questions/archimedes/math-pattern.json" },
-      { "id": "ARCH-PATT-0002", "file": "questions/archimedes/math-pattern.json" },
-      { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "NGS-COUNT-0001", "file": "questions/ngoi-sao/math-counting.json" },
+      { "id": "NGS-COUNT-0002", "file": "questions/ngoi-sao/math-counting.json" },
+      { "id": "NGS-NUM-0001", "file": "questions/ngoi-sao/math-counting.json" },
+      { "id": "NGS-PATT-0001", "file": "questions/ngoi-sao/math-counting.json" },
+      { "id": "NGS-PATT-0002", "file": "questions/ngoi-sao/math-counting.json" },
+      { "id": "NGS-GEO-0001", "file": "questions/ngoi-sao/math-counting.json" },
+      { "id": "NGS-LETT-0001", "file": "questions/ngoi-sao/vietnamese-letters.json" },
+      { "id": "NGS-LETT-0002", "file": "questions/ngoi-sao/vietnamese-letters.json" },
+      { "id": "NGS-SYLL-0001", "file": "questions/ngoi-sao/vietnamese-letters.json" },
+      { "id": "NGS-READ-0001", "file": "questions/ngoi-sao/vietnamese-letters.json" },
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" }
     ]
   },
@@ -88,7 +105,7 @@
     "label": "Kỹ năng chung (phù hợp tất cả trường)",
     "program": "Chương trình GDMN 2021 + Chuẩn phát triển trẻ 5 tuổi",
     "exam_format": "Không có đề thi cố định — tất cả kỹ năng nền tảng",
-    "key_skills": ["letter-recognition", "syllable-blending", "counting", "emotion-recognition"],
+    "key_skills": ["letter-recognition", "syllable-blending", "counting", "emotion-recognition", "spatial-orientation"],
     "questions": [
       { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-LETT-0002", "file": "questions/general/vietnamese-letters.json" },
@@ -96,7 +113,12 @@
       { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-SYLL-0002", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-READ-0001", "file": "questions/general/vietnamese-letters.json" },
-      { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json" }
+      { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json" },
+      { "id": "GEN-SPAT-0001", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-SPAT-0002", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-SPAT-0003", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-EMO-0002", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json" }
     ]
   }
 }

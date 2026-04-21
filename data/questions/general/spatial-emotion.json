@@ -1,0 +1,293 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-spatial-emotion-v1",
+  "title": "Không Gian & Cảm Xúc — Kỹ Năng Chung",
+  "description": "Bài tập định hướng không gian và nhận diện cảm xúc phù hợp với tất cả các trường. Bám sát Chương trình GDMN 2021 (lĩnh vực nhận thức + tình cảm xã hội) và Chuẩn phát triển trẻ 5 tuổi của Bộ GD&ĐT.",
+  "school": "general",
+  "skill": "spatial-orientation",
+  "difficulty_range": [1, 2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "GEN-SPAT-0001",
+      "type": "multiple-choice-image",
+      "skill": "spatial-orientation",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Quả bóng đang ở đâu?",
+        "audio": {
+          "path": "questions/gen-spat-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-spat-0001-ball-under-table.webp",
+          "alt": "Quả bóng đỏ nằm BÊN DƯỚI cái bàn",
+          "width": 360,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Bên dưới bàn", "audio": { "path": "options/spat-duoi-ban.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "Bên trên bàn", "audio": { "path": "options/spat-tren-ban.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Trong ngăn bàn", "audio": { "path": "options/spat-trong-ngan.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "Bên cạnh bàn", "audio": { "path": "options/spat-ben-canh.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Quả bóng đang ở BÊN DƯỚI cái bàn!",
+          "audio": { "path": "feedback/spat-duoi-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ xem bóng ở phía nào so với mặt bàn nhé!",
+          "audio": { "path": "feedback/spat-duoi-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["khong-gian", "tren-duoi", "bong", "ban"],
+      "metadata": {
+        "curriculum_ref": "GDMN-2021-Nhan-Thuc-KhongGian"
+      }
+    },
+    {
+      "id": "GEN-SPAT-0002",
+      "type": "multiple-choice-image",
+      "skill": "spatial-orientation",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Con chó đứng ở đâu so với hàng rào?",
+        "audio": {
+          "path": "questions/gen-spat-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-spat-0002-dog-fence.webp",
+          "alt": "Hàng rào gỗ, con chó đứng BÊN TRONG hàng rào (phía trong vườn)",
+          "width": 400,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Bên trong hàng rào", "audio": { "path": "options/spat-ben-trong.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "Bên ngoài hàng rào", "audio": { "path": "options/spat-ben-ngoai.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bên trên hàng rào", "audio": { "path": "options/spat-tren-rao.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "Bên dưới hàng rào", "audio": { "path": "options/spat-duoi-rao.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Con chó đứng bên TRONG hàng rào — trong vườn!",
+          "audio": { "path": "feedback/spat-trong-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Hàng rào chia khu vực ra làm 2: bên trong (vườn) và bên ngoài. Con chó ở phía nào?",
+          "audio": { "path": "feedback/spat-trong-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["khong-gian", "trong-ngoai", "con-cho", "hang-rao"],
+      "metadata": {
+        "curriculum_ref": "GDMN-2021-Nhan-Thuc-KhongGian"
+      }
+    },
+    {
+      "id": "GEN-EMO-0002",
+      "type": "multiple-choice-image",
+      "skill": "emotion-recognition",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bạn nhỏ này đang có cảm xúc gì?",
+        "audio": {
+          "path": "questions/gen-emo-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-emo-0002-angry-child.webp",
+          "alt": "Một bé gái cau mày, hai tay nắm chặt, mặt đỏ",
+          "width": 300,
+          "height": 400
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Vui vẻ",
+          "image": { "path": "options/emotion-happy.webp", "alt": "Mặt cười vui vẻ" },
+          "audio": { "path": "options/emotion-vui.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Buồn",
+          "image": { "path": "options/emotion-sad.webp", "alt": "Mặt buồn" },
+          "audio": { "path": "options/emotion-buon.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Tức giận",
+          "image": { "path": "options/emotion-angry.webp", "alt": "Mặt tức giận" },
+          "audio": { "path": "options/emotion-tuc.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Ngạc nhiên",
+          "image": { "path": "options/emotion-surprised.webp", "alt": "Mặt ngạc nhiên" },
+          "audio": { "path": "options/emotion-ngac-nhien.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Bạn đang TỨC GIẬN. Khi tức, mình thở sâu để bình tĩnh nhé!",
+          "audio": { "path": "feedback/emotion-tuc-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ lông mày và tay bạn ấy xem!",
+          "audio": { "path": "feedback/emotion-look-again.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cam-xuc", "tuc-gian", "EQ", "ky-nang-xa-hoi", "binh-tinh"],
+      "metadata": {
+        "curriculum_ref": "GDMN-2021-TinhCam-XaHoi"
+      }
+    },
+    {
+      "id": "GEN-EMO-0003",
+      "type": "multiple-choice-image",
+      "skill": "emotion-recognition",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bạn nhỏ này đang cảm thấy thế nào?",
+        "audio": {
+          "path": "questions/gen-emo-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-emo-0003-happy-child.webp",
+          "alt": "Một bé trai đang cười to, mắt híp lại, hai tay giơ lên",
+          "width": 300,
+          "height": 400
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Rất vui",
+          "image": { "path": "options/emotion-happy.webp", "alt": "Mặt cười lớn" },
+          "audio": { "path": "options/emotion-vui.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Buồn",
+          "image": { "path": "options/emotion-sad.webp", "alt": "Mặt buồn" },
+          "audio": { "path": "options/emotion-buon.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Sợ hãi",
+          "image": { "path": "options/emotion-scared.webp", "alt": "Mặt sợ hãi" },
+          "audio": { "path": "options/emotion-so.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Bạn đang RẤT VUI — cười to và giơ tay lên!",
+          "audio": { "path": "feedback/emotion-vui-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn miệng bạn ấy — bạn đang cười hay khóc?",
+          "audio": { "path": "feedback/emotion-vui-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cam-xuc", "vui-ve", "EQ", "co-ban"],
+      "metadata": {
+        "curriculum_ref": "GDMN-2021-TinhCam-XaHoi"
+      }
+    },
+    {
+      "id": "GEN-SPAT-0003",
+      "type": "multiple-choice-image",
+      "skill": "spatial-orientation",
+      "difficulty": 3,
+      "school": ["general", "archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Cái ô màu đỏ đang ở đâu so với cửa hàng?",
+        "audio": {
+          "path": "questions/gen-spat-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-spat-0003-umbrella-shop.webp",
+          "alt": "Cửa hàng nhỏ, cái ô màu đỏ nằm phía BÊN TRÁI của cửa hàng",
+          "width": 440,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Bên trái cửa hàng", "audio": { "path": "options/spat-trai-ch.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "Bên phải cửa hàng", "audio": { "path": "options/spat-phai-ch.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bên trên cửa hàng", "audio": { "path": "options/spat-tren-ch.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "Bên trong cửa hàng", "audio": { "path": "options/spat-trong-ch.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["khong-gian", "trai-phai", "do-vat", "vi-tri-trong-tranh"]
+    }
+  ]
+}
