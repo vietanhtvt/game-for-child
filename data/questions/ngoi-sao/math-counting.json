@@ -1,0 +1,312 @@
+{
+  "version": "1.0.0",
+  "set_id": "ngs-math-counting-v1",
+  "title": "Toán — Đếm, So Sánh & Quy Luật (Ngôi Sao Hà Nội)",
+  "description": "Bài tập Toán dành cho kỳ thi tuyển sinh / học bổng lớp 1 trường Ngôi Sao Hà Nội. Bám theo cấu trúc 3 môn: Toán, Tiếng Việt, Tiếng Anh. Nguồn tổng hợp từ mathx.vn, ngoisaohanoi.edu.vn và review phụ huynh thực tế.",
+  "school": "ngoi-sao",
+  "skill": "counting",
+  "difficulty_range": [1, 2, 3],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "NGS-COUNT-0001",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 1,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "mathx.vn",
+        "url": "https://mathx.vn/tai-lieu/bo-tai-lieu-tham-khao-ky-thi-hoc-bong-ngoi-sao-ha-noi-khoi-1.html",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Có mấy quả táo trong tranh? Chọn số đúng.",
+        "audio": {
+          "path": "questions/ngs-count-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-count-0001-apples.webp",
+          "alt": "4 quả táo đỏ xếp thành hàng ngang",
+          "width": 480,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "A", "text": "2", "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 1, 2, 3, 4 — Có 4 quả táo!",
+          "audio": { "path": "feedback/count-correct-4.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Hãy đếm từng quả táo một nhé.",
+          "audio": { "path": "feedback/count-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "hint": {
+        "text": "Chỉ vào từng quả và đếm to: 1, 2, 3...",
+        "audio": { "path": "questions/ngs-count-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "trai-cay", "tao", "1-5"]
+    },
+    {
+      "id": "NGS-COUNT-0002",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "archimedes", "general"],
+      "source": {
+        "origin": "mathx.vn",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Đếm số hình vuông rồi chọn số đúng.",
+        "audio": {
+          "path": "questions/ngs-count-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-count-0002-squares.webp",
+          "alt": "8 hình vuông nhỏ màu xanh xếp rải rác",
+          "width": 440,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "hinh-hoc", "hinh-vuong", "1-10"]
+    },
+    {
+      "id": "NGS-NUM-0001",
+      "type": "multiple-choice-image",
+      "skill": "number-comparison",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhóm nào có NHIỀU con vật HƠN?",
+        "audio": {
+          "path": "questions/ngs-num-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-num-0001-compare.webp",
+          "alt": "Bên trái: 3 con gà vàng. Bên phải: 5 con vịt trắng.",
+          "width": 560,
+          "height": 240
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhóm gà (3 con)",
+          "image": { "path": "options/ngs-num-0001-A-chickens.webp", "alt": "Nhóm 3 con gà" },
+          "audio": { "path": "options/ngs-num-0001-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Nhóm vịt (5 con)",
+          "image": { "path": "options/ngs-num-0001-B-ducks.webp", "alt": "Nhóm 5 con vịt" },
+          "audio": { "path": "options/ngs-num-0001-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Hai nhóm bằng nhau",
+          "audio": { "path": "options/ngs-num-0001-C.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 5 con vịt nhiều hơn 3 con gà!",
+          "audio": { "path": "feedback/compare-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Hãy đếm xem mỗi nhóm có mấy con nhé.",
+          "audio": { "path": "feedback/compare-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh", "nhieu-hon", "it-hon", "con-vat"]
+    },
+    {
+      "id": "NGS-PATT-0001",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào đến tiếp theo trong dãy?",
+        "audio": {
+          "path": "questions/ngs-patt-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-patt-0001-sequence.webp",
+          "alt": "Dãy hình: hình tròn đỏ → tam giác xanh → hình tròn đỏ → tam giác xanh → dấu hỏi",
+          "width": 600,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/ngs-patt-0001-A.webp", "alt": "Hình tròn đỏ" } },
+        { "id": "B", "image": { "path": "options/ngs-patt-0001-B.webp", "alt": "Tam giác xanh" } },
+        { "id": "C", "image": { "path": "options/ngs-patt-0001-C.webp", "alt": "Hình vuông vàng" } },
+        { "id": "D", "image": { "path": "options/ngs-patt-0001-D.webp", "alt": "Hình tròn xanh" } }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "Dãy lặp lại: tròn → tam giác → tròn → tam giác → ...",
+        "audio": { "path": "questions/ngs-patt-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Giỏi quá! Quy luật là: tròn đỏ → tam giác xanh cứ lặp lại!",
+          "audio": { "path": "feedback/pattern-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhìn xem: hình nào đứng đầu tiên?",
+          "audio": { "path": "feedback/pattern-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "AB-AB", "hinh-hoc", "mau-sac"]
+    },
+    {
+      "id": "NGS-PATT-0002",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "mathx.vn",
+        "url": "https://mathx.vn/tai-lieu/bo-tai-lieu-tham-khao-ky-thi-hoc-bong-ngoi-sao-ha-noi-khoi-1.html",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Số nào còn thiếu trong dãy?",
+        "audio": {
+          "path": "questions/ngs-patt-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-patt-0002-number-sequence.webp",
+          "alt": "Dãy số trong các ô vuông: 1, 2, 3, _, 5, 6 — ô thứ 4 để trống",
+          "width": 540,
+          "height": 100
+        }
+      },
+      "options": [
+        { "id": "A", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "day-so", "dien-so-con-thieu", "1-10"]
+    },
+    {
+      "id": "NGS-GEO-0001",
+      "type": "multiple-choice-image",
+      "skill": "geometry",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào GIỐNG với hình mẫu?",
+        "audio": {
+          "path": "questions/ngs-geo-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-geo-0001-model.webp",
+          "alt": "Hình mẫu: tam giác đỏ có 3 cạnh đều nhau (tam giác đều)",
+          "width": 200,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/ngs-geo-0001-A.webp", "alt": "Tam giác đỏ giống mẫu" } },
+        { "id": "B", "image": { "path": "options/ngs-geo-0001-B.webp", "alt": "Tam giác xanh bị lật ngược" } },
+        { "id": "C", "image": { "path": "options/ngs-geo-0001-C.webp", "alt": "Hình tròn đỏ" } },
+        { "id": "D", "image": { "path": "options/ngs-geo-0001-D.webp", "alt": "Hình thoi đỏ" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Hình A giống hình mẫu — cùng là tam giác đỏ!",
+          "audio": { "path": "feedback/geo-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ hình mẫu xem! Hình mẫu có mấy cạnh và màu gì?",
+          "audio": { "path": "feedback/geo-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["hinh-hoc", "tam-giac", "nhan-dang", "giong-khac"]
+    }
+  ]
+}

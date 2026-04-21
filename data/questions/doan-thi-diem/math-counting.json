@@ -1,0 +1,244 @@
+{
+  "version": "1.0.0",
+  "set_id": "dtd-math-counting-v1",
+  "title": "Toán — Đếm, So Sánh & Điền Số (Đoàn Thị Điểm)",
+  "description": "Bài tập Toán trong đề thi 60 phút của trường Đoàn Thị Điểm (hệ chuẩn & Cambridge). Bao gồm đếm, so sánh số lượng, điền số còn thiếu, nối số với nhóm đồ vật. Nguồn: tailieuonthi.io.vn, 123docz PDF, zingnews.vn review, lop5.net.",
+  "school": "doan-thi-diem",
+  "skill": "counting",
+  "difficulty_range": [3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "DTD-COUNT-0001",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "general"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "url": "https://tailieuonthi.io.vn/bo-de-thi-luyen-tap-vao-lop-1-truong-doan-thi-diem/",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Đếm số hình tam giác trong tranh.",
+        "audio": {
+          "path": "questions/dtd-count-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-count-0001-triangles.webp",
+          "alt": "9 hình tam giác màu sắc khác nhau xếp ngẫu nhiên trên nền trắng",
+          "width": 500,
+          "height": 360
+        }
+      },
+      "options": [
+        { "id": "A", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "10", "audio": { "path": "options/number-10.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "hinh-tam-giac", "1-10"]
+    },
+    {
+      "id": "DTD-COUNT-0002",
+      "type": "matching",
+      "skill": "counting",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "123docz.net",
+        "url": "https://demo.smarttrainerlms.com/uploads/0003/trainings/course/565/modules/%5B123doc%5D%20-%20de-thi-vao-lop-1-truong-doan-thi-diem_16169860401505482402.pdf",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối mỗi nhóm đồ vật với số lượng đúng của nó.",
+        "audio": {
+          "path": "questions/dtd-count-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "left-A", "image": { "path": "options/dtd-count-0002-3apples.webp", "alt": "3 quả táo" } },
+        { "id": "left-B", "image": { "path": "options/dtd-count-0002-5birds.webp", "alt": "5 con chim" } },
+        { "id": "left-C", "image": { "path": "options/dtd-count-0002-7stars.webp", "alt": "7 ngôi sao" } },
+        { "id": "right-1", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "right-2", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "right-3", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": {
+        "left-A": "right-2",
+        "left-B": "right-1",
+        "left-C": "right-3"
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con đếm và nối đúng hết rồi!",
+          "audio": { "path": "feedback/match-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm từng nhóm rồi tìm số phù hợp nhé.",
+          "audio": { "path": "feedback/match-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "noi-doi", "so-luong", "1-10"]
+    },
+    {
+      "id": "DTD-COUNT-0003",
+      "type": "multiple-choice",
+      "skill": "number-comparison",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Số nào LỚN HƠN?",
+        "audio": {
+          "path": "questions/dtd-count-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-count-0003-compare.webp",
+          "alt": "Hai ô vuông lớn: ô trái ghi số 6, ô phải ghi số 9",
+          "width": 400,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "A", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bằng nhau", "audio": { "path": "options/bang-nhau.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 9 lớn hơn 6. Khi đếm thì 9 đến sau 6 nhé!",
+          "audio": { "path": "feedback/compare-9-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Hãy đếm thứ tự: 1, 2, 3, 4, 5, 6, 7, 8, 9 — số nào đến trước?",
+          "audio": { "path": "feedback/compare-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh-so", "lon-hon", "pham-vi-10"]
+    },
+    {
+      "id": "DTD-COUNT-0004",
+      "type": "fill-blank",
+      "skill": "addition",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn tranh và điền số còn thiếu: 4 + 3 = ?",
+        "audio": {
+          "path": "questions/dtd-count-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-count-0004-addition.webp",
+          "alt": "4 con bướm ở trái + 3 con bướm ở phải = ô trống",
+          "width": 520,
+          "height": 180
+        }
+      },
+      "options": [
+        { "id": "A", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cong-so", "phep-cong", "buom", "pham-vi-10"]
+    },
+    {
+      "id": "DTD-PATT-0001",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "doan-thi-diem-cambridge", "archimedes"],
+      "source": {
+        "origin": "123docz.net",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào hoàn thành dãy này?",
+        "audio": {
+          "path": "questions/dtd-patt-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-patt-0001-abc-sequence.webp",
+          "alt": "Dãy hình ABCABC: tam giác nhỏ → tam giác vừa → tam giác lớn → tam giác nhỏ → tam giác vừa → dấu hỏi",
+          "width": 640,
+          "height": 130
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/dtd-patt-0001-A.webp", "alt": "Tam giác nhỏ" } },
+        { "id": "B", "image": { "path": "options/dtd-patt-0001-B.webp", "alt": "Tam giác vừa" } },
+        { "id": "C", "image": { "path": "options/dtd-patt-0001-C.webp", "alt": "Tam giác lớn" } },
+        { "id": "D", "image": { "path": "options/dtd-patt-0001-D.webp", "alt": "Hình tròn lớn" } }
+      ],
+      "answer": "C",
+      "hint": {
+        "text": "Quy luật: nhỏ → vừa → lớn rồi lặp lại. Cái tiếp theo là gì?",
+        "audio": { "path": "questions/dtd-patt-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Dãy lặp: nhỏ → vừa → lớn → nhỏ → vừa → LỚN!",
+          "audio": { "path": "feedback/pattern-abc-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Quy luật là nhỏ → vừa → lớn cứ lặp lại.",
+          "audio": { "path": "feedback/pattern-abc-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "ABC-ABC", "kich-thuoc", "tam-giac", "iq-nang-cao"]
+    }
+  ]
+}

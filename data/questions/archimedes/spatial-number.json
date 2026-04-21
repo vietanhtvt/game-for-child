@@ -1,0 +1,252 @@
+{
+  "version": "1.0.0",
+  "set_id": "arch-spatial-number-v1",
+  "title": "Toán — Không Gian & Số (Archimedes / LET'S START)",
+  "description": "Bài tập định hướng không gian (trên/dưới, trái/phải, trong/ngoài) và nhận biết số thứ tự. Bám sát cấu trúc đề thi A/TEST và chương trình LET'S START của Archimedes School. Nguồn: aschool.edu.vn, vndoc.com, tổng hợp review phụ huynh.",
+  "school": "archimedes",
+  "skill": "spatial-orientation",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "ARCH-SPAT-0001",
+      "type": "multiple-choice-image",
+      "skill": "spatial-orientation",
+      "difficulty": 2,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Con mèo đang ở đâu so với hộp?",
+        "audio": {
+          "path": "questions/arch-spat-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-spat-0001-cat-box.webp",
+          "alt": "Con mèo đang ngồi BÊN TRÊN một cái hộp gỗ",
+          "width": 320,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Bên trên hộp", "audio": { "path": "options/spat-tren.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "Bên dưới hộp", "audio": { "path": "options/spat-duoi.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bên trong hộp", "audio": { "path": "options/spat-trong.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "Bên cạnh hộp", "audio": { "path": "options/spat-canh.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con mèo đang ngồi BÊN TRÊN cái hộp!",
+          "audio": { "path": "feedback/spat-tren-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ xem con mèo đứng ở phần nào của hộp nhé!",
+          "audio": { "path": "feedback/spat-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["khong-gian", "tren-duoi", "con-vat", "hop"]
+    },
+    {
+      "id": "ARCH-SPAT-0002",
+      "type": "multiple-choice-image",
+      "skill": "spatial-orientation",
+      "difficulty": 2,
+      "school": ["archimedes", "doan-thi-diem", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào đứng BÊN PHẢI hình ngôi sao?",
+        "audio": {
+          "path": "questions/arch-spat-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-spat-0002-lineup.webp",
+          "alt": "Hàng ngang: hình tròn xanh → ngôi sao vàng → hình vuông đỏ → hình tam giác tím",
+          "width": 560,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/arch-spat-0002-A.webp", "alt": "Hình tròn xanh" } },
+        { "id": "B", "image": { "path": "options/arch-spat-0002-B.webp", "alt": "Ngôi sao vàng" } },
+        { "id": "C", "image": { "path": "options/arch-spat-0002-C.webp", "alt": "Hình vuông đỏ" } },
+        { "id": "D", "image": { "path": "options/arch-spat-0002-D.webp", "alt": "Hình tam giác tím" } }
+      ],
+      "answer": "C",
+      "hint": {
+        "text": "Tay phải là tay cầm bút! Nhìn sang phải của ngôi sao vàng.",
+        "audio": { "path": "questions/arch-spat-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Hình vuông đỏ đứng bên phải ngôi sao!",
+          "audio": { "path": "feedback/spat-phai-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bên phải là phía tay cầm bút của con đó.",
+          "audio": { "path": "feedback/spat-phai-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["khong-gian", "trai-phai", "hinh-hoc", "vi-tri"]
+    },
+    {
+      "id": "ARCH-NUM-0001",
+      "type": "multiple-choice",
+      "skill": "counting",
+      "difficulty": 3,
+      "school": ["archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/de-thi-thu-mon-toan-lop-1-truong-archimedes-school-co-dap-an-167673",
+        "crawled_at": "2026-04-21",
+        "verified": false
+      },
+      "stem": {
+        "text": "Thêm 3 vào 5 thì được mấy?",
+        "audio": {
+          "path": "questions/arch-num-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-num-0001-addition.webp",
+          "alt": "5 quả cam ở ô trái + 3 quả cam ở ô phải = dấu hỏi",
+          "width": 500,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "A", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 5 + 3 = 8. Con đếm thêm giỏi lắm!",
+          "audio": { "path": "feedback/addition-8-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu đếm từ 5, rồi thêm 3 nữa: 6, 7, 8.",
+          "audio": { "path": "feedback/addition-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cong-tru", "them-vao", "pham-vi-10", "tinh-toan"]
+    },
+    {
+      "id": "ARCH-NUM-0002",
+      "type": "multiple-choice-image",
+      "skill": "number-comparison",
+      "difficulty": 3,
+      "school": ["archimedes", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điền dấu thích hợp vào ô trống: 7 ○ 4",
+        "audio": {
+          "path": "questions/arch-num-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "> (lớn hơn)", "audio": { "path": "options/sign-greater.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "< (nhỏ hơn)", "audio": { "path": "options/sign-less.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "= (bằng)", "audio": { "path": "options/sign-equal.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 7 > 4 vì 7 lớn hơn 4. Miệng cá sấu há về phía số lớn hơn!",
+          "audio": { "path": "feedback/comparison-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! 7 hay 4 nhiều hơn? Đếm thử xem.",
+          "audio": { "path": "feedback/comparison-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh-so", "lon-hon-nho-hon", "dau-so-hoc", "pham-vi-10"]
+    },
+    {
+      "id": "ARCH-SPAT-0003",
+      "type": "drag-drop",
+      "skill": "spatial-orientation",
+      "difficulty": 4,
+      "school": ["archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Kéo các hình vào đúng vị trí: TRÊN, DƯỚI, TRÁI, PHẢI so với hình tròn ở giữa.",
+        "audio": {
+          "path": "questions/arch-spat-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-spat-0003-grid.webp",
+          "alt": "Lưới 3x3 với hình tròn xanh ở ô giữa và 4 ô trống xung quanh (trên, dưới, trái, phải)",
+          "width": 360,
+          "height": 360
+        }
+      },
+      "options": [
+        { "id": "top",    "image": { "path": "options/arch-spat-0003-star.webp", "alt": "Ngôi sao vàng → đặt TRÊN" } },
+        { "id": "bottom", "image": { "path": "options/arch-spat-0003-heart.webp", "alt": "Trái tim đỏ → đặt DƯỚI" } },
+        { "id": "left",   "image": { "path": "options/arch-spat-0003-square.webp", "alt": "Hình vuông xanh → đặt BÊN TRÁI" } },
+        { "id": "right",  "image": { "path": "options/arch-spat-0003-triangle.webp", "alt": "Tam giác tím → đặt BÊN PHẢI" } }
+      ],
+      "answer": {
+        "top": "star",
+        "bottom": "heart",
+        "left": "square",
+        "right": "triangle"
+      },
+      "game_config": {
+        "mini_game": "xep-tangram",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["khong-gian", "tren-duoi-trai-phai", "keo-tha", "vi-tri-tuong-doi"]
+    }
+  ]
+}
