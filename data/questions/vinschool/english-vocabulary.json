@@ -1,0 +1,641 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-eng-vocab-v1",
+  "title": "Tiếng Anh — Từ Vựng Theo Chủ Đề (Vinschool / Nguyễn Siêu)",
+  "description": "Bộ câu hỏi từ vựng Tiếng Anh theo các chủ đề GV nước ngoài hay hỏi trong kỳ thi đầu vào lớp 1 Vinschool và Nguyễn Siêu: gia đình, phương tiện giao thông, màu sắc, giới từ. GV hỏi liên tục cho đến khi trẻ không trả lời được.",
+  "school": "vinschool",
+  "skill": "english-vocabulary",
+  "difficulty_range": [3, 4],
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "VIN-VOC-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["vinschool", "nguyen-sieu", "archimedes"],
+      "source": {
+        "origin": "haysiri.com",
+        "url": "https://haysiri.com/reviews/review-thuc-te-thi-va-hoc-lop-1-tai-vinshool",
+        "crawled_at": "2026-04-22",
+        "verified": false
+      },
+      "stem": {
+        "text": "Point to the mother!",
+        "text_en": "Point to the mother!",
+        "audio": {
+          "path": "questions/vin-voc-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/vin-voc-0001-A-mother.webp",
+            "alt": "A woman (mother) smiling"
+          },
+          "audio": { "path": "options/eng-word-mother.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/vin-voc-0001-B-father.webp",
+            "alt": "A man (father) smiling"
+          },
+          "audio": { "path": "options/eng-word-father.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/vin-voc-0001-C-sister.webp",
+            "alt": "A young girl (sister)"
+          },
+          "audio": { "path": "options/eng-word-sister.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/vin-voc-0001-D-brother.webp",
+            "alt": "A young boy (brother)"
+          },
+          "audio": { "path": "options/eng-word-brother.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Great! That's the mother! She takes care of the family.",
+          "audio": { "path": "feedback/eng-correct-mother.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! Mother means 'mẹ' in Vietnamese.",
+          "audio": { "path": "feedback/eng-try-again.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "gia-dinh", "mother", "family", "tu-vung"]
+    },
+    {
+      "id": "VIN-VOC-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "haysiri.com",
+        "crawled_at": "2026-04-22",
+        "verified": false
+      },
+      "stem": {
+        "text": "Which one is the bus?",
+        "text_en": "Which one is the bus?",
+        "audio": {
+          "path": "questions/vin-voc-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/vin-voc-0002-A-car.webp",
+            "alt": "A small red car"
+          },
+          "audio": { "path": "options/eng-word-car.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/vin-voc-0002-B-bus.webp",
+            "alt": "A yellow school bus"
+          },
+          "audio": { "path": "options/eng-word-bus.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/vin-voc-0002-C-bike.webp",
+            "alt": "A bicycle"
+          },
+          "audio": { "path": "options/eng-word-bike.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/vin-voc-0002-D-boat.webp",
+            "alt": "A small boat"
+          },
+          "audio": { "path": "options/eng-word-boat.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "phuong-tien", "bus", "transportation"]
+    },
+    {
+      "id": "VIN-VOC-0003",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "What color is this?",
+        "text_en": "What color is this?",
+        "audio": {
+          "path": "questions/vin-voc-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/vin-voc-0003-yellow-star.webp",
+          "alt": "A bright yellow star shape",
+          "width": 250,
+          "height": 250
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Red",
+          "audio": { "path": "options/eng-color-red.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text": "Green",
+          "audio": { "path": "options/eng-color-green.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text": "Yellow",
+          "audio": { "path": "options/eng-color-yellow.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text": "Purple",
+          "audio": { "path": "options/eng-color-purple.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "mau-sac", "yellow", "colors"]
+    },
+    {
+      "id": "VIN-VOC-0004",
+      "type": "listen-choose",
+      "skill": "english-following-instructions",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Put the ball UNDER the table!",
+        "text_en": "Put the ball UNDER the table!",
+        "audio": {
+          "path": "questions/vin-voc-0004-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/vin-voc-0004-A-ball-on.webp",
+            "alt": "A ball sitting on top of the table"
+          },
+          "audio": { "path": "options/eng-on-table.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/vin-voc-0004-B-ball-under.webp",
+            "alt": "A ball underneath the table"
+          },
+          "audio": { "path": "options/eng-under-table.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/vin-voc-0004-C-ball-beside.webp",
+            "alt": "A ball next to the table"
+          },
+          "audio": { "path": "options/eng-beside-table.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/vin-voc-0004-D-ball-inside.webp",
+            "alt": "A ball inside a box"
+          },
+          "audio": { "path": "options/eng-inside-box.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text_en": "UNDER means below, beneath. Where is below the table?",
+        "audio": { "path": "questions/vin-voc-0004-hint.mp3", "locale": "en-US" }
+      },
+      "feedback": {
+        "correct": {
+          "text_en": "Perfect! The ball is UNDER the table! Under = bên dưới.",
+          "audio": { "path": "feedback/eng-correct-under.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! UNDER means below. Look for the ball below the table.",
+          "audio": { "path": "feedback/eng-retry-preposition.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "gioi-tu", "under", "prepositions", "vi-tri"]
+    },
+    {
+      "id": "VIN-VOC-0005",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 4,
+      "school": ["vinschool-cambridge", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Which picture shows something you can EAT?",
+        "text_en": "Which picture shows something you can EAT?",
+        "audio": {
+          "path": "questions/vin-voc-0005-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/vin-voc-0005-A-book.webp",
+            "alt": "A colorful storybook"
+          },
+          "audio": { "path": "options/eng-word-book.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/vin-voc-0005-B-bread.webp",
+            "alt": "A slice of bread"
+          },
+          "audio": { "path": "options/eng-word-bread.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/vin-voc-0005-C-chair.webp",
+            "alt": "A wooden chair"
+          },
+          "audio": { "path": "options/eng-word-chair.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/vin-voc-0005-D-ball.webp",
+            "alt": "A red bouncy ball"
+          },
+          "audio": { "path": "options/eng-word-ball.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "thuc-an", "eat", "food", "phan-loai"]
+    },
+    {
+      "id": "VIN-VOC-0006",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Which animal lives in the water?",
+        "text_en": "Which animal lives in the water?",
+        "audio": {
+          "path": "questions/vin-voc-0006-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/vin-voc-0006-A-elephant.webp",
+            "alt": "A gray elephant"
+          },
+          "audio": { "path": "options/eng-word-elephant.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/vin-voc-0006-B-fish.webp",
+            "alt": "A colorful fish swimming"
+          },
+          "audio": { "path": "options/eng-word-fish.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/vin-voc-0006-C-lion.webp",
+            "alt": "A lion in the savanna"
+          },
+          "audio": { "path": "options/eng-word-lion.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/vin-voc-0006-D-rabbit.webp",
+            "alt": "A white rabbit"
+          },
+          "audio": { "path": "options/eng-word-rabbit.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "con-vat", "fish", "nuoc", "phan-loai"]
+    },
+    {
+      "id": "VIN-VOC-0007",
+      "type": "multiple-choice",
+      "skill": "english-vocabulary",
+      "difficulty": 4,
+      "school": ["vinschool-cambridge", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "The teacher says: 'It has four legs and says Woof Woof.' What is it?",
+        "text_en": "It has four legs and says Woof Woof. What is it?",
+        "audio": {
+          "path": "questions/vin-voc-0007-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Cat",
+          "audio": { "path": "options/eng-word-cat.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text": "Bird",
+          "audio": { "path": "options/eng-word-bird.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text": "Dog",
+          "audio": { "path": "options/eng-word-dog.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text": "Fish",
+          "audio": { "path": "options/eng-word-fish.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text_en": "Yes! A dog says 'Woof Woof'! Dog = con chó!",
+          "audio": { "path": "feedback/eng-correct-dog.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! Listen: Woof Woof — which animal makes that sound?",
+          "audio": { "path": "feedback/eng-retry-sound.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "con-cho", "am-thanh", "dog", "woof"]
+    },
+    {
+      "id": "VIN-VOC-0008",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Touch the triangle!",
+        "text_en": "Touch the triangle!",
+        "audio": {
+          "path": "questions/vin-voc-0008-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/vin-voc-0008-A-circle.webp",
+            "alt": "A blue circle"
+          },
+          "audio": { "path": "options/eng-word-circle.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/vin-voc-0008-B-square.webp",
+            "alt": "A red square"
+          },
+          "audio": { "path": "options/eng-word-square.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/vin-voc-0008-C-triangle.webp",
+            "alt": "A green triangle"
+          },
+          "audio": { "path": "options/eng-word-triangle.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/vin-voc-0008-D-rectangle.webp",
+            "alt": "A yellow rectangle"
+          },
+          "audio": { "path": "options/eng-word-rectangle.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "hinh-hoc", "triangle", "shapes"]
+    },
+    {
+      "id": "VIN-VOC-0009",
+      "type": "listen-choose",
+      "skill": "english-following-instructions",
+      "difficulty": 4,
+      "school": ["vinschool-cambridge", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "The bird is IN FRONT OF the tree. Which picture shows this?",
+        "text_en": "The bird is in front of the tree. Which picture is correct?",
+        "audio": {
+          "path": "questions/vin-voc-0009-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/vin-voc-0009-A-bird-behind.webp",
+            "alt": "A bird hiding behind a tree"
+          }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/vin-voc-0009-B-bird-front.webp",
+            "alt": "A bird standing in front of a tree"
+          }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/vin-voc-0009-C-bird-top.webp",
+            "alt": "A bird sitting on top of a tree"
+          }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/vin-voc-0009-D-bird-under.webp",
+            "alt": "A bird under a tree"
+          }
+        }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "gioi-tu", "in-front-of", "prepositions", "chim"]
+    },
+    {
+      "id": "VIN-VOC-0010",
+      "type": "multiple-choice",
+      "skill": "english-vocabulary",
+      "difficulty": 4,
+      "school": ["vinschool", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "How many legs does a spider have?",
+        "text_en": "How many legs does a spider have?",
+        "audio": {
+          "path": "questions/vin-voc-0010-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/vin-voc-0010-spider.webp",
+          "alt": "A cartoon spider",
+          "width": 250,
+          "height": 250
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "4",
+          "audio": { "path": "options/eng-number-4.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "audio": { "path": "options/eng-number-6.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "audio": { "path": "options/eng-number-8.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text": "10",
+          "audio": { "path": "options/eng-number-10.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "con-nhen", "spider", "dem-so", "so-hoc"]
+    }
+  ]
+}

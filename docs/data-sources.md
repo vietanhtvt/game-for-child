@@ -1,6 +1,6 @@
 # Nguồn Dữ Liệu Đề Thi Tiền Tiểu Học — Hà Nội
 
-_Cập nhật: 2026-04-21 (Crawl lần 2 — bổ sung Ngôi Sao, không gian, cảm xúc)_
+_Cập nhật: 2026-04-22 (Crawl lần 3 — bổ sung Tiếng Việt Archimedes, Vận động tinh ĐTĐ, Từ vựng Anh Vinschool, Phép trừ & Kỹ năng xã hội)_
 
 Tài liệu này catalog toàn bộ các trang web, ứng dụng và cộng đồng có thể cung cấp câu hỏi, đề thi, bài tập tiền tiểu học phục vụ phát triển game. Mỗi nguồn được đánh giá theo: loại nội dung, khả năng truy cập, chất lượng dữ liệu và ưu tiên crawl.
 
@@ -237,6 +237,33 @@ Tier 4 — Manual:
   - Nhờ phụ huynh/giáo viên chia sẻ đề thi thật
   - Liên hệ trực tiếp các trung tâm luyện thi
 ```
+
+### 5.5 Nguồn mới & kết quả crawl 2026-04-22
+
+| Nguồn | URL | Kết quả |
+|---|---|---|
+| vndoc.com — Tiếng Việt Archimedes | https://vndoc.com/de-thi-thu-mon-tieng-viet-lop-1-truong-archimedes-school-co-dap-an-167682 | HTTP 403 — tham khảo qua search snippet |
+| 123docz.net — ĐTĐ IQ PDF | https://demo.smarttrainerlms.com/uploads/0003/trainings/course/565/modules/... | HTTP 403 — đã tổng hợp từ search snippet |
+| haysiri.com — Vinschool review | https://haysiri.com/reviews/review-thuc-te-thi-va-hoc-lop-1-tai-vinshool | HTTP 403 — tổng hợp từ search |
+| tailieuonthi.io.vn — ĐTĐ | https://tailieuonthi.io.vn/bo-de-thi-luyen-tap-vao-lop-1-truong-doan-thi-diem/ | HTTP 403 |
+| afamily.vn — Nguyễn Siêu | https://afamily.vn/cong-truong-tieu-hoc-nguyen-sieu... | HTTP 403 — tổng hợp từ search |
+| vtcnews.vn — ĐTĐ độ khó | https://vtcnews.vn/de-thi-vao-lop-1-truong-doan-thi-diem... | HTTP 403 |
+| **mathx.vn — Archimedes 50 bài** | https://mathx.vn/tin-tuc/de-mau-50-bai-toan-ra-soat-kien-thuc-tieu-hoc-archimedes | HTTP 403 |
+| **aschool.edu.vn — LET'S START 2026** | https://aschool.edu.vn/lets-start-2026-buoc-khoi-dau-tu-tin-cho-hanh-trinh-lop-1.html | HTTP 403 |
+
+**Kết quả crawl lần 3 (câu hỏi mới được tạo):**
+- `ARCH-LETT-0001` đến `ARCH-WORD-0001` (7q) — Tiếng Việt Archimedes (chữ cái, ghép vần, đọc hiểu)
+- `DTD-FINE-0001` đến `DTD-TV-0001` (6q) — Vận động tinh & Tiếng Việt ĐTĐ (nối chấm, đối xứng, tìm bóng hình)
+- `VIN-VOC-0001` đến `VIN-VOC-0010` (10q) — Từ vựng Anh Vinschool (gia đình, phương tiện, màu, giới từ)
+- `GEN-SUB-0001` đến `GEN-SOCIAL-0003` (6q) — Phép trừ & Kỹ năng xã hội
+
+**Tổng kho câu hỏi sau crawl lần 3: ~59 câu hỏi**
+
+**Phân tích 403 block:** Phần lớn web giáo dục VN dùng Cloudflare/rate limiting. Giải pháp:
+1. Playwright headless với user-agent thật + random delays
+2. Google Cache: `cache:URL` nếu Google đã index
+3. Wayback Machine: `web.archive.org/web/*/URL`
+4. Liên hệ phụ huynh/giáo viên trong Facebook groups để chia sẻ PDF trực tiếp
 
 ### 5.4 Nguồn mới phát hiện trong crawl 2026-04-21
 

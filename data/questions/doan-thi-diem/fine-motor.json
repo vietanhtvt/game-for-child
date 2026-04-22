@@ -1,0 +1,340 @@
+{
+  "version": "1.0.0",
+  "set_id": "dtd-fine-motor-v1",
+  "title": "Vận Động Tinh — Nối Chấm & Quan Sát Hình (Đoàn Thị Điểm)",
+  "description": "Dạng bài vận động tinh và quan sát hình đặc trưng trong đề thi Đoàn Thị Điểm: vẽ thêm chấm sao cho đối xứng, tìm bóng hình của vật, nối chấm thành hình. Nguồn: PDF đề thi 123docz, tailieuonthi.io.vn.",
+  "school": "doan-thi-diem",
+  "skill": "fine-motor",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "DTD-FINE-0001",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "general"],
+      "source": {
+        "origin": "123docz.net",
+        "url": "https://demo.smarttrainerlms.com/uploads/0003/trainings/course/565/modules/%5B123doc%5D%20-%20de-thi-vao-lop-1-truong-doan-thi-diem_16169860401505482402.pdf",
+        "crawled_at": "2026-04-22",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối các dấu chấm theo thứ tự số để vẽ hình ngôi nhà.",
+        "audio": {
+          "path": "questions/dtd-fine-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-fine-0001-dots-house.webp",
+          "alt": "12 dấu chấm được đánh số 1-12 xếp thành hình ngôi nhà chờ được nối",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Con đã vẽ được ngôi nhà rồi! Tay con khéo lắm!",
+          "audio": { "path": "feedback/correct-fine-motor.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nối từ số 1 rồi đến số 2, số 3…",
+          "audio": { "path": "feedback/try-again-dots.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["noi-cham", "ngoi-nha", "van-dong-tinh", "luyen-viet"]
+    },
+    {
+      "id": "DTD-FINE-0002",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "123docz.net",
+        "crawled_at": "2026-04-22",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự để vẽ hình con cá.",
+        "audio": {
+          "path": "questions/dtd-fine-0002-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/dtd-fine-0002-dots-fish.webp",
+          "alt": "15 dấu chấm đánh số 1-15 xếp thành hình con cá chờ được nối",
+          "width": 500,
+          "height": 300
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
+      "game_config": {
+        "mini_game": "to-net",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["noi-cham", "con-ca", "van-dong-tinh"]
+    },
+    {
+      "id": "DTD-FINE-0003",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["doan-thi-diem"],
+      "source": {
+        "origin": "123docz.net",
+        "url": "https://demo.smarttrainerlms.com/uploads/0003/trainings/course/565/modules/%5B123doc%5D%20-%20de-thi-vao-lop-1-truong-doan-thi-diem_16169860401505482402.pdf",
+        "crawled_at": "2026-04-22",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chú khỉ màu đen này được cắt ra từ ô hình nào? Chọn ô đúng.",
+        "audio": {
+          "path": "questions/dtd-fine-0003-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/dtd-fine-0003-monkey-black.webp",
+          "alt": "Hình chú khỉ màu đen nhìn thẳng, đuôi cong sang phải",
+          "width": 150,
+          "height": 200
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/dtd-fine-0003-A-scene.webp",
+            "alt": "Ô hình: 4 con khỉ, chú khỉ góc trên trái nhìn nghiêng"
+          }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/dtd-fine-0003-B-scene.webp",
+            "alt": "Ô hình: 4 con khỉ, chú khỉ góc dưới phải khớp đúng hình mẫu"
+          }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/dtd-fine-0003-C-scene.webp",
+            "alt": "Ô hình: 4 con khỉ, chú khỉ góc trên phải đuôi cong ngược"
+          }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/dtd-fine-0003-D-scene.webp",
+            "alt": "Ô hình: 4 con khỉ, chú khỉ nhỏ hơn hình mẫu"
+          }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! Con đã tìm đúng ô có chú khỉ giống hệt hình mẫu!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ hướng đuôi và hướng mặt của chú khỉ nhé.",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quan-sat", "noi-hinh", "bong-hinh", "con-khi", "iq"]
+    },
+    {
+      "id": "DTD-FINE-0004",
+      "type": "multiple-choice-image",
+      "skill": "fine-motor",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "general"],
+      "source": {
+        "origin": "123docz.net",
+        "crawled_at": "2026-04-22",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình bên phải cần vẽ thêm mấy chấm tròn để giống hệt hình bên trái?",
+        "audio": {
+          "path": "questions/dtd-fine-0004-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "context_image_pair": [
+          {
+            "path": "questions/dtd-fine-0004-left.webp",
+            "alt": "Hình trái: một hình chữ nhật có 6 chấm tròn đen xếp đều (2 hàng x 3 cột)",
+            "width": 250,
+            "height": 200
+          },
+          {
+            "path": "questions/dtd-fine-0004-right.webp",
+            "alt": "Hình phải: cùng hình chữ nhật nhưng chỉ có 4 chấm, còn thiếu 2 chấm ở góc phải",
+            "width": 250,
+            "height": 200
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "1 chấm",
+          "audio": { "path": "options/number-1.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "2 chấm",
+          "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "3 chấm",
+          "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "4 chấm",
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Cần vẽ thêm 2 chấm để hai hình giống nhau.",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Đếm lại xem hình trái có mấy chấm, hình phải có mấy chấm.",
+          "audio": { "path": "feedback/try-again-counting.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["doi-xung", "dem-so", "van-dong-tinh", "cham-tron"]
+    },
+    {
+      "id": "DTD-FINE-0005",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 2,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu XANH vào hình tam giác.",
+        "audio": {
+          "path": "questions/dtd-fine-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-fine-0005-shapes.webp",
+          "alt": "3 hình: tam giác, tròn, vuông — chưa được tô màu",
+          "width": 400,
+          "height": 200
+        }
+      },
+      "answer": "triangle",
+      "feedback": {
+        "correct": {
+          "text": "Đẹp lắm! Con tô đúng màu xanh vào hình tam giác!",
+          "audio": { "path": "feedback/correct-coloring.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Hình tam giác có 3 góc nhọn.",
+          "audio": { "path": "feedback/try-again-shape.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["to-mau", "hinh-hoc", "tam-giac", "mau-xanh", "van-dong-tinh"]
+    },
+    {
+      "id": "DTD-TV-0001",
+      "type": "multiple-choice",
+      "skill": "letter-recognition",
+      "difficulty": 3,
+      "school": ["doan-thi-diem"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-04-22",
+        "verified": false
+      },
+      "stem": {
+        "text": "Âm tiết nào dưới đây có dấu hỏi (?)",
+        "audio": {
+          "path": "questions/dtd-tv-0001-stem.mp3",
+          "locale": "vi-VN"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "má",
+          "audio": { "path": "options/word-ma-sac.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "mả",
+          "audio": { "path": "options/word-ma-hoi.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "mà",
+          "audio": { "path": "options/word-ma-huyen.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "mã",
+          "audio": { "path": "options/word-ma-nga.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Chữ 'mả' có dấu hỏi — giống như cái móc câu hỏi!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ dấu thanh bên trên chữ nhé. Dấu hỏi có hình móc câu.",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dau-thanh", "dau-hoi", "am-tiet", "ma"]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-math-subtraction-v1",
+  "title": "Toán — Phép Trừ & Kỹ Năng Xã Hội (General)",
+  "description": "Bài tập phép trừ trong phạm vi 10 kết hợp ngữ cảnh đời sống (chia sẻ, cho đi, mất đi). Áp dụng cho mọi trường. Tích hợp kỹ năng xã hội (chia sẻ, nhường nhịn) qua bài toán thực tế.",
+  "school": "general",
+  "skill": "subtraction",
+  "difficulty_range": [3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "GEN-SUB-0001",
+      "type": "counting",
+      "skill": "subtraction",
+      "difficulty": 3,
+      "school": ["general", "archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bé có 5 quả táo. Bé cho bạn 2 quả. Bé còn lại mấy quả táo?",
+        "audio": {
+          "path": "questions/gen-sub-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-sub-0001-apples.webp",
+          "alt": "5 quả táo đỏ, 2 quả có dấu mũi tên đi sang tay bạn, còn 3 quả",
+          "width": 500,
+          "height": 250
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "7",
+          "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 5 - 2 = 3. Bé còn 3 quả táo. Bé biết chia sẻ thật tốt!",
+          "audio": { "path": "feedback/correct-subtraction.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm xem còn bao nhiêu quả sau khi cho bạn 2 quả nhé.",
+          "audio": { "path": "feedback/try-again-counting.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["phep-tru", "5-2=3", "qua-tao", "chia-se"]
+    },
+    {
+      "id": "GEN-SUB-0002",
+      "type": "counting",
+      "skill": "subtraction",
+      "difficulty": 3,
+      "school": ["general", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Trong vườn có 8 con chim. Có 3 con bay đi. Còn lại mấy con?",
+        "audio": {
+          "path": "questions/gen-sub-0002-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/gen-sub-0002-birds.webp",
+          "alt": "8 con chim trên cành, 3 con đang vỗ cánh bay đi",
+          "width": 500,
+          "height": 300
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "4",
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "11",
+          "audio": { "path": "options/number-11.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["phep-tru", "8-3=5", "con-chim", "dem-tru"]
+    },
+    {
+      "id": "GEN-SUB-0003",
+      "type": "fill-blank",
+      "skill": "subtraction",
+      "difficulty": 4,
+      "school": ["general", "archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điền số còn thiếu: 10 - ? = 4",
+        "audio": {
+          "path": "questions/gen-sub-0003-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/gen-sub-0003-fill.webp",
+          "alt": "Phép tính: 10 - [ô trống] = 4, với hình minh họa 10 cái bánh bị mất đi một số",
+          "width": 400,
+          "height": 200
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "5",
+          "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "6",
+          "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "14",
+          "audio": { "path": "options/number-14.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "10 - ? = 4. Nghĩa là: mấy cộng 4 thì bằng 10?",
+        "audio": { "path": "questions/gen-sub-0003-hint.mp3", "locale": "vi-VN" }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["phep-tru", "10-6=4", "dien-so", "ngược-lại"]
+    },
+    {
+      "id": "GEN-SOCIAL-0001",
+      "type": "multiple-choice-image",
+      "skill": "social-skills",
+      "difficulty": 2,
+      "school": ["general", "nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bạn đang khóc. Con nên làm gì?",
+        "audio": {
+          "path": "questions/gen-social-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-social-0001-crying-friend.webp",
+          "alt": "Một bé gái đang ngồi khóc một mình trên ghế",
+          "width": 300,
+          "height": 350
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/gen-social-0001-A-laugh.webp",
+            "alt": "Một bé đang cười và chỉ vào bạn khóc"
+          },
+          "audio": { "path": "options/social-laugh-at.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/gen-social-0001-B-comfort.webp",
+            "alt": "Một bé đến vỗ vai an ủi bạn và hỏi thăm"
+          },
+          "audio": { "path": "options/social-comfort.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/gen-social-0001-C-ignore.webp",
+            "alt": "Một bé quay đi chỗ khác chơi"
+          },
+          "audio": { "path": "options/social-ignore.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/gen-social-0001-D-push.webp",
+            "alt": "Một bé đẩy bạn đang khóc"
+          },
+          "audio": { "path": "options/social-push.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Khi bạn khóc, mình nên đến hỏi thăm và an ủi bạn. Con thật tốt bụng!",
+          "audio": { "path": "feedback/social-correct-comfort.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nếu con buồn, con muốn bạn làm gì cho con? Hãy làm như thế với bạn nhé!",
+          "audio": { "path": "feedback/social-empathy.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ky-nang-xa-hoi", "an-ui", "dong-cam", "EQ", "ban-be"]
+    },
+    {
+      "id": "GEN-SOCIAL-0002",
+      "type": "multiple-choice-image",
+      "skill": "social-skills",
+      "difficulty": 2,
+      "school": ["general", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Con muốn chơi đồ chơi mà bạn đang dùng. Con nên làm gì?",
+        "audio": {
+          "path": "questions/gen-social-0002-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/gen-social-0002-toy-sharing.webp",
+          "alt": "Một bé đang chơi xe ô tô đồ chơi, một bé khác nhìn vào",
+          "width": 400,
+          "height": 300
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": {
+            "path": "options/gen-social-0002-A-grab.webp",
+            "alt": "Bé giật đồ chơi ra khỏi tay bạn"
+          },
+          "audio": { "path": "options/social-grab.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": {
+            "path": "options/gen-social-0002-B-cry.webp",
+            "alt": "Bé ngồi khóc đòi đồ chơi"
+          },
+          "audio": { "path": "options/social-cry-for.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": {
+            "path": "options/gen-social-0002-C-ask.webp",
+            "alt": "Bé lịch sự hỏi: Bạn ơi, cho mình chơi cùng được không?"
+          },
+          "audio": { "path": "options/social-ask-nicely.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": {
+            "path": "options/gen-social-0002-D-walk-away.webp",
+            "alt": "Bé bỏ đi không nói gì"
+          },
+          "audio": { "path": "options/social-walk-away.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Hỏi xin lịch sự là cách đúng. Bạn sẽ vui lòng cho con chơi cùng!",
+          "audio": { "path": "feedback/social-correct-ask.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Hãy thử hỏi bạn nhẹ nhàng: 'Bạn ơi, cho mình chơi cùng được không?'",
+          "audio": { "path": "feedback/social-teach-ask.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ky-nang-xa-hoi", "chia-se", "xin-phep", "lich-su", "do-choi"]
+    },
+    {
+      "id": "GEN-SOCIAL-0003",
+      "type": "multiple-choice-image",
+      "skill": "social-skills",
+      "difficulty": 3,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Con lỡ làm bạn ngã. Con nên làm gì?",
+        "audio": {
+          "path": "questions/gen-social-0003-stem.mp3",
+          "locale": "vi-VN"
+        },
+        "image": {
+          "path": "questions/gen-social-0003-fell-down.webp",
+          "alt": "Một bé ngã, đang ngồi trên sàn, vẻ đau",
+          "width": 300,
+          "height": 350
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Bỏ chạy đi",
+          "audio": { "path": "options/social-run-away.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Xin lỗi và giúp bạn đứng dậy",
+          "audio": { "path": "options/social-say-sorry.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Cười và tiếp tục chơi",
+          "audio": { "path": "options/social-laugh-continue.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Đổ lỗi cho bạn",
+          "audio": { "path": "options/social-blame.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 'Xin lỗi' và giúp bạn đứng dậy — con thật dũng cảm và tốt bụng!",
+          "audio": { "path": "feedback/social-correct-sorry.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Khi mình lỡ làm ai đó bị ngã, hãy nói 'xin lỗi' và đỡ bạn dậy nhé.",
+          "audio": { "path": "feedback/social-teach-sorry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ky-nang-xa-hoi", "xin-loi", "trach-nhiem", "EQ"]
+    }
+  ]
+}

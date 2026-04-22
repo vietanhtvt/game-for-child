@@ -74,16 +74,25 @@ data/
 | `LETT` | letter-recognition |
 | `SYLL` | syllable-blending |
 | `READ` | reading-comprehension |
+| `WORD` | word-reading |
 | `STOR` | storytelling |
 | `PATT` | pattern-recognition |
 | `COUNT` | counting |
+| `NUM` | number-comparison |
+| `ADDN` | addition |
+| `SUB` | subtraction |
 | `GEO` | geometry |
+| `SPAT` | spatial-orientation |
 | `IQ` | iq-observation |
 | `MEM` | iq-memory |
 | `LOG` | iq-logic |
 | `ENG` | english-vocabulary/listening |
+| `VOC` | english-vocabulary (extended) |
+| `FINE` | fine-motor / dot-connection |
 | `EMO` | emotion-recognition |
 | `EMOQ` | emotion-recognition (question) |
+| `SOCIAL` | social-skills |
+| `TV` | tiếng-việt (letter/tonal) |
 
 ## Quy ước đặt tên Asset
 

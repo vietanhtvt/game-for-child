@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo kỹ năng. Mỗi entry là danh sách các question_id và file chứa câu hỏi đó.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-22",
   "letter-recognition": {
     "label": "Nhận diện chữ cái",
     "mini_games": ["bat-chu"],
@@ -9,7 +9,11 @@
       { "id": "GEN-LETT-0002", "file": "questions/general/vietnamese-letters.json", "difficulty": 2 },
       { "id": "GEN-LETT-0003", "file": "questions/general/vietnamese-letters.json", "difficulty": 3 },
       { "id": "NGS-LETT-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 2 },
-      { "id": "NGS-LETT-0002", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 2 }
+      { "id": "NGS-LETT-0002", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 2 },
+      { "id": "ARCH-LETT-0001", "file": "questions/archimedes/vietnamese-letters.json", "difficulty": 2 },
+      { "id": "ARCH-LETT-0002", "file": "questions/archimedes/vietnamese-letters.json", "difficulty": 2 },
+      { "id": "ARCH-LETT-0003", "file": "questions/archimedes/vietnamese-letters.json", "difficulty": 3 },
+      { "id": "DTD-TV-0001", "file": "questions/doan-thi-diem/fine-motor.json", "difficulty": 3 }
     ]
   },
   "syllable-blending": {
@@ -18,7 +22,9 @@
     "questions": [
       { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json", "difficulty": 2 },
       { "id": "GEN-SYLL-0002", "file": "questions/general/vietnamese-letters.json", "difficulty": 3 },
-      { "id": "NGS-SYLL-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 }
+      { "id": "NGS-SYLL-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 },
+      { "id": "ARCH-SYLL-0001", "file": "questions/archimedes/vietnamese-letters.json", "difficulty": 3 },
+      { "id": "ARCH-SYLL-0002", "file": "questions/archimedes/vietnamese-letters.json", "difficulty": 3 }
     ]
   },
   "reading-comprehension": {
@@ -27,7 +33,15 @@
     "questions": [
       { "id": "GEN-READ-0001", "file": "questions/general/vietnamese-letters.json", "difficulty": 4 },
       { "id": "NSPS-STOR-0002", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 },
-      { "id": "NGS-READ-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 }
+      { "id": "NGS-READ-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 },
+      { "id": "ARCH-READ-0001", "file": "questions/archimedes/vietnamese-letters.json", "difficulty": 4 }
+    ]
+  },
+  "word-reading": {
+    "label": "Đọc từ / Nhận biết từ viết",
+    "mini_games": ["bat-chu"],
+    "questions": [
+      { "id": "ARCH-WORD-0001", "file": "questions/archimedes/vietnamese-letters.json", "difficulty": 4 }
     ]
   },
   "storytelling": {
@@ -104,7 +118,25 @@
     "questions": [
       { "id": "DTD-IQ-0001", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
       { "id": "DTD-IQ-0002", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
-      { "id": "DTD-IQ-0003", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 }
+      { "id": "DTD-IQ-0003", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 },
+      { "id": "DTD-FINE-0003", "file": "questions/doan-thi-diem/fine-motor.json", "difficulty": 3 },
+      { "id": "DTD-FINE-0004", "file": "questions/doan-thi-diem/fine-motor.json", "difficulty": 3 }
+    ]
+  },
+  "dot-connection": {
+    "label": "Nối chấm / Chuẩn bị viết",
+    "mini_games": ["to-net"],
+    "questions": [
+      { "id": "DTD-FINE-0001", "file": "questions/doan-thi-diem/fine-motor.json", "difficulty": 3 },
+      { "id": "DTD-FINE-0002", "file": "questions/doan-thi-diem/fine-motor.json", "difficulty": 3 }
+    ]
+  },
+  "fine-motor": {
+    "label": "Vận động tinh / Tô màu / Vẽ",
+    "mini_games": ["to-net"],
+    "questions": [
+      { "id": "DTD-FINE-0004", "file": "questions/doan-thi-diem/fine-motor.json", "difficulty": 3 },
+      { "id": "DTD-FINE-0005", "file": "questions/doan-thi-diem/fine-motor.json", "difficulty": 2 }
     ]
   },
   "iq-memory": {
@@ -128,7 +160,15 @@
     "questions": [
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json", "difficulty": 3 },
       { "id": "VIN-ENG-0003", "file": "questions/vinschool/english-listening.json", "difficulty": 3 },
-      { "id": "VIN-ENG-0005", "file": "questions/vinschool/english-listening.json", "difficulty": 4 }
+      { "id": "VIN-ENG-0005", "file": "questions/vinschool/english-listening.json", "difficulty": 4 },
+      { "id": "VIN-VOC-0001", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 3 },
+      { "id": "VIN-VOC-0002", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 3 },
+      { "id": "VIN-VOC-0003", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 3 },
+      { "id": "VIN-VOC-0005", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 4 },
+      { "id": "VIN-VOC-0006", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 3 },
+      { "id": "VIN-VOC-0007", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 4 },
+      { "id": "VIN-VOC-0008", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 3 },
+      { "id": "VIN-VOC-0010", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 4 }
     ]
   },
   "english-listening": {
@@ -142,7 +182,9 @@
     "label": "Làm theo chỉ dẫn bằng Tiếng Anh",
     "mini_games": ["touch-and-say"],
     "questions": [
-      { "id": "VIN-ENG-0004", "file": "questions/vinschool/english-listening.json", "difficulty": 4 }
+      { "id": "VIN-ENG-0004", "file": "questions/vinschool/english-listening.json", "difficulty": 4 },
+      { "id": "VIN-VOC-0004", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 3 },
+      { "id": "VIN-VOC-0009", "file": "questions/vinschool/english-vocabulary.json", "difficulty": 4 }
     ]
   },
   "emotion-recognition": {
@@ -152,6 +194,24 @@
       { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 2 },
       { "id": "GEN-EMO-0002", "file": "questions/general/spatial-emotion.json", "difficulty": 2 },
       { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json", "difficulty": 1 }
+    ]
+  },
+  "subtraction": {
+    "label": "Phép trừ / Bớt đi",
+    "mini_games": ["cho-que"],
+    "questions": [
+      { "id": "GEN-SUB-0001", "file": "questions/general/math-subtraction.json", "difficulty": 3 },
+      { "id": "GEN-SUB-0002", "file": "questions/general/math-subtraction.json", "difficulty": 3 },
+      { "id": "GEN-SUB-0003", "file": "questions/general/math-subtraction.json", "difficulty": 4 }
+    ]
+  },
+  "social-skills": {
+    "label": "Kỹ năng xã hội / Hành vi tích cực",
+    "mini_games": ["be-cam-xuc"],
+    "questions": [
+      { "id": "GEN-SOCIAL-0001", "file": "questions/general/math-subtraction.json", "difficulty": 2 },
+      { "id": "GEN-SOCIAL-0002", "file": "questions/general/math-subtraction.json", "difficulty": 2 },
+      { "id": "GEN-SOCIAL-0003", "file": "questions/general/math-subtraction.json", "difficulty": 3 }
     ]
   }
 }
