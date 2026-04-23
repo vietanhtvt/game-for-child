@@ -1,11 +1,11 @@
 {
   "_description": "Index câu hỏi theo trường tham chiếu. Dùng để hiển thị 'Luyện thi trường X' trong game.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-23",
   "archimedes": {
     "label": "Archimedes Academy (AAPS/ADAS)",
     "program": "LET'S START",
     "exam_format": "8 buổi trải nghiệm — Toán tư duy, Tiếng Việt, Tiếng Anh",
-    "key_skills": ["pattern-recognition", "counting", "geometry", "letter-recognition", "english-vocabulary"],
+    "key_skills": ["pattern-recognition", "counting", "geometry", "letter-recognition", "english-vocabulary", "iq-observation", "english-following-instructions"],
     "questions": [
       { "id": "ARCH-PATT-0001", "file": "questions/archimedes/math-pattern.json" },
       { "id": "ARCH-PATT-0002", "file": "questions/archimedes/math-pattern.json" },
@@ -17,6 +17,16 @@
       { "id": "ARCH-SPAT-0003", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-NUM-0001", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-NUM-0002", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-IQ-0001", "file": "questions/archimedes/iq-observation.json" },
+      { "id": "ARCH-IQ-0002", "file": "questions/archimedes/iq-observation.json" },
+      { "id": "ARCH-IQ-0003", "file": "questions/archimedes/iq-observation.json" },
+      { "id": "ARCH-IQ-0004", "file": "questions/archimedes/iq-observation.json" },
+      { "id": "ARCH-IQ-0005", "file": "questions/archimedes/iq-observation.json" },
+      { "id": "ARCH-ENG-0001", "file": "questions/archimedes/english-vocab.json" },
+      { "id": "ARCH-ENG-0002", "file": "questions/archimedes/english-vocab.json" },
+      { "id": "ARCH-ENG-0003", "file": "questions/archimedes/english-vocab.json" },
+      { "id": "ARCH-ENG-0004", "file": "questions/archimedes/english-vocab.json" },
+      { "id": "ARCH-ENG-0005", "file": "questions/archimedes/english-vocab.json" },
       { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" },
@@ -34,6 +44,11 @@
       { "id": "NSPS-STOR-0002", "file": "questions/nguyen-sieu/storytelling.json" },
       { "id": "NSPS-MEM-0001", "file": "questions/nguyen-sieu/storytelling.json" },
       { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json" },
+      { "id": "NSPS-IQ-0001", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-IQ-0002", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-IQ-0003", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-IQ-0004", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-IQ-0005", "file": "questions/nguyen-sieu/iq-logic.json" },
       { "id": "DTD-IQ-0003", "file": "questions/doan-thi-diem/iq-observation.json" },
       { "id": "DTD-MEM-0001", "file": "questions/doan-thi-diem/iq-observation.json" }
     ]
@@ -42,7 +57,7 @@
     "label": "Tiểu học Đoàn Thị Điểm (hệ chuẩn)",
     "program": "Thi tuyển sinh — 60 phút",
     "exam_format": "IQ Quan sát + Toán + Tiếng Việt + Kể chuyện theo tranh",
-    "key_skills": ["iq-observation", "storytelling", "pattern-recognition", "counting", "number-comparison"],
+    "key_skills": ["iq-observation", "storytelling", "pattern-recognition", "counting", "number-comparison", "reading-comprehension"],
     "questions": [
       { "id": "DTD-IQ-0001", "file": "questions/doan-thi-diem/iq-observation.json" },
       { "id": "DTD-IQ-0002", "file": "questions/doan-thi-diem/iq-observation.json" },
@@ -54,7 +69,11 @@
       { "id": "DTD-COUNT-0002", "file": "questions/doan-thi-diem/math-counting.json" },
       { "id": "DTD-COUNT-0003", "file": "questions/doan-thi-diem/math-counting.json" },
       { "id": "DTD-COUNT-0004", "file": "questions/doan-thi-diem/math-counting.json" },
-      { "id": "DTD-PATT-0001", "file": "questions/doan-thi-diem/math-counting.json" }
+      { "id": "DTD-PATT-0001", "file": "questions/doan-thi-diem/math-counting.json" },
+      { "id": "DTD-STORY-0002", "file": "questions/doan-thi-diem/storytelling.json" },
+      { "id": "DTD-STORY-0003", "file": "questions/doan-thi-diem/storytelling.json" },
+      { "id": "DTD-STORY-0004", "file": "questions/doan-thi-diem/storytelling.json" },
+      { "id": "DTD-STORY-0005", "file": "questions/doan-thi-diem/storytelling.json" }
     ]
   },
   "doan-thi-diem-cambridge": {
@@ -65,28 +84,35 @@
     "questions": [
       { "id": "DTD-IQ-0001", "file": "questions/doan-thi-diem/iq-observation.json" },
       { "id": "DTD-STORY-0001", "file": "questions/doan-thi-diem/iq-observation.json" },
-      { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" }
+      { "id": "DTD-STORY-0002", "file": "questions/doan-thi-diem/storytelling.json" },
+      { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" },
+      { "id": "ARCH-ENG-0001", "file": "questions/archimedes/english-vocab.json" }
     ]
   },
   "vinschool": {
     "label": "Vinschool (hệ chuẩn & nâng cao)",
     "program": "Khảo sát năng lực đầu vào",
     "exam_format": "Tiếng Việt + Tiếng Anh (GV nước ngoài) + Tư duy",
-    "key_skills": ["english-vocabulary", "english-listening", "counting", "iq-memory"],
+    "key_skills": ["english-vocabulary", "english-listening", "counting", "number-comparison", "iq-memory"],
     "questions": [
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0002", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0003", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0004", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0005", "file": "questions/vinschool/english-listening.json" },
+      { "id": "VIN-COUNT-0001", "file": "questions/vinschool/math-counting.json" },
+      { "id": "VIN-COUNT-0002", "file": "questions/vinschool/math-counting.json" },
+      { "id": "VIN-COUNT-0003", "file": "questions/vinschool/math-counting.json" },
+      { "id": "VIN-COUNT-0004", "file": "questions/vinschool/math-counting.json" },
+      { "id": "VIN-MEM-0001", "file": "questions/vinschool/math-counting.json" },
       { "id": "DTD-MEM-0001", "file": "questions/doan-thi-diem/iq-observation.json" }
     ]
   },
   "ngoi-sao": {
     "label": "Ngôi Sao Hà Nội (ngoisaohanoi.edu.vn)",
     "program": "LET'S START 2026 / Thi học bổng",
-    "exam_format": "Toán + Tiếng Việt + Tiếng Anh (3 môn — 2026-2027: 9 lớp, 32 HS/lớp)",
-    "key_skills": ["pattern-recognition", "counting", "number-comparison", "geometry", "letter-recognition", "syllable-blending"],
+    "exam_format": "Toán + Tiếng Việt + Tiếng Anh (3 môn — 2026-2027: 9 lớp, 32 HS/lớp; lớp 1B0 thêm kiểm tra tiếng Anh)",
+    "key_skills": ["pattern-recognition", "counting", "number-comparison", "geometry", "letter-recognition", "syllable-blending", "english-vocabulary"],
     "questions": [
       { "id": "NGS-COUNT-0001", "file": "questions/ngoi-sao/math-counting.json" },
       { "id": "NGS-COUNT-0002", "file": "questions/ngoi-sao/math-counting.json" },
@@ -98,20 +124,30 @@
       { "id": "NGS-LETT-0002", "file": "questions/ngoi-sao/vietnamese-letters.json" },
       { "id": "NGS-SYLL-0001", "file": "questions/ngoi-sao/vietnamese-letters.json" },
       { "id": "NGS-READ-0001", "file": "questions/ngoi-sao/vietnamese-letters.json" },
-      { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" }
+      { "id": "NGS-ENG-0001", "file": "questions/ngoi-sao/english-listening.json" },
+      { "id": "NGS-ENG-0002", "file": "questions/ngoi-sao/english-listening.json" },
+      { "id": "NGS-ENG-0003", "file": "questions/ngoi-sao/english-listening.json" },
+      { "id": "NGS-ENG-0004", "file": "questions/ngoi-sao/english-listening.json" },
+      { "id": "NGS-ENG-0005", "file": "questions/ngoi-sao/english-listening.json" }
     ]
   },
   "general": {
     "label": "Kỹ năng chung (phù hợp tất cả trường)",
     "program": "Chương trình GDMN 2021 + Chuẩn phát triển trẻ 5 tuổi",
     "exam_format": "Không có đề thi cố định — tất cả kỹ năng nền tảng",
-    "key_skills": ["letter-recognition", "syllable-blending", "counting", "emotion-recognition", "spatial-orientation"],
+    "key_skills": ["letter-recognition", "syllable-blending", "word-reading", "reading-comprehension", "counting", "emotion-recognition", "spatial-orientation"],
     "questions": [
       { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-LETT-0002", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-LETT-0003", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "GEN-LETT-0004", "file": "questions/general/syllable-reading.json" },
       { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-SYLL-0002", "file": "questions/general/vietnamese-letters.json" },
+      { "id": "GEN-SYLL-0003", "file": "questions/general/syllable-reading.json" },
+      { "id": "GEN-SYLL-0004", "file": "questions/general/syllable-reading.json" },
+      { "id": "GEN-SYLL-0005", "file": "questions/general/syllable-reading.json" },
+      { "id": "GEN-SYLL-0006", "file": "questions/general/syllable-reading.json" },
+      { "id": "GEN-SYLL-0007", "file": "questions/general/syllable-reading.json" },
       { "id": "GEN-READ-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json" },
       { "id": "GEN-SPAT-0001", "file": "questions/general/spatial-emotion.json" },

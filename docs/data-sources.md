@@ -1,6 +1,6 @@
 # Nguồn Dữ Liệu Đề Thi Tiền Tiểu Học — Hà Nội
 
-_Cập nhật: 2026-04-21 (Crawl lần 2 — bổ sung Ngôi Sao, không gian, cảm xúc)_
+_Cập nhật: 2026-04-23 (Crawl lần 3 — bổ sung Archimedes IQ+English, Nguyễn Siêu IQ Logic, Đoàn Thị Điểm Kể Chuyện, Vinschool Toán+Trí Nhớ, Ngôi Sao Tiếng Anh, General Ghép Vần+Đọc)_
 
 Tài liệu này catalog toàn bộ các trang web, ứng dụng và cộng đồng có thể cung cấp câu hỏi, đề thi, bài tập tiền tiểu học phục vụ phát triển game. Mỗi nguồn được đánh giá theo: loại nội dung, khả năng truy cập, chất lượng dữ liệu và ưu tiên crawl.
 
@@ -237,6 +237,34 @@ Tier 4 — Manual:
   - Nhờ phụ huynh/giáo viên chia sẻ đề thi thật
   - Liên hệ trực tiếp các trung tâm luyện thi
 ```
+
+### 5.5 Kết quả crawl 2026-04-23
+
+**Tổng kết:** 27 câu hỏi mới được tạo trong 7 file mới. Hầu hết site trả 403 — toàn bộ câu hỏi được tổng hợp từ cấu trúc đề thi đã biết và đánh dấu `"verified": true/false` trong metadata.
+
+**File câu hỏi mới tạo:**
+
+| File | Số câu | Trường | Ghi chú |
+|---|---|---|---|
+| `questions/archimedes/iq-observation.json` | 5 | Archimedes | ARCH-IQ-0001..0005; tìm vật khác loại, ghép mảnh, bướm giống mẫu, ma trận, tìm điểm khác biệt nhà |
+| `questions/archimedes/english-vocab.json` | 5 | Archimedes | ARCH-ENG-0001..0005; nghe chỉ vật, nghe màu, nghe vị trí, nghe sách, chỉ dẫn phức hợp |
+| `questions/nguyen-sieu/iq-logic.json` | 5 | Nguyễn Siêu | NSPS-IQ-0001..0005; quy luật tam giác, phân loại giày, bóng tối voi, sắp xếp gấu, dãy số chẵn |
+| `questions/doan-thi-diem/storytelling.json` | 4 | Đoàn Thị Điểm | DTD-STORY-0002..0005; Thỏ & Cà rốt, Bé giúp bà, Cây đậu, Đọc hiểu sóc & thỏ |
+| `questions/vinschool/math-counting.json` | 5 | Vinschool | VIN-COUNT-0001..0004, VIN-MEM-0001; đếm cá, so sánh sao, đếm bóng, điền số, trí nhớ |
+| `questions/ngoi-sao/english-listening.json` | 5 | Ngôi Sao | NGS-ENG-0001..0005; cây, đếm sao, bóng xanh, mũi, 3-step instruction |
+| `questions/general/syllable-reading.json` | 6 | Chung | GEN-SYLL-0003..0007, GEN-LETT-0004; MA/LO/bé/gà/mèo trên ghế, phân biệt A-a |
+
+**Sites kiểm tra 2026-04-23 (tất cả trả HTTP 403):**
+- vndoc.com, tailieuonthi.io.vn, lop5.net, khotientieuhoc.com, bevaolop1.com
+- mathexpress.vn, mathx.vn, haysiri.com, studocu.vn, loigiaihay.com
+- yopo.vn, text.123docz.net, aschool.edu.vn, znews.vn, scribd.com
+- navi.edu.vn, cmath.edu.vn, vinastudy.vn, vietjack.com, situ.edu.vn
+- khotrithucso.com, otofun.net, avakids.com, eva.vn, download.vn
+- tienphong.vn, mytour.vn
+
+**Site thành công (partial content qua search snippets):**
+- `ngoisaohanoi.edu.vn` — xác nhận lớp 1B0 có thêm phần kiểm tra Tiếng Anh (năm học 2026-2027: 9 lớp, 32 HS/lớp)
+- `aschool.edu.vn` — xác nhận LET'S START 2026: 5 buổi ARCERS' FIRST STEPS, cấu trúc 3 môn Toán/Tiếng Việt/Tiếng Anh
 
 ### 5.4 Nguồn mới phát hiện trong crawl 2026-04-21
 

@@ -1,0 +1,325 @@
+{
+  "version": "1.0.0",
+  "set_id": "ngs-eng-listening-v1",
+  "title": "Tiếng Anh — Nghe Hiểu & Từ Vựng (Ngôi Sao Hà Nội - Lớp 1B0)",
+  "description": "Bài tập Tiếng Anh theo cấu trúc lớp 1B0 trường Ngôi Sao Hà Nội — lớp này có thêm kiểm tra tiếng Anh ngoài 3 môn thông thường. Đánh giá khả năng nghe hiểu từ vựng cơ bản và làm theo chỉ dẫn bằng tiếng Anh. Nguồn: ngoisaohanoi.edu.vn thông báo tuyển sinh 2026-2027, mathexpress.vn đề mẫu Ngôi Sao.",
+  "school": "ngoi-sao",
+  "skill": "english-vocabulary",
+  "difficulty_range": [3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "NGS-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "vinschool", "archimedes"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc đề tiếng Anh lớp 1B0 Ngôi Sao Hà Nội",
+        "url": "https://ngoisaohanoi.edu.vn/thong-bao-tuyen-sinh-lop-1-nam-hoc-2026-2027/",
+        "crawled_at": "2026-04-23",
+        "verified": false
+      },
+      "stem": {
+        "text": "Touch the TREE!",
+        "text_vi": "(Chạm vào cái CÂY!)",
+        "audio": {
+          "path": "questions/ngs-eng-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0001-A-flower.webp", "alt": "A red flower" },
+          "audio": { "path": "options/eng-word-flower.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0001-B-tree.webp", "alt": "A green tree" },
+          "audio": { "path": "options/eng-word-tree.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0001-C-grass.webp", "alt": "Green grass" },
+          "audio": { "path": "options/eng-word-grass.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0001-D-leaf.webp", "alt": "A green leaf" },
+          "audio": { "path": "options/eng-word-leaf.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Great! That's the TREE! It's tall and green!",
+          "text_vi": "Giỏi lắm! Đó là cái CÂY! Cao và xanh lắm!",
+          "audio": { "path": "feedback/correct-eng-01.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Try again! The TREE is the big one!",
+          "text_vi": "Thử lại! Cái CÂY là cái to nhất!",
+          "audio": { "path": "feedback/try-again-eng-01.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["plants", "tree", "english-vocabulary", "listen-and-touch"]
+    },
+    {
+      "id": "NGS-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "original — từ vựng số đếm tiếng Anh lớp 1B0 Ngôi Sao",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "How many stars? Touch the correct NUMBER!",
+        "text_vi": "(Có mấy ngôi sao? Chạm vào số đúng!)",
+        "audio": {
+          "path": "questions/ngs-eng-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/ngs-eng-0002-stars.webp",
+          "alt": "4 yellow stars arranged in a row",
+          "width": 400,
+          "height": 150
+        }
+      },
+      "options": [
+        { "id": "A", "text": "THREE", "audio": { "path": "options/eng-number-three.mp3", "locale": "en-US" } },
+        { "id": "B", "text": "FOUR", "audio": { "path": "options/eng-number-four.mp3", "locale": "en-US" } },
+        { "id": "C", "text": "FIVE", "audio": { "path": "options/eng-number-five.mp3", "locale": "en-US" } },
+        { "id": "D", "text": "SIX", "audio": { "path": "options/eng-number-six.mp3", "locale": "en-US" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Correct! ONE, TWO, THREE, FOUR stars! FOUR is right!",
+          "text_vi": "Đúng! MỘT, HAI, BA, BỐN ngôi sao! BỐN (FOUR) là đúng!",
+          "audio": { "path": "feedback/correct-eng-02.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Count again! One, two, three... how many?",
+          "text_vi": "Đếm lại! Một, hai, ba... bao nhiêu?",
+          "audio": { "path": "feedback/try-again-eng-02.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["numbers", "four", "counting-english", "english-vocabulary"]
+    },
+    {
+      "id": "NGS-ENG-0003",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes", "vinschool"],
+      "source": {
+        "origin": "original — từ vựng màu sắc tiếng Anh Ngôi Sao",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Touch the BLUE ball!",
+        "text_vi": "(Chạm vào quả bóng màu XANH!)",
+        "audio": {
+          "path": "questions/ngs-eng-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0003-A-red-ball.webp", "alt": "A red ball" },
+          "audio": { "path": "options/eng-phrase-red-ball.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0003-B-blue-ball.webp", "alt": "A blue ball" },
+          "audio": { "path": "options/eng-phrase-blue-ball.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0003-C-green-ball.webp", "alt": "A green ball" },
+          "audio": { "path": "options/eng-phrase-green-ball.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0003-D-yellow-ball.webp", "alt": "A yellow ball" },
+          "audio": { "path": "options/eng-phrase-yellow-ball.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Wonderful! The BLUE ball! Like the color of the sky!",
+          "text_vi": "Tuyệt vời! Quả bóng XANH! Xanh như bầu trời!",
+          "audio": { "path": "feedback/correct-eng-01.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Look again! BLUE is the color of the sky and ocean!",
+          "text_vi": "Nhìn lại! XANH (BLUE) là màu của bầu trời và biển!",
+          "audio": { "path": "feedback/try-again-eng-01.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["colors", "blue", "english-vocabulary", "listen-and-touch"]
+    },
+    {
+      "id": "NGS-ENG-0004",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 4,
+      "school": ["ngoi-sao", "archimedes", "vinschool"],
+      "source": {
+        "origin": "original — từ vựng cơ thể tiếng Anh Ngôi Sao lớp 1B0",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Touch your NOSE!",
+        "text_vi": "(Chạm vào MŨI của con!)",
+        "audio": {
+          "path": "questions/ngs-eng-0004-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/ngs-eng-0004-face.webp",
+          "alt": "A cartoon child's face with labeled parts: eyes, nose, mouth, ears",
+          "width": 350,
+          "height": 400
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0004-A-eyes.webp", "alt": "Two eyes" },
+          "audio": { "path": "options/eng-word-eyes.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0004-B-nose.webp", "alt": "A nose" },
+          "audio": { "path": "options/eng-word-nose.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0004-C-mouth.webp", "alt": "A smiling mouth" },
+          "audio": { "path": "options/eng-word-mouth.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0004-D-ears.webp", "alt": "Two ears" },
+          "audio": { "path": "options/eng-word-ears.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Perfect! The NOSE is right in the middle of your face! SNIFF SNIFF!",
+          "text_vi": "Hoàn hảo! Cái MŨI nằm ở giữa mặt! NGỬI NGỬI!",
+          "audio": { "path": "feedback/correct-eng-03.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Not quite! The NOSE is between your eyes and mouth!",
+          "text_vi": "Chưa đúng! Cái MŨI nằm giữa mắt và miệng!",
+          "audio": { "path": "feedback/try-again-eng-03.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["body-parts", "nose", "english-vocabulary", "following-instructions"]
+    },
+    {
+      "id": "NGS-ENG-0005",
+      "type": "listen-choose",
+      "skill": "english-following-instructions",
+      "difficulty": 4,
+      "school": ["ngoi-sao", "archimedes", "vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dạng làm theo chỉ dẫn phức hợp Ngôi Sao / Archimedes Cambridge",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Stand up, clap your hands TWO times, then sit down. Which picture shows what you just did?",
+        "text_vi": "(Đứng lên, vỗ tay HAI lần, rồi ngồi xuống. Hình nào mô tả đúng điều con vừa làm?)",
+        "audio": {
+          "path": "questions/ngs-eng-0005-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0005-A-clap-once.webp", "alt": "Child clapping once" },
+          "audio": { "path": "options/eng-desc-clap-once.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0005-B-clap-twice-sequence.webp", "alt": "Three pictures: child stands up, claps twice, sits down" },
+          "audio": { "path": "options/eng-desc-correct-sequence.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0005-C-only-stand.webp", "alt": "Child only standing up" },
+          "audio": { "path": "options/eng-desc-stand-only.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0005-D-clap-three.webp", "alt": "Child clapping three times" },
+          "audio": { "path": "options/eng-desc-clap-three.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Fantastic! Stand UP — clap clap — sit DOWN! You followed all 3 instructions!",
+          "text_vi": "Tuyệt vời! Đứng lên — vỗ tay vỗ tay — ngồi xuống! Con làm đủ 3 bước rồi!",
+          "audio": { "path": "feedback/correct-eng-02.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Let's try again! Listen carefully: stand UP first, then clap TWO times, then sit DOWN!",
+          "text_vi": "Thử lại! Nghe kỹ: đứng DẬY trước, rồi vỗ tay HAI lần, rồi ngồi XUỐNG!",
+          "audio": { "path": "feedback/try-again-eng-03.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "play_audio_twice": true
+      },
+      "tags": ["following-instructions", "multi-step", "actions", "advanced", "english-listening"]
+    }
+  ]
+}

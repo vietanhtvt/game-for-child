@@ -1,0 +1,347 @@
+{
+  "version": "1.0.0",
+  "set_id": "dtd-storytelling-v1",
+  "title": "Kể Chuyện — Sắp Xếp Tranh Theo Thứ Tự (Đoàn Thị Điểm)",
+  "description": "Bài tập kể chuyện theo tranh trong đề thi vào lớp 1 Đoàn Thị Điểm (cả hệ chuẩn và hệ Cambridge). Trẻ sắp xếp 4–6 bức tranh thành câu chuyện có trình tự logic, sau đó kể lại. GV hướng dẫn và quan sát khả năng diễn đạt. Nguồn: 123docz PDF đề thi ĐTĐ, tailieuonthi.io.vn, znews.vn, tienphong.vn.",
+  "school": "doan-thi-diem",
+  "skill": "storytelling",
+  "difficulty_range": [3, 4],
+  "total_questions": 4,
+  "questions": [
+    {
+      "id": "DTD-STORY-0002",
+      "type": "story-arrange",
+      "skill": "storytelling",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc đề thi sắp xếp tranh ĐTĐ (znews.vn, tienphong.vn)",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Sắp xếp các bức tranh theo đúng thứ tự để tạo thành một câu chuyện.",
+        "audio": {
+          "path": "questions/dtd-story-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "hint_audio": {
+          "path": "questions/dtd-story-0002-hint.mp3",
+          "locale": "vi-VN",
+          "text": "Chuyện gì xảy ra đầu tiên? Rồi tiếp theo? Cuối cùng?"
+        }
+      },
+      "story_title": "Chú Thỏ Và Củ Cà Rốt",
+      "options": [
+        {
+          "id": "1",
+          "image": {
+            "path": "options/dtd-story-0002-1-rabbit-hungry.webp",
+            "alt": "Chú thỏ trắng đang bụng đói, bụng bị đau — trông buồn"
+          },
+          "audio": { "path": "options/dtd-story-0002-1.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "2",
+          "image": {
+            "path": "options/dtd-story-0002-2-rabbit-finds-carrot.webp",
+            "alt": "Chú thỏ nhìn thấy một củ cà rốt cam to trong vườn"
+          },
+          "audio": { "path": "options/dtd-story-0002-2.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "3",
+          "image": {
+            "path": "options/dtd-story-0002-3-rabbit-pulls.webp",
+            "alt": "Chú thỏ dùng hai tay kéo củ cà rốt ra khỏi đất"
+          },
+          "audio": { "path": "options/dtd-story-0002-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "4",
+          "image": {
+            "path": "options/dtd-story-0002-4-rabbit-happy-eating.webp",
+            "alt": "Chú thỏ ăn cà rốt ngon lành, trông rất vui và no bụng"
+          },
+          "audio": { "path": "options/dtd-story-0002-4.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "explanation": "Thứ tự: thỏ đói → tìm thấy cà rốt → kéo cà rốt lên → ăn no vui vẻ.",
+      "follow_up_questions": [
+        {
+          "text": "Chú thỏ cảm thấy thế nào ở đầu câu chuyện?",
+          "expected_answer": "Buồn / Đói / Không vui"
+        },
+        {
+          "text": "Chú thỏ đã tìm được gì?",
+          "expected_answer": "Củ cà rốt"
+        },
+        {
+          "text": "Cuối câu chuyện chú thỏ thế nào?",
+          "expected_answer": "Vui / No bụng / Hạnh phúc"
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Con đã kể được câu chuyện đúng thứ tự: thỏ đói → tìm cà rốt → kéo lên → ăn no!",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chuyện gì xảy ra đầu tiên? Thỏ đang làm gì khi bắt đầu câu chuyện?",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "drag_to_arrange": true,
+        "show_story_after_correct": true
+      },
+      "tags": ["ke-chuyen", "sap-xep-tranh", "thu-tu", "tho-ca-rot"]
+    },
+    {
+      "id": "DTD-STORY-0003",
+      "type": "story-arrange",
+      "skill": "storytelling",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc đề thi kể chuyện Nguyễn Siêu / ĐTĐ",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Sắp xếp 4 bức tranh để kể câu chuyện theo đúng thứ tự từ đầu đến cuối.",
+        "audio": {
+          "path": "questions/dtd-story-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "story_title": "Bé Giúp Bà",
+      "options": [
+        {
+          "id": "1",
+          "image": {
+            "path": "options/dtd-story-0003-1-grandma-heavy.webp",
+            "alt": "Bà đang xách hai túi hàng nặng từ chợ về, trông mệt"
+          },
+          "audio": { "path": "options/dtd-story-0003-1.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "2",
+          "image": {
+            "path": "options/dtd-story-0003-2-child-helps.webp",
+            "alt": "Bé gái thấy bà mệt chạy ra đỡ lấy một túi hàng"
+          },
+          "audio": { "path": "options/dtd-story-0003-2.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "3",
+          "image": {
+            "path": "options/dtd-story-0003-3-together-carry.webp",
+            "alt": "Bà và bé cùng nhau xách hàng về nhà, cùng cười vui"
+          },
+          "audio": { "path": "options/dtd-story-0003-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "4",
+          "image": {
+            "path": "options/dtd-story-0003-4-grandma-praise.webp",
+            "alt": "Bà xoa đầu khen bé ngoan, bé cười hạnh phúc"
+          },
+          "audio": { "path": "options/dtd-story-0003-4.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "explanation": "Thứ tự: bà xách hàng nặng → bé nhìn thấy bà mệt → bé chạy ra giúp → bà khen bé ngoan.",
+      "follow_up_questions": [
+        {
+          "text": "Bà đang làm gì?",
+          "expected_answer": "Bà đang xách túi hàng / đi chợ về"
+        },
+        {
+          "text": "Bé đã làm gì để giúp bà?",
+          "expected_answer": "Bé xách hàng / đỡ bà"
+        },
+        {
+          "text": "Bà cảm thấy thế nào sau khi bé giúp?",
+          "expected_answer": "Vui / Hạnh phúc / Khen bé ngoan"
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con đã kể được câu chuyện đúng thứ tự và thật ý nghĩa!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu từ hình nào? Chuyện gì xảy ra trước tiên?",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "drag_to_arrange": true,
+        "show_story_after_correct": true
+      },
+      "tags": ["ke-chuyen", "sap-xep-tranh", "be-giup-ba", "ky-nang-xa-hoi", "eq"]
+    },
+    {
+      "id": "DTD-STORY-0004",
+      "type": "story-arrange",
+      "skill": "storytelling",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc đề thi kể chuyện ĐTĐ hệ Cambridge",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn 4 bức tranh và sắp xếp theo thứ tự đúng để tạo thành câu chuyện.",
+        "audio": {
+          "path": "questions/dtd-story-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "story_title": "Hạt Đậu Nhỏ",
+      "options": [
+        {
+          "id": "1",
+          "image": {
+            "path": "options/dtd-story-0004-1-seed-in-hand.webp",
+            "alt": "Bé cầm hạt đậu nhỏ trong lòng bàn tay"
+          },
+          "audio": { "path": "options/dtd-story-0004-1.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "2",
+          "image": {
+            "path": "options/dtd-story-0004-2-planting.webp",
+            "alt": "Bé trồng hạt đậu vào chậu đất, tưới nước"
+          },
+          "audio": { "path": "options/dtd-story-0004-2.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "3",
+          "image": {
+            "path": "options/dtd-story-0004-3-sprout.webp",
+            "alt": "Mầm xanh nhỏ xíu bắt đầu nhú lên khỏi mặt đất"
+          },
+          "audio": { "path": "options/dtd-story-0004-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "4",
+          "image": {
+            "path": "options/dtd-story-0004-4-big-plant.webp",
+            "alt": "Cây đậu lớn xanh tốt, nở hoa trắng, bé ngắm nhìn vui mừng"
+          },
+          "audio": { "path": "options/dtd-story-0004-4.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "explanation": "Thứ tự: cầm hạt đậu → trồng vào đất → mầm mọc → cây lớn ra hoa.",
+      "follow_up_questions": [
+        {
+          "text": "Bé trồng cái gì?",
+          "expected_answer": "Hạt đậu"
+        },
+        {
+          "text": "Hạt đậu cần gì để lớn lên?",
+          "expected_answer": "Đất, nước, ánh nắng"
+        },
+        {
+          "text": "Cây đậu lớn trông như thế nào?",
+          "expected_answer": "Xanh tốt / Nở hoa"
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! Hạt đậu nhỏ → trồng xuống đất → mầm nảy → cây lớn! Đúng rồi!",
+          "audio": { "path": "feedback/correct-generic-03.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Câu chuyện bắt đầu từ hạt đậu hay cây đã lớn?",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "drag_to_arrange": true,
+        "show_story_after_correct": true
+      },
+      "tags": ["ke-chuyen", "cay-co", "tu-nhien", "hat-dau"]
+    },
+    {
+      "id": "DTD-STORY-0005",
+      "type": "multiple-choice",
+      "skill": "reading-comprehension",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc nghe truyện trả lời câu hỏi Nguyễn Siêu (Spark in Me)",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu chuyện và trả lời câu hỏi: 'Tại sao chú sóc không chia sẻ hạt dẻ với bạn?'",
+        "audio": {
+          "path": "questions/dtd-story-0005-story.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "story": "Chú sóc nâu tìm được rất nhiều hạt dẻ. Bạn thỏ đến xin một ít vì thỏ đói bụng. Nhưng sóc không cho vì sợ hết. Mùa đông đến, sóc bị bệnh. Thỏ nhớ lại và mang hạt dẻ đến chia cho sóc. Sóc ăn no và khỏi bệnh. Sóc cảm ơn thỏ và nói: 'Mình xin lỗi, mình sẽ chia sẻ từ nay!'"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Vì sóc không thích thỏ",
+          "audio": { "path": "options/dtd-story-0005-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Vì sóc sợ hết hạt dẻ cho mùa đông",
+          "audio": { "path": "options/dtd-story-0005-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Vì thỏ không xin",
+          "audio": { "path": "options/dtd-story-0005-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Vì sóc không có hạt dẻ",
+          "audio": { "path": "options/dtd-story-0005-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "explanation": "Trong câu chuyện, sóc không chia sẻ vì sợ hết hạt dẻ cho mùa đông.",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Sóc sợ hết hạt dẻ cho mùa đông nên không chia sẻ. Nhưng bạn thỏ thật tốt bụng đúng không!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu chuyện nhé! Sóc nói gì khi thỏ xin hạt dẻ?",
+          "audio": { "path": "feedback/try-again-03.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "auto_play_audio": true,
+        "replay_story_before_answer": true,
+        "shuffle_options": false,
+        "max_attempts": 2
+      },
+      "tags": ["nghe-hieu", "ke-chuyen", "bai-hoc-chia-se", "eq", "nguyen-sieu-style"]
+    }
+  ]
+}

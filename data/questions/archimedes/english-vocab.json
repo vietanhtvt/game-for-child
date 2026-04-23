@@ -1,0 +1,329 @@
+{
+  "version": "1.0.0",
+  "set_id": "arch-eng-vocab-v1",
+  "title": "Tiếng Anh — Từ Vựng & Làm Theo Chỉ Dẫn (Archimedes / Vinschool Cambridge)",
+  "description": "Bài tập Tiếng Anh theo cấu trúc đề thi LET'S START Archimedes và hệ Cambridge Vinschool: GV nước ngoài hỏi từ vựng theo bộ đề, hỏi liên tục đến khi trẻ không trả lời được. Dạng 'Touch the...', 'Show me...', 'Point to...'. Âm thanh phải là giọng native English (en-US). Nguồn: vndoc.com đề Tiếng Anh Archimedes, kinh nghiệm phụ huynh CafeF/Haysiri.",
+  "school": "archimedes",
+  "skill": "english-vocabulary",
+  "difficulty_range": [3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "ARCH-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["archimedes", "vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "vndoc.com / original",
+        "url": "https://vndoc.com/de-thi-thu-mon-tieng-anh-lop-1-truong-tieu-hoc-archimedes-academy-co-dap-an-167812",
+        "crawled_at": "2026-04-23",
+        "verified": false
+      },
+      "stem": {
+        "text": "Touch the dog!",
+        "text_vi": "(Chạm vào con chó!)",
+        "audio": {
+          "path": "questions/arch-eng-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0001-A-dog.webp", "alt": "A brown dog sitting" },
+          "audio": { "path": "options/eng-word-dog.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0001-B-cat.webp", "alt": "A white cat" },
+          "audio": { "path": "options/eng-word-cat.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0001-C-bird.webp", "alt": "A yellow bird" },
+          "audio": { "path": "options/eng-word-bird.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0001-D-fish.webp", "alt": "An orange fish" },
+          "audio": { "path": "options/eng-word-fish.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Great job! That's the dog! Woof woof!",
+          "text_vi": "Tuyệt vời! Đó là con chó!",
+          "audio": { "path": "feedback/correct-eng-01.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Try again! Find the dog!",
+          "text_vi": "Thử lại nào! Tìm con chó nhé!",
+          "audio": { "path": "feedback/try-again-eng-01.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["animals", "dog", "english-vocabulary", "listen-and-touch"]
+    },
+    {
+      "id": "ARCH-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["archimedes", "vinschool"],
+      "source": {
+        "origin": "original — bộ đề từ vựng màu sắc Archimedes",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Show me something RED!",
+        "text_vi": "(Chỉ cho tôi thứ gì màu ĐỎ!)",
+        "audio": {
+          "path": "questions/arch-eng-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0002-A-red-ball.webp", "alt": "A red ball" },
+          "audio": { "path": "options/eng-phrase-red-ball.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0002-B-blue-cup.webp", "alt": "A blue cup" },
+          "audio": { "path": "options/eng-phrase-blue-cup.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0002-C-green-tree.webp", "alt": "A green tree" },
+          "audio": { "path": "options/eng-phrase-green-tree.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0002-D-yellow-star.webp", "alt": "A yellow star" },
+          "audio": { "path": "options/eng-phrase-yellow-star.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Excellent! The ball is RED!",
+          "text_vi": "Xuất sắc! Quả bóng màu đỏ!",
+          "audio": { "path": "feedback/correct-eng-02.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Look again! Which one is red?",
+          "text_vi": "Nhìn lại nào! Cái nào màu đỏ?",
+          "audio": { "path": "feedback/try-again-eng-02.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["colors", "red", "english-vocabulary", "listen-and-touch"]
+    },
+    {
+      "id": "ARCH-ENG-0003",
+      "type": "listen-choose",
+      "skill": "english-listening",
+      "difficulty": 4,
+      "school": ["archimedes", "vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc đề Tiếng Anh hệ Cambridge Archimedes / Vinschool",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Where is the cat? The cat is UNDER the table.",
+        "text_vi": "(Con mèo ở đâu? Con mèo ở DƯỚI bàn.)",
+        "audio": {
+          "path": "questions/arch-eng-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0003-A-cat-under-table.webp", "alt": "A cat hiding under a table" },
+          "audio": { "path": "options/eng-phrase-under-table.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0003-B-cat-on-table.webp", "alt": "A cat sitting on top of a table" },
+          "audio": { "path": "options/eng-phrase-on-table.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0003-C-cat-next-to-table.webp", "alt": "A cat standing next to a table" },
+          "audio": { "path": "options/eng-phrase-next-table.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0003-D-cat-behind-table.webp", "alt": "A cat hiding behind a table" },
+          "audio": { "path": "options/eng-phrase-behind-table.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Well done! The cat is UNDER the table!",
+          "text_vi": "Giỏi lắm! Con mèo ở DƯỚI bàn!",
+          "audio": { "path": "feedback/correct-eng-03.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Listen again! UNDER means below. Where is 'below the table'?",
+          "text_vi": "Nghe lại nhé! UNDER có nghĩa là ở dưới. Hình nào có mèo ở DƯỚI bàn?",
+          "audio": { "path": "feedback/try-again-eng-03.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["prepositions", "under", "spatial", "english-listening"]
+    },
+    {
+      "id": "ARCH-ENG-0004",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["archimedes", "vinschool"],
+      "source": {
+        "origin": "original — bộ đề từ vựng đồ vật trong lớp Archimedes",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Point to the BOOK!",
+        "text_vi": "(Chỉ vào quyển SÁCH!)",
+        "audio": {
+          "path": "questions/arch-eng-0004-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0004-A-pencil.webp", "alt": "A yellow pencil" },
+          "audio": { "path": "options/eng-word-pencil.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0004-B-book.webp", "alt": "A colorful storybook" },
+          "audio": { "path": "options/eng-word-book.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0004-C-bag.webp", "alt": "A blue school bag" },
+          "audio": { "path": "options/eng-word-bag.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0004-D-ruler.webp", "alt": "A ruler" },
+          "audio": { "path": "options/eng-word-ruler.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Yes! That's the book! I love reading books!",
+          "text_vi": "Đúng rồi! Đó là quyển sách!",
+          "audio": { "path": "feedback/correct-eng-01.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Try again! A BOOK has pages to read!",
+          "text_vi": "Thử lại! Quyển SÁCH có các trang để đọc!",
+          "audio": { "path": "feedback/try-again-eng-01.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["school-objects", "book", "english-vocabulary", "listen-and-touch"]
+    },
+    {
+      "id": "ARCH-ENG-0005",
+      "type": "multiple-choice-image",
+      "skill": "english-following-instructions",
+      "difficulty": 4,
+      "school": ["archimedes", "vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc bài thi theo nhóm 4 bạn Archimedes / Vinschool Cambridge",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Listen carefully! The BIG red apple is next to the SMALL yellow banana. Which picture shows this?",
+        "text_vi": "(Nghe thật kỹ! Quả táo ĐỎ TO đứng bên cạnh quả chuối VÀNG NHỎ. Hình nào đúng?)",
+        "audio": {
+          "path": "questions/arch-eng-0005-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0005-A-small-apple-big-banana.webp", "alt": "Small red apple next to big yellow banana" },
+          "audio": { "path": "options/eng-desc-A.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0005-B-correct.webp", "alt": "Big red apple next to small yellow banana — correct" },
+          "audio": { "path": "options/eng-desc-B.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0005-C-apple-above-banana.webp", "alt": "Big red apple above small yellow banana" },
+          "audio": { "path": "options/eng-desc-C.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0005-D-wrong-colors.webp", "alt": "Big green apple next to small yellow banana" },
+          "audio": { "path": "options/eng-desc-D.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Amazing! You listened so carefully! Big red apple — NEXT TO — small yellow banana!",
+          "text_vi": "Tuyệt vời! Con nghe rất kỹ! Táo đỏ TO — BÊN CẠNH — chuối vàng nhỏ!",
+          "audio": { "path": "feedback/correct-eng-02.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Listen again! BIG apple — RED — NEXT TO — SMALL banana — YELLOW!",
+          "text_vi": "Nghe lại nào! Táo TO — màu ĐỎ — BÊN CẠNH — chuối NHỎ — màu VÀNG!",
+          "audio": { "path": "feedback/try-again-eng-02.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "play_audio_twice": true
+      },
+      "tags": ["following-instructions", "prepositions", "adjectives", "size", "colors", "advanced"]
+    }
+  ]
+}

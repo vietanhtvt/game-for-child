@@ -1,0 +1,307 @@
+{
+  "version": "1.0.0",
+  "set_id": "nsps-iq-logic-v1",
+  "title": "IQ — Tư Duy Logic & Quy Luật (Nguyễn Siêu - Spark in Me)",
+  "description": "Bài tập IQ logic phù hợp với chương trình đánh giá Spark in Me của trường Nguyễn Siêu: tìm quy luật hình, chọn hình tiếp theo, quan sát và phân tích. GV quan sát trẻ trong 6 nhóm kỹ năng qua hoạt động nhóm — không phải 1 bài thi duy nhất. Nguồn: kinh nghiệm phụ huynh chia sẻ trên nsps.edu.vn, vndoc.com, haysiri.com.",
+  "school": "nguyen-sieu",
+  "skill": "iq-logic",
+  "difficulty_range": [3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "NSPS-IQ-0001",
+      "type": "pattern-next",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "archimedes", "general"],
+      "source": {
+        "origin": "original — dựa theo cấu trúc IQ Nguyễn Siêu Spark in Me",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn vào dãy hình. Hình nào đến tiếp theo?",
+        "audio": {
+          "path": "questions/nsps-iq-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-iq-0001-sequence.webp",
+          "alt": "Dãy hình: tam giác xanh hướng lên, tam giác xanh hướng xuống, tam giác xanh hướng lên, tam giác xanh hướng xuống, dấu hỏi",
+          "width": 700,
+          "height": 130
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-iq-0001-A-up.webp", "alt": "Tam giác xanh hướng lên" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-iq-0001-B-down.webp", "alt": "Tam giác xanh hướng xuống" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-iq-0001-C-circle.webp", "alt": "Hình tròn xanh" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-iq-0001-D-square.webp", "alt": "Hình vuông xanh" }
+        }
+      ],
+      "answer": "A",
+      "explanation": "Quy luật luân phiên: lên → xuống → lên → xuống → lên. Vị trí tiếp theo là tam giác hướng lên.",
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Dãy hình cứ đổi hướng: lên, xuống, lên, xuống, lên!",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Xem hướng của tam giác thay đổi như thế nào nhé.",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "huong", "tam-giac", "iq-logic"]
+    },
+    {
+      "id": "NSPS-IQ-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 4,
+      "school": ["nguyen-sieu", "archimedes"],
+      "source": {
+        "origin": "original — dạng phân loại logic Nguyễn Siêu",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Ba hình đầu thuộc cùng một nhóm. Hình nào thuộc nhóm đó?",
+        "audio": {
+          "path": "questions/nsps-iq-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-iq-0002-group.webp",
+          "alt": "Ba hình trong nhóm: áo, quần, mũ (đồ mặc). Chọn hình thứ 4 cùng nhóm.",
+          "width": 600,
+          "height": 200
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-iq-0002-A-shoes.webp", "alt": "Đôi giày — đồ mặc" },
+          "audio": { "path": "options/vn-word-shoes.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-iq-0002-B-bicycle.webp", "alt": "Chiếc xe đạp — phương tiện" },
+          "audio": { "path": "options/vn-word-bicycle.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-iq-0002-C-chair.webp", "alt": "Cái ghế — đồ dùng" },
+          "audio": { "path": "options/vn-word-chair.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-iq-0002-D-flower.webp", "alt": "Bông hoa — thực vật" },
+          "audio": { "path": "options/vn-word-flower.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "explanation": "Áo, quần, mũ là đồ mặc trên người → giày cũng thuộc nhóm đồ mặc.",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Áo, quần, mũ, giày đều là đồ mặc trên người!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Áo, quần, mũ đều là đồ mặc — hình nào cũng là đồ mặc?",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["phan-loai", "do-mac", "iq-logic", "nhom"]
+    },
+    {
+      "id": "NSPS-IQ-0003",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "doan-thi-diem", "general"],
+      "source": {
+        "origin": "original — dạng quan sát bóng đổ Nguyễn Siêu",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Cái bóng nào thuộc về con vật này?",
+        "audio": {
+          "path": "questions/nsps-iq-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-iq-0003-elephant.webp",
+          "alt": "Con voi màu xám với vòi dài đặc trưng",
+          "width": 300,
+          "height": 280
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-iq-0003-A-elephant-shadow.webp", "alt": "Bóng con voi — đúng, có vòi dài" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-iq-0003-B-giraffe-shadow.webp", "alt": "Bóng hươu cao cổ — sai, cổ dài" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-iq-0003-C-horse-shadow.webp", "alt": "Bóng con ngựa — sai" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-iq-0003-D-rhino-shadow.webp", "alt": "Bóng con tê giác — sai, có sừng" }
+        }
+      ],
+      "answer": "A",
+      "explanation": "Bóng A có đặc điểm vòi dài đặc trưng của con voi.",
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Bóng của voi phải có cái vòi dài đặc biệt!",
+          "audio": { "path": "feedback/correct-generic-03.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Con voi có đặc điểm gì đặc biệt? Nhìn cái vòi dài nhé!",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["bong-do", "dong-vat", "quan-sat", "iq-observation"]
+    },
+    {
+      "id": "NSPS-IQ-0004",
+      "type": "sequence",
+      "skill": "iq-logic",
+      "difficulty": 4,
+      "school": ["nguyen-sieu", "archimedes"],
+      "source": {
+        "origin": "original — dạng sắp xếp thứ tự lớn nhỏ Nguyễn Siêu",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Sắp xếp các hình từ NHỎ nhất đến LỚN nhất.",
+        "audio": {
+          "path": "questions/nsps-iq-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-iq-0004-bears.webp",
+          "alt": "Bốn con gấu có kích thước khác nhau: rất nhỏ (1), nhỏ (2), vừa (3), lớn (4)",
+          "width": 600,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "1", "image": { "path": "options/nsps-iq-0004-bear-xs.webp", "alt": "Gấu rất nhỏ" } },
+        { "id": "2", "image": { "path": "options/nsps-iq-0004-bear-s.webp", "alt": "Gấu nhỏ" } },
+        { "id": "3", "image": { "path": "options/nsps-iq-0004-bear-m.webp", "alt": "Gấu vừa" } },
+        { "id": "4", "image": { "path": "options/nsps-iq-0004-bear-l.webp", "alt": "Gấu lớn" } }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "explanation": "Thứ tự từ nhỏ nhất đến lớn nhất: gấu rất nhỏ → gấu nhỏ → gấu vừa → gấu lớn.",
+      "feedback": {
+        "correct": {
+          "text": "Giỏi quá! Từ nhỏ đến lớn: xíu xiu → nhỏ → vừa → to nhất!",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu từ gấu NHỎ nhất và tăng dần lên nhé.",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "xep-tangram",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "drag_to_arrange": true
+      },
+      "tags": ["sap-xep", "kich-thuoc", "iq-logic", "so-sanh"]
+    },
+    {
+      "id": "NSPS-IQ-0005",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 4,
+      "school": ["nguyen-sieu", "archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original — dạng hoàn thiện quy luật số đếm",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Dãy số: 2, 4, 6, ?, 10. Số nào điền vào dấu hỏi?",
+        "audio": {
+          "path": "questions/nsps-iq-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-iq-0005-sequence-numbers.webp",
+          "alt": "Dãy số: 2 — 4 — 6 — ? — 10 trên nền xanh dễ thương",
+          "width": 600,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "explanation": "Quy luật cộng 2: 2→4→6→8→10. Số cần điền là 8.",
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! 2, 4, 6, 8, 10 — mỗi lần cộng thêm 2!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! 2, 4, 6... Mỗi số lớn hơn số trước bao nhiêu?",
+          "audio": { "path": "feedback/try-again-03.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["day-so", "cong-2", "so-chan", "iq-logic", "nang-cao"]
+    }
+  ]
+}

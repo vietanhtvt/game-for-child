@@ -1,0 +1,329 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-syllable-reading-v1",
+  "title": "Tiếng Việt — Ghép Vần & Đọc Hiểu (Chung)",
+  "description": "Bài tập ghép vần và đọc hiểu tiếng Việt theo chương trình GDPT 2018 — phù hợp với đề thi của tất cả các trường (Archimedes, ĐTĐ, Vinschool, Ngôi Sao). GV đọc câu hỏi nên trẻ không bắt buộc phải biết đọc, nhưng nếu biết sẽ có lợi thế. Nguồn: sách giáo khoa TV1 bộ Kết Nối Tri Thức, VMonkey, kinh nghiệm phụ huynh chia sẻ.",
+  "school": "general",
+  "skill": "syllable-blending",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "GEN-SYLL-0003",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 2,
+      "school": ["general", "archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original — bộ 29 chữ cái TV, chương trình GDPT 2018 TV1",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Ghép các âm này lại thành từ: M + A + sắc = ?",
+        "audio": {
+          "path": "questions/gen-syll-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "hint_audio": {
+          "path": "questions/gen-syll-0003-hint.mp3",
+          "locale": "vi-VN",
+          "text": "M kết hợp với A, thêm dấu sắc (/) lên trên — đọc là...?"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "ma", "audio": { "path": "options/syllable-ma-flat.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "má", "audio": { "path": "options/syllable-ma-sac.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "mà", "audio": { "path": "options/syllable-ma-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "mã", "audio": { "path": "options/syllable-ma-nga.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "explanation": "M + A + dấu sắc (/) = MÁ. Dấu sắc làm cho thanh điệu đi lên cao.",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! M + A + dấu sắc = MÁ — như 'má' (mẹ) của mình!",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Dấu sắc (/) làm cho tiếng đọc lên cao. M + A + sắc = ?",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "dau-sac", "ma", "phu-am-m", "nguyen-am-a"]
+    },
+    {
+      "id": "GEN-SYLL-0004",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 2,
+      "school": ["general", "archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original — bảng ghép vần phụ âm L, chương trình GDPT 2018",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tiếng nào ghép từ: L + O = ?",
+        "audio": {
+          "path": "questions/gen-syll-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-syll-0004-lo.webp",
+          "alt": "Chữ L và chữ O được ghép lại",
+          "width": 300,
+          "height": 150
+        }
+      },
+      "options": [
+        { "id": "A", "text": "lo", "audio": { "path": "options/syllable-lo-flat.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "la", "audio": { "path": "options/syllable-la-flat.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "lu", "audio": { "path": "options/syllable-lu-flat.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "li", "audio": { "path": "options/syllable-li-flat.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! L + O = lo (như 'lo lắng'). Giỏi lắm!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! L kết hợp với O — đọc thế nào nhỉ?",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "phu-am-l", "nguyen-am-o", "am-tiet"]
+    },
+    {
+      "id": "GEN-SYLL-0005",
+      "type": "listen-choose",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["general", "archimedes", "vinschool"],
+      "source": {
+        "origin": "original — ghép vần có dấu thanh, bài tập nghe và chọn",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe và chọn từ đúng: (phát âm 'bé')",
+        "audio": {
+          "path": "questions/gen-syll-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "target_word": "bé"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "ba", "audio": { "path": "options/syllable-ba-flat.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "be", "audio": { "path": "options/syllable-be-flat.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "bé", "audio": { "path": "options/syllable-be-sac.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "bè", "audio": { "path": "options/syllable-be-huyen.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "explanation": "'bé' = B + E + dấu sắc — thanh điệu đọc lên cao.",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 'bé' có dấu sắc — đọc lên cao! Bé xinh quá!",
+          "audio": { "path": "feedback/correct-generic-03.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại! Dấu sắc (/) làm cho tiếng nghe cao lên. Tiếng nào có dấu sắc?",
+          "audio": { "path": "feedback/try-again-03.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-chon", "dau-sac", "be", "phu-am-b", "nguyen-am-e"]
+    },
+    {
+      "id": "GEN-SYLL-0006",
+      "type": "multiple-choice-image",
+      "skill": "word-reading",
+      "difficulty": 3,
+      "school": ["general", "archimedes", "doan-thi-diem", "vinschool"],
+      "source": {
+        "origin": "original — đọc từ và nối với hình, bài tập TV1",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Chọn hình phù hợp với từ: 'gà'",
+        "audio": {
+          "path": "questions/gen-syll-0006-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-syll-0006-word-ga.webp",
+          "alt": "Từ GÀ được viết to rõ ràng",
+          "width": 200,
+          "height": 100
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/gen-syll-0006-A-chicken.webp", "alt": "Con gà trống màu đỏ nâu" },
+          "audio": { "path": "options/vn-word-chicken.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/gen-syll-0006-B-duck.webp", "alt": "Con vịt màu vàng" },
+          "audio": { "path": "options/vn-word-duck.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/gen-syll-0006-C-goose.webp", "alt": "Con ngỗng trắng" },
+          "audio": { "path": "options/vn-word-goose.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/gen-syll-0006-D-fish.webp", "alt": "Con cá vàng" },
+          "audio": { "path": "options/vn-word-fish.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! GÀ — đó là con gà. Gà kêu ò ó o!",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! 'gà' là tên con vật nào trong sân vườn nhỉ? Gà kêu ò ó o!",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["doc-tu", "ga", "dong-vat", "hinh-anh-chu-viet"]
+    },
+    {
+      "id": "GEN-SYLL-0007",
+      "type": "multiple-choice-image",
+      "skill": "reading-comprehension",
+      "difficulty": 4,
+      "school": ["general", "archimedes", "doan-thi-diem", "vinschool", "ngoi-sao"],
+      "source": {
+        "origin": "original — nghe câu ngắn và chọn hình, TV1 bộ KNTT",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu và chọn hình đúng: 'Con mèo nằm trên ghế.'",
+        "audio": {
+          "path": "questions/gen-syll-0007-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/gen-syll-0007-A-cat-under-chair.webp", "alt": "Con mèo trắng nằm dưới ghế" },
+          "audio": { "path": "options/gen-syll-0007-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/gen-syll-0007-B-cat-on-chair.webp", "alt": "Con mèo trắng nằm trên ghế" },
+          "audio": { "path": "options/gen-syll-0007-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/gen-syll-0007-C-cat-next-chair.webp", "alt": "Con mèo đứng bên cạnh ghế" },
+          "audio": { "path": "options/gen-syll-0007-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/gen-syll-0007-D-dog-on-chair.webp", "alt": "Con chó nằm trên ghế" },
+          "audio": { "path": "options/gen-syll-0007-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con mèo nằm TRÊN ghế. Trên là ở phía trên nhé!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại! 'Con mèo nằm TRÊN ghế.' TRÊN có nghĩa là ở phía trên.",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-hieu", "vi-tri", "tren", "meo", "doc-hieu-ngan"]
+    },
+    {
+      "id": "GEN-LETT-0004",
+      "type": "multiple-choice",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["general", "archimedes", "vinschool", "doan-thi-diem"],
+      "source": {
+        "origin": "original — nhận diện chữ cái in hoa/thường, chương trình GDPT 2018",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Cặp chữ nào là IN HOA và in thường của cùng một chữ cái?",
+        "audio": {
+          "path": "questions/gen-lett-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "A — a", "audio": { "path": "options/letter-pair-Aa.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "B — d", "audio": { "path": "options/letter-pair-Bd.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "D — b", "audio": { "path": "options/letter-pair-Db.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "P — q", "audio": { "path": "options/letter-pair-Pq.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "explanation": "Chỉ có 'A — a' là cùng một chữ cái, khác nhau ở hình thức in hoa và in thường.",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! A in hoa và a in thường là cùng một chữ cái!",
+          "audio": { "path": "feedback/correct-generic-03.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ hơn! Chữ in hoa và chữ thường phải là CÙNG một chữ cái nhé.",
+          "audio": { "path": "feedback/try-again-03.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "in-hoa", "in-thuong", "cap-chu", "nhan-dien"]
+    }
+  ]
+}

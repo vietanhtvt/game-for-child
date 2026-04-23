@@ -1,0 +1,301 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-math-counting-v1",
+  "title": "Toán — Đếm Số & So Sánh (Vinschool)",
+  "description": "Bài tập Toán đếm và so sánh số lượng theo cấu trúc đề thi đầu vào lớp 1 Vinschool hệ chuẩn. Vinschool hệ chuẩn không test tiếng Anh cho lớp 1 nhưng kiểm tra Toán và Tiếng Việt qua trắc nghiệm ảnh A/B/C/D và kiểm tra trí nhớ qua tranh. Nguồn: vndoc.com, lamchame.com thread Vinschool Times City.",
+  "school": "vinschool",
+  "skill": "counting",
+  "difficulty_range": [2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "VIN-COUNT-0001",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "original — cấu trúc đề Toán Vinschool hệ chuẩn",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Có mấy con cá trong bể? Chọn số đúng.",
+        "audio": {
+          "path": "questions/vin-count-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0001-fishbowl.webp",
+          "alt": "Bể cá với 8 con cá màu sắc rực rỡ bơi lội",
+          "width": 480,
+          "height": 380
+        }
+      },
+      "options": [
+        { "id": "A", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! Có đúng 8 con cá trong bể!",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm từng con cá một nhé: 1, 2, 3...",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "highlight_on_count": true
+      },
+      "tags": ["dem-so", "ca", "pham-vi-10", "cho-que"]
+    },
+    {
+      "id": "VIN-COUNT-0002",
+      "type": "counting",
+      "skill": "number-comparison",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "original — dạng so sánh số lượng Vinschool",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhóm nào có NHIỀU hơn? Chọn nhóm có nhiều hơn.",
+        "audio": {
+          "path": "questions/vin-count-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0002-comparison.webp",
+          "alt": "Nhóm A: 5 ngôi sao vàng; Nhóm B: 3 ngôi sao vàng",
+          "width": 550,
+          "height": 280
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhóm A (5 sao)",
+          "image": { "path": "options/vin-count-0002-A-5stars.webp", "alt": "5 ngôi sao" },
+          "audio": { "path": "options/vin-group-A-5.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Nhóm B (3 sao)",
+          "image": { "path": "options/vin-count-0002-B-3stars.webp", "alt": "3 ngôi sao" },
+          "audio": { "path": "options/vin-group-B-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Hai nhóm bằng nhau",
+          "audio": { "path": "options/bang-nhau.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Nhóm B nhiều hơn",
+          "audio": { "path": "options/vin-group-B-more.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Nhóm A có 5 sao, nhóm B có 3 sao. 5 nhiều hơn 3!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm số sao ở mỗi nhóm, rồi so sánh nhé.",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh", "nhieu-hon", "it-hon", "pham-vi-10"]
+    },
+    {
+      "id": "VIN-COUNT-0003",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 3,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "original — đếm vật theo nhóm (Vinschool hệ chuẩn)",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Có tất cả bao nhiêu quả bóng? Đếm tất cả các nhóm.",
+        "audio": {
+          "path": "questions/vin-count-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0003-balls.webp",
+          "alt": "3 nhóm bóng: nhóm đỏ 3 quả, nhóm xanh 4 quả, nhóm vàng 3 quả — tổng 10",
+          "width": 560,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "10", "audio": { "path": "options/number-10.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "11", "audio": { "path": "options/number-11.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! 3 + 4 + 3 = 10 quả bóng tất cả!",
+          "audio": { "path": "feedback/correct-generic-03.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm từng nhóm: nhóm đỏ mấy quả? nhóm xanh? nhóm vàng? Cộng lại nhé.",
+          "audio": { "path": "feedback/try-again-03.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "highlight_on_count": true
+      },
+      "tags": ["dem-tong", "pham-vi-10", "nhieu-nhom", "bong"]
+    },
+    {
+      "id": "VIN-COUNT-0004",
+      "type": "fill-blank",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "original — dạng điền số vào chỗ trống Vinschool",
+        "crawled_at": "2026-04-23",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điền số còn thiếu vào chỗ trống: 1, 2, 3, __, 5",
+        "audio": {
+          "path": "questions/vin-count-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0004-sequence.webp",
+          "alt": "Dãy số: 1, 2, 3, _ , 5 với ô trống thứ 4",
+          "width": 550,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "2", "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 1, 2, 3, 4, 5 — mỗi số lớn hơn số trước 1 đơn vị!",
+          "audio": { "path": "feedback/correct-generic-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đọc theo: một, hai, ba, ... , năm. Số nào đứng giữa ba và năm?",
+          "audio": { "path": "feedback/try-again-01.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dien-so", "thu-tu-so", "pham-vi-5", "day-so"]
+    },
+    {
+      "id": "VIN-MEM-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-memory",
+      "difficulty": 3,
+      "school": ["vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "original — dạng kiểm tra trí nhớ qua tranh Vinschool (lamchame.com chia sẻ)",
+        "url": "https://www.lamchame.com/forum/threads/kiem-tra-dau-vao-truong-vinschool-cap-1-timescity.1575746/",
+        "crawled_at": "2026-04-23",
+        "verified": false
+      },
+      "stem": {
+        "text": "Con vừa nhìn thấy 5 đồ vật trong 10 giây. Đồ vật nào KHÔNG có trong tranh vừa xem?",
+        "audio": {
+          "path": "questions/vin-mem-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "pre_image": {
+          "path": "questions/vin-mem-0001-preview.webp",
+          "alt": "Tranh ghi nhớ (hiện 10 giây): cái ô, quyển sách, con gấu bông, quả táo, chiếc giày",
+          "display_seconds": 10,
+          "then_hide": true
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/vin-mem-0001-A-umbrella.webp", "alt": "Cái ô" },
+          "audio": { "path": "options/vn-word-umbrella.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/vin-mem-0001-B-ball.webp", "alt": "Quả bóng" },
+          "audio": { "path": "options/vn-word-ball.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/vin-mem-0001-C-apple.webp", "alt": "Quả táo" },
+          "audio": { "path": "options/vn-word-apple.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/vin-mem-0001-D-teddy.webp", "alt": "Con gấu bông" },
+          "audio": { "path": "options/vn-word-teddy.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "explanation": "Quả bóng không xuất hiện trong tranh ghi nhớ ban đầu.",
+      "feedback": {
+        "correct": {
+          "text": "Trí nhớ siêu tốt! Đúng rồi, quả bóng không có trong tranh lúc nãy!",
+          "audio": { "path": "feedback/correct-generic-02.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Cố gắng nhớ xem những đồ vật nào con vừa thấy nhé.",
+          "audio": { "path": "feedback/try-again-02.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "memory_display_seconds": 10,
+        "hide_before_answer": true
+      },
+      "tags": ["tri-nho", "iq-memory", "working-memory", "ghi-nho-tranh"]
+    }
+  ]
+}
