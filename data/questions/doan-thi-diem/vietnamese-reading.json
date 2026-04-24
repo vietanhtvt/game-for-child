@@ -1,0 +1,340 @@
+{
+  "version": "1.0.0",
+  "set_id": "dtd-vietnamese-reading-v1",
+  "title": "Tiếng Việt — Đọc Hiểu & Ghép Vần (Đoàn Thị Điểm — Hệ Chuẩn & Cambridge)",
+  "description": "Bài tập Tiếng Việt dạng điền vần, ghép âm tiết, đọc hiểu đoạn ngắn — theo cấu trúc phần 3 đề thi Đoàn Thị Điểm. GV đọc câu hỏi vì trẻ chưa cần biết đọc hoàn toàn; trẻ chọn đáp án từ hình hoặc từ in lớn.",
+  "school": "doan-thi-diem",
+  "skill": "syllable-blending",
+  "difficulty_range": [2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "DTD-READ-0001",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 2,
+      "school": ["doan-thi-diem", "archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "url": "https://tailieuonthi.io.vn/bo-de-thi-luyen-tap-vao-lop-1-truong-doan-thi-diem/",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text": "Điền vần còn thiếu: CON B _ _",
+        "audio": {
+          "path": "questions/dtd-read-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 4000
+        },
+        "image": {
+          "path": "questions/dtd-read-0001-cow.webp",
+          "alt": "Hình con bò với chỗ trống vần 'ò' trong từ 'CON BÒ'",
+          "width": 320,
+          "height": 280
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Ò",
+          "audio": { "path": "options/viet-o-huyen.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Á",
+          "audio": { "path": "options/viet-a-sac.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "ÊU",
+          "audio": { "path": "options/viet-eu.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "ÔI",
+          "audio": { "path": "options/viet-oi.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "Con bò kêu tiếng gì? Nghe âm thanh này: BÒ!",
+        "audio": { "path": "hints/dtd-read-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! CON BÒ. Vần 'ò' rất đúng!",
+          "audio": { "path": "feedback/viet-syllable-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nghe cô đọc: CON BÒ. Vần nào con nghe thấy?",
+          "audio": { "path": "feedback/viet-syllable-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["tieng-viet", "ghep-van", "con-bo", "van-o"]
+    },
+    {
+      "id": "DTD-READ-0002",
+      "type": "multiple-choice",
+      "skill": "word-reading",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "doan-thi-diem-cambridge"],
+      "source": {
+        "origin": "lop5.net",
+        "url": "https://lop5.net/de-thi-vao-lop-1-truong-doan-thi-diem-20238/",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chọn từ ghép đúng để tạo thành: CÁI ___",
+        "audio": {
+          "path": "questions/dtd-read-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 3500
+        },
+        "image": {
+          "path": "questions/dtd-read-0002-umbrella.webp",
+          "alt": "Hình chiếc ô (dù) với chỗ trống cần điền từ 'Ô'",
+          "width": 300,
+          "height": 320
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Ô",
+          "audio": { "path": "options/viet-o-mu.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Ơ",
+          "audio": { "path": "options/viet-o-mo.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "U",
+          "audio": { "path": "options/viet-u.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Ư",
+          "audio": { "path": "options/viet-u-mo.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! CÁI Ô — Ô là chiếc ô che mưa!",
+          "audio": { "path": "feedback/viet-word-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhìn hình: đây là CÁI gì che mưa?",
+          "audio": { "path": "feedback/viet-word-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["tieng-viet", "tu-vung", "chu-cai-o", "cai-o"]
+    },
+    {
+      "id": "DTD-READ-0003",
+      "type": "listen-choose",
+      "skill": "reading-comprehension",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "doan-thi-diem-cambridge", "archimedes"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu rồi chọn hình đúng: 'Con mèo đang ngồi trên mái nhà.'",
+        "audio": {
+          "path": "questions/dtd-read-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 6000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/dtd-read-0003-A-cat-roof.webp", "alt": "Con mèo ngồi trên mái nhà" },
+          "audio": { "path": "options/dtd-read-0003-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/dtd-read-0003-B-cat-floor.webp", "alt": "Con mèo nằm trên sàn nhà" },
+          "audio": { "path": "options/dtd-read-0003-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/dtd-read-0003-C-cat-tree.webp", "alt": "Con mèo ngồi trên cây" },
+          "audio": { "path": "options/dtd-read-0003-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/dtd-read-0003-D-cat-window.webp", "alt": "Con mèo ngồi ở cửa sổ" },
+          "audio": { "path": "options/dtd-read-0003-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con mèo đang ngồi TRÊN MÁI NHÀ!",
+          "audio": { "path": "feedback/viet-comprehension-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu nhé: con mèo đang ngồi ở ĐÂU?",
+          "audio": { "path": "feedback/viet-comprehension-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 45
+      },
+      "tags": ["tieng-viet", "doc-hieu", "vi-tri", "tren-duoi", "con-meo"]
+    },
+    {
+      "id": "DTD-READ-0004",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "url": "https://tailieuonthi.io.vn/de-thi-giua-hoc-ki-1-mon-tieng-viet-lop-1/",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text": "Điền âm đầu còn thiếu: ___ ÚT",
+        "audio": {
+          "path": "questions/dtd-read-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 4000
+        },
+        "image": {
+          "path": "questions/dtd-read-0004-finger.webp",
+          "alt": "Hình ngón tay út với chỗ trống cần điền 'ng' thành NGÓN ÚT",
+          "width": 280,
+          "height": 360
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "NG",
+          "audio": { "path": "options/viet-ng-am.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "N",
+          "audio": { "path": "options/viet-n-am.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "KH",
+          "audio": { "path": "options/viet-kh-am.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "GH",
+          "audio": { "path": "options/viet-gh-am.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "NGÓN ÚT — ngón tay nhỏ nhất. Âm đầu là 'NG' đấy!",
+        "audio": { "path": "hints/dtd-read-0004-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! NGÓN ÚT — âm đầu là NG!",
+          "audio": { "path": "feedback/viet-initial-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nghe âm đầu: NGÓN ÚT — âm gì bắt đầu?",
+          "audio": { "path": "feedback/viet-initial-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["tieng-viet", "am-dau", "ng-am", "ngon-ut", "phu-am"]
+    },
+    {
+      "id": "DTD-READ-0005",
+      "type": "drag-drop",
+      "skill": "word-reading",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "doan-thi-diem-cambridge"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Kéo các thẻ chữ để ghép thành từ có nghĩa: thứ tự đúng là gì?",
+        "audio": {
+          "path": "questions/dtd-read-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 5000
+        },
+        "image": {
+          "path": "questions/dtd-read-0005-tiles.webp",
+          "alt": "3 thẻ chữ rời: 'HOA', 'QUẢ', 'LÁ' — cần sắp xếp thành 'QUẢ HOA LÁ' hoặc từng từ đơn",
+          "width": 480,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "1", "text": "QUẢ", "audio": { "path": "options/viet-qua.mp3", "locale": "vi-VN" } },
+        { "id": "2", "text": "HOA", "audio": { "path": "options/viet-hoa.mp3", "locale": "vi-VN" } },
+        { "id": "3", "text": "LÁ", "audio": { "path": "options/viet-la.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": ["1", "2", "3"],
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! QUẢ — HOA — LÁ đều là bộ phận của cây!",
+          "audio": { "path": "feedback/viet-dragdrop-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Mỗi từ là một bộ phận của cây. Ghép sao cho đúng nhé!",
+          "audio": { "path": "feedback/viet-dragdrop-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 90
+      },
+      "tags": ["tieng-viet", "doc-tu", "ghep-tu", "cay-coi", "drag-drop"]
+    }
+  ]
+}

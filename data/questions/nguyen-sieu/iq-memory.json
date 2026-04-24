@@ -1,0 +1,424 @@
+{
+  "version": "1.0.0",
+  "set_id": "nsps-iq-memory-v1",
+  "title": "Trí Nhớ Làm Việc & Logic — Nguyễn Siêu (Spark in Me)",
+  "description": "Bài tập kiểm tra trí nhớ ngắn hạn và tư duy logic, đặc trưng của chương trình 'Spark in Me'. Bao gồm: nhớ vị trí đồ vật, nhớ dãy hình, chọn mảnh ghép hoàn thiện ma trận, tìm hình không thuộc nhóm.",
+  "school": "nguyen-sieu",
+  "skill": "iq-memory",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "NSPS-MEM-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-memory",
+      "difficulty": 2,
+      "school": ["nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn 3 đồ vật trên bàn trong 4 giây. Vật nào bị giấu đi?",
+        "audio": {
+          "path": "questions/nsps-mem-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-mem-0002-table.webp",
+          "alt": "Bàn có 3 đồ vật: con gấu bông, quyển sách xanh, chiếc cốc đỏ (hiển thị 4 giây rồi ẩn)",
+          "width": 480,
+          "height": 320
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Con gấu bông",
+          "image": { "path": "options/nsps-mem-0002-A-bear.webp", "alt": "Con gấu bông màu vàng" },
+          "audio": { "path": "options/nsps-mem-0002-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Quyển sách xanh",
+          "image": { "path": "options/nsps-mem-0002-B-book.webp", "alt": "Quyển sách bìa xanh" },
+          "audio": { "path": "options/nsps-mem-0002-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Chiếc cốc đỏ",
+          "image": { "path": "options/nsps-mem-0002-C-cup.webp", "alt": "Chiếc cốc màu đỏ" },
+          "audio": { "path": "options/nsps-mem-0002-C.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Hãy nhớ lại: trên bàn có những màu gì?",
+        "audio": { "path": "hints/nsps-mem-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Quyển sách xanh đã bị giấu. Trí nhớ của con rất tốt!",
+          "audio": { "path": "feedback/memory-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhớ kỹ màu sắc mỗi đồ vật nhé.",
+          "audio": { "path": "feedback/memory-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["tri-nho", "do-vat", "working-memory", "spark-in-me"]
+    },
+    {
+      "id": "NSPS-MEM-0003",
+      "type": "sequence",
+      "skill": "iq-memory",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn các màu theo thứ tự trong 5 giây. Chọn lại đúng thứ tự!",
+        "audio": {
+          "path": "questions/nsps-mem-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-mem-0003-colors.webp",
+          "alt": "Dãy 4 chấm tròn màu: đỏ → xanh lá → vàng → tím (hiển thị 5 giây rồi ẩn)",
+          "width": 480,
+          "height": 120
+        }
+      },
+      "options": [
+        {
+          "id": "1",
+          "text": "Đỏ",
+          "image": { "path": "options/color-red.webp", "alt": "Vòng tròn màu đỏ" },
+          "audio": { "path": "options/color-do.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "2",
+          "text": "Xanh lá",
+          "image": { "path": "options/color-green.webp", "alt": "Vòng tròn màu xanh lá" },
+          "audio": { "path": "options/color-xanh-la.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "3",
+          "text": "Vàng",
+          "image": { "path": "options/color-yellow.webp", "alt": "Vòng tròn màu vàng" },
+          "audio": { "path": "options/color-vang.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "4",
+          "text": "Tím",
+          "image": { "path": "options/color-purple.webp", "alt": "Vòng tròn màu tím" },
+          "audio": { "path": "options/color-tim.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con nhớ đúng thứ tự 4 màu rồi!",
+          "audio": { "path": "feedback/sequence-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Màu đầu tiên là màu đỏ nhé.",
+          "audio": { "path": "feedback/sequence-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 45
+      },
+      "tags": ["tri-nho", "thu-tu", "mau-sac", "working-memory"]
+    },
+    {
+      "id": "NSPS-MEM-0004",
+      "type": "multiple-choice",
+      "skill": "iq-memory",
+      "difficulty": 2,
+      "school": ["nguyen-sieu"],
+      "source": {
+        "origin": "haysiri.com",
+        "url": "https://haysiri.com/reviews/review-thuc-te-thi-va-hoc-tai-tieu-hoc-archimedes",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nhìn tranh trong 5 giây. Trong tranh có mấy con gà?",
+        "audio": {
+          "path": "questions/nsps-mem-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-mem-0004-farmyard.webp",
+          "alt": "Sân vườn có 4 con gà, 2 con vịt, 1 con chó (hiển thị 5 giây rồi ẩn)",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "2",
+          "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "3",
+          "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "4",
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Có 4 con gà. Con nhớ tốt lắm!",
+          "audio": { "path": "feedback/memory-count-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhớ đếm gà thôi nhé, đừng đếm vịt.",
+          "audio": { "path": "feedback/memory-count-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "shuffle_options": false,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["tri-nho", "dem-so", "con-vat", "ga", "working-memory"]
+    },
+    {
+      "id": "NSPS-MEM-0005",
+      "type": "matching",
+      "skill": "iq-memory",
+      "difficulty": 3,
+      "school": ["nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Lật từng cặp thẻ để tìm hai thẻ giống nhau!",
+        "audio": {
+          "path": "questions/nsps-mem-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "context_image": {
+        "path": "questions/nsps-mem-0005-grid.webp",
+        "alt": "Lưới 3x2 gồm 6 thẻ úp xuống — ẩn 3 cặp: sư tử/sư tử, ô tô/ô tô, bánh/bánh",
+        "width": 480,
+        "height": 320
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-mem-0005-lion.webp", "alt": "Con sư tử" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-mem-0005-car.webp", "alt": "Chiếc ô tô đỏ" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-mem-0005-cake.webp", "alt": "Chiếc bánh sinh nhật" }
+        }
+      ],
+      "answer": { "A": "A", "B": "B", "C": "C" },
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Con tìm được hết tất cả các cặp rồi!",
+          "audio": { "path": "feedback/memory-match-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhớ vị trí thẻ vừa lật nhé.",
+          "audio": { "path": "feedback/memory-match-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 0
+      },
+      "tags": ["tri-nho", "lat-the", "ghep-doi", "working-memory"]
+    },
+    {
+      "id": "NSPS-LOG-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Mảnh hình nào hoàn thiện ô dấu hỏi?",
+        "audio": {
+          "path": "questions/nsps-log-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-log-0001-matrix.webp",
+          "alt": "Ma trận 2x2: hàng 1: hình tròn đỏ lớn + hình tròn đỏ nhỏ; hàng 2: hình vuông xanh lớn + dấu '?' (cần chọn hình vuông xanh nhỏ)",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-log-0001-A-big-square.webp", "alt": "Hình vuông xanh lớn" },
+          "audio": { "path": "options/nsps-log-0001-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-log-0001-B-small-square.webp", "alt": "Hình vuông xanh nhỏ" },
+          "audio": { "path": "options/nsps-log-0001-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-log-0001-C-small-circle.webp", "alt": "Hình tròn đỏ nhỏ" },
+          "audio": { "path": "options/nsps-log-0001-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-log-0001-D-triangle.webp", "alt": "Hình tam giác vàng" },
+          "audio": { "path": "options/nsps-log-0001-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Nhìn hàng trên: hình tròn to rồi hình tròn nhỏ. Hàng dưới: hình vuông to rồi...?",
+        "audio": { "path": "hints/nsps-log-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Quy luật là: to → nhỏ. Hình vuông xanh nhỏ là đáp án đúng!",
+          "audio": { "path": "feedback/logic-matrix-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhìn hàng trên: hình đầu to hay nhỏ? Hình sau to hay nhỏ?",
+          "audio": { "path": "feedback/logic-matrix-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 90
+      },
+      "tags": ["iq", "ma-tran", "quy-luat", "to-nho", "logic"]
+    },
+    {
+      "id": "NSPS-LOG-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào không cùng nhóm với các hình kia?",
+        "audio": {
+          "path": "questions/nsps-log-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "context_image": {
+        "path": "questions/nsps-log-0002-group.webp",
+        "alt": "4 hình: con chó, con mèo, con gà, chiếc ô tô — ô tô là hình không thuộc nhóm động vật",
+        "width": 600,
+        "height": 150
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Con chó",
+          "image": { "path": "options/nsps-log-0002-A-dog.webp", "alt": "Con chó" },
+          "audio": { "path": "options/animal-cho.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Con mèo",
+          "image": { "path": "options/nsps-log-0002-B-cat.webp", "alt": "Con mèo" },
+          "audio": { "path": "options/animal-meo.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Con gà",
+          "image": { "path": "options/nsps-log-0002-C-chicken.webp", "alt": "Con gà" },
+          "audio": { "path": "options/animal-ga.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Chiếc ô tô",
+          "image": { "path": "options/nsps-log-0002-D-car.webp", "alt": "Chiếc ô tô màu xanh" },
+          "audio": { "path": "options/nsps-log-0002-D-car.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "D",
+      "hint": {
+        "text": "Ba hình kia đều là... con vật. Còn hình nào không phải con vật?",
+        "audio": { "path": "hints/nsps-log-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Chiếc ô tô không phải con vật nên không cùng nhóm!",
+          "audio": { "path": "feedback/odd-one-out-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Con chó, con mèo, con gà — chúng đều là gì?",
+          "audio": { "path": "feedback/odd-one-out-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["iq", "phan-loai", "nhom", "quan-sat", "con-vat"]
+    }
+  ]
+}

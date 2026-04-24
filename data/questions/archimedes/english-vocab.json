@@ -1,0 +1,372 @@
+{
+  "version": "1.0.0",
+  "set_id": "arch-english-vocab-v1",
+  "title": "Tiếng Anh — Từ Vựng & Nghe Hiểu (Archimedes / Nguyễn Siêu / Vinschool)",
+  "description": "Bài tập Tiếng Anh dạng 'Touch & Say' — trẻ nghe giáo viên nước ngoài đọc từ, chạm/chọn đúng hình. Phong cách thi của Archimedes Academy và Nguyễn Siêu: GV hỏi đến khi trẻ không trả lời được; thi nhóm 4 bạn.",
+  "school": "archimedes",
+  "skill": "english-vocabulary",
+  "difficulty_range": [1, 2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "ARCH-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 1,
+      "school": ["archimedes", "nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text_en": "Touch the cat!",
+        "text": "Chạm vào con mèo!",
+        "audio": {
+          "path": "questions/arch-eng-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 2000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text_en": "cat",
+          "text": "con mèo",
+          "image": { "path": "options/animal-cat.webp", "alt": "A cute cartoon cat" },
+          "audio": { "path": "options/eng-cat.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text_en": "dog",
+          "text": "con chó",
+          "image": { "path": "options/animal-dog.webp", "alt": "A cartoon dog" },
+          "audio": { "path": "options/eng-dog.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text_en": "fish",
+          "text": "con cá",
+          "image": { "path": "options/animal-fish.webp", "alt": "A cartoon fish" },
+          "audio": { "path": "options/eng-fish.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text_en": "bird",
+          "text": "con chim",
+          "image": { "path": "options/animal-bird.webp", "alt": "A cartoon bird" },
+          "audio": { "path": "options/eng-bird.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Great job! That's the cat!",
+          "text": "Đúng rồi! Đó là con mèo!",
+          "audio": { "path": "feedback/eng-correct-cat.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Touch the cat!",
+          "audio": { "path": "feedback/eng-retry.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 30
+      },
+      "tags": ["tieng-anh", "tu-vung", "dong-vat", "con-meo", "touch-and-say"]
+    },
+    {
+      "id": "ARCH-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 1,
+      "school": ["archimedes", "vinschool-cambridge"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text_en": "Which one is red?",
+        "text": "Cái nào màu đỏ?",
+        "audio": {
+          "path": "questions/arch-eng-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 2500
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text_en": "red",
+          "text": "đỏ",
+          "image": { "path": "options/color-circle-red.webp", "alt": "A big red circle" },
+          "audio": { "path": "options/eng-red.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text_en": "blue",
+          "text": "xanh dương",
+          "image": { "path": "options/color-circle-blue.webp", "alt": "A big blue circle" },
+          "audio": { "path": "options/eng-blue.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text_en": "yellow",
+          "text": "vàng",
+          "image": { "path": "options/color-circle-yellow.webp", "alt": "A big yellow circle" },
+          "audio": { "path": "options/eng-yellow.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text_en": "green",
+          "text": "xanh lá",
+          "image": { "path": "options/color-circle-green.webp", "alt": "A big green circle" },
+          "audio": { "path": "options/eng-green.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Yes! Red! Well done!",
+          "text": "Đúng rồi! Màu đỏ! Con giỏi lắm!",
+          "audio": { "path": "feedback/eng-correct-color.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Red — màu đỏ như quả táo nhé!",
+          "audio": { "path": "feedback/eng-retry-color.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 30
+      },
+      "tags": ["tieng-anh", "mau-sac", "red", "touch-and-say"]
+    },
+    {
+      "id": "ARCH-ENG-0003",
+      "type": "multiple-choice-image",
+      "skill": "english-vocabulary",
+      "difficulty": 2,
+      "school": ["archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text_en": "What is this?",
+        "text": "Đây là gì?",
+        "audio": {
+          "path": "questions/arch-eng-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 2000
+        },
+        "image": {
+          "path": "questions/arch-eng-0003-apple.webp",
+          "alt": "A bright red apple",
+          "width": 300,
+          "height": 300
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text_en": "apple",
+          "text": "quả táo",
+          "audio": { "path": "options/eng-apple.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text_en": "orange",
+          "text": "quả cam",
+          "audio": { "path": "options/eng-orange.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text_en": "banana",
+          "text": "quả chuối",
+          "audio": { "path": "options/eng-banana.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text_en": "mango",
+          "text": "quả xoài",
+          "audio": { "path": "options/eng-mango.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Correct! It's an apple!",
+          "text": "Đúng rồi! Đây là quả táo!",
+          "audio": { "path": "feedback/eng-correct-apple.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhìn màu đỏ đó — đây là quả gì trong tiếng Anh?",
+          "audio": { "path": "feedback/eng-retry-fruit.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 45
+      },
+      "tags": ["tieng-anh", "tu-vung", "trai-cay", "apple", "touch-and-say"]
+    },
+    {
+      "id": "ARCH-ENG-0004",
+      "type": "listen-choose",
+      "skill": "english-following-instructions",
+      "difficulty": 3,
+      "school": ["archimedes", "nguyen-sieu", "vinschool-cambridge"],
+      "source": {
+        "origin": "haysiri.com",
+        "url": "https://haysiri.com/reviews/hanh-trinh-cung-con-do-diem-cao-ca-bon-truong-top-hn",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text_en": "Point to the BIG one.",
+        "text": "Chỉ vào cái TO hơn.",
+        "audio": {
+          "path": "questions/arch-eng-0004-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 3000
+        }
+      },
+      "context_image": {
+        "path": "questions/arch-eng-0004-sizes.webp",
+        "alt": "Hai chiếc hộp quà: một hộp nhỏ màu xanh và một hộp lớn màu vàng",
+        "width": 480,
+        "height": 280
+      },
+      "options": [
+        {
+          "id": "A",
+          "text_en": "small box",
+          "text": "Hộp nhỏ",
+          "image": { "path": "options/arch-eng-0004-A-small.webp", "alt": "Chiếc hộp nhỏ màu xanh" },
+          "audio": { "path": "options/eng-small-box.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text_en": "big box",
+          "text": "Hộp lớn",
+          "image": { "path": "options/arch-eng-0004-B-big.webp", "alt": "Chiếc hộp lớn màu vàng" },
+          "audio": { "path": "options/eng-big-box.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "BIG = to lớn. Nhìn cái nào to hơn nhé!",
+        "audio": { "path": "hints/arch-eng-0004-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text_en": "Perfect! That's the BIG one! You followed the instruction!",
+          "text": "Chính xác! Đó là cái lớn! Con hiểu chỉ dẫn tiếng Anh rồi!",
+          "audio": { "path": "feedback/eng-instruction-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! BIG = to. Cái nào to hơn?",
+          "audio": { "path": "feedback/eng-instruction-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "auto_play_audio": true,
+        "shuffle_options": false,
+        "max_attempts": 3,
+        "time_limit_seconds": 30
+      },
+      "tags": ["tieng-anh", "chi-dan", "big-small", "following-instructions"]
+    },
+    {
+      "id": "ARCH-ENG-0005",
+      "type": "listen-choose",
+      "skill": "english-listening",
+      "difficulty": 3,
+      "school": ["archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "haysiri.com",
+        "url": "https://haysiri.com/reviews/review-thuc-te-thi-va-hoc-tai-tieu-hoc-archimedes",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text_en": "Listen to the story. Where is the dog?",
+        "text": "Nghe câu chuyện. Con chó ở đâu?",
+        "audio": {
+          "path": "questions/arch-eng-0005-story.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 18000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text_en": "under the table",
+          "text": "Dưới bàn",
+          "image": { "path": "options/arch-eng-0005-A-under-table.webp", "alt": "Con chó nằm dưới gầm bàn" },
+          "audio": { "path": "options/eng-under-table.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text_en": "in the garden",
+          "text": "Trong vườn",
+          "image": { "path": "options/arch-eng-0005-B-garden.webp", "alt": "Con chó chạy trong vườn" },
+          "audio": { "path": "options/eng-in-garden.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text_en": "on the bed",
+          "text": "Trên giường",
+          "image": { "path": "options/arch-eng-0005-C-on-bed.webp", "alt": "Con chó nằm trên giường" },
+          "audio": { "path": "options/eng-on-bed.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text_en": "near the door",
+          "text": "Gần cửa",
+          "image": { "path": "options/arch-eng-0005-D-door.webp", "alt": "Con chó ngồi gần cửa" },
+          "audio": { "path": "options/eng-near-door.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text_en": "Well done! The dog is in the garden!",
+          "text": "Đúng rồi! Con chó ở trong vườn!",
+          "audio": { "path": "feedback/eng-story-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nghe lại đoạn nói về con chó đi đâu nhé.",
+          "audio": { "path": "feedback/eng-story-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 120
+      },
+      "tags": ["tieng-anh", "nghe-hieu", "vi-tri", "khong-gian", "prepositions"]
+    }
+  ]
+}

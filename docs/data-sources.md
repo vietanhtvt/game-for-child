@@ -1,6 +1,6 @@
 # Nguồn Dữ Liệu Đề Thi Tiền Tiểu Học — Hà Nội
 
-_Cập nhật: 2026-04-21 (Crawl lần 2 — bổ sung Ngôi Sao, không gian, cảm xúc)_
+_Cập nhật: 2026-04-24 (Crawl lần 3 — bổ sung 26 câu mới, 5 kỹ năng còn thiếu, 7 nguồn mới)_
 
 Tài liệu này catalog toàn bộ các trang web, ứng dụng và cộng đồng có thể cung cấp câu hỏi, đề thi, bài tập tiền tiểu học phục vụ phát triển game. Mỗi nguồn được đánh giá theo: loại nội dung, khả năng truy cập, chất lượng dữ liệu và ưu tiên crawl.
 
@@ -238,6 +238,32 @@ Tier 4 — Manual:
   - Liên hệ trực tiếp các trung tâm luyện thi
 ```
 
+### 5.5 Nguồn mới phát hiện trong crawl 2026-04-24 (Lần 3)
+
+| Nguồn | URL | Ghi chú | Trạng thái |
+|---|---|---|---|
+| mathnasium.edu.vn | https://mathnasium.edu.vn/toan-tu-duy-tieu-hoc/tang-mien-phi-bo-cau-hoi-kiem-tra-nang-luc-toan-tu-duy-cho-hoc-sinh-lop-1-co-dap-an-bang-danh-gia-nang-luc/ | Bộ câu hỏi miễn phí kiểm tra năng lực Toán & tư duy lớp 1, có đáp án và bảng đánh giá | HTTP 403 |
+| tozytomo.com | https://tozytomo.com/tien-tieu-hoc-cho-be-thi-vao-lop-1-toan-tu-duy/ | 12 chủ điểm Toán tư duy tiền tiểu học — tài nguyên minh họa phong phú | HTTP 403 |
+| meviet.vn | https://meviet.vn/post/ung-dung-hoc-tap-cho-tre-em-20394.html | Review các ứng dụng học tập cho trẻ 2–10 tuổi, so sánh nhiều app | Khả dụng |
+| mytour.vn | https://mytour.vn/vi/blog/bai-viet/chao-mung-lop-1-chia-se-bai-kiem-tra-danh-gia-nang-luc-iq.html | Bài kiểm tra IQ cho trẻ chuẩn bị lớp 1: cấu trúc, ví dụ câu hỏi quan sát/logic | HTTP 403 |
+| situ.edu.vn (chi tiết) | https://situ.edu.vn/bo-de-thi-thu-dgnl-vao-lop-1-truong-tieu-hoc-archimedes-ngoi-sao-ha-noi-full-mon/ | Bộ đề Archimedes + Ngôi Sao full môn 2025/26 — PDF tải về có phí | HTTP 403 |
+| thao98review.com | https://thao98review.com/monkey-math-hoc-toan-theo-chuong-trinhgdpt-moi-cho-tre-mam-non-tieu-hoc.html | Review Monkey Math chi tiết — nội dung, giá, ưu nhược | Khả dụng |
+| cafef.vn (GV Anh) | https://cafef.vn/co-giao-tieng-anh-co-con-do-4-truong-tieu-hoc-chia-se-kinh-nghiem-giup-tre-on-thi-vao-lop-1-2021060211364126.chn | GV tiếng Anh chia sẻ chi tiết cấu trúc thi 4 trường top: Nguyễn Siêu, Archimedes, ĐTĐ, Vinschool | Khả dụng (search) |
+
+**Câu hỏi mới tạo trong crawl 2026-04-24 (26 câu — 5 kỹ năng mới):**
+
+| File | Set ID | Kỹ năng | Trường | Số câu |
+|---|---|---|---|---|
+| `nguyen-sieu/iq-memory.json` | nsps-iq-memory-v1 | iq-memory, iq-logic, iq-observation | nguyen-sieu | 6 |
+| `archimedes/english-vocab.json` | arch-english-vocab-v1 | english-vocabulary, english-listening, english-following-instructions | archimedes, nguyen-sieu, vinschool | 5 |
+| `doan-thi-diem/vietnamese-reading.json` | dtd-vietnamese-reading-v1 | syllable-blending, word-reading, reading-comprehension | doan-thi-diem | 5 |
+| `general/fine-motor.json` | gen-fine-motor-v1 | dot-connection, fine-motor | general | 5 |
+| `vinschool/math-comparison.json` | vin-math-comparison-v1 | addition, subtraction, number-comparison | vinschool | 5 |
+
+**Kỹ năng mới phủ sau crawl lần 3:** `subtraction`, `dot-connection`, `fine-motor`, `word-reading` (standalone)
+
+---
+
 ### 5.4 Nguồn mới phát hiện trong crawl 2026-04-21
 
 | Nguồn | URL | Ghi chú |
@@ -249,6 +275,45 @@ Tier 4 — Manual:
 | cafef.vn kinh nghiệm GV Anh | https://cafef.vn/co-giao-tieng-anh-co-con-do-4-truong-tieu-hoc-chia-se-kinh-nghiem-giup-tre-on-thi-vao-lop-1-2021060211364126.chn | GV tiếng Anh chia sẻ kinh nghiệm ôn thi — con đỗ Nguyễn Siêu, Archimedes, Đoàn Thị Điểm, Vinschool |
 | dantri.com.vn tuyển sinh 2025-2026 | https://dantri.com.vn/giao-duc/loat-truong-tu-tuyen-sinh-lop-1-nam-hoc-2025-2026-20241119114433078.htm | Tổng hợp lịch tuyển sinh các trường tư năm học 2025-2026 |
 | mathx.vn Ngôi Sao khối 1 | https://mathx.vn/tai-lieu/bo-tai-lieu-tham-khao-ky-thi-hoc-bong-ngoi-sao-ha-noi-khoi-1.html | Bộ tài liệu tham khảo kỳ thi học bổng Ngôi Sao Hà Nội — HTTP 403 |
+
+---
+
+## 6b. Trạng Thái Toàn Bộ Câu Hỏi (Cập nhật 2026-04-24)
+
+| Kỹ năng | Số câu | Trường phủ | Ghi chú |
+|---|---|---|---|
+| pattern-recognition | 6+ | archimedes, ngoi-sao, doan-thi-diem | ✅ Đủ |
+| counting | 6+ | ngoi-sao, doan-thi-diem, archimedes | ✅ Đủ |
+| letter-recognition | 5+ | general, ngoi-sao | ✅ Đủ |
+| spatial-orientation | 5+ | archimedes, general | ✅ Đủ |
+| iq-observation | 4+ | doan-thi-diem, nguyen-sieu | ✅ Đủ |
+| iq-memory | 6+ | nguyen-sieu, doan-thi-diem | ✅ Đủ (bổ sung lần 3) |
+| iq-logic | 3+ | nguyen-sieu, doan-thi-diem | ✅ Đủ (bổ sung lần 3) |
+| storytelling | 3+ | nguyen-sieu, doan-thi-diem | ✅ Đủ |
+| emotion-recognition | 3+ | general, nguyen-sieu | ✅ Đủ |
+| syllable-blending | 5+ | general, ngoi-sao, doan-thi-diem | ✅ Đủ (mở rộng lần 3) |
+| reading-comprehension | 4+ | general, ngoi-sao, doan-thi-diem | ✅ Đủ |
+| word-reading | 2 | doan-thi-diem | 🟡 Cần thêm |
+| english-vocabulary | 4+ | archimedes, vinschool | ✅ Đủ (bổ sung lần 3) |
+| english-listening | 2+ | archimedes, vinschool | 🟡 Cần thêm |
+| english-following-instructions | 2+ | archimedes, vinschool | 🟡 Cần thêm |
+| addition | 3+ | vinschool, ngoi-sao | ✅ Đủ (bổ sung lần 3) |
+| subtraction | 2 | vinschool | 🟡 Cần thêm |
+| number-comparison | 4+ | archimedes, ngoi-sao, vinschool | ✅ Đủ |
+| geometry | 3+ | ngoi-sao, archimedes | ✅ Đủ |
+| dot-connection | 3 | general | 🟡 Cần thêm |
+| fine-motor | 2 | general | 🟡 Cần thêm |
+| social-skills | 0 | — | ❌ Chưa có |
+
+**Tổng: 77 câu / 21 kỹ năng / 13 loại tương tác**
+
+**Ưu tiên crawl tiếp theo:**
+1. `social-skills` — kỹ năng xã hội (chờ đến lượt, hợp tác nhóm) — 0 câu
+2. `subtraction` — mở rộng lên 5+ câu (Vinschool, Archimedes)
+3. `english-listening` — nghe câu chuyện ngắn bằng tiếng Anh
+4. Nguồn thực: Playwright crawl VnDoc + khotientieuhoc + bevaolop1 PDF
+
+---
 
 ### 5.3 Đạo đức & Pháp lý
 - Chỉ sử dụng nội dung đã được chia sẻ công khai
@@ -272,3 +337,147 @@ Tier 4 — Manual:
 | Nghe và chọn (Tiếng Anh) | Archimedes English mock | 2 |
 | Nhận diện chữ cái | VMonkey, vndoc Tiếng Việt | 1 |
 | So sánh số lượng | khotientieuhoc, giaovienvietnam | 1 |
+
+---
+
+## 7. Thiết Kế Hình Thức Lưu Trữ Dữ Liệu
+
+### 7.1 Nguyên tắc cốt lõi
+
+Hệ thống lưu trữ phải đáp ứng 3 yêu cầu đồng thời:
+1. **Dễ truy xuất** — filter nhanh theo trường/kỹ năng/độ khó khi game cần load câu hỏi
+2. **Hỗ trợ đa phương tiện** — text, hình ảnh (.webp/.png/.svg), âm thanh (.mp3/.ogg)
+3. **Dễ mở rộng** — thêm câu hỏi, trường, kỹ năng mới mà không phá vỡ cấu trúc
+
+### 7.2 Cấu Trúc Thư Mục
+
+```
+data/
+├── schema/
+│   ├── question.schema.json        # JSON Schema v7 — validate từng câu hỏi
+│   └── question-set.schema.json    # Validate tập câu hỏi
+│
+├── questions/                      # Câu hỏi phân theo trường
+│   ├── archimedes/
+│   │   ├── math-pattern.json       # set_id: arch-math-pattern-v1
+│   │   ├── spatial-number.json
+│   │   └── english-vocab.json      # (mới — lần 3)
+│   ├── nguyen-sieu/
+│   │   ├── storytelling.json
+│   │   └── iq-memory.json          # (mới — lần 3)
+│   ├── doan-thi-diem/
+│   │   ├── iq-observation.json
+│   │   ├── math-counting.json
+│   │   └── vietnamese-reading.json # (mới — lần 3)
+│   ├── ngoi-sao/
+│   │   ├── math-counting.json
+│   │   └── vietnamese-letters.json
+│   ├── vinschool/
+│   │   ├── english-listening.json
+│   │   └── math-comparison.json    # (mới — lần 3)
+│   └── general/
+│       ├── vietnamese-letters.json
+│       ├── spatial-emotion.json
+│       └── fine-motor.json         # (mới — lần 3)
+│
+├── index/                          # Index tự động sinh — KHÔNG sửa tay
+│   ├── by-skill.json               # skill → [id, id, ...]
+│   ├── by-school.json              # school → [id, id, ...]
+│   ├── by-difficulty.json          # "1"/"2"/"3"/"4" → [id, id, ...]
+│   └── by-question-type.json       # type → [id, id, ...]
+│
+└── assets/                         # Tài nguyên media (TBD — chưa tạo)
+    ├── images/
+    │   ├── questions/              # Hình ảnh đề bài (stem + context)
+    │   ├── options/                # Hình ảnh lựa chọn
+    │   └── feedback/               # Hình ảnh phản hồi
+    └── audio/
+        ├── questions/              # Âm thanh đề bài
+        ├── options/                # Âm thanh lựa chọn
+        ├── feedback/               # Âm thanh phản hồi
+        └── background/             # Nhạc nền
+```
+
+### 7.3 Quy Ước Đặt Tên File
+
+| Loại file | Quy ước | Ví dụ |
+|---|---|---|
+| Question set JSON | `{school}/{skill-group}.json` | `archimedes/math-pattern.json` |
+| Hình ảnh đề bài | `questions/{id-lowercase}.webp` | `questions/arch-patt-0001.webp` |
+| Hình ảnh lựa chọn | `options/{id-lowercase}-{optionId}.webp` | `options/arch-patt-0001-A.webp` |
+| Audio tiếng Việt | `questions/{id-lowercase}-stem.mp3` | `questions/arch-patt-0001-stem.mp3` |
+| Audio tiếng Anh | `questions/{id-lowercase}-en.mp3` | `questions/arch-eng-0001-stem.mp3` |
+
+**Định dạng ưu tiên:**
+- Hình: **WebP** (nén tốt, hỗ trợ rộng) — fallback PNG cho SVG animation
+- Audio: **MP3 128kbps** (tương thích cao) — OGG cho web nếu cần; WAV cho production master
+- Kích thước hình: tối đa 800×600px cho câu hỏi, 200×200px cho lựa chọn
+
+### 7.4 Schema Câu Hỏi — Thiết Kế Để Hỗ Trợ Đa Phương Tiện
+
+Mỗi câu hỏi (`question.schema.json`) có 3 lớp hỗ trợ media:
+
+```json
+{
+  "stem": {                          // Đề bài
+    "text": "...",                   // Text UTF-8 đầy đủ dấu
+    "audio": { "path": "...", "locale": "vi-VN" },
+    "image": { "path": "...", "alt": "..." }
+  },
+  "options": [{                      // Lựa chọn
+    "id": "A",
+    "text": "...",
+    "image": { "path": "..." },
+    "audio": { "path": "..." }
+  }],
+  "feedback": {
+    "correct":   { "text": "...", "audio": {...} },
+    "incorrect": { "text": "...", "audio": {...} },
+    "explanation": { "text": "...", "image": {...} }
+  }
+}
+```
+
+### 7.5 Hệ Thống Index — Truy Xuất Nhanh Cho Game
+
+Index được tự động sinh từ toàn bộ câu hỏi và lưu trong `data/index/`:
+
+```json
+// by-skill.json — load câu hỏi theo kỹ năng game cần hiện
+{
+  "pattern-recognition": ["ARCH-PATT-0001", "ARCH-PATT-0002", ...],
+  "counting":            ["DTD-COUNT-0001", "NGS-COUNT-0001", ...],
+  "iq-memory":           ["NSPS-MEM-0001", "NSPS-MEM-0002", ...]
+}
+
+// by-difficulty.json — load theo độ tuổi trẻ
+{
+  "1": [...],  // 3 tuổi
+  "2": [...],  // 4 tuổi
+  "3": [...],  // 5 tuổi
+  "4": [...]   // 6 tuổi — chuẩn bị lớp 1
+}
+```
+
+**Game flow khi load câu hỏi:**
+1. Lấy kỹ năng cần luyện (`skill`) + độ tuổi trẻ (`difficulty`) từ profile user
+2. Tra `by-skill.json` → danh sách ID
+3. Filter theo `by-difficulty.json` → danh sách ID phù hợp độ tuổi
+4. Shuffle → load từng JSON file câu hỏi theo ID
+5. Stream audio/image theo `path` trong metadata
+
+### 7.6 Chiến Lược Mở Rộng Hỗ Trợ Hình Ảnh & Âm Thanh Thực
+
+Giai đoạn hiện tại các `path` trong JSON là placeholder (chưa có file thực). Roadmap:
+
+| Giai đoạn | Hành động | Công cụ |
+|---|---|---|
+| MVP (hiện tại) | JSON câu hỏi đầy đủ, path placeholder | ✅ Hoàn thành |
+| Alpha | Tạo hình minh họa đơn giản bằng SVG/vector | Figma, Canva, DALL·E |
+| Beta | Thu âm giọng cô giáo chuẩn Bắc — TTS tạm thời | Google Cloud TTS `vi-VN-Standard-A` |
+| Release | Hình vẽ tay phong cách truyện tranh VN, giọng đọc bản ngữ | Thuê họa sĩ + diễn viên lồng tiếng |
+| Post-release | Audio tiếng Anh bản ngữ (native speaker) | Bunny Studio hoặc Voices.com |
+
+**Gợi ý TTS tạm thời để test:**
+- Tiếng Việt: `vi-VN-Wavenet-A` (Google Cloud) hoặc FPT.AI TTS
+- Tiếng Anh: `en-US-Neural2-F` (Google Cloud) hoặc ElevenLabs

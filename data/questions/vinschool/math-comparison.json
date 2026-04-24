@@ -1,0 +1,343 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-math-comparison-v1",
+  "title": "Toán — Cộng, Trừ & So Sánh Số Lượng (Vinschool / Chung)",
+  "description": "Bài tập toán: cộng trừ trong phạm vi 10, so sánh số lượng bằng hình ảnh trực quan. Theo chuẩn đề thi Vinschool và chương trình tiền tiểu học — trẻ 5-6 tuổi cần hiểu khái niệm 'thêm vào', 'bớt đi', 'nhiều hơn', 'ít hơn' qua vật thể cụ thể.",
+  "school": "vinschool",
+  "skill": "addition",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "VIN-ADD-0001",
+      "type": "fill-blank",
+      "skill": "addition",
+      "difficulty": 3,
+      "school": ["vinschool", "ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hộp A có 2 quả táo, hộp B có 3 quả cam. Cộng lại được mấy quả?",
+        "audio": {
+          "path": "questions/vin-add-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 6000
+        },
+        "image": {
+          "path": "questions/vin-add-0001-boxes.webp",
+          "alt": "Hộp A có 2 quả táo đỏ, hộp B có 3 quả cam vàng, dấu cộng ở giữa và chỗ trống để điền tổng",
+          "width": 480,
+          "height": 280
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "4",
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "5",
+          "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "6",
+          "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "3",
+          "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Đếm tất cả nhé: 1, 2... rồi tiếp: 3, 4, 5!",
+        "audio": { "path": "hints/vin-add-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 2 + 3 = 5. Con tính giỏi lắm!",
+          "audio": { "path": "feedback/addition-5-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Đếm táo: 1, 2. Đếm cam: 3, 4, 5. Tất cả là mấy?",
+          "audio": { "path": "feedback/addition-5-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["toan", "cong", "2+3=5", "hoa-qua", "dem-so"]
+    },
+    {
+      "id": "VIN-ADD-0002",
+      "type": "counting",
+      "skill": "addition",
+      "difficulty": 3,
+      "school": ["vinschool", "doan-thi-diem", "general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Trên cây có 3 con chim. Bay thêm 4 con nữa đến. Bây giờ có tất cả mấy con chim?",
+        "audio": {
+          "path": "questions/vin-add-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 8000
+        },
+        "image": {
+          "path": "questions/vin-add-0002-birds.webp",
+          "alt": "Cây có 3 con chim đang đậu, và 4 con chim đang bay đến",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "6",
+          "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "7",
+          "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "8",
+          "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "5",
+          "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 3 + 4 = 7 con chim. Con tính đúng rồi!",
+          "audio": { "path": "feedback/addition-7-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Đếm chim trên cây trước: 1, 2, 3. Rồi đếm thêm chim bay đến nhé!",
+          "audio": { "path": "feedback/addition-7-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 90
+      },
+      "tags": ["toan", "cong", "3+4=7", "con-chim", "dem-so"]
+    },
+    {
+      "id": "VIN-SUB-0001",
+      "type": "fill-blank",
+      "skill": "subtraction",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Có 6 quả bóng. Bạn nhỏ lấy đi 2 quả. Còn lại mấy quả bóng?",
+        "audio": {
+          "path": "questions/vin-sub-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 7000
+        },
+        "image": {
+          "path": "questions/vin-sub-0001-balls.webp",
+          "alt": "6 quả bóng xếp hàng, 2 quả bị gạch chéo (bị lấy đi), 4 quả còn lại",
+          "width": 480,
+          "height": 200
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "3",
+          "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "4",
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "5",
+          "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "2",
+          "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Đếm những quả bóng không bị gạch chéo — đó là số còn lại!",
+        "audio": { "path": "hints/vin-sub-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 6 - 2 = 4 quả bóng. Con tính trừ rất giỏi!",
+          "audio": { "path": "feedback/subtraction-4-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Ban đầu có 6 quả, lấy đi 2. Còn lại đếm xem: 1, 2, 3, 4!",
+          "audio": { "path": "feedback/subtraction-4-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["toan", "tru", "6-2=4", "qua-bong", "dem-so"]
+    },
+    {
+      "id": "VIN-SUB-0002",
+      "type": "multiple-choice",
+      "skill": "subtraction",
+      "difficulty": 4,
+      "school": ["vinschool", "vinschool-cambridge"],
+      "source": {
+        "origin": "lamchame.com",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text": "Rổ có 8 quả trứng. Mẹ lấy 3 quả để nấu ăn. Còn lại mấy quả trong rổ?",
+        "audio": {
+          "path": "questions/vin-sub-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 8000
+        },
+        "image": {
+          "path": "questions/vin-sub-0002-eggs.webp",
+          "alt": "Rổ đan có 8 quả trứng, mũi tên chỉ 3 quả bị lấy ra, hỏi còn lại mấy quả",
+          "width": 480,
+          "height": 320
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "4 quả",
+          "audio": { "path": "options/number-4-qua.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "5 quả",
+          "audio": { "path": "options/number-5-qua.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "6 quả",
+          "audio": { "path": "options/number-6-qua.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "3 quả",
+          "audio": { "path": "options/number-3-qua.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 8 - 3 = 5 quả trứng còn lại. Con giỏi lắm!",
+          "audio": { "path": "feedback/subtraction-5-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! 8 quả trứng, lấy đi 3 quả. Đếm số còn lại xem!",
+          "audio": { "path": "feedback/subtraction-5-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 90
+      },
+      "tags": ["toan", "tru", "8-3=5", "qua-trung", "loi-van"]
+    },
+    {
+      "id": "VIN-COMP-0001",
+      "type": "matching",
+      "skill": "number-comparison",
+      "difficulty": 2,
+      "school": ["vinschool", "general", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối mỗi số với nhóm đồ vật có cùng số lượng!",
+        "audio": {
+          "path": "questions/vin-comp-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 5000
+        },
+        "image": {
+          "path": "questions/vin-comp-0001-matching.webp",
+          "alt": "Cột trái: số 3, số 5, số 4. Cột phải: 5 ngôi sao, 3 trái tim, 4 vòng tròn — cần nối đúng cặp",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "options": [
+        { "id": "A", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": { "A": "trai-tim", "B": "ngoi-sao", "C": "vong-tron" },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con nối số với số lượng đồ vật rất chính xác!",
+          "audio": { "path": "feedback/matching-numbers-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Đếm từng nhóm rồi nối với số tương ứng nhé!",
+          "audio": { "path": "feedback/matching-numbers-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "auto_play_audio": true,
+        "shuffle_options": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 90
+      },
+      "tags": ["toan", "so-luong", "noi-hinh", "so-va-vat", "so-sanh"]
+    }
+  ]
+}

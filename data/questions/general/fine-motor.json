@@ -1,0 +1,242 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-fine-motor-v1",
+  "title": "Vận Động Tinh — Nối Chấm & Tô Nét (Chung Nhiều Trường)",
+  "description": "Bài tập vận động tinh: nối các chấm theo thứ tự số để tạo hình, tô theo đường đứt nét. Kỹ năng cầm bút và kiểm soát nét vẽ ảnh hưởng trực tiếp đến khả năng viết chữ lớp 1. Xuất hiện trong đề thi Đoàn Thị Điểm và bài tập tiền tiểu học của khotientieuhoc.com, lienviet.edu.vn.",
+  "school": "general",
+  "skill": "dot-connection",
+  "difficulty_range": [1, 2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "GEN-FINE-0001",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự 1, 2, 3, 4, 5 để tạo thành hình ngôi nhà!",
+        "audio": {
+          "path": "questions/gen-fine-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 5000
+        },
+        "image": {
+          "path": "questions/gen-fine-0001-house-dots.webp",
+          "alt": "5 chấm đánh số 1-5 tạo thành hình ngôi nhà đơn giản khi nối lại",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5"],
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Con đã vẽ được ngôi nhà! Tay con khéo lắm!",
+          "audio": { "path": "feedback/fine-motor-house-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Bắt đầu từ số 1, rồi đến số 2, 3, 4, 5 nhé!",
+          "audio": { "path": "feedback/fine-motor-house-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "shuffle_options": false,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "ngoi-nha", "so-thu-tu", "cam-but"]
+    },
+    {
+      "id": "GEN-FINE-0002",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 2,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "khotientieuhoc.com",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối các chấm 1 đến 10 để thấy con vật ẩn bên trong!",
+        "audio": {
+          "path": "questions/gen-fine-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 5500
+        },
+        "image": {
+          "path": "questions/gen-fine-0002-fish-dots.webp",
+          "alt": "10 chấm đánh số 1-10 bố trí theo dạng con cá khi nối lại",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Đó là con cá! Con nối rất đúng và đẹp!",
+          "audio": { "path": "feedback/fine-motor-fish-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhớ đếm từ 1 đến 10 và nối theo thứ tự nhé!",
+          "audio": { "path": "feedback/fine-motor-fish-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "shuffle_options": false,
+        "max_attempts": 3,
+        "time_limit_seconds": 180
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "con-ca", "dem-1-10", "cam-but"]
+    },
+    {
+      "id": "GEN-FINE-0003",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu quả táo cho đúng màu mẫu ở góc trái!",
+        "audio": {
+          "path": "questions/gen-fine-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 4500
+        },
+        "image": {
+          "path": "questions/gen-fine-0003-apple-outline.webp",
+          "alt": "Hình quả táo trắng cần tô màu đỏ (có mẫu màu đỏ ở góc trái)",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": "red",
+      "feedback": {
+        "correct": {
+          "text": "Đẹp lắm! Con tô màu rất khéo — quả táo đỏ tươi!",
+          "audio": { "path": "feedback/coloring-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhìn màu mẫu — đó là màu đỏ, hãy tô màu đó nhé!",
+          "audio": { "path": "feedback/coloring-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "shuffle_options": false,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["van-dong-tinh", "to-mau", "qua-tao", "mau-do", "cam-but"]
+    },
+    {
+      "id": "GEN-FINE-0004",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-24",
+        "verified": true
+      },
+      "stem": {
+        "text": "Vẽ theo đường đứt nét từ trái sang phải — đừng ra ngoài đường!",
+        "audio": {
+          "path": "questions/gen-fine-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 6000
+        },
+        "image": {
+          "path": "questions/gen-fine-0004-trace-line.webp",
+          "alt": "Đường đứt nét ngoằn ngoèo từ con bướm (trái) đến bông hoa (phải), trẻ cần tô theo đường",
+          "width": 600,
+          "height": 200
+        }
+      },
+      "answer": "traced",
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Con vẽ theo nét rất cẩn thận. Bàn tay con khéo léo lắm!",
+          "audio": { "path": "feedback/trace-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Cầm bút thật nhẹ nhàng và đi theo đường đứt nét nhé!",
+          "audio": { "path": "feedback/trace-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "shuffle_options": false,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["van-dong-tinh", "to-net", "duong-nut", "cam-but", "chuan-bi-viet"]
+    },
+    {
+      "id": "GEN-FINE-0005",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 2,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "lienviet.edu.vn",
+        "crawled_at": "2026-04-24",
+        "verified": false
+      },
+      "stem": {
+        "text": "Giúp con thỏ đi qua mê cung — nối đường từ đầu đến cuối không ra ngoài!",
+        "audio": {
+          "path": "questions/gen-fine-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 5500
+        },
+        "image": {
+          "path": "questions/gen-fine-0005-maze.webp",
+          "alt": "Mê cung đơn giản 3x3: con thỏ ở góc trên trái cần đến cà rốt ở góc dưới phải",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": "completed",
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! Con thỏ đã tìm được cà rốt rồi!",
+          "audio": { "path": "feedback/maze-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Ôi! Con thỏ đi vào ngõ cụt rồi! Thử đường khác nhé!",
+          "audio": { "path": "feedback/maze-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "shuffle_options": false,
+        "max_attempts": 3,
+        "time_limit_seconds": 180
+      },
+      "tags": ["van-dong-tinh", "me-cung", "con-tho", "duong-di", "cam-but"]
+    }
+  ]
+}
