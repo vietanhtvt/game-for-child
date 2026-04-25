@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo độ khó (1=3 tuổi, 2=4 tuổi, 3=5 tuổi, 4=6 tuổi/chuẩn bị vào lớp 1).",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-25",
   "1": {
     "label": "Mức 1 — 3 tuổi",
     "description": "Nhận biết đơn giản: hình dạng, màu sắc cơ bản, chữ cái đơn, số 1-5, cảm xúc cơ bản",
@@ -8,7 +8,9 @@
       { "id": "GEN-LETT-0001", "skill": "letter-recognition", "file": "questions/general/vietnamese-letters.json" },
       { "id": "NGS-COUNT-0001", "skill": "counting", "file": "questions/ngoi-sao/math-counting.json" },
       { "id": "GEN-SPAT-0001", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0003", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0003", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-FINE-0001", "skill": "dot-connection", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0006", "skill": "fine-motor", "file": "questions/general/fine-motor.json" }
     ]
   },
   "2": {
@@ -29,7 +31,12 @@
       { "id": "ARCH-SPAT-0001", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-SPAT-0002", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
       { "id": "GEN-SPAT-0002", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0002", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0002", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" },
+      { "id": "ARCH-LETT-0001", "skill": "letter-recognition", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-LETT-0002", "skill": "letter-recognition", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "GEN-FINE-0002", "skill": "dot-connection", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0003", "skill": "dot-connection", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0007", "skill": "fine-motor", "file": "questions/general/fine-motor.json" }
     ]
   },
   "3": {
@@ -55,7 +62,14 @@
       { "id": "NGS-READ-0001", "skill": "reading-comprehension", "file": "questions/ngoi-sao/vietnamese-letters.json" },
       { "id": "ARCH-NUM-0001", "skill": "addition", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-NUM-0002", "skill": "number-comparison", "file": "questions/archimedes/spatial-number.json" },
-      { "id": "GEN-SPAT-0003", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-SPAT-0003", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
+      { "id": "ARCH-LETT-0003", "skill": "letter-recognition", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-TONE-0001", "skill": "syllable-blending", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-SYLL-0001", "skill": "syllable-blending", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-SYLL-0002", "skill": "syllable-blending", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-SYLL-0004", "skill": "syllable-blending", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "GEN-FINE-0004", "skill": "dot-connection", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0008", "skill": "fine-motor", "file": "questions/general/fine-motor.json" }
     ]
   },
   "4": {
@@ -73,7 +87,11 @@
       { "id": "GEN-READ-0001", "skill": "reading-comprehension", "file": "questions/general/vietnamese-letters.json" },
       { "id": "VIN-ENG-0004", "skill": "english-following-instructions", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0005", "skill": "english-vocabulary", "file": "questions/vinschool/english-listening.json" },
-      { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" }
+      { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-SYLL-0003", "skill": "syllable-blending", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-READ-0001", "skill": "reading-comprehension", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-READ-0002", "skill": "reading-comprehension", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "GEN-FINE-0005", "skill": "dot-connection", "file": "questions/general/fine-motor.json" }
     ]
   }
 }

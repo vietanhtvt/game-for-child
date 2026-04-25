@@ -1,0 +1,543 @@
+{
+  "version": "1.0.0",
+  "set_id": "arch-viet-phonics-v1",
+  "title": "Tiếng Việt — Nhận Chữ & Ghép Vần (Archimedes / LET'S START)",
+  "description": "Bài tập Tiếng Việt dành cho kỳ thi tuyển sinh lớp 1 trường Archimedes (LET'S START 2025/2026). Bám sát cấu trúc đề thi thực tế: nhận diện chữ cái in hoa/thường, phân biệt dấu thanh, ghép âm tiết đơn giản, và hiểu câu ngắn (GV đọc). Nguồn: vndoc.com (đề thi thử), haysiri.com (review thực tế), aschool.edu.vn (LET'S START).",
+  "school": "archimedes",
+  "skill": "letter-recognition",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ARCH-LETT-0001",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/de-thi-thu-mon-tieng-viet-lop-1-truong-archimedes-school-co-dap-an-167682",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hãy chọn CHỮ A trong các hình dưới đây.",
+        "audio": {
+          "path": "questions/arch-lett-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-lett-0001-A-letter-A.webp", "alt": "Chữ A in hoa màu xanh" },
+          "audio": { "path": "options/letter-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-lett-0001-B-letter-H.webp", "alt": "Chữ H in hoa màu đỏ" },
+          "audio": { "path": "options/letter-H.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-lett-0001-C-number-4.webp", "alt": "Số 4 màu xanh lá" },
+          "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-lett-0001-D-letter-M.webp", "alt": "Chữ M in hoa màu cam" },
+          "audio": { "path": "options/letter-M.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Đây là chữ A. A — áo!",
+          "audio": { "path": "feedback/letter-A-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Chữ A có hai chân và một nét ngang ở giữa.",
+          "audio": { "path": "feedback/letter-A-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "A", "nhan-dang", "in-hoa"]
+    },
+    {
+      "id": "ARCH-LETT-0002",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chữ nào là chữ b in thường?",
+        "audio": {
+          "path": "questions/arch-lett-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-lett-0002-A-letter-d.webp", "alt": "Chữ d in thường" },
+          "audio": { "path": "options/letter-d.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-lett-0002-B-letter-b.webp", "alt": "Chữ b in thường" },
+          "audio": { "path": "options/letter-b.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-lett-0002-C-letter-p.webp", "alt": "Chữ p in thường" },
+          "audio": { "path": "options/letter-p.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-lett-0002-D-letter-q.webp", "alt": "Chữ q in thường" },
+          "audio": { "path": "options/letter-q.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Chữ b có thân đứng bên TRÁI và bụng tròn bên PHẢI.",
+        "audio": { "path": "questions/arch-lett-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Giỏi quá! Đây là chữ b — bàn!",
+          "audio": { "path": "feedback/letter-b-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chữ b và chữ d dễ nhầm nhau — thân đứng ở bên nào?",
+          "audio": { "path": "feedback/letter-b-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "b", "in-thuong", "nhan-dang"]
+    },
+    {
+      "id": "ARCH-LETT-0003",
+      "type": "matching",
+      "skill": "letter-recognition",
+      "difficulty": 3,
+      "school": ["archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối chữ in HOA với chữ in thường tương ứng.",
+        "audio": {
+          "path": "questions/arch-lett-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "left-A", "text": "A", "audio": { "path": "options/letter-A.mp3", "locale": "vi-VN" } },
+        { "id": "left-B", "text": "B", "audio": { "path": "options/letter-B.mp3", "locale": "vi-VN" } },
+        { "id": "left-C", "text": "M", "audio": { "path": "options/letter-M.mp3", "locale": "vi-VN" } },
+        { "id": "right-1", "text": "m", "audio": { "path": "options/letter-m.mp3", "locale": "vi-VN" } },
+        { "id": "right-2", "text": "a", "audio": { "path": "options/letter-a.mp3", "locale": "vi-VN" } },
+        { "id": "right-3", "text": "b", "audio": { "path": "options/letter-b.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": {
+        "left-A": "right-2",
+        "left-B": "right-3",
+        "left-C": "right-1"
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Con đã nối đúng hết chữ hoa với chữ thường rồi!",
+          "audio": { "path": "feedback/letter-match-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! A in hoa và a in thường có cùng dạng không?",
+          "audio": { "path": "feedback/letter-match-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "in-hoa", "in-thuong", "noi-doi"]
+    },
+    {
+      "id": "ARCH-TONE-0001",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chữ nào có dấu SẮC (´)?",
+        "audio": {
+          "path": "questions/arch-tone-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "bà", "audio": { "path": "options/word-ba-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "bá", "audio": { "path": "options/word-ba-sac.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "ba", "audio": { "path": "options/word-ba-ngang.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "bả", "audio": { "path": "options/word-ba-hoi.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 'bá' có dấu sắc — nét đi lên từ trái sang phải.",
+          "audio": { "path": "feedback/tone-sac-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Dấu sắc trông như thế này: ´ (nét nghiêng lên phải).",
+          "audio": { "path": "feedback/tone-sac-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dau-thanh", "dau-sac", "thanh-dieu", "tieng-viet"]
+    },
+    {
+      "id": "ARCH-SYLL-0001",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Ghép chữ B + A + dấu sắc = ?",
+        "audio": {
+          "path": "questions/arch-syll-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-syll-0001-blend.webp",
+          "alt": "Hình ảnh ba thẻ: thẻ chữ B + thẻ nguyên âm A + thẻ dấu sắc ´ → ô trống cần điền",
+          "width": 500,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "A", "text": "bà", "audio": { "path": "options/word-ba-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "ba", "audio": { "path": "options/word-ba-ngang.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "bá", "audio": { "path": "options/word-ba-sac.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "bạ", "audio": { "path": "options/word-ba-nang.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "hint": {
+        "text": "Âm B + âm A = BA, thêm dấu sắc thì đọc là...",
+        "audio": { "path": "questions/arch-syll-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! B + A + dấu sắc = BÁ. Con ghép vần thật giỏi!",
+          "audio": { "path": "feedback/syllable-ba-sac-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Dấu sắc ´ làm giọng lên cao hơn.",
+          "audio": { "path": "feedback/syllable-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "B", "A", "dau-sac", "am-tiet"]
+    },
+    {
+      "id": "ARCH-SYLL-0002",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Ghép C + A + dấu sắc = ?",
+        "audio": {
+          "path": "questions/arch-syll-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-syll-0002-blend-ca.webp",
+          "alt": "Thẻ C + thẻ A + dấu sắc → ô trống, và hình minh họa con cá bên cạnh gợi ý",
+          "width": 560,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "ca", "audio": { "path": "options/word-ca-ngang.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "cá", "audio": { "path": "options/word-ca-sac.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "cà", "audio": { "path": "options/word-ca-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "cạ", "audio": { "path": "options/word-ca-nang.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! C + A + dấu sắc = CÁ. Con cá, con cá!",
+          "audio": { "path": "feedback/syllable-ca-sac-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn hình con cá gợi ý nhé! Tên con cá đọc thế nào?",
+          "audio": { "path": "feedback/syllable-ca-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "C", "A", "dau-sac", "con-ca"]
+    },
+    {
+      "id": "ARCH-SYLL-0003",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 4,
+      "school": ["archimedes", "doan-thi-diem", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điền âm tiết còn thiếu: C_A = COA? Chọn nguyên âm đúng để ghép thành từ chỉ con vật bay.",
+        "audio": {
+          "path": "questions/arch-syll-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-syll-0003-missing-vowel.webp",
+          "alt": "Ô chứa chữ C và A với ô giữa để trống, bên cạnh là hình con cò",
+          "width": 500,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Ô (cô)", "audio": { "path": "options/vowel-o-hat.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "Ờ (cờ)", "audio": { "path": "options/vowel-o-horn.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Ò (cò)", "audio": { "path": "options/word-co-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "I (ci)", "audio": { "path": "options/vowel-i.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! C + Ò = CÒ — con cò trắng!",
+          "audio": { "path": "feedback/syllable-co-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn hình gợi ý nhé! Con vật bay này là con gì?",
+          "audio": { "path": "feedback/syllable-co-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "nguyen-am", "dien-cho-trong", "con-co"]
+    },
+    {
+      "id": "ARCH-READ-0001",
+      "type": "listen-choose",
+      "skill": "reading-comprehension",
+      "difficulty": 4,
+      "school": ["archimedes"],
+      "source": {
+        "origin": "haysiri.com",
+        "url": "https://haysiri.com/reviews/review-thuc-te-thi-va-hoc-tai-tieu-hoc-archimedes",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nghe và chọn hình đúng: Con mèo đang ngồi trên ghế.",
+        "audio": {
+          "path": "questions/arch-read-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 4000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-read-0001-A-cat-chair.webp", "alt": "Con mèo đang ngồi trên ghế" },
+          "audio": { "path": "options/arch-read-0001-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-read-0001-B-cat-floor.webp", "alt": "Con mèo đang nằm trên sàn" },
+          "audio": { "path": "options/arch-read-0001-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-read-0001-C-dog-chair.webp", "alt": "Con chó đang ngồi trên ghế" },
+          "audio": { "path": "options/arch-read-0001-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-read-0001-D-cat-table.webp", "alt": "Con mèo đang ngồi trên bàn" },
+          "audio": { "path": "options/arch-read-0001-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con mèo ngồi trên ghế — con nghe thật tinh!",
+          "audio": { "path": "feedback/listen-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại nào! Con mèo ngồi ở đâu?",
+          "audio": { "path": "feedback/listen-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 2
+      },
+      "tags": ["nghe-hieu", "con-meo", "khong-gian", "tren-duoi"]
+    },
+    {
+      "id": "ARCH-READ-0002",
+      "type": "multiple-choice",
+      "skill": "reading-comprehension",
+      "difficulty": 4,
+      "school": ["archimedes"],
+      "source": {
+        "origin": "haysiri.com",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "GV đọc: 'Bạn Lan có 3 quả bóng. Bạn Nam tặng thêm 2 quả. Hỏi bạn Lan có tất cả mấy quả bóng?' Chọn đáp án đúng.",
+        "audio": {
+          "path": "questions/arch-read-0002-story-math.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 8000
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4 quả", "audio": { "path": "options/number-4-qua.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5 quả", "audio": { "path": "options/number-5-qua.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6 quả", "audio": { "path": "options/number-6-qua.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "2 quả", "audio": { "path": "options/number-2-qua.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "3 quả bóng + 2 quả bóng = mấy quả? Đếm cùng nhau nhé!",
+        "audio": { "path": "questions/arch-read-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 3 + 2 = 5 quả bóng. Con nghe hiểu và tính thật giỏi!",
+          "audio": { "path": "feedback/story-math-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu chuyện nào! Bạn Lan có mấy quả lúc đầu? Được tặng thêm mấy quả?",
+          "audio": { "path": "feedback/story-math-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 60
+      },
+      "tags": ["nghe-hieu", "toan-trong-van", "cong", "3-5"]
+    },
+    {
+      "id": "ARCH-SYLL-0004",
+      "type": "multiple-choice-image",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tranh vẽ gì? Chọn từ đúng cho bức tranh.",
+        "audio": {
+          "path": "questions/arch-syll-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-syll-0004-picture-bo.webp",
+          "alt": "Tranh vẽ con bò màu nâu đang ăn cỏ trên cánh đồng",
+          "width": 400,
+          "height": 300
+        }
+      },
+      "options": [
+        { "id": "A", "text": "bò", "audio": { "path": "options/word-bo-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "bó", "audio": { "path": "options/word-bo-sac.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "bo", "audio": { "path": "options/word-bo-ngang.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "bổ", "audio": { "path": "options/word-bo-nga.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con bò — từ có dấu huyền nghe trầm xuống.",
+          "audio": { "path": "feedback/word-bo-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Con bò đọc có dấu gì? Nghe lại các lựa chọn nhé.",
+          "audio": { "path": "feedback/word-bo-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dau-thanh", "dau-huyen", "con-bo", "hinh-anh-tu"]
+    }
+  ]
+}

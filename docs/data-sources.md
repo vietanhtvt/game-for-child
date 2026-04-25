@@ -1,6 +1,6 @@
 # Nguồn Dữ Liệu Đề Thi Tiền Tiểu Học — Hà Nội
 
-_Cập nhật: 2026-04-21 (Crawl lần 2 — bổ sung Ngôi Sao, không gian, cảm xúc)_
+_Cập nhật: 2026-04-25 (Crawl lần 3 — bổ sung Archimedes Tiếng Việt/Ghép vần, Vận động tinh)_
 
 Tài liệu này catalog toàn bộ các trang web, ứng dụng và cộng đồng có thể cung cấp câu hỏi, đề thi, bài tập tiền tiểu học phục vụ phát triển game. Mỗi nguồn được đánh giá theo: loại nội dung, khả năng truy cập, chất lượng dữ liệu và ưu tiên crawl.
 
@@ -236,6 +236,60 @@ Tier 3 — Social Listening:
 Tier 4 — Manual:
   - Nhờ phụ huynh/giáo viên chia sẻ đề thi thật
   - Liên hệ trực tiếp các trung tâm luyện thi
+```
+
+### 5.5 Nguồn mới phát hiện trong crawl 2026-04-25 (Lần 3)
+
+**Tình trạng crawl lần 3:** Tất cả các trang web VnDoc, tailieuonthi.io.vn, lop5.net, haysiri.com, aschool.edu.vn, situ.edu.vn, download.vn, victoryschoolbmt.edu.vn, lamchame.com, webtretho.com, contuhoc.com, bris.edu.vn, monkey.edu.vn, ilo.edu.vn, bmyc.vn, kiddihub.com đều trả **HTTP 403 Forbidden** khi dùng WebFetch tool. Nguyên nhân: Bot detection / Cloudflare / User-Agent check.
+
+**Thông tin thu thập được qua WebSearch (Google snippets):**
+
+| Nguồn | Thông tin thu được |
+|---|---|
+| vndoc.com (search snippets) | Xác nhận có 3 đề thi Archimedes (Toán, TV, Anh) tại URL cụ thể |
+| studocu.vn | Đề thi ĐTĐ có phần IQ Quan sát (tìm hình khác biệt), kể chuyện theo tranh, Tiếng Anh |
+| situ.edu.vn | Bộ đề thi ĐGNL vào lớp 1 Archimedes & Ngôi Sao full môn 2025/26 (403 khi fetch) |
+| aschool.edu.vn | LET'S START 2026: 5 buổi ARCERS' FIRST STEPS (tháng 3–15/5/2026) |
+| webtretho.com | Đề thi học bổng lớp 1 trường Newton HN 2025-2026 (Newton thường ít được đề cập trong research plan) |
+| ngoisaohanoi.edu.vn | Tuyển sinh 2026-2027: 9 lớp, 32 HS/lớp; lớp 1B0 thêm kiểm tra tiếng Anh |
+| logiclab.edu.vn, kiddihub.com | Xác nhận 5+ dạng toán tư duy cho trẻ vào lớp 1: đếm, so sánh, quy luật, hình học, không gian |
+
+**Câu hỏi đã tạo (Crawl 2026-04-25):**
+
+*Archimedes — Tiếng Việt/Ghép vần (10 câu):*
+- `ARCH-LETT-0001` — Nhận diện chữ A in hoa (độ khó 2)
+- `ARCH-LETT-0002` — Phân biệt chữ b/d/p/q in thường (độ khó 2)
+- `ARCH-LETT-0003` — Nối chữ hoa với chữ thường A-a, B-b, M-m (độ khó 3)
+- `ARCH-TONE-0001` — Nhận diện dấu sắc trong từ (độ khó 3)
+- `ARCH-SYLL-0001` — Ghép B + A + dấu sắc = BÁ (độ khó 3)
+- `ARCH-SYLL-0002` — Ghép C + A + dấu sắc = CÁ (độ khó 3, có hình gợi ý)
+- `ARCH-SYLL-0003` — Điền nguyên âm còn thiếu C_Ò = CÒ (độ khó 4)
+- `ARCH-SYLL-0004` — Xem tranh con bò → chọn từ đúng "bò/bó/bo/bổ" (độ khó 3)
+- `ARCH-READ-0001` — Nghe câu "con mèo ngồi trên ghế" → chọn hình (độ khó 4)
+- `ARCH-READ-0002` — Bài toán có lời văn nghe: "3 + 2 = ?" (độ khó 4)
+
+*General — Vận động tinh (8 câu):*
+- `GEN-FINE-0001` — Nối 4 chấm → hình vuông (độ khó 1)
+- `GEN-FINE-0002` — Nối 5 chấm → ngôi nhà (độ khó 2)
+- `GEN-FINE-0003` — Nối 6 chấm → con cá (độ khó 2)
+- `GEN-FINE-0004` — Nối 8 chấm → con bướm (độ khó 3)
+- `GEN-FINE-0005` — Nối 10 chấm → ngôi sao 5 cánh (độ khó 4)
+- `GEN-FINE-0006` — Tô màu đỏ quả táo (độ khó 1)
+- `GEN-FINE-0007` — Tô màu lá xanh/thân nâu/hoa vàng (độ khó 2)
+- `GEN-FINE-0008` — Tô màu theo số (tô bản đồ màu) (độ khó 3)
+
+**Chiến lược crawl lần 4 (khuyến nghị):**
+```
+Ưu tiên cao — dùng Playwright/Selenium (browser automation):
+  1. vndoc.com — 3 đề Archimedes (Toán/TV/Anh) với hình ảnh
+  2. situ.edu.vn — Bộ đề Archimedes + Ngôi Sao full môn 2025/26
+  3. tailieuonthi.io.vn — Bộ đề ĐTĐ hệ chuẩn & Cambridge
+  4. khotientieuhoc.com — Hình ảnh bài tập tiền tiểu học phong phú
+
+Ưu tiên trung bình — download PDF trực tiếp:
+  5. demo.smarttrainerlms.com (PDF ĐTĐ — hiện 403)
+  6. mathx.vn (bộ tài liệu Ngôi Sao khối 1)
+  7. lienviet.edu.vn (phiếu bài tập PDF)
 ```
 
 ### 5.4 Nguồn mới phát hiện trong crawl 2026-04-21

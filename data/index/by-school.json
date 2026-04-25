@@ -1,11 +1,11 @@
 {
   "_description": "Index câu hỏi theo trường tham chiếu. Dùng để hiển thị 'Luyện thi trường X' trong game.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-25",
   "archimedes": {
     "label": "Archimedes Academy (AAPS/ADAS)",
     "program": "LET'S START",
     "exam_format": "8 buổi trải nghiệm — Toán tư duy, Tiếng Việt, Tiếng Anh",
-    "key_skills": ["pattern-recognition", "counting", "geometry", "letter-recognition", "english-vocabulary"],
+    "key_skills": ["pattern-recognition", "counting", "geometry", "letter-recognition", "syllable-blending", "reading-comprehension", "english-vocabulary"],
     "questions": [
       { "id": "ARCH-PATT-0001", "file": "questions/archimedes/math-pattern.json" },
       { "id": "ARCH-PATT-0002", "file": "questions/archimedes/math-pattern.json" },
@@ -17,6 +17,16 @@
       { "id": "ARCH-SPAT-0003", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-NUM-0001", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-NUM-0002", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-LETT-0001", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-LETT-0002", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-LETT-0003", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-TONE-0001", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-SYLL-0001", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-SYLL-0002", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-SYLL-0003", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-SYLL-0004", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-READ-0001", "file": "questions/archimedes/vietnamese-phonics.json" },
+      { "id": "ARCH-READ-0002", "file": "questions/archimedes/vietnamese-phonics.json" },
       { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" },
@@ -105,7 +115,7 @@
     "label": "Kỹ năng chung (phù hợp tất cả trường)",
     "program": "Chương trình GDMN 2021 + Chuẩn phát triển trẻ 5 tuổi",
     "exam_format": "Không có đề thi cố định — tất cả kỹ năng nền tảng",
-    "key_skills": ["letter-recognition", "syllable-blending", "counting", "emotion-recognition", "spatial-orientation"],
+    "key_skills": ["letter-recognition", "syllable-blending", "counting", "emotion-recognition", "spatial-orientation", "dot-connection", "fine-motor"],
     "questions": [
       { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-LETT-0002", "file": "questions/general/vietnamese-letters.json" },
@@ -118,7 +128,15 @@
       { "id": "GEN-SPAT-0002", "file": "questions/general/spatial-emotion.json" },
       { "id": "GEN-SPAT-0003", "file": "questions/general/spatial-emotion.json" },
       { "id": "GEN-EMO-0002", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-FINE-0001", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0002", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0003", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0004", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0005", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0006", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0007", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0008", "file": "questions/general/fine-motor.json" }
     ]
   }
 }

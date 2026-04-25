@@ -1,0 +1,365 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-fine-motor-v1",
+  "title": "Vận Động Tinh — Nối Dấu Chấm & Tô Màu (General)",
+  "description": "Bài tập phát triển vận động tinh (cầm bút, kiểm soát tay) — kỹ năng nền tảng để trẻ học viết chữ. Gồm 2 dạng: nối các dấu chấm theo số thứ tự để tạo hình, và tô màu đúng theo hướng dẫn. Phù hợp với tất cả các trường (Đoàn Thị Điểm có dạng nối chấm trong đề thi thực tế). Nguồn: tailieuonthi.io.vn, lienviet.edu.vn, khotientieuhoc.com.",
+  "school": "general",
+  "skill": "fine-motor",
+  "difficulty_range": [1, 2, 3, 4],
+  "total_questions": 8,
+  "questions": [
+    {
+      "id": "GEN-FINE-0001",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự 1 → 2 → 3 → 4 để vẽ hình vuông nhé!",
+        "audio": {
+          "path": "questions/gen-fine-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0001-dots-square.webp",
+          "alt": "4 dấu chấm ở 4 góc tạo thành hình vuông, đánh số 1, 2, 3, 4 theo chiều kim đồng hồ",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": ["1", "2", "3", "4"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con đã vẽ được hình vuông rồi!",
+          "audio": { "path": "feedback/fine-motor-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Bắt đầu từ số 1 rồi đi đến số 2 nhé.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 60
+      },
+      "tags": ["noi-cham", "hinh-vuong", "van-dong-tinh", "1-4"]
+    },
+    {
+      "id": "GEN-FINE-0002",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 2,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự 1 → 2 → 3 → 4 → 5 để vẽ ngôi nhà!",
+        "audio": {
+          "path": "questions/gen-fine-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0002-dots-house.webp",
+          "alt": "5 dấu chấm đánh số 1-5: điểm 1 ở đỉnh (mái nhà), điểm 2-5 ở 4 góc tạo hình ngôi nhà đơn giản",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "1"],
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! Con đã vẽ được ngôi nhà xinh rồi!",
+          "audio": { "path": "feedback/fine-motor-house-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nhé! Bắt đầu từ đỉnh nhà số 1.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 90
+      },
+      "tags": ["noi-cham", "nha", "van-dong-tinh", "1-5"]
+    },
+    {
+      "id": "GEN-FINE-0003",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự 1 đến 6 để vẽ con cá!",
+        "audio": {
+          "path": "questions/gen-fine-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0003-dots-fish.webp",
+          "alt": "6 dấu chấm đánh số 1-6 tạo hình con cá: thân và đuôi",
+          "width": 500,
+          "height": 350
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6"],
+      "feedback": {
+        "correct": {
+          "text": "Ồ, con cá của con thật đẹp!",
+          "audio": { "path": "feedback/fine-motor-fish-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nhìn xem số 1 ở đâu để bắt đầu nhé.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 90
+      },
+      "tags": ["noi-cham", "con-ca", "van-dong-tinh", "1-6"]
+    },
+    {
+      "id": "GEN-FINE-0004",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 3,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "lienviet.edu.vn",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối các chấm từ 1 đến 8 để vẽ con bướm đang bay!",
+        "audio": {
+          "path": "questions/gen-fine-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0004-dots-butterfly.webp",
+          "alt": "8 dấu chấm đánh số 1-8 tạo hình con bướm với 2 cánh và thân",
+          "width": 500,
+          "height": 400
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6", "7", "8"],
+      "feedback": {
+        "correct": {
+          "text": "Con bướm của con đẹp quá! Con vẽ thật khéo léo!",
+          "audio": { "path": "feedback/fine-motor-butterfly-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Đếm và nối từng chấm một theo thứ tự.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 120
+      },
+      "tags": ["noi-cham", "buom", "van-dong-tinh", "1-8"]
+    },
+    {
+      "id": "GEN-FINE-0005",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 4,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm từ 1 đến 10 để vẽ ngôi sao!",
+        "audio": {
+          "path": "questions/gen-fine-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0005-dots-star.webp",
+          "alt": "10 dấu chấm đánh số 1-10 xen kẽ nhau tạo thành hình ngôi sao 5 cánh",
+          "width": 450,
+          "height": 450
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+      "hint": {
+        "text": "Nối theo thứ tự: 1 → 3 → 5 → 7 → 9 → 1 rồi điền vào các điểm còn lại!",
+        "audio": { "path": "questions/gen-fine-0005-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Ngôi sao 5 cánh thật đẹp! Con rất giỏi!",
+          "audio": { "path": "feedback/fine-motor-star-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nhé! Đếm thật chậm từ 1 đến 10.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 150
+      },
+      "tags": ["noi-cham", "ngoi-sao", "van-dong-tinh", "1-10"]
+    },
+    {
+      "id": "GEN-FINE-0006",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu ĐỎ cho quả táo này nhé!",
+        "audio": {
+          "path": "questions/gen-fine-0006-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0006-apple-outline.webp",
+          "alt": "Hình vẽ đường viền quả táo chưa tô màu",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": "red",
+      "feedback": {
+        "correct": {
+          "text": "Quả táo đỏ của con thật đẹp! Con tô rất cẩn thận!",
+          "audio": { "path": "feedback/color-correct-red.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Hãy chọn màu đỏ để tô nhé.",
+          "audio": { "path": "feedback/color-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["to-mau", "mau-do", "trai-cay", "van-dong-tinh"]
+    },
+    {
+      "id": "GEN-FINE-0007",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "khotientieuhoc.com",
+        "crawled_at": "2026-04-25",
+        "verified": false
+      },
+      "stem": {
+        "text": "Tô màu đúng theo hướng dẫn: lá cây màu XANH, thân cây màu NÂU, bông hoa màu VÀNG.",
+        "audio": {
+          "path": "questions/gen-fine-0007-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0007-tree-flower.webp",
+          "alt": "Hình vẽ đường viền cây có lá và bông hoa chưa tô màu, với 3 vùng được đánh dấu để tô: lá (xanh), thân (nâu), hoa (vàng)",
+          "width": 400,
+          "height": 500
+        }
+      },
+      "answer": { "leaf": "green", "trunk": "brown", "flower": "yellow" },
+      "feedback": {
+        "correct": {
+          "text": "Bức tranh cây hoa của con thật đẹp! Con tô rất đúng màu!",
+          "audio": { "path": "feedback/color-tree-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nhé! Lá cây màu gì? Thân cây màu gì?",
+          "audio": { "path": "feedback/color-tree-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["to-mau", "cay-xanh", "mau-sac", "van-dong-tinh"]
+    },
+    {
+      "id": "GEN-FINE-0008",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 3,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu theo số: ô số 1 = màu đỏ, ô số 2 = màu xanh, ô số 3 = màu vàng.",
+        "audio": {
+          "path": "questions/gen-fine-0008-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0008-color-by-number.webp",
+          "alt": "Hình vẽ con thuyền buồm chia nhiều vùng, mỗi vùng có số 1, 2 hoặc 3 để tô theo màu hướng dẫn",
+          "width": 500,
+          "height": 500
+        }
+      },
+      "answer": { "section-1": "red", "section-2": "blue", "section-3": "yellow" },
+      "hint": {
+        "text": "Tìm tất cả các ô có số 1 và tô đỏ trước, rồi đến số 2 màu xanh, rồi số 3 màu vàng.",
+        "audio": { "path": "questions/gen-fine-0008-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con tô màu theo số rất chính xác! Bức tranh thật đẹp!",
+          "audio": { "path": "feedback/color-number-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nhé! Tìm ô có số 1 và tô màu đỏ trước.",
+          "audio": { "path": "feedback/color-number-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 180
+      },
+      "tags": ["to-mau", "to-theo-so", "thuyen", "van-dong-tinh"]
+    }
+  ]
+}
