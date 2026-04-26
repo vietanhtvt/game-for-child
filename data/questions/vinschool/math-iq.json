@@ -1,0 +1,283 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-math-iq-v1",
+  "title": "Toán Tư Duy & IQ (Vinschool — Khảo Sát Năng Lực)",
+  "description": "Bài tập Toán tư duy và IQ quan sát dành cho kỳ thi đầu vào lớp 1 Vinschool (hệ chuẩn và nâng cao). Kiểm tra khả năng đếm số, nhận diện quy luật, và quan sát phân biệt hình — dạng bài đặc trưng trong 'bài kiểm tra tư duy logic' của Vinschool. Nguồn: vndoc.com, haysiri.com, lamchame.com.",
+  "school": "vinschool",
+  "skill": "counting",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "VIN-MATH-0001",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-26",
+        "verified": false
+      },
+      "stem": {
+        "text": "Đếm số ngôi sao. Có bao nhiêu ngôi sao?",
+        "audio": {
+          "path": "questions/vin-math-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-math-0001-stars.webp",
+          "alt": "6 ngôi sao vàng xếp thành 2 hàng: hàng trên 4 ngôi, hàng dưới 2 ngôi",
+          "width": 400,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "hint": {
+        "text": "Đếm hàng trên trước: 1, 2, 3, 4. Rồi đếm tiếp hàng dưới: 5, 6.",
+        "audio": { "path": "questions/vin-math-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Có 6 ngôi sao: 4 + 2 = 6!",
+          "audio": { "path": "feedback/count-correct-6.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm từng ngôi sao một — bắt đầu từ hàng trên nhé.",
+          "audio": { "path": "feedback/count-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "ngoi-sao", "1-10", "hai-hang"]
+    },
+    {
+      "id": "VIN-MATH-0002",
+      "type": "multiple-choice",
+      "skill": "number-comparison",
+      "difficulty": 2,
+      "school": ["vinschool", "ngoi-sao", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-26",
+        "verified": false
+      },
+      "stem": {
+        "text": "Số nào LỚN HƠN: 7 hay 5?",
+        "audio": {
+          "path": "questions/vin-math-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-math-0002-compare.webp",
+          "alt": "Hai ô vuông lớn: bên trái số 7, bên phải số 5, ở giữa là dấu hỏi",
+          "width": 360,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "A", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bằng nhau", "audio": { "path": "options/bang-nhau.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 7 lớn hơn 5. Trên đường số, 7 đứng sau 5 nên lớn hơn!",
+          "audio": { "path": "feedback/compare-7-5-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm từ 1 đến 7 và từ 1 đến 5 — số nào đếm được nhiều hơn?",
+          "audio": { "path": "feedback/compare-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh-so", "lon-hon", "nho-hon", "1-10"]
+    },
+    {
+      "id": "VIN-MATH-0003",
+      "type": "counting",
+      "skill": "addition",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Có 3 con mèo và thêm 2 con mèo nữa. Tất cả có mấy con?",
+        "audio": {
+          "path": "questions/vin-math-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-math-0003-cats.webp",
+          "alt": "Bên trái: 3 con mèo cam ngồi. Dấu cộng ở giữa. Bên phải: 2 con mèo đen. Ô kết quả trống.",
+          "width": 480,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Đếm hết: 1 con mèo, 2 con mèo, 3 con mèo, 4 con mèo, 5 con mèo!",
+        "audio": { "path": "questions/vin-math-0003-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 3 + 2 = 5 con mèo. Con tính giỏi lắm!",
+          "audio": { "path": "feedback/addition-3-2-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm tất cả con mèo trong hình: mèo cam + mèo đen = mấy con?",
+          "audio": { "path": "feedback/addition-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cong-tru", "cong-don-gian", "3-cong-2", "con-meo"]
+    },
+    {
+      "id": "VIN-IQ-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["vinschool", "doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào KHÁC với 3 hình còn lại?",
+        "audio": {
+          "path": "questions/vin-iq-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/vin-iq-0001-A-apple.webp", "alt": "Quả táo đỏ" },
+          "audio": { "path": "options/word-tao.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/vin-iq-0001-B-orange.webp", "alt": "Quả cam vàng" },
+          "audio": { "path": "options/word-cam.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/vin-iq-0001-C-grape.webp", "alt": "Chùm nho tím" },
+          "audio": { "path": "options/word-nho.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/vin-iq-0001-D-carrot.webp", "alt": "Củ cà rốt màu cam" },
+          "audio": { "path": "options/word-ca-rot.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "D",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Cà rốt là rau củ, còn 3 hình kia đều là trái cây!",
+          "audio": { "path": "feedback/odd-one-out-carrot-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! 3 hình kia đều là gì? Táo, cam, nho — chúng thuộc nhóm nào?",
+          "audio": { "path": "feedback/odd-one-out-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["phan-biet-nhom", "trai-cay", "rau-cu", "iq-phan-loai"]
+    },
+    {
+      "id": "VIN-IQ-0002",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 3,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Số nào đến tiếp theo: 2, 4, 6, 8, ?",
+        "audio": {
+          "path": "questions/vin-iq-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-iq-0002-even-sequence.webp",
+          "alt": "Dãy số trong các ô tròn: 2, 4, 6, 8, ô dấu hỏi",
+          "width": 540,
+          "height": 100
+        }
+      },
+      "options": [
+        { "id": "A", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "10", "audio": { "path": "options/number-10.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "11", "audio": { "path": "options/number-11.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Xem mỗi số tăng thêm mấy: 2→4 tăng 2, 4→6 tăng 2, 6→8 tăng 2, vậy 8→? tăng 2 bằng bao nhiêu?",
+        "audio": { "path": "questions/vin-iq-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Mỗi số tăng thêm 2: 2, 4, 6, 8, 10. Con nhận ra quy luật rất giỏi!",
+          "audio": { "path": "feedback/pattern-even-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! 4 - 2 = 2, 6 - 4 = 2, 8 - 6 = 2. Mỗi lần tăng thêm mấy?",
+          "audio": { "path": "feedback/pattern-even-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "so-chan", "day-so", "tu-duy"]
+    }
+  ]
+}

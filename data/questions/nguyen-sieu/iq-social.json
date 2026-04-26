@@ -1,0 +1,337 @@
+{
+  "version": "1.0.0",
+  "set_id": "nsps-iq-social-v1",
+  "title": "IQ Logic & Kỹ Năng Xã Hội (Nguyễn Siêu — Spark in Me)",
+  "description": "Bài tập IQ logic và kỹ năng xã hội — đánh giá qua chương trình CLB 'Spark in Me' của Nguyễn Siêu. GV quan sát trẻ qua hoạt động nhóm: phân loại vật, suy luận nguyên nhân-kết quả, nhận diện hành vi phù hợp. Phù hợp trẻ 5–6 tuổi.",
+  "school": "nguyen-sieu",
+  "skill": "iq-logic",
+  "difficulty_range": [3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "NSPS-LOG-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Những vật nào có thể lớn lên nhờ ăn uống và chăm sóc? Chọn TẤT CẢ hình đúng.",
+        "audio": {
+          "path": "questions/nsps-log-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-log-0001-A-dog.webp", "alt": "Con chó con đang chạy" },
+          "audio": { "path": "options/word-cho.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-log-0001-B-car.webp", "alt": "Chiếc ô tô đồ chơi màu đỏ" },
+          "audio": { "path": "options/word-o-to.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-log-0001-C-flower.webp", "alt": "Cây hoa hướng dương đang mọc" },
+          "audio": { "path": "options/word-cay-hoa.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-log-0001-D-rock.webp", "alt": "Hòn đá tảng xám" },
+          "audio": { "path": "options/word-da.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": ["A", "C"],
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con chó và cây hoa cần ăn uống, tưới nước mới lớn lên được. Ô tô và đá thì không!",
+          "audio": { "path": "feedback/living-things-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Vật nào biết ăn uống và lớn lên? Vật nào không cần ăn uống?",
+          "audio": { "path": "feedback/living-things-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "hint": {
+        "text": "Con chó có cần ăn không? Cây hoa cần tưới nước không? Còn ô tô?",
+        "audio": { "path": "questions/nsps-log-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["phan-loai", "sinh-vat", "logic", "iq-dtd"]
+    },
+    {
+      "id": "NSPS-LOG-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điều gì xảy ra TIẾP THEO? Chọn hình đúng.",
+        "audio": {
+          "path": "questions/nsps-log-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-log-0002-cause.webp",
+          "alt": "Một bé trai vô tình đá ngã lọ hoa → lọ hoa đang nghiêng",
+          "width": 400,
+          "height": 300
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-log-0002-A-broken.webp", "alt": "Lọ hoa vỡ dưới sàn, nước đổ ra" },
+          "audio": { "path": "options/nsps-log-0002-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-log-0002-B-fly.webp", "alt": "Lọ hoa bay lên không trung" },
+          "audio": { "path": "options/nsps-log-0002-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-log-0002-C-bigger.webp", "alt": "Lọ hoa to ra gấp đôi" },
+          "audio": { "path": "options/nsps-log-0002-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-log-0002-D-stand.webp", "alt": "Lọ hoa tự đứng lại ngay ngắn" },
+          "audio": { "path": "options/nsps-log-0002-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Nếu lọ hoa bị đá nghiêng thì sẽ ngã và vỡ. Con giỏi suy luận lắm!",
+          "audio": { "path": "feedback/cause-effect-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nếu lọ hoa bị nghiêng mà không ai đỡ thì điều gì sẽ xảy ra?",
+          "audio": { "path": "feedback/cause-effect-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nhan-qua", "suy-luan", "iq-logic", "cuoc-song"]
+    },
+    {
+      "id": "NSPS-LOG-0003",
+      "type": "story-arrange",
+      "skill": "iq-logic",
+      "difficulty": 4,
+      "school": ["nguyen-sieu", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Sắp xếp 4 bức tranh theo đúng thứ tự thành câu chuyện.",
+        "audio": {
+          "path": "questions/nsps-log-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "1",
+          "image": {
+            "path": "questions/nsps-log-0003-card1.webp",
+            "alt": "Bé nhìn thấy bạn ngã và đang khóc trên sân chơi"
+          }
+        },
+        {
+          "id": "2",
+          "image": {
+            "path": "questions/nsps-log-0003-card2.webp",
+            "alt": "Bé chạy lại hỏi thăm và đỡ bạn dậy"
+          }
+        },
+        {
+          "id": "3",
+          "image": {
+            "path": "questions/nsps-log-0003-card3.webp",
+            "alt": "Bé đang chơi một mình trên sân"
+          }
+        },
+        {
+          "id": "4",
+          "image": {
+            "path": "questions/nsps-log-0003-card4.webp",
+            "alt": "Hai bạn cùng chơi vui vẻ, bạn đã nín khóc và mỉm cười"
+          }
+        }
+      ],
+      "answer": ["3", "1", "2", "4"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Con biết giúp bạn: chơi → bạn ngã → chạy lại đỡ bạn → cùng vui. Con thật tốt bụng!",
+          "audio": { "path": "feedback/story-help-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Ban đầu bé đang làm gì? Sau đó điều gì xảy ra?",
+          "audio": { "path": "feedback/story-help-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["ke-chuyen", "ky-nang-xa-hoi", "giup-ban", "logic"]
+    },
+    {
+      "id": "NSPS-SOC-0001",
+      "type": "multiple-choice-image",
+      "skill": "social-skills",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Khi muốn mượn đồ chơi của bạn, con nên làm gì?",
+        "audio": {
+          "path": "questions/nsps-soc-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-soc-0001-A-ask.webp", "alt": "Bé lịch sự hỏi mượn: 'Cho tớ mượn nhé?'" },
+          "audio": { "path": "options/nsps-soc-0001-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-soc-0001-B-grab.webp", "alt": "Bé giật đồ chơi khỏi tay bạn" },
+          "audio": { "path": "options/nsps-soc-0001-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-soc-0001-C-cry.webp", "alt": "Bé khóc và nằm xuống sàn" },
+          "audio": { "path": "options/nsps-soc-0001-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-soc-0001-D-ignore.webp", "alt": "Bé bỏ đi chỗ khác không nói gì" },
+          "audio": { "path": "options/nsps-soc-0001-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Hỏi mượn lịch sự mới là đúng. Con rất biết cách ứng xử!",
+          "audio": { "path": "feedback/social-ask-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nếu con muốn mượn đồ của bạn, điều gì sẽ làm bạn vui lòng?",
+          "audio": { "path": "feedback/social-ask-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ky-nang-xa-hoi", "muon-do-choi", "lich-su", "EQ"]
+    },
+    {
+      "id": "NSPS-SOC-0002",
+      "type": "multiple-choice-image",
+      "skill": "social-skills",
+      "difficulty": 2,
+      "school": ["nguyen-sieu", "general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Đến trường lần đầu, con nên làm gì để kết bạn?",
+        "audio": {
+          "path": "questions/nsps-soc-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-soc-0002-school.webp",
+          "alt": "Cảnh sân trường: nhiều bạn đang chơi nhóm, một bé đứng một mình",
+          "width": 500,
+          "height": 360
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-soc-0002-A-smile.webp", "alt": "Bé mỉm cười và tự giới thiệu với bạn" },
+          "audio": { "path": "options/nsps-soc-0002-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-soc-0002-B-hide.webp", "alt": "Bé trốn sau cánh cửa" },
+          "audio": { "path": "options/nsps-soc-0002-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-soc-0002-C-phone.webp", "alt": "Bé nhìn điện thoại một mình" },
+          "audio": { "path": "options/nsps-soc-0002-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-soc-0002-D-cry2.webp", "alt": "Bé khóc đòi về nhà" },
+          "audio": { "path": "options/nsps-soc-0002-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Mỉm cười và tự giới thiệu là cách hay nhất để kết bạn mới!",
+          "audio": { "path": "feedback/social-friend-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bạn bè mới sẽ vui khi con làm gì với họ?",
+          "audio": { "path": "feedback/social-friend-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ky-nang-xa-hoi", "ket-ban", "tu-tin", "EQ", "truong-hoc"]
+    }
+  ]
+}

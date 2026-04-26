@@ -1,0 +1,258 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-fine-motor-v1",
+  "title": "Vận Động Tinh & Chuẩn Bị Viết (Kỹ Năng Chung)",
+  "description": "Bài tập vận động tinh và chuẩn bị kỹ năng viết — tô theo nét, nối chấm và sắp xếp đồ vật. Phù hợp tất cả trường, bám theo Chương trình GDMN 2021 và mục tiêu chuẩn phát triển trẻ 5 tuổi (Bộ GD&ĐT). Dạng bài 'nối các dấu chấm' và 'tô theo hướng dẫn' được đặc biệt đề cập trong đề thi Đoàn Thị Điểm.",
+  "school": "general",
+  "skill": "fine-motor",
+  "difficulty_range": [1, 2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "GEN-FINE-0001",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 1,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự từ 1 đến 5 để tạo thành hình.",
+        "audio": {
+          "path": "questions/gen-fine-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0001-dots-star.webp",
+          "alt": "5 dấu chấm đánh số 1-5 bố trí theo hình ngôi sao 5 cánh chưa nối",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Con nối đúng rồi — đó là ngôi sao!",
+          "audio": { "path": "feedback/dots-star-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu từ chấm số 1, rồi đến số 2, 3, 4, 5 nhé.",
+          "audio": { "path": "feedback/dots-order-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "ngoi-sao", "1-5", "chuan-bi-viet"]
+    },
+    {
+      "id": "GEN-FINE-0002",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 2,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm từ 1 đến 8 để tạo thành hình con vật. Con vật đó là gì?",
+        "audio": {
+          "path": "questions/gen-fine-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0002-dots-duck.webp",
+          "alt": "8 dấu chấm đánh số 1-8 bố trí theo hình con vịt chưa nối, có gợi ý hình mờ ở nền",
+          "width": 440,
+          "height": 440
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6", "7", "8"],
+      "options": [
+        {
+          "id": "A",
+          "text": "Con vịt",
+          "image": { "path": "options/gen-fine-0002-A-duck.webp", "alt": "Con vịt vàng" },
+          "audio": { "path": "options/word-vit.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Con mèo",
+          "image": { "path": "options/gen-fine-0002-B-cat.webp", "alt": "Con mèo" },
+          "audio": { "path": "options/word-meo.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Con cá",
+          "image": { "path": "options/gen-fine-0002-C-fish.webp", "alt": "Con cá" },
+          "audio": { "path": "options/word-ca.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con nối đúng tạo ra hình con vịt!",
+          "audio": { "path": "feedback/dots-duck-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại từ số 1 nhé! Nối 1 → 2 → 3...",
+          "audio": { "path": "feedback/dots-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 90
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "con-vit", "1-8", "chuan-bi-viet"]
+    },
+    {
+      "id": "GEN-FINE-0003",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu đỏ cho tất cả các trái táo trong hình.",
+        "audio": {
+          "path": "questions/gen-fine-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0003-apples-outline.webp",
+          "alt": "3 quả táo phác thảo chưa tô màu, kèm bộ màu bên cạnh",
+          "width": 500,
+          "height": 400
+        }
+      },
+      "answer": "red",
+      "feedback": {
+        "correct": {
+          "text": "Đẹp lắm! Con tô màu đỏ cho quả táo rồi. Quả táo đỏ thật ngon!",
+          "audio": { "path": "feedback/coloring-apple-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Hãy chọn màu ĐỎ rồi tô vào quả táo nhé.",
+          "audio": { "path": "feedback/coloring-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["to-mau", "van-dong-tinh", "mau-do", "tao", "chuan-bi-viet"]
+    },
+    {
+      "id": "GEN-DOTS-0001",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 2,
+      "school": ["general", "archimedes"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm từ 1 đến 10 để tạo thành ngôi nhà.",
+        "audio": {
+          "path": "questions/gen-dots-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-dots-0001-house.webp",
+          "alt": "10 dấu chấm đánh số 1-10 bố trí theo hình ngôi nhà đơn giản (mái tam giác + thân hình chữ nhật)",
+          "width": 480,
+          "height": 480
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+      "feedback": {
+        "correct": {
+          "text": "Giỏi quá! Con vừa vẽ được một ngôi nhà xinh đẹp bằng cách nối chấm!",
+          "audio": { "path": "feedback/dots-house-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại từ chấm số 1 nhé! Đi theo thứ tự 1, 2, 3...",
+          "audio": { "path": "feedback/dots-house-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "nha", "1-10", "chuan-bi-viet"]
+    },
+    {
+      "id": "GEN-DOTS-0002",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 3,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu đúng theo hướng dẫn: mặt trời màu vàng, bầu trời màu xanh, cây màu xanh lá.",
+        "audio": {
+          "path": "questions/gen-dots-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-dots-0002-scene-outline.webp",
+          "alt": "Tranh phác thảo cảnh ngoài trời: mặt trời góc trên, bầu trời, cây xanh, đám mây — chưa tô màu",
+          "width": 600,
+          "height": 480
+        }
+      },
+      "answer": {
+        "sun": "yellow",
+        "sky": "blue",
+        "tree": "green"
+      },
+      "hint": {
+        "text": "Mặt trời sáng → màu vàng. Bầu trời → màu xanh da trời. Cây → màu xanh lá.",
+        "audio": { "path": "questions/gen-dots-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Bức tranh đẹp lắm! Con tô đúng màu hết rồi!",
+          "audio": { "path": "feedback/coloring-scene-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nghe kỹ: mặt trời màu gì? Bầu trời màu gì?",
+          "audio": { "path": "feedback/coloring-scene-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["to-mau", "nhieu-mau", "canh-ngoai-troi", "theo-huong-dan", "van-dong-tinh"]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "version": "1.0.0",
+  "set_id": "ngs-english-vocab-v1",
+  "title": "Tiếng Anh — Từ Vựng Cơ Bản (Ngôi Sao Hà Nội)",
+  "description": "Bài tập Tiếng Anh dành cho kỳ thi tuyển sinh / học bổng lớp 1 Ngôi Sao Hà Nội (3 môn: Toán, Tiếng Việt, Tiếng Anh). GV nước ngoài kiểm tra từ vựng và nghe hiểu cơ bản. Các chủ đề: con vật, màu sắc, gia đình, đồ vật trong nhà, phương tiện. Nguồn: mathx.vn, navi.edu.vn, mathexpress.vn.",
+  "school": "ngoi-sao",
+  "skill": "english-vocabulary",
+  "difficulty_range": [2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "NGS-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "vinschool", "general"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Point to the CAT!",
+        "text_en": "Point to the CAT!",
+        "audio": {
+          "path": "questions/ngs-eng-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0001-A-dog.webp", "alt": "A brown dog" },
+          "audio": { "path": "options/eng-word-dog.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0001-B-cat.webp", "alt": "An orange cat sitting" },
+          "audio": { "path": "options/eng-word-cat.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0001-C-bird.webp", "alt": "A blue bird on a branch" },
+          "audio": { "path": "options/eng-word-bird.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0001-D-fish.webp", "alt": "A goldfish in water" },
+          "audio": { "path": "options/eng-word-fish.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text_en": "Great! That's a cat! Meow!",
+          "audio": { "path": "feedback/eng-correct-cat.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's try again! Find the CAT — it says meow!",
+          "audio": { "path": "feedback/eng-retry-cat.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "con-vat", "cat", "tu-vung-co-ban"]
+    },
+    {
+      "id": "NGS-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "vinschool"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Which one is RED?",
+        "text_en": "Which one is RED?",
+        "audio": {
+          "path": "questions/ngs-eng-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0002-A-blue-ball.webp", "alt": "A blue ball" },
+          "audio": { "path": "options/eng-color-blue.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0002-B-red-apple.webp", "alt": "A red apple" },
+          "audio": { "path": "options/eng-color-red.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0002-C-green-tree.webp", "alt": "A green tree" },
+          "audio": { "path": "options/eng-color-green.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0002-D-yellow-sun.webp", "alt": "A yellow sun" },
+          "audio": { "path": "options/eng-color-yellow.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text_en": "Yes! The apple is RED! Well done!",
+          "audio": { "path": "feedback/eng-correct-red.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! RED is the color of fire trucks and stop signs!",
+          "audio": { "path": "feedback/eng-retry-red.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "mau-sac", "red", "tu-vung"]
+    },
+    {
+      "id": "NGS-ENG-0003",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "vinschool", "archimedes"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Show me the MOTHER.",
+        "text_en": "Show me the MOTHER.",
+        "audio": {
+          "path": "questions/ngs-eng-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0003-A-grandfather.webp", "alt": "An elderly man — grandfather" },
+          "audio": { "path": "options/eng-word-grandfather.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0003-B-father.webp", "alt": "A man — father" },
+          "audio": { "path": "options/eng-word-father.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0003-C-mother.webp", "alt": "A woman — mother" },
+          "audio": { "path": "options/eng-word-mother.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0003-D-sister.webp", "alt": "A little girl — sister" },
+          "audio": { "path": "options/eng-word-sister.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text_en": "That's right! She is the MOTHER!",
+          "audio": { "path": "feedback/eng-correct-mother.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! Who is MOTHER? She takes care of the family!",
+          "audio": { "path": "feedback/eng-retry-mother.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "gia-dinh", "mother", "tu-vung"]
+    },
+    {
+      "id": "NGS-ENG-0004",
+      "type": "multiple-choice-image",
+      "skill": "english-listening",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "vinschool"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Listen: 'I go to school by BUS.' Which picture shows a BUS?",
+        "text_en": "I go to school by BUS. Which picture shows a BUS?",
+        "audio": {
+          "path": "questions/ngs-eng-0004-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 4000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0004-A-car.webp", "alt": "A small red car" },
+          "audio": { "path": "options/eng-word-car.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0004-B-bus.webp", "alt": "A yellow school bus" },
+          "audio": { "path": "options/eng-word-bus.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0004-C-bike.webp", "alt": "A bicycle" },
+          "audio": { "path": "options/eng-word-bike.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0004-D-plane.webp", "alt": "An airplane" },
+          "audio": { "path": "options/eng-word-plane.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text_en": "Wonderful! That big yellow vehicle is a BUS!",
+          "audio": { "path": "feedback/eng-correct-bus.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's try again! A BUS is big and carries many people!",
+          "audio": { "path": "feedback/eng-retry-bus.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "phuong-tien-giao-thong", "bus", "nghe-hieu"]
+    },
+    {
+      "id": "NGS-ENG-0005",
+      "type": "multiple-choice",
+      "skill": "english-following-instructions",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "original",
+        "crawled_at": "2026-04-26",
+        "verified": true
+      },
+      "stem": {
+        "text": "Teacher asks: 'How many fingers do you have on ONE hand?'",
+        "text_en": "How many fingers do you have on ONE hand?",
+        "audio": {
+          "path": "questions/ngs-eng-0005-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/ngs-eng-0005-hand.webp",
+          "alt": "An open hand with fingers spread",
+          "width": 300,
+          "height": 360
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Three", "audio": { "path": "options/eng-number-three.mp3", "locale": "en-US" } },
+        { "id": "B", "text": "Four", "audio": { "path": "options/eng-number-four.mp3", "locale": "en-US" } },
+        { "id": "C", "text": "Five", "audio": { "path": "options/eng-number-five.mp3", "locale": "en-US" } },
+        { "id": "D", "text": "Ten", "audio": { "path": "options/eng-number-ten.mp3", "locale": "en-US" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text_en": "Perfect! FIVE fingers on one hand! 1, 2, 3, 4, 5!",
+          "audio": { "path": "feedback/eng-correct-five.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! Hold up ONE hand and count your fingers!",
+          "audio": { "path": "feedback/eng-retry-five.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "so-dem-tieng-anh", "five", "co-the-nguoi"]
+    }
+  ]
+}
