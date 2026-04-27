@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo trường tham chiếu. Dùng để hiển thị 'Luyện thi trường X' trong game.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-27",
   "archimedes": {
     "label": "Archimedes Academy (AAPS/ADAS)",
     "program": "LET'S START",
@@ -70,15 +70,22 @@
   },
   "vinschool": {
     "label": "Vinschool (hệ chuẩn & nâng cao)",
-    "program": "Khảo sát năng lực đầu vào",
-    "exam_format": "Tiếng Việt + Tiếng Anh (GV nước ngoài) + Tư duy",
-    "key_skills": ["english-vocabulary", "english-listening", "counting", "iq-memory"],
+    "program": "Khảo sát năng lực đầu vào — 15 câu trắc nghiệm 30 phút (Toán) + phỏng vấn (TV, Anh)",
+    "exam_format": "Hệ chuẩn: Logic + TV phỏng vấn. Hệ nâng cao: Logic + TV + English interview (GV nước ngoài)",
+    "key_skills": ["english-vocabulary", "english-listening", "counting", "geometry", "iq-logic", "iq-memory", "pattern-recognition"],
     "questions": [
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0002", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0003", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0004", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0005", "file": "questions/vinschool/english-listening.json" },
+      { "id": "VIN-MATH-0001", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0002", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0003", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0004", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0005", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0006", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0007", "file": "questions/vinschool/math-logic.json" },
       { "id": "DTD-MEM-0001", "file": "questions/doan-thi-diem/iq-observation.json" }
     ]
   },
@@ -105,7 +112,7 @@
     "label": "Kỹ năng chung (phù hợp tất cả trường)",
     "program": "Chương trình GDMN 2021 + Chuẩn phát triển trẻ 5 tuổi",
     "exam_format": "Không có đề thi cố định — tất cả kỹ năng nền tảng",
-    "key_skills": ["letter-recognition", "syllable-blending", "counting", "emotion-recognition", "spatial-orientation"],
+    "key_skills": ["letter-recognition", "syllable-blending", "counting", "emotion-recognition", "spatial-orientation", "fine-motor"],
     "questions": [
       { "id": "GEN-LETT-0001", "file": "questions/general/vietnamese-letters.json" },
       { "id": "GEN-LETT-0002", "file": "questions/general/vietnamese-letters.json" },
@@ -118,7 +125,13 @@
       { "id": "GEN-SPAT-0002", "file": "questions/general/spatial-emotion.json" },
       { "id": "GEN-SPAT-0003", "file": "questions/general/spatial-emotion.json" },
       { "id": "GEN-EMO-0002", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-FINE-0001", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0002", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0003", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0004", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0005", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0006", "file": "questions/general/fine-motor.json" }
     ]
   }
 }

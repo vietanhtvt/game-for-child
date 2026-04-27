@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo dạng bài (question type). Dùng để chọn câu hỏi phù hợp với từng mini-game.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-27",
   "multiple-choice-image": {
     "label": "Trắc nghiệm có hình ảnh (A/B/C/D)",
     "description": "Trẻ nghe câu hỏi và chạm/click vào hình ảnh đúng",
@@ -128,6 +128,26 @@
     "default_mini_game": "xep-tangram",
     "questions": [
       { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation" }
+    ]
+  },
+  "connect-dots": {
+    "label": "Nối chấm tạo hình",
+    "description": "Trẻ nối các chấm theo thứ tự số để tạo ra hình vẽ hoàn chỉnh — luyện vận động tinh và nhận biết số thứ tự",
+    "default_mini_game": "to-net",
+    "questions": [
+      { "id": "GEN-FINE-0001", "skill": "fine-motor" },
+      { "id": "GEN-FINE-0002", "skill": "fine-motor" },
+      { "id": "GEN-FINE-0003", "skill": "fine-motor" },
+      { "id": "GEN-FINE-0006", "skill": "fine-motor" }
+    ]
+  },
+  "coloring": {
+    "label": "Tô màu theo hướng dẫn",
+    "description": "Trẻ tô màu theo chỉ dẫn (tô màu đỏ, xanh...) — luyện vận động tinh, nhận biết màu sắc",
+    "default_mini_game": "to-net",
+    "questions": [
+      { "id": "GEN-FINE-0004", "skill": "fine-motor" },
+      { "id": "GEN-FINE-0005", "skill": "fine-motor" }
     ]
   }
 }

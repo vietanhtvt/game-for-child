@@ -1,0 +1,349 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-math-logic-v1",
+  "title": "Toán & Tư Duy Logic (Vinschool — Đánh Giá Năng Lực Đầu Vào)",
+  "description": "Bài tập Toán tư duy lớp 1 theo cấu trúc mẫu đề kiểm tra định vị năng lực đầu vào Vinschool (15 câu trắc nghiệm, 30 phút). Kiểm tra: nhận dạng hình và số, tư duy logic, so sánh số lượng, quy luật đơn giản. Nguồn: vndoc.com mẫu đề Vinschool, review lamchame.com, afamily.vn, baolamdong.vn.",
+  "school": "vinschool",
+  "skill": "pattern-recognition",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 7,
+  "questions": [
+    {
+      "id": "VIN-MATH-0001",
+      "type": "multiple-choice-image",
+      "skill": "geometry",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/mau-de-kiem-tra-dinh-vi-nang-luc-dau-vao-lop-1-mon-toan-88476",
+        "crawled_at": "2026-04-27",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào là hình tròn?",
+        "audio": {
+          "path": "questions/vin-math-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/vin-math-0001-A-circle.webp", "alt": "Hình tròn màu xanh" } },
+        { "id": "B", "image": { "path": "options/vin-math-0001-B-square.webp", "alt": "Hình vuông màu đỏ" } },
+        { "id": "C", "image": { "path": "options/vin-math-0001-C-triangle.webp", "alt": "Hình tam giác màu vàng" } },
+        { "id": "D", "image": { "path": "options/vin-math-0001-D-rectangle.webp", "alt": "Hình chữ nhật màu xanh lá" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Hình tròn không có góc cạnh — tròn đều!",
+          "audio": { "path": "feedback/geo-circle-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Hình tròn thì không có góc, trông như quả bóng.",
+          "audio": { "path": "feedback/geo-circle-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["hinh-hoc", "hinh-tron", "nhan-dang-hinh", "vinschool"]
+    },
+    {
+      "id": "VIN-MATH-0002",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/mau-de-kiem-tra-dinh-vi-nang-luc-dau-vao-lop-1-mon-toan-88476",
+        "crawled_at": "2026-04-27",
+        "verified": false
+      },
+      "stem": {
+        "text": "Có mấy hình vuông trong tranh? Chọn số đúng.",
+        "audio": {
+          "path": "questions/vin-math-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-math-0002-squares-count.webp",
+          "alt": "6 hình vuông màu xanh xếp ngẫu nhiên trên nền trắng",
+          "width": 400,
+          "height": 300
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "hinh-vuong", "1-10", "vinschool"]
+    },
+    {
+      "id": "VIN-MATH-0003",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/mau-de-kiem-tra-dinh-vi-nang-luc-dau-vao-lop-1-mon-toan-88476",
+        "crawled_at": "2026-04-27",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào đến tiếp theo trong dãy?",
+        "audio": {
+          "path": "questions/vin-math-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-math-0003-sequence.webp",
+          "alt": "Dãy hình: mặt trời → mây → mặt trời → mây → dấu hỏi",
+          "width": 600,
+          "height": 130
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/vin-math-0003-A-sun.webp", "alt": "Mặt trời vàng" } },
+        { "id": "B", "image": { "path": "options/vin-math-0003-B-cloud.webp", "alt": "Đám mây trắng" } },
+        { "id": "C", "image": { "path": "options/vin-math-0003-C-rain.webp", "alt": "Đám mây có mưa" } },
+        { "id": "D", "image": { "path": "options/vin-math-0003-D-star.webp", "alt": "Ngôi sao vàng" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Dãy lặp lại: mặt trời → mây → mặt trời → mây → ?",
+        "audio": { "path": "questions/vin-math-0003-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Dãy lặp: mặt trời, mây, mặt trời, mây — tiếp theo là MÂY!",
+          "audio": { "path": "feedback/pattern-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nhìn xem cứ 2 hình lại lặp lại một lần.",
+          "audio": { "path": "feedback/pattern-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat", "AB-AB", "thoi-tiet", "vinschool"]
+    },
+    {
+      "id": "VIN-MATH-0004",
+      "type": "multiple-choice",
+      "skill": "number-comparison",
+      "difficulty": 3,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/mau-de-kiem-tra-dinh-vi-nang-luc-dau-vao-lop-1-mon-toan-88476",
+        "crawled_at": "2026-04-27",
+        "verified": false
+      },
+      "stem": {
+        "text": "Số nào NHỎ HƠN?",
+        "audio": {
+          "path": "questions/vin-math-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-math-0004-compare-7-4.webp",
+          "alt": "Hai ô vuông: ô trái ghi số 7, ô phải ghi số 4",
+          "width": 380,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "A", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bằng nhau", "audio": { "path": "options/bang-nhau.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 4 nhỏ hơn 7 vì 4 đến trước 7 khi đếm.",
+          "audio": { "path": "feedback/compare-4-7-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Hãy đếm thử: 1, 2, 3, 4, 5, 6, 7 — số nào đến trước?",
+          "audio": { "path": "feedback/compare-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh-so", "nho-hon", "pham-vi-10", "vinschool"]
+    },
+    {
+      "id": "VIN-MATH-0005",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["vinschool", "doan-thi-diem", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-27",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào KHÁC với các hình còn lại?",
+        "audio": {
+          "path": "questions/vin-math-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/vin-math-0005-A-apple.webp", "alt": "Quả táo đỏ" } },
+        { "id": "B", "image": { "path": "options/vin-math-0005-B-orange.webp", "alt": "Quả cam vàng" } },
+        { "id": "C", "image": { "path": "options/vin-math-0005-C-banana.webp", "alt": "Quả chuối vàng" } },
+        { "id": "D", "image": { "path": "options/vin-math-0005-D-carrot.webp", "alt": "Củ cà rốt cam" } }
+      ],
+      "answer": "D",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Cà rốt là rau củ — 3 hình kia đều là trái cây!",
+          "audio": { "path": "feedback/iq-odd-one-out-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nhìn xem: táo, cam, chuối thuộc nhóm nào? Còn cà rốt thì sao?",
+          "audio": { "path": "feedback/iq-odd-one-out-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["iq-phan-biet", "trai-cay", "rau-cu", "phan-loai"]
+    },
+    {
+      "id": "VIN-MATH-0006",
+      "type": "fill-blank",
+      "skill": "addition",
+      "difficulty": 4,
+      "school": ["vinschool", "archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-04-27",
+        "verified": false
+      },
+      "stem": {
+        "text": "Điền số còn thiếu: 3 + ? = 8",
+        "audio": {
+          "path": "questions/vin-math-0006-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-math-0006-addition-fill.webp",
+          "alt": "Bảng tính: 3 + [ô trống] = 8, có hình minh họa 3 bông hoa và ô trống rồi 8 bông hoa",
+          "width": 520,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "3 + ? = 8. Đếm thêm từ 3: 4, 5, 6, 7, 8 — thêm mấy bước?",
+        "audio": { "path": "questions/vin-math-0006-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 3 + 5 = 8. Giỏi quá!",
+          "audio": { "path": "feedback/addition-5-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nếu có 3 cái, cần thêm bao nhiêu để được 8 cái?",
+          "audio": { "path": "feedback/addition-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["phep-cong", "dien-so-con-thieu", "pham-vi-10", "vinschool"]
+    },
+    {
+      "id": "VIN-MATH-0007",
+      "type": "matching",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối mỗi con vật với bóng (hình bóng) của nó.",
+        "audio": {
+          "path": "questions/vin-math-0007-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "left-A", "image": { "path": "options/vin-math-0007-cat.webp", "alt": "Con mèo màu cam" } },
+        { "id": "left-B", "image": { "path": "options/vin-math-0007-elephant.webp", "alt": "Con voi xám" } },
+        { "id": "left-C", "image": { "path": "options/vin-math-0007-rabbit.webp", "alt": "Con thỏ trắng" } },
+        { "id": "right-1", "image": { "path": "options/vin-math-0007-shadow-elephant.webp", "alt": "Bóng hình con voi" } },
+        { "id": "right-2", "image": { "path": "options/vin-math-0007-shadow-rabbit.webp", "alt": "Bóng hình con thỏ" } },
+        { "id": "right-3", "image": { "path": "options/vin-math-0007-shadow-cat.webp", "alt": "Bóng hình con mèo" } }
+      ],
+      "answer": {
+        "left-A": "right-3",
+        "left-B": "right-1",
+        "left-C": "right-2"
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con đã nối đúng tất cả con vật với bóng của chúng!",
+          "audio": { "path": "feedback/match-shadow-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nhìn hình dạng của bóng xem nó giống con vật nào nhất?",
+          "audio": { "path": "feedback/match-shadow-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "max_attempts": 3,
+        "auto_play_audio": true
+      },
+      "tags": ["noi-bong", "con-vat", "iq-logic", "nhan-dang-hinh", "vinschool"]
+    }
+  ]
+}

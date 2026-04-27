@@ -1,0 +1,329 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-fine-motor-v1",
+  "title": "Vận Động Tinh — Nối Chấm & Tô Nét",
+  "description": "Bài tập luyện vận động tinh (fine motor) — nối các điểm để tạo hình và tô theo nét vẽ. Kỹ năng này được kiểm tra trong đề thi Đoàn Thị Điểm (phần nối chấm tạo ngôi nhà, con vật) và Archimedes (nét viết). Bám sát Chuẩn phát triển trẻ 5 tuổi (Bộ GD&ĐT) mục phát triển thể chất — vận động tinh. Trong game, dạng bài này dùng mini-game 'to-net' (cảm ứng / kéo theo đường).",
+  "school": "general",
+  "skill": "fine-motor",
+  "difficulty_range": [1, 2, 3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "GEN-FINE-0001",
+      "type": "connect-dots",
+      "skill": "fine-motor",
+      "difficulty": 1,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự 1→2→3→4→5 để vẽ thành hình.",
+        "audio": {
+          "path": "questions/gen-fine-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0001-dots-house.webp",
+          "alt": "5 chấm được đánh số 1 đến 5 tạo thành hình tam giác (mái nhà) khi nối",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": {
+        "type": "draw-path",
+        "sequence": ["dot-1", "dot-2", "dot-3", "dot-4", "dot-5"],
+        "result_image": {
+          "path": "questions/gen-fine-0001-result-roof.webp",
+          "alt": "Mái nhà tam giác hoàn chỉnh"
+        }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Con đã vẽ được mái nhà rồi!",
+          "audio": { "path": "feedback/fine-motor-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu từ chấm số 1 và nối theo thứ tự nhé.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 120
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "hinh-tam-giac", "mai-nha"],
+      "metadata": {
+        "curriculum_ref": "Chuan-PhatTrien-Tre5Tuoi-The-Chat-VanDongTinh"
+      }
+    },
+    {
+      "id": "GEN-FINE-0002",
+      "type": "connect-dots",
+      "skill": "fine-motor",
+      "difficulty": 2,
+      "school": ["general", "doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự từ 1 đến 8 để tạo thành ngôi nhà.",
+        "audio": {
+          "path": "questions/gen-fine-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0002-dots-fullhouse.webp",
+          "alt": "8 chấm đánh số 1-8 bố trí tạo hình ngôi nhà đầy đủ (tường + mái) khi nối",
+          "width": 480,
+          "height": 480
+        }
+      },
+      "answer": {
+        "type": "draw-path",
+        "sequence": ["dot-1", "dot-2", "dot-3", "dot-4", "dot-5", "dot-6", "dot-7", "dot-8"],
+        "result_image": {
+          "path": "questions/gen-fine-0002-result-house.webp",
+          "alt": "Ngôi nhà hoàn chỉnh với tường và mái"
+        }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Giỏi quá! Con đã vẽ được ngôi nhà rồi!",
+          "audio": { "path": "feedback/fine-motor-house-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại từ chấm 1 nhé! Nhìn số và nối theo thứ tự.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 150
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "nha", "8-cham"],
+      "metadata": {
+        "curriculum_ref": "Chuan-PhatTrien-Tre5Tuoi-The-Chat-VanDongTinh"
+      }
+    },
+    {
+      "id": "GEN-FINE-0003",
+      "type": "connect-dots",
+      "skill": "fine-motor",
+      "difficulty": 3,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm từ 1 đến 12 để xem đây là con gì!",
+        "audio": {
+          "path": "questions/gen-fine-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0003-dots-star.webp",
+          "alt": "12 chấm đánh số 1-12 bố trí tạo hình ngôi sao 5 cánh khi nối",
+          "width": 480,
+          "height": 480
+        }
+      },
+      "answer": {
+        "type": "draw-path",
+        "sequence": ["dot-1","dot-2","dot-3","dot-4","dot-5","dot-6","dot-7","dot-8","dot-9","dot-10","dot-11","dot-12"],
+        "result_image": {
+          "path": "questions/gen-fine-0003-result-star.webp",
+          "alt": "Ngôi sao 5 cánh hoàn chỉnh"
+        }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Wow! Con đã vẽ được ngôi sao rồi! Đẹp quá!",
+          "audio": { "path": "feedback/fine-motor-star-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Bắt đầu từ chấm 1 và đừng nhấc tay.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 180
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "ngoi-sao", "12-cham"],
+      "metadata": {
+        "curriculum_ref": "Chuan-PhatTrien-Tre5Tuoi-The-Chat-VanDongTinh"
+      }
+    },
+    {
+      "id": "GEN-FINE-0004",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu quả táo này bằng màu ĐỎ.",
+        "audio": {
+          "path": "questions/gen-fine-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0004-apple-outline.webp",
+          "alt": "Hình vẽ nét quả táo chưa tô màu",
+          "width": 360,
+          "height": 360
+        }
+      },
+      "answer": {
+        "type": "color-fill",
+        "target_color": "#E63946",
+        "color_name_vi": "đỏ",
+        "tolerance_percent": 85
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Quả táo đỏ của con thật đẹp!",
+          "audio": { "path": "feedback/coloring-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Con cần dùng màu đỎ nhé! Hãy chọn màu đỏ.",
+          "audio": { "path": "feedback/coloring-color-hint.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 180
+      },
+      "tags": ["van-dong-tinh", "to-mau", "trai-cay", "mau-do"],
+      "metadata": {
+        "curriculum_ref": "GDMN-2021-ThamMy-TaoHinh"
+      }
+    },
+    {
+      "id": "GEN-FINE-0005",
+      "type": "coloring",
+      "skill": "fine-motor",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Tô màu bầu trời màu XANH và mặt trời màu VÀNG.",
+        "audio": {
+          "path": "questions/gen-fine-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0005-sky-sun-outline.webp",
+          "alt": "Hình vẽ nét bầu trời và mặt trời chưa tô màu",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "answer": {
+        "type": "multi-color-fill",
+        "zones": [
+          { "zone_id": "sky", "target_color": "#4ECDC4", "color_name_vi": "xanh dương" },
+          { "zone_id": "sun", "target_color": "#FFE66D", "color_name_vi": "vàng" }
+        ],
+        "tolerance_percent": 80
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đẹp lắm! Bầu trời xanh và mặt trời vàng — đúng rồi!",
+          "audio": { "path": "feedback/coloring-two-colors-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nhớ: bầu trời màu XANH, mặt trời màu VÀNG nhé.",
+          "audio": { "path": "feedback/coloring-two-colors-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 240
+      },
+      "tags": ["van-dong-tinh", "to-mau", "bau-troi", "mat-troi", "hai-mau"]
+    },
+    {
+      "id": "GEN-FINE-0006",
+      "type": "connect-dots",
+      "skill": "fine-motor",
+      "difficulty": 4,
+      "school": ["general", "doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm từ 1 đến 15 để vẽ con bướm.",
+        "audio": {
+          "path": "questions/gen-fine-0006-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-fine-0006-dots-butterfly.webp",
+          "alt": "15 chấm đánh số 1-15 bố trí tạo hình con bướm khi nối đủ",
+          "width": 560,
+          "height": 480
+        }
+      },
+      "answer": {
+        "type": "draw-path",
+        "sequence": ["dot-1","dot-2","dot-3","dot-4","dot-5","dot-6","dot-7","dot-8","dot-9","dot-10","dot-11","dot-12","dot-13","dot-14","dot-15"],
+        "result_image": {
+          "path": "questions/gen-fine-0006-result-butterfly.webp",
+          "alt": "Con bướm hoàn chỉnh"
+        }
+      },
+      "hint": {
+        "text": "Chú ý: sau chấm 8 sẽ tạo thành cánh bướm phải!",
+        "audio": { "path": "questions/gen-fine-0006-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Ôi con bướm đẹp quá! Con làm được rồi!",
+          "audio": { "path": "feedback/fine-motor-butterfly-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nhé! Nối từ 1 đến 15 không được nhấc tay.",
+          "audio": { "path": "feedback/fine-motor-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 5,
+        "time_limit_seconds": 240
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "con-buom", "15-cham", "kho"],
+      "metadata": {
+        "curriculum_ref": "Chuan-PhatTrien-Tre5Tuoi-The-Chat-VanDongTinh"
+      }
+    }
+  ]
+}

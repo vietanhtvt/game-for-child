@@ -1,6 +1,6 @@
 # Nguồn Dữ Liệu Đề Thi Tiền Tiểu Học — Hà Nội
 
-_Cập nhật: 2026-04-21 (Crawl lần 2 — bổ sung Ngôi Sao, không gian, cảm xúc)_
+_Cập nhật: 2026-04-27 (Crawl lần 3 — bổ sung Vinschool math, fine-motor, Ngôi Sao WISC-V, nguồn mới)_
 
 Tài liệu này catalog toàn bộ các trang web, ứng dụng và cộng đồng có thể cung cấp câu hỏi, đề thi, bài tập tiền tiểu học phục vụ phát triển game. Mỗi nguồn được đánh giá theo: loại nội dung, khả năng truy cập, chất lượng dữ liệu và ưu tiên crawl.
 
@@ -249,6 +249,34 @@ Tier 4 — Manual:
 | cafef.vn kinh nghiệm GV Anh | https://cafef.vn/co-giao-tieng-anh-co-con-do-4-truong-tieu-hoc-chia-se-kinh-nghiem-giup-tre-on-thi-vao-lop-1-2021060211364126.chn | GV tiếng Anh chia sẻ kinh nghiệm ôn thi — con đỗ Nguyễn Siêu, Archimedes, Đoàn Thị Điểm, Vinschool |
 | dantri.com.vn tuyển sinh 2025-2026 | https://dantri.com.vn/giao-duc/loat-truong-tu-tuyen-sinh-lop-1-nam-hoc-2025-2026-20241119114433078.htm | Tổng hợp lịch tuyển sinh các trường tư năm học 2025-2026 |
 | mathx.vn Ngôi Sao khối 1 | https://mathx.vn/tai-lieu/bo-tai-lieu-tham-khao-ky-thi-hoc-bong-ngoi-sao-ha-noi-khoi-1.html | Bộ tài liệu tham khảo kỳ thi học bổng Ngôi Sao Hà Nội — HTTP 403 |
+
+### 5.5 Nguồn mới phát hiện trong crawl 2026-04-27
+
+**Phát hiện quan trọng về format đề thi:**
+
+| Nguồn | URL | Ghi chú |
+|---|---|---|
+| Studocu — Đoàn Thị Điểm | https://www.studocu.vn/vn/document/dai-hoc-su-pham-ha-noi/giao-duc-toan-hoc-o-tieu-hoc-1/123doc-de-thi-vao-lop-1-truong-doan-thi-diem-16169860401505482402/123016729 | Cấu trúc đề thi ĐTĐ chi tiết: Phần 1 Quan sát (tìm hình khác, ghép mảnh) + Phần 2 Nhận biết (phân loại vật sống/vật không sống, nối đôi giày với chủ) + Phần 3 Tư duy (vẽ thêm hình tròn để có 2 hàng 4 hình) |
+| Vinschool toán mẫu | https://vndoc.com/mau-de-kiem-tra-dinh-vi-nang-luc-dau-vao-lop-1-mon-toan-88476 | **15 câu trắc nghiệm, 30 phút**: nhận dạng hình, đếm, so sánh, quy luật |
+| Vinschool ngôn ngữ mẫu | https://vndoc.com/s/mẫu+đề+kiểm+tra+định+vị+năng+lực+đầu+vào+lớp+1+của+vinschool | Năng lực ngôn ngữ đầu vào lớp 1 Vinschool |
+| Ngôi Sao Hoàng Mai | https://hoangmaistarschool.edu.vn/tuyensinh | Tuyển sinh 2026-2027: **Jolly Steps club** (có nộp video audition + WISC-V aptitude + phỏng vấn BGH) và **thi trực tiếp 9/12/2024** (video + WISC-V + phỏng vấn, phí 500k VNĐ) |
+| Ngôi Sao tuyển sinh 25-26 | https://ngoisaohanoi.edu.vn/tuyensinh25/ | Tuyển sinh lớp 1 Ngôi Sao Hà Nội 2025-2026 |
+| soha.vn đề ôn luyện trường hot | https://soha.vn/xa-hoi/xem-de-on-luyen-kho-nhan-vao-lop-1-truong-hot-20130417084758373.htm | Các dạng bài đặc trưng đề luyện vào lớp 1 trường tư: nối 1-1, gạch bỏ hình khác, tìm hình tiếp theo, nối hình với hình, sắp xếp tranh |
+| VnDoc đề IQ vào lớp 1 | https://vndoc.com/test-de-test-iq-cho-tre-chuan-bi-buoc-vao-lop-1-co-dap-an-213022 | 10 câu trắc nghiệm IQ có đáp án — dành cho trẻ chuẩn bị vào lớp 1 |
+| giaovienvietnam.com | https://giaovienvietnam.com/de-thi-vao-lop-1/ | Tổng hợp đề thi đánh giá năng lực vào lớp 1 — 403 khi fetch |
+| tozytomo.com tiền tiểu học | https://tozytomo.com/tien-tieu-hoc-cho-be-thi-vao-lop-1-toan-tu-duy/ | 12 chủ điểm toán tư duy tiền tiểu học — 403 khi fetch |
+| afamily.vn kinh nghiệm thực tế | https://afamily.vn/cho-con-vao-lop-1-ba-me-o-ha-noi-chia-se-tat-tan-tat-qua-trinh-luyen-thi-va-trai-nghiem-thi-cua-con-kich-tinh-chang-thua-vao-dai-hoc-20220509221514486.chn | Chia sẻ trải nghiệm thi thực tế nhiều trường — 403 khi fetch |
+| lamchame Vinschool Times City | https://www.lamchame.com/forum/threads/kiem-tra-dau-vao-truong-vinschool-cap-1-timescity.1575746/ | Vinschool: hệ chuẩn (logic + TV phỏng vấn), hệ nâng cao (+English interview) — 403 khi fetch |
+
+**Tóm tắt dạng câu hỏi đặc trưng mới xác nhận (2026-04-27):**
+
+| Trường | Dạng câu hỏi đặc trưng mới xác nhận |
+|---|---|
+| **Đoàn Thị Điểm** | Phần 2 Nhận biết: vật sống vs. vật không sống (cây, chó, bàn, đá); nối đôi giày với chủ (nhận diện kích cỡ + màu sắc) |
+| **Vinschool** | 15 câu trắc nghiệm 30 phút: nhận dạng hình hình học, đếm 1-10, so sánh 2 số, quy luật AB-AB, phân loại vật thể |
+| **Ngôi Sao** | WISC-V aptitude test (bài kiểm tra chuẩn tâm lý học), phỏng vấn BGH, video audition — không phải đề thi giấy |
+| **Nguyễn Siêu** | Tìm vật bị giấu (trí nhớ làm việc), kể chuyện qua tranh (4 bức → chọn câu trả lời đúng), kỹ năng mềm qua CLB 8 buổi |
+| **Archimedes** | Điền dấu cộng/trừ đúng vào ô, điền số vào bảng 3x3 (cộng hàng ngang = cộng cột dọc = 10), nối hình theo mẫu |
 
 ### 5.3 Đạo đức & Pháp lý
 - Chỉ sử dụng nội dung đã được chia sẻ công khai

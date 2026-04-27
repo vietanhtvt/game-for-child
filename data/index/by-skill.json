@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo kỹ năng. Mỗi entry là danh sách các question_id và file chứa câu hỏi đó.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-27",
   "letter-recognition": {
     "label": "Nhận diện chữ cái",
     "mini_games": ["bat-chu"],
@@ -46,7 +46,8 @@
       { "id": "NGS-COUNT-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 1 },
       { "id": "NGS-COUNT-0002", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
       { "id": "DTD-COUNT-0001", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 },
-      { "id": "DTD-COUNT-0002", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 }
+      { "id": "DTD-COUNT-0002", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 },
+      { "id": "VIN-MATH-0002", "file": "questions/vinschool/math-logic.json", "difficulty": 2 }
     ]
   },
   "number-comparison": {
@@ -55,15 +56,17 @@
     "questions": [
       { "id": "NGS-NUM-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
       { "id": "ARCH-NUM-0002", "file": "questions/archimedes/spatial-number.json", "difficulty": 3 },
-      { "id": "DTD-COUNT-0003", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 }
+      { "id": "DTD-COUNT-0003", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 },
+      { "id": "VIN-MATH-0004", "file": "questions/vinschool/math-logic.json", "difficulty": 3 }
     ]
   },
   "addition": {
-    "label": "Phép cộng / Thêm vào",
+    "label": "Phép cộng / Thêm vào / Điền số còn thiếu",
     "mini_games": ["cho-que"],
     "questions": [
       { "id": "ARCH-NUM-0001", "file": "questions/archimedes/spatial-number.json", "difficulty": 3 },
-      { "id": "DTD-COUNT-0004", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 }
+      { "id": "DTD-COUNT-0004", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 },
+      { "id": "VIN-MATH-0006", "file": "questions/vinschool/math-logic.json", "difficulty": 4 }
     ]
   },
   "pattern-recognition": {
@@ -75,7 +78,8 @@
       { "id": "ARCH-PATT-0003", "file": "questions/archimedes/math-pattern.json", "difficulty": 3 },
       { "id": "NGS-PATT-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
       { "id": "NGS-PATT-0002", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 3 },
-      { "id": "DTD-PATT-0001", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 }
+      { "id": "DTD-PATT-0001", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 },
+      { "id": "VIN-MATH-0003", "file": "questions/vinschool/math-logic.json", "difficulty": 3 }
     ]
   },
   "geometry": {
@@ -83,7 +87,8 @@
     "mini_games": ["xep-tangram", "hai-buc-tranh"],
     "questions": [
       { "id": "ARCH-PATT-0005", "file": "questions/archimedes/math-pattern.json", "difficulty": 3 },
-      { "id": "NGS-GEO-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 }
+      { "id": "NGS-GEO-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
+      { "id": "VIN-MATH-0001", "file": "questions/vinschool/math-logic.json", "difficulty": 2 }
     ]
   },
   "spatial-orientation": {
@@ -116,10 +121,12 @@
     ]
   },
   "iq-logic": {
-    "label": "Tư duy logic / Nối hình",
-    "mini_games": ["ke-chuyen", "doan-tau-hoa-tiet"],
+    "label": "Tư duy logic / Nối hình / Phân loại",
+    "mini_games": ["ke-chuyen", "doan-tau-hoa-tiet", "hai-buc-tranh"],
     "questions": [
-      { "id": "DTD-IQ-0004", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 }
+      { "id": "DTD-IQ-0004", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
+      { "id": "VIN-MATH-0005", "file": "questions/vinschool/math-logic.json", "difficulty": 3 },
+      { "id": "VIN-MATH-0007", "file": "questions/vinschool/math-logic.json", "difficulty": 3 }
     ]
   },
   "english-vocabulary": {
@@ -152,6 +159,18 @@
       { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 2 },
       { "id": "GEN-EMO-0002", "file": "questions/general/spatial-emotion.json", "difficulty": 2 },
       { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json", "difficulty": 1 }
+    ]
+  },
+  "fine-motor": {
+    "label": "Vận động tinh — Nối chấm & Tô màu",
+    "mini_games": ["to-net"],
+    "questions": [
+      { "id": "GEN-FINE-0001", "file": "questions/general/fine-motor.json", "difficulty": 1 },
+      { "id": "GEN-FINE-0002", "file": "questions/general/fine-motor.json", "difficulty": 2 },
+      { "id": "GEN-FINE-0003", "file": "questions/general/fine-motor.json", "difficulty": 3 },
+      { "id": "GEN-FINE-0004", "file": "questions/general/fine-motor.json", "difficulty": 1 },
+      { "id": "GEN-FINE-0005", "file": "questions/general/fine-motor.json", "difficulty": 2 },
+      { "id": "GEN-FINE-0006", "file": "questions/general/fine-motor.json", "difficulty": 4 }
     ]
   }
 }

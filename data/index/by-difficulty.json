@@ -1,19 +1,21 @@
 {
   "_description": "Index câu hỏi theo độ khó (1=3 tuổi, 2=4 tuổi, 3=5 tuổi, 4=6 tuổi/chuẩn bị vào lớp 1).",
-  "_updated": "2026-04-21",
+  "_updated": "2026-04-27",
   "1": {
     "label": "Mức 1 — 3 tuổi",
-    "description": "Nhận biết đơn giản: hình dạng, màu sắc cơ bản, chữ cái đơn, số 1-5, cảm xúc cơ bản",
+    "description": "Nhận biết đơn giản: hình dạng, màu sắc cơ bản, chữ cái đơn, số 1-5, cảm xúc cơ bản, nối chấm đơn giản",
     "questions": [
       { "id": "GEN-LETT-0001", "skill": "letter-recognition", "file": "questions/general/vietnamese-letters.json" },
       { "id": "NGS-COUNT-0001", "skill": "counting", "file": "questions/ngoi-sao/math-counting.json" },
       { "id": "GEN-SPAT-0001", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0003", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0003", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-FINE-0001", "skill": "fine-motor", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0004", "skill": "fine-motor", "file": "questions/general/fine-motor.json" }
     ]
   },
   "2": {
     "label": "Mức 2 — 4 tuổi",
-    "description": "Đếm 1-10, ghép âm đơn giản, quy luật đơn giản, nhận diện cảm xúc, không gian cơ bản",
+    "description": "Đếm 1-10, ghép âm đơn giản, quy luật đơn giản, nhận diện cảm xúc, không gian cơ bản, nối 8 chấm",
     "questions": [
       { "id": "ARCH-PATT-0001", "skill": "pattern-recognition", "file": "questions/archimedes/math-pattern.json" },
       { "id": "ARCH-PATT-0004", "skill": "counting", "file": "questions/archimedes/math-pattern.json" },
@@ -29,7 +31,11 @@
       { "id": "ARCH-SPAT-0001", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-SPAT-0002", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
       { "id": "GEN-SPAT-0002", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0002", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0002", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" },
+      { "id": "VIN-MATH-0001", "skill": "geometry", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0002", "skill": "counting", "file": "questions/vinschool/math-logic.json" },
+      { "id": "GEN-FINE-0002", "skill": "fine-motor", "file": "questions/general/fine-motor.json" },
+      { "id": "GEN-FINE-0005", "skill": "fine-motor", "file": "questions/general/fine-motor.json" }
     ]
   },
   "3": {
@@ -55,7 +61,12 @@
       { "id": "NGS-READ-0001", "skill": "reading-comprehension", "file": "questions/ngoi-sao/vietnamese-letters.json" },
       { "id": "ARCH-NUM-0001", "skill": "addition", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-NUM-0002", "skill": "number-comparison", "file": "questions/archimedes/spatial-number.json" },
-      { "id": "GEN-SPAT-0003", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-SPAT-0003", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
+      { "id": "VIN-MATH-0003", "skill": "pattern-recognition", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0004", "skill": "number-comparison", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0005", "skill": "iq-logic", "file": "questions/vinschool/math-logic.json" },
+      { "id": "VIN-MATH-0007", "skill": "iq-logic", "file": "questions/vinschool/math-logic.json" },
+      { "id": "GEN-FINE-0003", "skill": "fine-motor", "file": "questions/general/fine-motor.json" }
     ]
   },
   "4": {
@@ -73,7 +84,9 @@
       { "id": "GEN-READ-0001", "skill": "reading-comprehension", "file": "questions/general/vietnamese-letters.json" },
       { "id": "VIN-ENG-0004", "skill": "english-following-instructions", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0005", "skill": "english-vocabulary", "file": "questions/vinschool/english-listening.json" },
-      { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" }
+      { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "VIN-MATH-0006", "skill": "addition", "file": "questions/vinschool/math-logic.json" },
+      { "id": "GEN-FINE-0006", "skill": "fine-motor", "file": "questions/general/fine-motor.json" }
     ]
   }
 }
