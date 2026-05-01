@@ -1,0 +1,281 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-fine-motor-v1",
+  "title": "Vận Động Tinh — Nối Chấm, Tô Màu & Viết Nét (Kỹ Năng Chung)",
+  "description": "Bài tập vận động tinh chuẩn bị cho việc viết chữ: nối các dấu chấm theo số thứ tự để tạo hình, chọn màu tô đúng theo hướng dẫn, và nhận biết nét bút cơ bản. Phù hợp với tất cả trường — đặc biệt Đoàn Thị Điểm (nối chấm tạo hình) và chương trình GDMN 2021 (lĩnh vực phát triển thể chất — vận động tinh). Nguồn: khotientieuhoc.com, lienviet.edu.vn, download.vn, bevaolop1.com.",
+  "school": "general",
+  "skill": "fine-motor",
+  "difficulty_range": [1, 2, 3],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "GEN-MOTOR-0001",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 1,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối các chấm theo thứ tự số từ 1 đến 5 để vẽ hình!",
+        "audio": {
+          "path": "questions/gen-motor-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-motor-0001-dots-star.webp",
+          "alt": "5 chấm đánh số 1-5 theo thứ tự sẽ tạo thành hình ngôi sao khi nối lại",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "answer": ["1", "2", "3", "4", "5", "1"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Con đã vẽ được ngôi sao bằng cách nối 5 chấm!",
+          "audio": { "path": "feedback/motor-dots-star-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu từ chấm số 1, rồi đi đến số 2, 3, 4, 5 nhé!",
+          "audio": { "path": "feedback/motor-dots-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 60
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "ngoi-sao", "1-5", "tien-viet"],
+      "metadata": {
+        "curriculum_ref": "GDMN-2021-TheChat-VanDongTinh"
+      }
+    },
+    {
+      "id": "GEN-MOTOR-0002",
+      "type": "multiple-choice-image",
+      "skill": "fine-motor",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "khotientieuhoc.com",
+        "url": "https://khotientieuhoc.com/toan-tien-tieu-hoc/",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chọn màu đúng để tô theo hướng dẫn: TÔ MÀU VÀNG cho con vịt!",
+        "audio": {
+          "path": "questions/gen-motor-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-motor-0002-duck-outline.webp",
+          "alt": "Hình con vịt phác thảo chưa tô màu",
+          "width": 300,
+          "height": 280
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/gen-motor-0002-A-red.webp", "alt": "Màu đỏ" },
+          "audio": { "path": "options/color-do.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/gen-motor-0002-B-yellow.webp", "alt": "Màu vàng" },
+          "audio": { "path": "options/color-vang.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/gen-motor-0002-C-blue.webp", "alt": "Màu xanh" },
+          "audio": { "path": "options/color-xanh.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/gen-motor-0002-D-green.webp", "alt": "Màu xanh lá" },
+          "audio": { "path": "options/color-xanh-la.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con vịt có màu VÀNG — như ánh nắng mặt trời!",
+          "audio": { "path": "feedback/motor-color-yellow-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Hướng dẫn tô màu VÀNG cho con vịt. Màu vàng giống màu của chuối nhé!",
+          "audio": { "path": "feedback/motor-color-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["van-dong-tinh", "to-mau", "mau-vang", "con-vit"],
+      "metadata": {
+        "curriculum_ref": "GDMN-2021-TheChat-VanDongTinh"
+      }
+    },
+    {
+      "id": "GEN-MOTOR-0003",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 2,
+      "school": ["general", "doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "lienviet.edu.vn",
+        "url": "https://lienviet.edu.vn/phieu-bai-tap-toan-tien-tieu-hoc/",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối các chấm theo số từ 1 đến 10 để vẽ hình con thỏ!",
+        "audio": {
+          "path": "questions/gen-motor-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-motor-0003-dots-rabbit.webp",
+          "alt": "10 chấm đánh số 1-10 theo thứ tự sẽ tạo thành hình con thỏ đơn giản khi nối lại",
+          "width": 440,
+          "height": 440
+        }
+      },
+      "answer": ["1","2","3","4","5","6","7","8","9","10"],
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Con đã vẽ được con thỏ bằng cách nối 10 chấm! Thật giỏi!",
+          "audio": { "path": "feedback/motor-dots-rabbit-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu từ số 1, rồi đi đến 2, 3, 4... cứ nối tiếp nhau nhé!",
+          "audio": { "path": "feedback/motor-dots-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 90
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "con-tho", "1-10", "tien-viet"]
+    },
+    {
+      "id": "GEN-MOTOR-0004",
+      "type": "multiple-choice-image",
+      "skill": "fine-motor",
+      "difficulty": 3,
+      "school": ["general", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nét bút nào đúng để viết chữ 'a' in thường?",
+        "audio": {
+          "path": "questions/gen-motor-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/gen-motor-0004-A-correct-a.webp", "alt": "Nét vòng tròn nhỏ rồi kéo thẳng xuống bên phải — chữ a đúng" },
+          "audio": { "path": "options/gen-motor-0004-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/gen-motor-0004-B-backward-a.webp", "alt": "Nét tương tự nhưng kéo ngược bên trái — sai" },
+          "audio": { "path": "options/gen-motor-0004-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/gen-motor-0004-C-two-circles.webp", "alt": "Hai vòng tròn — không phải chữ a" },
+          "audio": { "path": "options/gen-motor-0004-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/gen-motor-0004-D-triangle.webp", "alt": "Hình tam giác nhỏ — không phải chữ a" },
+          "audio": { "path": "options/gen-motor-0004-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "Chữ a in thường = một vòng tròn nhỏ + một nét kéo xuống bên PHẢI vòng tròn.",
+        "audio": { "path": "questions/gen-motor-0004-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Chữ a in thường: vẽ vòng tròn nhỏ rồi kéo nét thẳng xuống bên phải!",
+          "audio": { "path": "feedback/motor-net-a-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chữ a = vòng tròn + nét thẳng ở bên PHẢI vòng tròn (không phải bên trái nhé).",
+          "audio": { "path": "feedback/motor-net-a-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["van-dong-tinh", "net-but", "chu-a", "tien-viet", "tap-viet"]
+    },
+    {
+      "id": "GEN-MOTOR-0005",
+      "type": "connect-dots",
+      "skill": "dot-connection",
+      "difficulty": 3,
+      "school": ["general", "doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "bevaolop1.com",
+        "url": "https://bevaolop1.com/file-toan-tien-tieu-hoc/",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối các chấm số từ 1 đến 15 để vẽ hình ngôi nhà!",
+        "audio": {
+          "path": "questions/gen-motor-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-motor-0005-dots-house.webp",
+          "alt": "15 chấm đánh số 1-15 theo thứ tự sẽ tạo thành hình ngôi nhà đơn giản (thân nhà + mái) khi nối lại",
+          "width": 480,
+          "height": 440
+        }
+      },
+      "answer": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],
+      "feedback": {
+        "correct": {
+          "text": "Giỏi quá! Con đã vẽ được ngôi nhà! Nối 15 chấm theo thứ tự — thật kiên nhẫn!",
+          "audio": { "path": "feedback/motor-dots-house-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Gần đúng rồi! Nhớ đi theo thứ tự: 1→2→3→...→15. Đừng bỏ qua chấm nào nhé!",
+          "audio": { "path": "feedback/motor-dots-house-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "to-net",
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 120
+      },
+      "tags": ["van-dong-tinh", "noi-cham", "nha", "1-15", "kien-nhan"]
+    }
+  ]
+}

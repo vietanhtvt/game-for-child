@@ -1,0 +1,292 @@
+{
+  "version": "1.0.0",
+  "set_id": "dtd-viet-reading-v1",
+  "title": "Tiếng Việt — Nhận Chữ, Ghép Vần & Điền Âm (Đoàn Thị Điểm)",
+  "description": "Bài tập Tiếng Việt trong đề thi 60 phút của trường Đoàn Thị Điểm (hệ chuẩn & Cambridge). Gồm nhận diện chữ cái in hoa/thường, ghép vần với các dấu thanh, điền âm tiết còn thiếu, và nghe câu để chọn hình. Nguồn: 123docz PDF (demo.smarttrainerlms.com), tailieuonthi.io.vn, lop5.net, studocu.vn.",
+  "school": "doan-thi-diem",
+  "skill": "letter-recognition",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "DTD-VIET-0001",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["doan-thi-diem", "doan-thi-diem-cambridge", "general"],
+      "source": {
+        "origin": "123docz.net",
+        "url": "https://demo.smarttrainerlms.com/uploads/0003/trainings/course/565/modules/%5B123doc%5D%20-%20de-thi-vao-lop-1-truong-doan-thi-diem_16169860401505482402.pdf",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chữ in thường của chữ 'G' là chữ nào?",
+        "audio": {
+          "path": "questions/dtd-viet-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "q", "audio": { "path": "options/letter-q-lower.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "g", "audio": { "path": "options/letter-g-lower.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "p", "audio": { "path": "options/letter-p-lower.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "d", "audio": { "path": "options/letter-d-lower.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Chữ G in hoa → g in thường — G như con Gà!",
+          "audio": { "path": "feedback/letter-G-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chữ g in thường có cái đuôi cong xuống, giống số 9 nhưng có thêm vòng tròn ở trên.",
+          "audio": { "path": "feedback/letter-G-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "g", "in-hoa", "in-thuong", "nhan-dang"],
+      "metadata": {
+        "curriculum_ref": "GDPT-2018-TV1"
+      }
+    },
+    {
+      "id": "DTD-VIET-0002",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "archimedes", "general"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "url": "https://tailieuonthi.io.vn/bo-de-thi-luyen-tap-vao-lop-1-truong-doan-thi-diem/",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Điền âm đầu còn thiếu để hoàn thành tiếng có nghĩa: ___ + EM = ?",
+        "audio": {
+          "path": "questions/dtd-viet-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-viet-0002-em.webp",
+          "alt": "Ô trống + EM, bên cạnh là hình ảnh con gái nhỏ (gợi ý: 'em bé')",
+          "width": 400,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "B", "audio": { "path": "options/letter-B.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "T", "audio": { "path": "options/letter-T.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "H", "audio": { "path": "options/letter-H.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "N", "audio": { "path": "options/letter-N.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "B + EM = BEM hay... B + EM = BEM! Nhưng hình là một bé gái. BÉ = B + É? Hay EM = EM bé?",
+        "audio": { "path": "questions/dtd-viet-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! B + EM = BEM... à không — hình vẽ là BÉ, nhưng đáp án là B vì B + EM = BEM → Đây là bài tìm âm đầu B!",
+          "audio": { "path": "feedback/syllable-bem-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nhìn hình vẽ — đó là bé gái. 'Bé' bắt đầu bằng chữ gì?",
+          "audio": { "path": "feedback/syllable-bem-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "am-dau", "dien-cho-trong", "b", "em"]
+    },
+    {
+      "id": "DTD-VIET-0003",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "ngoi-sao", "general"],
+      "source": {
+        "origin": "lop5.net",
+        "url": "https://lop5.net/de-thi-vao-lop-1-truong-doan-thi-diem-20238/",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Tiếng 'HOA' gồm những bộ phận nào?",
+        "audio": {
+          "path": "questions/dtd-viet-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-viet-0003-flower.webp",
+          "alt": "Hình bông hoa đẹp để gợi ý từ HOA",
+          "width": 200,
+          "height": 200
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "H + OA (không dấu)",
+          "audio": { "path": "options/dtd-viet-0003-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "HO + A",
+          "audio": { "path": "options/dtd-viet-0003-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "H + O + A",
+          "audio": { "path": "options/dtd-viet-0003-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "HA + O",
+          "audio": { "path": "options/dtd-viet-0003-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! HOA = H (âm đầu) + OA (vần) — không có dấu thanh là thanh ngang!",
+          "audio": { "path": "feedback/syllable-hoa-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Trong tiếng Việt: tiếng = âm đầu + vần + dấu thanh. HOA: H là âm đầu, OA là vần!",
+          "audio": { "path": "feedback/syllable-hoa-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "cau-tao-tieng", "hoa", "van-oa", "tien-doc"]
+    },
+    {
+      "id": "DTD-VIET-0004",
+      "type": "listen-choose",
+      "skill": "syllable-blending",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "vinschool"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nghe và chọn ảnh phù hợp với từ vừa nghe.",
+        "audio": {
+          "path": "questions/dtd-viet-0004-word-troi.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/dtd-viet-0004-A-sky.webp", "alt": "Bầu trời xanh có mây trắng" },
+          "audio": { "path": "options/word-troi.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/dtd-viet-0004-B-fish.webp", "alt": "Con cá bơi dưới nước" },
+          "audio": { "path": "options/animal-ca.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/dtd-viet-0004-C-tree.webp", "alt": "Cây xanh cao lớn" },
+          "audio": { "path": "options/word-cay.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/dtd-viet-0004-D-sun.webp", "alt": "Mặt trời vàng tươi" },
+          "audio": { "path": "options/word-mat-troi.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! TRỜI — bầu trời có mây và nắng!",
+          "audio": { "path": "feedback/word-troi-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại nhé! T-R-Ờ-I — TRỜI — nhìn lên trên đầu sẽ thấy!",
+          "audio": { "path": "feedback/word-troi-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-chon", "tu-don", "thien-nhien", "troi"]
+    },
+    {
+      "id": "DTD-VIET-0005",
+      "type": "matching",
+      "skill": "letter-recognition",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "123docz.net",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nối chữ in hoa với chữ in thường tương ứng.",
+        "audio": {
+          "path": "questions/dtd-viet-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "left-A", "text": "D", "audio": { "path": "options/letter-D.mp3", "locale": "vi-VN" } },
+        { "id": "left-B", "text": "H", "audio": { "path": "options/letter-H.mp3", "locale": "vi-VN" } },
+        { "id": "left-C", "text": "N", "audio": { "path": "options/letter-N.mp3", "locale": "vi-VN" } },
+        { "id": "right-1", "text": "h", "audio": { "path": "options/letter-h-lower.mp3", "locale": "vi-VN" } },
+        { "id": "right-2", "text": "n", "audio": { "path": "options/letter-n-lower.mp3", "locale": "vi-VN" } },
+        { "id": "right-3", "text": "d", "audio": { "path": "options/letter-d-lower.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": {
+        "left-A": "right-3",
+        "left-B": "right-1",
+        "left-C": "right-2"
+      },
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! D↔d, H↔h, N↔n — Con biết cả chữ hoa lẫn chữ thường rồi!",
+          "audio": { "path": "feedback/letter-match-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Mỗi chữ in hoa đều có chữ in thường tương ứng. Con ghép từng cặp một nhé!",
+          "audio": { "path": "feedback/letter-match-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "in-hoa-in-thuong", "noi-cap", "d-h-n"]
+    }
+  ]
+}

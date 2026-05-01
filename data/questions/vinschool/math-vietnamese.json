@@ -1,0 +1,328 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-math-viet-v1",
+  "title": "Toán & Tiếng Việt — Đếm, So Sánh & Nhận Chữ (Vinschool)",
+  "description": "Bài tập Toán và Tiếng Việt dành cho kỳ khảo sát năng lực đầu vào lớp 1 Vinschool. Toán kiểm tra đếm số, so sánh số lượng và trí nhớ qua tranh. Tiếng Việt kiểm tra nhận diện chữ cái và ghép vần. Nguồn tổng hợp từ lamchame.com thread Vinschool Times City, vndoc.com, haysiri.com review.",
+  "school": "vinschool",
+  "skill": "counting",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "VIN-COUNT-0001",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "lamchame.com",
+        "url": "https://www.lamchame.com/forum/threads/kiem-tra-dau-vao-truong-vinschool-cap-1-timescity.1575746/",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Đếm và chọn số đúng: Có mấy chiếc ô tô trong tranh?",
+        "audio": {
+          "path": "questions/vin-count-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0001-cars.webp",
+          "alt": "6 chiếc ô tô nhỏ màu sắc khác nhau xếp thành 2 hàng",
+          "width": 480,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 1, 2, 3, 4, 5, 6 — Có 6 chiếc ô tô!",
+          "audio": { "path": "feedback/count-correct-6.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Đếm từng chiếc ô tô một, chỉ vào từng chiếc nhé.",
+          "audio": { "path": "feedback/count-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "o-to", "1-10", "vinschool"]
+    },
+    {
+      "id": "VIN-COUNT-0002",
+      "type": "multiple-choice-image",
+      "skill": "number-comparison",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes", "general"],
+      "source": {
+        "origin": "lamchame.com",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Bên nào có NHIỀU đồ vật HƠN?",
+        "audio": {
+          "path": "questions/vin-count-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0002-compare.webp",
+          "alt": "Bên trái: 4 quả bóng đỏ. Bên phải: 7 quả bóng xanh.",
+          "width": 560,
+          "height": 220
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Bên trái (4 quả bóng)",
+          "image": { "path": "options/vin-count-0002-A.webp", "alt": "4 quả bóng đỏ" },
+          "audio": { "path": "options/vin-count-0002-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Bên phải (7 quả bóng)",
+          "image": { "path": "options/vin-count-0002-B.webp", "alt": "7 quả bóng xanh" },
+          "audio": { "path": "options/vin-count-0002-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Hai bên bằng nhau",
+          "audio": { "path": "options/bang-nhau.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! 7 quả bóng nhiều hơn 4 quả bóng!",
+          "audio": { "path": "feedback/compare-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm xem bên nào có nhiều quả bóng hơn nhé.",
+          "audio": { "path": "feedback/compare-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh", "nhieu-hon", "it-hon", "bong"]
+    },
+    {
+      "id": "VIN-MEM-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-memory",
+      "difficulty": 3,
+      "school": ["vinschool"],
+      "source": {
+        "origin": "lamchame.com",
+        "url": "https://www.lamchame.com/forum/threads/kiem-tra-dau-vao-truong-vinschool-cap-1-timescity.1575746/",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nhìn thật kỹ 4 đồ vật này trong 5 giây. Sau đó: đồ vật nào KHÔNG có trong tranh vừa rồi?",
+        "audio": {
+          "path": "questions/vin-mem-0001-memorize.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-mem-0001-objects.webp",
+          "alt": "4 đồ vật: ô tô đỏ, quả chuối vàng, bóng xanh, mũ trắng (hiển thị 5 giây rồi ẩn)",
+          "width": 560,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/vin-mem-0001-A-ball.webp", "alt": "Quả bóng xanh" } },
+        { "id": "B", "image": { "path": "options/vin-mem-0001-B-banana.webp", "alt": "Quả chuối vàng" } },
+        { "id": "C", "image": { "path": "options/vin-mem-0001-C-book.webp", "alt": "Quyển sách đỏ" } },
+        { "id": "D", "image": { "path": "options/vin-mem-0001-D-hat.webp", "alt": "Chiếc mũ trắng" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Quyển sách KHÔNG có trong tranh — trí nhớ của con tốt lắm!",
+          "audio": { "path": "feedback/memory-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhớ lại đi: ô tô, chuối, bóng, mũ — cái nào bạn vừa thấy?",
+          "audio": { "path": "feedback/memory-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 25
+      },
+      "tags": ["tri-nho", "working-memory", "do-vat", "tim-vat-khong-co"]
+    },
+    {
+      "id": "VIN-LETT-0001",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "url": "https://vndoc.com/s/%C4%91%E1%BB%81%20thi%20v%C3%A0o%20l%E1%BB%9Bp%201%20Vinschool",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chữ nào là chữ T?",
+        "audio": {
+          "path": "questions/vin-lett-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "I", "audio": { "path": "options/letter-I.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "T", "audio": { "path": "options/letter-T.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "L", "audio": { "path": "options/letter-L.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "F", "audio": { "path": "options/letter-F.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Chữ T — T như cây Thông! Có một nét ngang trên đỉnh.",
+          "audio": { "path": "feedback/letter-T-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chữ T giống chữ thập — có một nét dọc và một nét ngang ở trên.",
+          "audio": { "path": "feedback/letter-T-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "t", "phu-am", "in-hoa"],
+      "metadata": {
+        "curriculum_ref": "GDPT-2018-TV1"
+      }
+    },
+    {
+      "id": "VIN-SYLL-0001",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["vinschool", "ngoi-sao", "general"],
+      "source": {
+        "origin": "vndoc.com",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "M + A + dấu hỏi đọc thành tiếng gì?",
+        "audio": {
+          "path": "questions/vin-syll-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "ma", "audio": { "path": "options/syllable-ma-flat.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "má", "audio": { "path": "options/syllable-ma-sac.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "mả", "audio": { "path": "options/syllable-ma-hoi.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "mà", "audio": { "path": "options/syllable-ma-huyen.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! M + A + dấu hỏi = MẢ! Dấu hỏi làm giọng đi xuống rồi lên.",
+          "audio": { "path": "feedback/syllable-ma-hoi-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại nhé! Dấu hỏi (?) có hình dáng giống chữ hỏi — giọng đi xuống rồi ngân lên.",
+          "audio": { "path": "feedback/syllable-hoi-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "m", "a", "dau-hoi", "tien-doc"]
+    },
+    {
+      "id": "VIN-READ-0001",
+      "type": "listen-choose",
+      "skill": "reading-comprehension",
+      "difficulty": 4,
+      "school": ["vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu rồi chọn hình đúng: \"Con chó đang chạy.\"",
+        "audio": {
+          "path": "questions/vin-read-0001-sentence.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/vin-read-0001-A-dog-running.webp", "alt": "Con chó đang chạy nhanh" },
+          "audio": { "path": "options/vin-read-0001-A.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/vin-read-0001-B-dog-sleeping.webp", "alt": "Con chó đang nằm ngủ" },
+          "audio": { "path": "options/vin-read-0001-B.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/vin-read-0001-C-cat-running.webp", "alt": "Con mèo đang chạy" },
+          "audio": { "path": "options/vin-read-0001-C.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/vin-read-0001-D-dog-eating.webp", "alt": "Con chó đang ăn" },
+          "audio": { "path": "options/vin-read-0001-D.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! CON CHÓ đang CHẠY — con chọn đúng cả con vật lẫn hành động!",
+          "audio": { "path": "feedback/read-correct-dog-run.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu: 'Con CHÓ đang CHẠY.' Đó là con vật gì và nó đang làm gì?",
+          "audio": { "path": "feedback/read-retry-dog-run.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-hieu", "cau-don", "con-vat", "hanh-dong", "chay"]
+    }
+  ]
+}

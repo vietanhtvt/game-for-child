@@ -1,6 +1,6 @@
 # Nguồn Dữ Liệu Đề Thi Tiền Tiểu Học — Hà Nội
 
-_Cập nhật: 2026-04-21 (Crawl lần 2 — bổ sung Ngôi Sao, không gian, cảm xúc)_
+_Cập nhật: 2026-05-01 (Crawl lần 3 — bổ sung Vinschool Toán/TV, Archimedes Anh, ĐTĐ TV, Ngôi Sao Anh, vận động tinh)_
 
 Tài liệu này catalog toàn bộ các trang web, ứng dụng và cộng đồng có thể cung cấp câu hỏi, đề thi, bài tập tiền tiểu học phục vụ phát triển game. Mỗi nguồn được đánh giá theo: loại nội dung, khả năng truy cập, chất lượng dữ liệu và ưu tiên crawl.
 
@@ -249,6 +249,39 @@ Tier 4 — Manual:
 | cafef.vn kinh nghiệm GV Anh | https://cafef.vn/co-giao-tieng-anh-co-con-do-4-truong-tieu-hoc-chia-se-kinh-nghiem-giup-tre-on-thi-vao-lop-1-2021060211364126.chn | GV tiếng Anh chia sẻ kinh nghiệm ôn thi — con đỗ Nguyễn Siêu, Archimedes, Đoàn Thị Điểm, Vinschool |
 | dantri.com.vn tuyển sinh 2025-2026 | https://dantri.com.vn/giao-duc/loat-truong-tu-tuyen-sinh-lop-1-nam-hoc-2025-2026-20241119114433078.htm | Tổng hợp lịch tuyển sinh các trường tư năm học 2025-2026 |
 | mathx.vn Ngôi Sao khối 1 | https://mathx.vn/tai-lieu/bo-tai-lieu-tham-khao-ky-thi-hoc-bong-ngoi-sao-ha-noi-khoi-1.html | Bộ tài liệu tham khảo kỳ thi học bổng Ngôi Sao Hà Nội — HTTP 403 |
+
+### 5.5 Kết quả Crawl lần 3 (2026-05-01)
+
+**Phương pháp:** WebSearch để thu thập thông tin từ snippets tìm kiếm (không fetch trực tiếp do 403), tổng hợp từ `research-plan.md` và `data-sources.md` đã có.
+
+**Các trang trả HTTP 403 (xác nhận):**
+- download.vn, giaovienvietnam.com, haysiri.com, mathexpress.vn, contuhoc.com
+- lamchame.com, ngoisaohanoi.edu.vn, aschool.edu.vn, cafef.vn, vtcnews.vn
+- zingnews.vn, situ.edu.vn, studocu.vn, eva.vn, vihema.com, babilala.vn
+- monkey.edu.vn, dantri.com.vn, vinmec.com, vndoc.com, tailieuonthi.io.vn, lop5.net
+- khotientieuhoc.com, lienviet.edu.vn, bevaolop1.com
+
+**Thông tin thu thập được qua WebSearch:**
+- **Đoàn Thị Điểm (ĐTĐ)**: Đề thi 60 phút — IQ gạch bỏ hình khác, nối hình, kể chuyện 4–6 tranh (nguồn: snippets 123docz.net, tailieuonthi.io.vn, lop5.net)
+- **Archimedes LET'S START 2026**: 5 buổi ARCERS' FIRST STEPS (tháng 3–15/5/2026); A/TEST dành cho học sinh ngoài hệ thống (nguồn: snippets aschool.edu.vn)
+- **Ngôi Sao Hà Nội 2026-2027**: 9 lớp, 32 HS/lớp; lớp 1B0 thêm kiểm tra Tiếng Anh (nguồn: ngoisaohanoi.edu.vn thông báo)
+- **Định hướng không gian**: Trên/dưới/trái/phải (GDMN 2021 lĩnh vực nhận thức — thế giới tự nhiên)
+
+**25 câu hỏi mới được tạo:**
+
+| File | Câu hỏi | Kỹ năng |
+|---|---|---|
+| `questions/vinschool/math-vietnamese.json` | VIN-COUNT-0001/0002, VIN-MEM-0001, VIN-LETT-0001, VIN-SYLL-0001, VIN-READ-0001 | counting, number-comparison, iq-memory, letter-recognition, syllable-blending, reading-comprehension |
+| `questions/archimedes/english-vocab.json` | ARCH-ENG-0001/0002/0003/0004/0005 | english-vocabulary, english-following-instructions |
+| `questions/doan-thi-diem/vietnamese-reading.json` | DTD-VIET-0001/0002/0003/0004/0005 | letter-recognition, syllable-blending |
+| `questions/ngoi-sao/english-vocab.json` | NGS-ENG-0001/0002/0003/0004 | english-vocabulary |
+| `questions/general/fine-motor.json` | GEN-MOTOR-0001/0002/0003/0004/0005 | dot-connection, fine-motor |
+
+**Index files đã cập nhật:** by-school, by-difficulty, by-skill, by-question-type (thêm type `connect-dots` mới).
+
+**Câu hỏi được tạo với `verified: false`** — cần kiểm tra lại với giáo viên/phụ huynh có kinh nghiệm thi thực tế.
+
+---
 
 ### 5.3 Đạo đức & Pháp lý
 - Chỉ sử dụng nội dung đã được chia sẻ công khai

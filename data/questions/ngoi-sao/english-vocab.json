@@ -1,0 +1,232 @@
+{
+  "version": "1.0.0",
+  "set_id": "ngs-eng-vocab-v1",
+  "title": "Tiếng Anh — Từ Vựng Cơ Bản (Ngôi Sao Hà Nội — Lớp 1B0)",
+  "description": "Bài tập Tiếng Anh cho lớp 1B0 — lớp học bổng có thêm phần kiểm tra tiếng Anh của trường Ngôi Sao Hà Nội (ngoisaohanoi.edu.vn). Theo thông báo tuyển sinh 2026-2027: 9 lớp, 32 HS/lớp, lớp 1B0 thêm kiểm tra tiếng Anh. Nguồn: ngoisaohanoi.edu.vn, mathx.vn, mathexpress.vn.",
+  "school": "ngoi-sao",
+  "skill": "english-vocabulary",
+  "difficulty_range": [2, 3],
+  "total_questions": 4,
+  "questions": [
+    {
+      "id": "NGS-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Touch the BANANA!",
+        "text_en": "Touch the BANANA!",
+        "audio": {
+          "path": "questions/ngs-eng-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0001-A-apple.webp", "alt": "A red apple" },
+          "audio": { "path": "options/eng-word-apple.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0001-B-banana.webp", "alt": "A yellow banana" },
+          "audio": { "path": "options/eng-word-banana.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0001-C-mango.webp", "alt": "An orange mango" },
+          "audio": { "path": "options/eng-word-mango.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0001-D-watermelon.webp", "alt": "A green watermelon" },
+          "audio": { "path": "options/eng-word-watermelon.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text_en": "Great! That's a BANANA — long and yellow!",
+          "audio": { "path": "feedback/eng-correct-banana.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! A banana is long and yellow. Can you find it?",
+          "audio": { "path": "feedback/eng-try-again-banana.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "trai-cay", "banana", "touch-the"]
+    },
+    {
+      "id": "NGS-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Who is this? Show me the MOTHER!",
+        "text_en": "Who is this? Show me the MOTHER!",
+        "audio": {
+          "path": "questions/ngs-eng-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0002-A-father.webp", "alt": "A father with tie" },
+          "audio": { "path": "options/eng-word-father.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0002-B-mother.webp", "alt": "A mother with long hair and apron" },
+          "audio": { "path": "options/eng-word-mother.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0002-C-sister.webp", "alt": "A young girl — sister" },
+          "audio": { "path": "options/eng-word-sister.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0002-D-baby.webp", "alt": "A baby in diapers" },
+          "audio": { "path": "options/eng-word-baby.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text_en": "Yes! That's MOTHER — the mommy of the family!",
+          "audio": { "path": "feedback/eng-correct-mother.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's try again! MOTHER is the mommy. Which one looks like a mommy?",
+          "audio": { "path": "feedback/eng-try-again-mother.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "gia-dinh", "mother", "family"]
+    },
+    {
+      "id": "NGS-ENG-0003",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "What color is the GRASS?",
+        "text_en": "What color is the GRASS?",
+        "audio": {
+          "path": "questions/ngs-eng-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/ngs-eng-0003-grass.webp",
+          "alt": "A field of green grass with flowers",
+          "width": 360,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Blue", "audio": { "path": "options/eng-color-blue.mp3", "locale": "en-US" } },
+        { "id": "B", "text": "Red", "audio": { "path": "options/eng-color-red.mp3", "locale": "en-US" } },
+        { "id": "C", "text": "Green", "audio": { "path": "options/eng-color-green.mp3", "locale": "en-US" } },
+        { "id": "D", "text": "White", "audio": { "path": "options/eng-color-white.mp3", "locale": "en-US" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text_en": "Wonderful! Grass is GREEN! Like leaves on trees!",
+          "audio": { "path": "feedback/eng-correct-green.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Look at the picture! Grass is the color of leaves — what color is that?",
+          "audio": { "path": "feedback/eng-try-again-green.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "mau-sac", "green", "thien-nhien"]
+    },
+    {
+      "id": "NGS-ENG-0004",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "How many ducks can you see? Say the number in English!",
+        "text_en": "How many ducks can you see?",
+        "audio": {
+          "path": "questions/ngs-eng-0004-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/ngs-eng-0004-five-ducks.webp",
+          "alt": "5 yellow ducks swimming in a row on blue water",
+          "width": 480,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Three", "audio": { "path": "options/eng-number-three.mp3", "locale": "en-US" } },
+        { "id": "B", "text": "Four", "audio": { "path": "options/eng-number-four.mp3", "locale": "en-US" } },
+        { "id": "C", "text": "Five", "audio": { "path": "options/eng-number-five.mp3", "locale": "en-US" } },
+        { "id": "D", "text": "Six", "audio": { "path": "options/eng-number-six.mp3", "locale": "en-US" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text_en": "Perfect! There are FIVE ducks! 1, 2, 3, 4, 5 — FIVE!",
+          "audio": { "path": "feedback/eng-correct-five.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's count together! One, two, three, four, five! How many?",
+          "audio": { "path": "feedback/eng-try-again-five.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "so-dem", "five", "con-vit", "dem-so"]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "version": "1.0.0",
+  "set_id": "arch-eng-vocab-v1",
+  "title": "Tiếng Anh — Từ Vựng & Nghe Hiểu (Archimedes / LET'S START)",
+  "description": "Bài tập Tiếng Anh cho kỳ thi đầu vào lớp 1 Archimedes (chương trình LET'S START). GV nước ngoài đọc từ vựng theo bộ đề — trẻ chỉ/chạm vào đúng hình. Hỏi đến khi trẻ không trả lời được. Nguồn tổng hợp từ 123docz.net, haysiri.com review, aschool.edu.vn.",
+  "school": "archimedes",
+  "skill": "english-vocabulary",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": "ARCH-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 2,
+      "school": ["archimedes", "vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "123docz.net",
+        "url": "https://123docz.net/document/7334657-tai-de-thi-thu-mon-tieng-anh-lop-1-truong-tieu-hoc-archimedes-academy-co-dap-an.htm",
+        "crawled_at": "2026-05-01",
+        "verified": false
+      },
+      "stem": {
+        "text": "Touch the RED one!",
+        "text_en": "Touch the RED one!",
+        "audio": {
+          "path": "questions/arch-eng-0001-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0001-A-red-ball.webp", "alt": "A red ball" },
+          "audio": { "path": "options/eng-color-red.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0001-B-blue-ball.webp", "alt": "A blue ball" },
+          "audio": { "path": "options/eng-color-blue.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0001-C-green-ball.webp", "alt": "A green ball" },
+          "audio": { "path": "options/eng-color-green.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0001-D-yellow-ball.webp", "alt": "A yellow ball" },
+          "audio": { "path": "options/eng-color-yellow.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Excellent! That's RED! Red like an apple!",
+          "audio": { "path": "feedback/eng-correct-red.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's try again! Which one is RED?",
+          "audio": { "path": "feedback/eng-try-again.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "mau-sac", "red", "touch-the"]
+    },
+    {
+      "id": "ARCH-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 2,
+      "school": ["archimedes", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Show me number THREE!",
+        "text_en": "Show me number THREE!",
+        "audio": {
+          "path": "questions/arch-eng-0002-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "1",
+          "image": { "path": "options/arch-eng-0002-A-one.webp", "alt": "Number 1 with one star" },
+          "audio": { "path": "options/eng-number-one.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "text": "2",
+          "image": { "path": "options/arch-eng-0002-B-two.webp", "alt": "Number 2 with two stars" },
+          "audio": { "path": "options/eng-number-two.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "image": { "path": "options/arch-eng-0002-C-three.webp", "alt": "Number 3 with three stars" },
+          "audio": { "path": "options/eng-number-three.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "text": "4",
+          "image": { "path": "options/arch-eng-0002-D-four.webp", "alt": "Number 4 with four stars" },
+          "audio": { "path": "options/eng-number-four.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text_en": "Great job! THREE — 1, 2, 3! You're so smart!",
+          "audio": { "path": "feedback/eng-correct-three.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Try again! Can you count — one, two, three?",
+          "audio": { "path": "feedback/eng-try-again-count.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "so-dem", "three", "so-hoc"]
+    },
+    {
+      "id": "ARCH-ENG-0003",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["archimedes", "nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Which animal can FLY?",
+        "text_en": "Which animal can FLY?",
+        "audio": {
+          "path": "questions/arch-eng-0003-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0003-A-bird.webp", "alt": "A colorful bird with wings spread" },
+          "audio": { "path": "options/eng-word-bird.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0003-B-fish.webp", "alt": "A fish swimming" },
+          "audio": { "path": "options/eng-word-fish.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0003-C-rabbit.webp", "alt": "A rabbit hopping" },
+          "audio": { "path": "options/eng-word-rabbit.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0003-D-turtle.webp", "alt": "A turtle walking slowly" },
+          "audio": { "path": "options/eng-word-turtle.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "hint": {
+        "text_en": "Which one has wings?",
+        "audio": { "path": "questions/arch-eng-0003-hint.mp3", "locale": "en-US" }
+      },
+      "feedback": {
+        "correct": {
+          "text_en": "Wonderful! The BIRD can fly! Birds have wings!",
+          "audio": { "path": "feedback/eng-correct-bird.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Hmm, think again! Which animal has wings and can fly high?",
+          "audio": { "path": "feedback/eng-try-again-fly.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "con-vat", "hanh-dong", "bay", "logic"]
+    },
+    {
+      "id": "ARCH-ENG-0004",
+      "type": "listen-choose",
+      "skill": "english-following-instructions",
+      "difficulty": 3,
+      "school": ["archimedes", "vinschool-cambridge"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Point to your HEAD!",
+        "text_en": "Point to your HEAD!",
+        "audio": {
+          "path": "questions/arch-eng-0004-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0004-A-head.webp", "alt": "Child pointing to head" },
+          "audio": { "path": "options/eng-word-head.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0004-B-hands.webp", "alt": "Child showing hands" },
+          "audio": { "path": "options/eng-word-hands.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0004-C-feet.webp", "alt": "Child pointing to feet" },
+          "audio": { "path": "options/eng-word-feet.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0004-D-tummy.webp", "alt": "Child touching tummy" },
+          "audio": { "path": "options/eng-word-tummy.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Yes! That's your HEAD — on top of your body!",
+          "audio": { "path": "feedback/eng-correct-head.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Let's try again! HEAD is the part on top — where your face is!",
+          "audio": { "path": "feedback/eng-try-again-head.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "body-parts", "head", "lam-theo-chi-dan"]
+    },
+    {
+      "id": "ARCH-ENG-0005",
+      "type": "multiple-choice-image",
+      "skill": "english-vocabulary",
+      "difficulty": 4,
+      "school": ["archimedes", "vinschool-cambridge", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "The teacher says: 'It is raining outside. What do you need?'",
+        "text_en": "It is raining outside. What do you need?",
+        "audio": {
+          "path": "questions/arch-eng-0005-stem.mp3",
+          "locale": "en-US",
+          "speaker": "native-english"
+        },
+        "image": {
+          "path": "questions/arch-eng-0005-rain.webp",
+          "alt": "A rainy day scene with dark clouds and raindrops falling",
+          "width": 400,
+          "height": 280
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0005-A-umbrella.webp", "alt": "A colorful umbrella" },
+          "audio": { "path": "options/eng-word-umbrella.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0005-B-sunglasses.webp", "alt": "Sunglasses" },
+          "audio": { "path": "options/eng-word-sunglasses.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0005-C-sandals.webp", "alt": "Sandals" },
+          "audio": { "path": "options/eng-word-sandals.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0005-D-sunscreen.webp", "alt": "Sunscreen bottle" },
+          "audio": { "path": "options/eng-word-sunscreen.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text_en": "Super! You need an UMBRELLA when it rains! Great thinking!",
+          "audio": { "path": "feedback/eng-correct-umbrella.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text_en": "Think about rain — what keeps you dry?",
+          "audio": { "path": "feedback/eng-try-again-rain.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "thoi-tiet", "do-vat", "suy-luan", "umbrella"]
+    }
+  ]
+}

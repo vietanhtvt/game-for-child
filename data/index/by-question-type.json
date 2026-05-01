@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo dạng bài (question type). Dùng để chọn câu hỏi phù hợp với từng mini-game.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-05-01",
   "multiple-choice-image": {
     "label": "Trắc nghiệm có hình ảnh (A/B/C/D)",
     "description": "Trẻ nghe câu hỏi và chạm/click vào hình ảnh đúng",
@@ -27,7 +27,14 @@
       { "id": "GEN-SPAT-0002", "skill": "spatial-orientation" },
       { "id": "GEN-SPAT-0003", "skill": "spatial-orientation" },
       { "id": "GEN-EMO-0002", "skill": "emotion-recognition" },
-      { "id": "GEN-EMO-0003", "skill": "emotion-recognition" }
+      { "id": "GEN-EMO-0003", "skill": "emotion-recognition" },
+      { "id": "VIN-LETT-0001", "skill": "letter-recognition" },
+      { "id": "VIN-COUNT-0002", "skill": "number-comparison" },
+      { "id": "VIN-MEM-0001", "skill": "iq-memory" },
+      { "id": "DTD-VIET-0001", "skill": "letter-recognition" },
+      { "id": "ARCH-ENG-0005", "skill": "english-vocabulary" },
+      { "id": "GEN-MOTOR-0002", "skill": "fine-motor" },
+      { "id": "GEN-MOTOR-0004", "skill": "fine-motor" }
     ]
   },
   "pattern-next": {
@@ -51,7 +58,8 @@
       { "id": "ARCH-PATT-0004", "skill": "counting" },
       { "id": "NGS-COUNT-0001", "skill": "counting" },
       { "id": "NGS-COUNT-0002", "skill": "counting" },
-      { "id": "DTD-COUNT-0001", "skill": "counting" }
+      { "id": "DTD-COUNT-0001", "skill": "counting" },
+      { "id": "VIN-COUNT-0001", "skill": "counting" }
     ]
   },
   "spot-difference": {
@@ -76,7 +84,8 @@
     "default_mini_game": "ke-chuyen",
     "questions": [
       { "id": "DTD-IQ-0004", "skill": "iq-logic" },
-      { "id": "DTD-COUNT-0002", "skill": "counting" }
+      { "id": "DTD-COUNT-0002", "skill": "counting" },
+      { "id": "DTD-VIET-0005", "skill": "letter-recognition" }
     ]
   },
   "multiple-choice": {
@@ -90,7 +99,9 @@
       { "id": "NSPS-STOR-0002", "skill": "reading-comprehension" },
       { "id": "NGS-SYLL-0001", "skill": "syllable-blending" },
       { "id": "ARCH-NUM-0001", "skill": "addition" },
-      { "id": "DTD-COUNT-0004", "skill": "addition" }
+      { "id": "DTD-COUNT-0004", "skill": "addition" },
+      { "id": "DTD-VIET-0003", "skill": "syllable-blending" },
+      { "id": "VIN-SYLL-0001", "skill": "syllable-blending" }
     ]
   },
   "listen-choose": {
@@ -102,7 +113,17 @@
       { "id": "VIN-ENG-0001", "skill": "english-vocabulary" },
       { "id": "VIN-ENG-0002", "skill": "english-listening" },
       { "id": "VIN-ENG-0003", "skill": "english-vocabulary" },
-      { "id": "NGS-READ-0001", "skill": "reading-comprehension" }
+      { "id": "NGS-READ-0001", "skill": "reading-comprehension" },
+      { "id": "ARCH-ENG-0001", "skill": "english-vocabulary" },
+      { "id": "ARCH-ENG-0002", "skill": "english-vocabulary" },
+      { "id": "ARCH-ENG-0003", "skill": "english-vocabulary" },
+      { "id": "ARCH-ENG-0004", "skill": "english-following-instructions" },
+      { "id": "NGS-ENG-0001", "skill": "english-vocabulary" },
+      { "id": "NGS-ENG-0002", "skill": "english-vocabulary" },
+      { "id": "NGS-ENG-0003", "skill": "english-vocabulary" },
+      { "id": "NGS-ENG-0004", "skill": "english-vocabulary" },
+      { "id": "DTD-VIET-0004", "skill": "syllable-blending" },
+      { "id": "VIN-READ-0001", "skill": "reading-comprehension" }
     ]
   },
   "sequence": {
@@ -119,7 +140,8 @@
     "description": "Trẻ điền số, âm tiết, hoặc từ còn thiếu vào ô trống",
     "default_mini_game": "ghep-van",
     "questions": [
-      { "id": "GEN-SYLL-0001", "skill": "syllable-blending" }
+      { "id": "GEN-SYLL-0001", "skill": "syllable-blending" },
+      { "id": "DTD-VIET-0002", "skill": "syllable-blending" }
     ]
   },
   "drag-drop": {
@@ -128,6 +150,16 @@
     "default_mini_game": "xep-tangram",
     "questions": [
       { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation" }
+    ]
+  },
+  "connect-dots": {
+    "label": "Nối chấm tạo hình",
+    "description": "Trẻ nối các chấm theo thứ tự số để vẽ thành hình — luyện vận động tinh và nhận biết số",
+    "default_mini_game": "to-net",
+    "questions": [
+      { "id": "GEN-MOTOR-0001", "skill": "dot-connection" },
+      { "id": "GEN-MOTOR-0003", "skill": "dot-connection" },
+      { "id": "GEN-MOTOR-0005", "skill": "dot-connection" }
     ]
   }
 }
