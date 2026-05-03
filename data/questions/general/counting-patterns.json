@@ -1,0 +1,439 @@
+{
+  "version": "1.0.0",
+  "set_id": "gen-counting-patterns-v1",
+  "title": "Đếm & Quy Luật — Kỹ Năng Nền Tảng (Chung)",
+  "description": "Bài tập đếm số, nhận biết quy luật và hình học cơ bản phù hợp với tất cả các trường. Bám sát Chương trình Giáo dục Mầm non 2021 và Chuẩn phát triển trẻ 5 tuổi (Bộ GD&ĐT). Nguồn: giaovienvietnam.com, khotientieuhoc.com, original.",
+  "school": "general",
+  "skill": "counting",
+  "difficulty_range": [1, 2, 3],
+  "total_questions": 8,
+  "questions": [
+    {
+      "id": "GEN-COUNT-0001",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "khotientieuhoc.com",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Đếm số ngôi sao. Có mấy ngôi sao?",
+        "audio": {
+          "path": "questions/gen-count-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-count-0001-stars.webp",
+          "alt": "3 ngôi sao vàng lớn trên nền xanh",
+          "width": 320,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "1", "audio": { "path": "options/number-1.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "2", "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Có 3 ngôi sao. Một, hai, ba! Con đếm giỏi!",
+          "audio": { "path": "feedback/count-3-stars-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Chạm vào từng ngôi sao và đếm: một, hai, ba...",
+          "audio": { "path": "feedback/count-1-2-3-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "ngoi-sao", "pham-vi-5", "3-tuoi"]
+    },
+    {
+      "id": "GEN-COUNT-0002",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "khotientieuhoc.com",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Có mấy chấm bi trên con xúc xắc?",
+        "audio": {
+          "path": "questions/gen-count-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-count-0002-dice.webp",
+          "alt": "Con xúc xắc đỏ hiển thị mặt có 5 chấm bi",
+          "width": 240,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 5 chấm bi. Con biết đọc số xúc xắc rồi!",
+          "audio": { "path": "feedback/count-dice-5-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Đếm lại từng chấm nhé: một... hai... ba... bốn... năm!",
+          "audio": { "path": "feedback/count-dice-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "xuc-xac", "pham-vi-10", "4-tuoi"]
+    },
+    {
+      "id": "GEN-LETT-0004",
+      "type": "fill-blank",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Chữ cái nào còn thiếu? A, B, C, ?, E",
+        "audio": {
+          "path": "questions/gen-lett-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-lett-0004-alphabet-gap.webp",
+          "alt": "Dãy chữ cái: A, B, C, ô trống dấu hỏi, E",
+          "width": 480,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "text": "D", "audio": { "path": "options/letter-d.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "F", "audio": { "path": "options/letter-f.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "G", "audio": { "path": "options/letter-g.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "H", "audio": { "path": "options/letter-h.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! D đứng giữa C và E trong bảng chữ cái. A, B, C, D, E!",
+          "audio": { "path": "feedback/lett-d-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Hát bảng chữ cái: A-B-C-?-E. Chữ nào đứng sau C?",
+          "audio": { "path": "feedback/lett-alphabet-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "thu-tu", "bang-chu-cai", "chu-d"]
+    },
+    {
+      "id": "GEN-PATT-0001",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "giaovienvietnam.com",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào đến tiếp theo: ☀️ 🌙 ☀️ 🌙 ?",
+        "audio": {
+          "path": "questions/gen-patt-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-patt-0001-sun-moon.webp",
+          "alt": "Dãy hình: mặt trời vàng, mặt trăng bạc, mặt trời vàng, mặt trăng bạc, dấu hỏi",
+          "width": 560,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/gen-patt-0001-A-sun.webp",  "alt": "Mặt trời vàng" } },
+        { "id": "B", "image": { "path": "options/gen-patt-0001-B-moon.webp", "alt": "Mặt trăng bạc" } },
+        { "id": "C", "image": { "path": "options/gen-patt-0001-C-star.webp", "alt": "Ngôi sao vàng" } },
+        { "id": "D", "image": { "path": "options/gen-patt-0001-D-cloud.webp","alt": "Đám mây trắng" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Quy luật AB-AB: mặt trời → mặt trăng → lặp lại. Sau mặt trăng là mặt trời!",
+          "audio": { "path": "feedback/patt-ab-sunmoon-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn lại dãy: mặt trời, mặt trăng, mặt trời, mặt trăng... tiếp theo là gì?",
+          "audio": { "path": "feedback/patt-ab-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat-ab", "mat-troi", "mat-trang", "lap-lai"]
+    },
+    {
+      "id": "GEN-NUM-0001",
+      "type": "multiple-choice",
+      "skill": "number-comparison",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhóm nào CÓ ÍT hơn: 4 quả chuối hay 7 quả chuối?",
+        "audio": {
+          "path": "questions/gen-num-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-num-0001-banana-compare.webp",
+          "alt": "Nhóm A: 4 quả chuối. Nhóm B: 7 quả chuối",
+          "width": 440,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Nhóm A — 4 quả", "audio": { "path": "options/vi-nhom-a-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "Nhóm B — 7 quả", "audio": { "path": "options/vi-nhom-b-7.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bằng nhau",       "audio": { "path": "options/vi-bang-nhau.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 4 < 7 — nhóm A ít hơn nhóm B.",
+          "audio": { "path": "feedback/comp-4-7-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Đếm lại: nhóm A có 4, nhóm B có 7. Số nào nhỏ hơn?",
+          "audio": { "path": "feedback/comp-4-7-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh-so", "it-hon", "chuoi", "pham-vi-10"]
+    },
+    {
+      "id": "GEN-SPAT-0004",
+      "type": "multiple-choice-image",
+      "skill": "spatial-orientation",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Con mèo đang ở đâu?",
+        "audio": {
+          "path": "questions/gen-spat-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-spat-0004-cat-inside-box.webp",
+          "alt": "Con mèo đang ngồi BÊN TRONG một cái hộp gỗ mở nắp",
+          "width": 320,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Bên trên hộp", "audio": { "path": "options/spat-tren.mp3",    "locale": "vi-VN" } },
+        { "id": "B", "text": "Bên dưới hộp", "audio": { "path": "options/spat-duoi.mp3",   "locale": "vi-VN" } },
+        { "id": "C", "text": "Bên trong hộp","audio": { "path": "options/spat-trong.mp3",  "locale": "vi-VN" } },
+        { "id": "D", "text": "Bên cạnh hộp", "audio": { "path": "options/spat-canh.mp3",   "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Con mèo đang ngồi BÊN TRONG cái hộp!",
+          "audio": { "path": "feedback/spat-inside-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ! Con mèo có ở ngoài hộp không, hay đang ở bên trong?",
+          "audio": { "path": "feedback/spat-inside-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["khong-gian", "trong-ngoai", "con-meo", "3-tuoi"]
+    },
+    {
+      "id": "GEN-EMO-0004",
+      "type": "multiple-choice-image",
+      "skill": "emotion-recognition",
+      "difficulty": 1,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bé đang khóc. Bé đang cảm thấy thế nào?",
+        "audio": {
+          "path": "questions/gen-emo-0004-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-emo-0004-crying.webp",
+          "alt": "Bé gái đang khóc, nước mắt chảy trên má",
+          "width": 280,
+          "height": 360
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Vui",
+          "image": { "path": "options/emotion-happy.webp", "alt": "Mặt cười vui" },
+          "audio": { "path": "options/emotion-vui.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Buồn",
+          "image": { "path": "options/emotion-sad.webp", "alt": "Mặt buồn" },
+          "audio": { "path": "options/emotion-buon.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Tức giận",
+          "image": { "path": "options/emotion-angry.webp", "alt": "Mặt tức giận" },
+          "audio": { "path": "options/emotion-tuc.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Bé đang buồn và khóc. Khi con thấy bạn khóc, con làm gì để an ủi bạn?",
+          "audio": { "path": "feedback/emo-crying-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ — bé đang khóc. Khóc là biểu hiện của cảm xúc nào?",
+          "audio": { "path": "feedback/emo-crying-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cam-xuc", "buon", "khoc", "EQ", "3-tuoi"]
+    },
+    {
+      "id": "GEN-EMO-0005",
+      "type": "multiple-choice-image",
+      "skill": "emotion-recognition",
+      "difficulty": 2,
+      "school": ["general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bạn nhỏ vừa thấy con nhện to. Bạn ấy cảm thấy gì?",
+        "audio": {
+          "path": "questions/gen-emo-0005-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/gen-emo-0005-spider-scared.webp",
+          "alt": "Bé trai giật lùi, mắt mở to, tay che miệng khi thấy con nhện",
+          "width": 320,
+          "height": 400
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Vui",
+          "image": { "path": "options/emotion-happy.webp",  "alt": "Mặt cười vui" },
+          "audio": { "path": "options/emotion-vui.mp3",  "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Buồn",
+          "image": { "path": "options/emotion-sad.webp",    "alt": "Mặt buồn" },
+          "audio": { "path": "options/emotion-buon.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Sợ hãi",
+          "image": { "path": "options/emotion-scared.webp", "alt": "Mặt sợ hãi" },
+          "audio": { "path": "options/emotion-so.mp3",   "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Tức giận",
+          "image": { "path": "options/emotion-angry.webp",  "alt": "Mặt tức giận" },
+          "audio": { "path": "options/emotion-tuc.mp3",  "locale": "vi-VN" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Bạn ấy đang sợ hãi. Thấy điều gì đó đáng sợ thì cảm giác đó là bình thường.",
+          "audio": { "path": "feedback/emo-scared-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn mắt bạn mở to và giật lùi — đó là dấu hiệu của cảm xúc gì?",
+          "audio": { "path": "feedback/emo-scared-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cam-xuc", "so-hai", "con-nhen", "EQ", "4-tuoi"]
+    }
+  ]
+}

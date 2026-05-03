@@ -1,0 +1,394 @@
+{
+  "version": "1.0.0",
+  "set_id": "ngs-iq-english-v1",
+  "title": "IQ Quan Sát & Tiếng Anh Cơ Bản (Ngôi Sao Hà Nội)",
+  "description": "Bài tập IQ quan sát và Tiếng Anh cơ bản — hai trong ba môn thi học bổng Ngôi Sao Hà Nội khối 1. Bao gồm: tìm hình khác biệt, nhận diện hình, từ vựng tiếng Anh theo chủ đề (màu sắc, con vật, số đếm). Nguồn: mathexpress.vn, navi.edu.vn, original.",
+  "school": "ngoi-sao",
+  "skill": "iq-observation",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 7,
+  "questions": [
+    {
+      "id": "NGS-IQ-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "doan-thi-diem"],
+      "source": {
+        "origin": "mathexpress.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào KHÁC hẳn trong nhóm?",
+        "audio": {
+          "path": "questions/ngs-iq-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-iq-0001-A-apple.webp",  "alt": "Quả táo đỏ" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-iq-0001-B-pear.webp",   "alt": "Quả lê vàng" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-iq-0001-C-banana.webp", "alt": "Quả chuối vàng" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-iq-0001-D-car.webp",    "alt": "Chiếc ô tô đỏ" }
+        }
+      ],
+      "answer": "D",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Ô tô không phải trái cây. Ba hình kia đều là hoa quả.",
+          "audio": { "path": "feedback/iq-car-fruit-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ: táo, lê, chuối là loại gì? Còn ô tô là loại gì?",
+          "audio": { "path": "feedback/iq-category-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["iq-phan-loai", "trai-cay", "do-vat", "quan-sat"]
+    },
+    {
+      "id": "NGS-IQ-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "mathexpress.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Hình nào KHÁC về hình dạng so với các hình còn lại?",
+        "audio": {
+          "path": "questions/ngs-iq-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-iq-0002-A-rect-red.webp",    "alt": "Hình chữ nhật đỏ" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-iq-0002-B-rect-blue.webp",   "alt": "Hình chữ nhật xanh" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-iq-0002-C-triangle-green.webp", "alt": "Hình tam giác xanh lá" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-iq-0002-D-rect-yellow.webp", "alt": "Hình chữ nhật vàng" }
+        }
+      ],
+      "answer": "C",
+      "hint": {
+        "text": "Nhìn vào hình dạng, không phải màu sắc. Ba hình kia có bao nhiêu cạnh?",
+        "audio": { "path": "questions/ngs-iq-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Tam giác có 3 cạnh, còn chữ nhật có 4 cạnh — hình dạng khác nhau!",
+          "audio": { "path": "feedback/iq-shape-diff-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chú ý hình dạng (số cạnh), đừng nhìn màu sắc.",
+          "audio": { "path": "feedback/iq-shape-diff-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["iq-phan-biet", "hinh-hoc", "hinh-chu-nhat", "tam-giac"]
+    },
+    {
+      "id": "NGS-ADD-0001",
+      "type": "multiple-choice",
+      "skill": "addition",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "mathexpress.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Có 3 con thỏ trắng và 2 con thỏ nâu. Có tất cả mấy con thỏ?",
+        "audio": {
+          "path": "questions/ngs-add-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-add-0001-rabbits.webp",
+          "alt": "3 con thỏ trắng bên trái và 2 con thỏ nâu bên phải",
+          "width": 440,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 3 + 2 = 5 con thỏ. Gộp cả trắng lẫn nâu vào là 5!",
+          "audio": { "path": "feedback/add-3-2-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Đếm lại: 3 con trắng, thêm 2 con nâu: 4, 5. Tất cả có 5 con!",
+          "audio": { "path": "feedback/add-rabbit-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cong-tru", "them-vao", "con-tho", "pham-vi-10"]
+    },
+    {
+      "id": "NGS-PATT-0003",
+      "type": "pattern-next",
+      "skill": "pattern-recognition",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "doan-thi-diem"],
+      "source": {
+        "origin": "mathexpress.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Quy luật ABC-ABC: hình nào đến tiếp theo?",
+        "audio": {
+          "path": "questions/ngs-patt-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-patt-0003-abc-sequence.webp",
+          "alt": "Dãy hình: tròn đỏ, vuông xanh, tam giác vàng, tròn đỏ, vuông xanh, dấu hỏi",
+          "width": 640,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/ngs-patt-0003-A-circle-red.webp",    "alt": "Hình tròn đỏ" } },
+        { "id": "B", "image": { "path": "options/ngs-patt-0003-B-square-blue.webp",   "alt": "Hình vuông xanh" } },
+        { "id": "C", "image": { "path": "options/ngs-patt-0003-C-triangle-yellow.webp","alt": "Tam giác vàng" } },
+        { "id": "D", "image": { "path": "options/ngs-patt-0003-D-circle-blue.webp",   "alt": "Hình tròn xanh" } }
+      ],
+      "answer": "C",
+      "hint": {
+        "text": "Dãy lặp lại 3 hình: tròn đỏ → vuông xanh → tam giác vàng → lặp lại. Sau vuông xanh là hình gì?",
+        "audio": { "path": "questions/ngs-patt-0003-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Quy luật ABC lặp lại: tròn-vuông-TAM GIÁC vàng!",
+          "audio": { "path": "feedback/patt-abc-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn lại từ đầu: 3 hình lặp lại — tròn, vuông, tam giác. Sau vuông là gì?",
+          "audio": { "path": "feedback/patt-abc-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat-abc", "hinh-hoc", "mau-sac", "lap-lai"]
+    },
+    {
+      "id": "NGS-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe và chọn màu đúng!",
+        "text_en": "What color is this apple? Choose the right color!",
+        "audio": {
+          "path": "questions/ngs-eng-0001-red.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 3500
+        },
+        "image": {
+          "path": "questions/ngs-eng-0001-red-apple.webp",
+          "alt": "Quả táo màu đỏ tươi",
+          "width": 240,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "blue",   "audio": { "path": "options/eng-blue.mp3",   "locale": "en-US" } },
+        { "id": "B", "text": "green",  "audio": { "path": "options/eng-green.mp3",  "locale": "en-US" } },
+        { "id": "C", "text": "red",    "audio": { "path": "options/eng-red.mp3",    "locale": "en-US" } },
+        { "id": "D", "text": "yellow", "audio": { "path": "options/eng-yellow.mp3", "locale": "en-US" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Yes! Red — màu đỏ! The apple is red! Great job!",
+          "audio": { "path": "feedback/eng-red-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Nhìn màu quả táo! Đó là màu gì? Red = đỏ, blue = xanh, green = xanh lá.",
+          "audio": { "path": "feedback/eng-color-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "mau-sac", "red-do", "qua-tao"]
+    },
+    {
+      "id": "NGS-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["ngoi-sao", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe từ và chọn đúng hình!",
+        "text_en": "Listen and choose: elephant!",
+        "audio": {
+          "path": "questions/ngs-eng-0002-elephant.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 2500
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/ngs-eng-0002-A-lion.webp",     "alt": "A lion" },
+          "audio": { "path": "options/eng-lion.mp3",     "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/ngs-eng-0002-B-elephant.webp", "alt": "An elephant" },
+          "audio": { "path": "options/eng-elephant.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/ngs-eng-0002-C-giraffe.webp",  "alt": "A giraffe" },
+          "audio": { "path": "options/eng-giraffe.mp3",  "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/ngs-eng-0002-D-tiger.webp",    "alt": "A tiger" },
+          "audio": { "path": "options/eng-tiger.mp3",    "locale": "en-US" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Excellent! Elephant — con voi! Well done!",
+          "audio": { "path": "feedback/eng-elephant-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Elephant = con voi. Con nào có cái vòi dài và to lớn nhất?",
+          "audio": { "path": "feedback/eng-elephant-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "dong-vat", "elephant-voi", "tu-vung"]
+    },
+    {
+      "id": "NGS-GEO-0002",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["ngoi-sao", "general"],
+      "source": {
+        "origin": "mathexpress.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Đếm số hình TRÒN trong bức tranh.",
+        "audio": {
+          "path": "questions/ngs-geo-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/ngs-geo-0002-mixed-shapes.webp",
+          "alt": "Bức tranh có 4 hình tròn, 3 hình vuông, và 2 hình tam giác xen kẽ",
+          "width": 400,
+          "height": 300
+        }
+      },
+      "options": [
+        { "id": "A", "text": "2", "audio": { "path": "options/number-2.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Có 4 hình tròn. Con đếm không bị nhầm với hình khác!",
+          "audio": { "path": "feedback/count-circles-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhớ chỉ đếm hình TRÒN thôi nhé, không đếm hình vuông hay tam giác.",
+          "audio": { "path": "feedback/count-circles-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-hinh", "hinh-tron", "phan-loai", "hinh-hoc"]
+    }
+  ]
+}

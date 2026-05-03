@@ -1,0 +1,453 @@
+{
+  "version": "1.0.0",
+  "set_id": "dtd-vietnamese-v1",
+  "title": "Tiếng Việt — Chữ Cái, Ghép Vần & Kể Chuyện (Đoàn Thị Điểm)",
+  "description": "Bài tập Tiếng Việt trong đề thi lớp 1 Đoàn Thị Điểm: nhận diện chữ cái, ghép vần, điền âm còn thiếu, sắp xếp tranh kể chuyện. Bám sát cấu trúc Phần 3 & 4 đề thi 60 phút. Nguồn: 123docz PDF, tailieuonthi.io.vn, original.",
+  "school": "doan-thi-diem",
+  "skill": "letter-recognition",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 8,
+  "questions": [
+    {
+      "id": "DTD-LETT-0001",
+      "type": "multiple-choice",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["doan-thi-diem", "general"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Chữ cái nào KHÔNG có trong bảng chữ cái tiếng Việt?",
+        "audio": {
+          "path": "questions/dtd-lett-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Ă", "audio": { "path": "options/letter-a-breve.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "F", "audio": { "path": "options/letter-f.mp3",      "locale": "vi-VN" } },
+        { "id": "C", "text": "Đ", "audio": { "path": "options/letter-dd.mp3",     "locale": "vi-VN" } },
+        { "id": "D", "text": "Ơ", "audio": { "path": "options/letter-o-hook.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Bảng chữ cái tiếng Việt có 29 chữ, khác một chút so với bảng chữ Latin. F không có trong đó!",
+        "audio": { "path": "questions/dtd-lett-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Giỏi! Chữ F không có trong bảng chữ cái tiếng Việt.",
+          "audio": { "path": "feedback/lett-f-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Ă, Đ, Ơ đều là chữ đặc biệt của tiếng Việt. Còn F thì sao?",
+          "audio": { "path": "feedback/lett-f-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "bang-chu-cai", "tieng-viet", "chu-f"]
+    },
+    {
+      "id": "DTD-LETT-0002",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["doan-thi-diem", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào bắt đầu bằng chữ B?",
+        "audio": {
+          "path": "questions/dtd-lett-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/dtd-lett-0002-A-cat.webp", "alt": "Con mèo" },
+          "audio": { "path": "options/vi-con-meo.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/dtd-lett-0002-B-butterfly.webp", "alt": "Con bướm" },
+          "audio": { "path": "options/vi-con-buom.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/dtd-lett-0002-C-dog.webp", "alt": "Con chó" },
+          "audio": { "path": "options/vi-con-cho.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/dtd-lett-0002-D-elephant.webp", "alt": "Con voi" },
+          "audio": { "path": "options/vi-con-voi.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! BƯỚm — chữ đầu là B!",
+          "audio": { "path": "feedback/lett-b-buom-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chú ý đến chữ cái đầu tiên của từng từ: mèo, bướm, chó, voi — từ nào bắt đầu bằng B?",
+          "audio": { "path": "feedback/lett-b-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "chu-b", "con-vat", "buom"]
+    },
+    {
+      "id": "DTD-SYLL-0001",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["doan-thi-diem"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Điền âm còn thiếu để hoàn thành từ: __Ơ = cái cưa (dụng cụ)",
+        "audio": {
+          "path": "questions/dtd-syll-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-syll-0001-saw.webp",
+          "alt": "Hình cái cưa gỗ màu nâu",
+          "width": 240,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "C", "audio": { "path": "options/letter-c.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "G", "audio": { "path": "options/letter-g.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "K", "audio": { "path": "options/letter-k.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "S", "audio": { "path": "options/letter-s.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! C + Ơ = CƠ. Cưa = C + Ư + A. Con ghép vần giỏi lắm!",
+          "audio": { "path": "feedback/syll-cua-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đọc thử: C-Ơ, G-Ơ, K-Ơ, S-Ơ. Cái nào giống tiếng CƢA?",
+          "audio": { "path": "feedback/syll-cua-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "phu-am", "chu-c", "do-dung"]
+    },
+    {
+      "id": "DTD-SYLL-0002",
+      "type": "multiple-choice",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Ghép: TH + Ì = ?",
+        "audio": {
+          "path": "questions/dtd-syll-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "THÀ", "audio": { "path": "options/vi-tha.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "THÌ", "audio": { "path": "options/vi-thi.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "THỌ", "audio": { "path": "options/vi-tho.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "THỦ", "audio": { "path": "options/vi-thu.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! TH + Ì = THÌ. Ví dụ: 'Nếu mưa thì ở nhà'!",
+          "audio": { "path": "feedback/syll-thi-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! TH là phụ âm ghép. Cộng với nguyên âm Ì thì được âm gì?",
+          "audio": { "path": "feedback/syll-th-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "phu-am-ghep", "th", "am-tiet"]
+    },
+    {
+      "id": "DTD-READ-0001",
+      "type": "multiple-choice-image",
+      "skill": "reading-comprehension",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu: 'Con mèo đang ngủ trên ghế sofa'. Chọn hình phù hợp!",
+        "audio": {
+          "path": "questions/dtd-read-0001-sentence.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/dtd-read-0001-A.webp", "alt": "Con mèo đang chạy ngoài vườn" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/dtd-read-0001-B.webp", "alt": "Con mèo đang ngồi ăn cơm" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/dtd-read-0001-C.webp", "alt": "Con mèo đang nằm ngủ trên ghế sofa" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/dtd-read-0001-D.webp", "alt": "Con mèo đang leo trên cây" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con mèo đang ngủ trên ghế sofa. Con nghe hiểu rất giỏi!",
+          "audio": { "path": "feedback/read-meo-sofa-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu: con mèo đang làm gì, và ở đâu?",
+          "audio": { "path": "feedback/read-meo-sofa-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["nghe-hieu", "doc-hieu", "con-meo", "hanh-dong"]
+    },
+    {
+      "id": "DTD-STORY-0002",
+      "type": "story-arrange",
+      "skill": "storytelling",
+      "difficulty": 4,
+      "school": ["doan-thi-diem", "nguyen-sieu"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Sắp xếp 4 bức tranh theo đúng thứ tự để kể câu chuyện buổi sáng của bé.",
+        "audio": {
+          "path": "questions/dtd-story-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "1",
+          "image": {
+            "path": "questions/dtd-story-0002-card1.webp",
+            "alt": "Bé đang thức dậy trên giường, mở mắt"
+          }
+        },
+        {
+          "id": "2",
+          "image": {
+            "path": "questions/dtd-story-0002-card2.webp",
+            "alt": "Bé đánh răng rửa mặt trước gương"
+          }
+        },
+        {
+          "id": "3",
+          "image": {
+            "path": "questions/dtd-story-0002-card3.webp",
+            "alt": "Bé ăn sáng cùng bố mẹ"
+          }
+        },
+        {
+          "id": "4",
+          "image": {
+            "path": "questions/dtd-story-0002-card4.webp",
+            "alt": "Bé đeo ba lô đi học, vẫy tay chào bố mẹ"
+          }
+        }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Thức dậy → đánh răng → ăn sáng → đi học. Buổi sáng ngăn nắp của bé!",
+          "audio": { "path": "feedback/story-morning-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Sau khi thức dậy, bé cần làm gì trước khi ăn sáng?",
+          "audio": { "path": "feedback/story-morning-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 180
+      },
+      "tags": ["ke-chuyen", "sap-xep", "buoi-sang", "sinh-hoat-hang-ngay"]
+    },
+    {
+      "id": "DTD-STORY-0003",
+      "type": "story-arrange",
+      "skill": "storytelling",
+      "difficulty": 4,
+      "school": ["doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn 4 bức tranh. Sắp xếp lại để kể câu chuyện trồng cây.",
+        "audio": {
+          "path": "questions/dtd-story-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "1",
+          "image": {
+            "path": "questions/dtd-story-0003-card1.webp",
+            "alt": "Bé đào lỗ trên đất"
+          }
+        },
+        {
+          "id": "2",
+          "image": {
+            "path": "questions/dtd-story-0003-card2.webp",
+            "alt": "Bé bỏ hạt giống vào lỗ"
+          }
+        },
+        {
+          "id": "3",
+          "image": {
+            "path": "questions/dtd-story-0003-card3.webp",
+            "alt": "Bé tưới nước cho cây mỗi ngày"
+          }
+        },
+        {
+          "id": "4",
+          "image": {
+            "path": "questions/dtd-story-0003-card4.webp",
+            "alt": "Cây nảy mầm và đơm hoa"
+          }
+        }
+      ],
+      "answer": ["1", "2", "3", "4"],
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Đào lỗ → gieo hạt → tưới nước → cây ra hoa. Trồng cây cần kiên nhẫn!",
+          "audio": { "path": "feedback/story-plant-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Trước khi gieo hạt, cần làm gì với đất?",
+          "audio": { "path": "feedback/story-plant-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3,
+        "time_limit_seconds": 180
+      },
+      "tags": ["ke-chuyen", "trong-cay", "thien-nhien", "logic-qua-trinh"]
+    },
+    {
+      "id": "DTD-COMP-0001",
+      "type": "multiple-choice",
+      "skill": "number-comparison",
+      "difficulty": 3,
+      "school": ["doan-thi-diem", "ngoi-sao"],
+      "source": {
+        "origin": "tailieuonthi.io.vn",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nhóm A có 8 cái kẹo, nhóm B có 5 cái kẹo. Nhóm nào NHIỀU HƠN?",
+        "audio": {
+          "path": "questions/dtd-comp-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/dtd-comp-0001-candy-groups.webp",
+          "alt": "Nhóm A: 8 cái kẹo bên trái. Nhóm B: 5 cái kẹo bên phải.",
+          "width": 480,
+          "height": 200
+        }
+      },
+      "options": [
+        { "id": "A", "text": "Nhóm A nhiều hơn (8 > 5)", "audio": { "path": "options/vi-nhom-a-nhieu.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "Nhóm B nhiều hơn (5 > 8)", "audio": { "path": "options/vi-nhom-b-nhieu.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "Bằng nhau",                 "audio": { "path": "options/vi-bang-nhau.mp3",    "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 8 > 5 — Nhóm A có nhiều kẹo hơn. Cá sấu há miệng về phía 8!",
+          "audio": { "path": "feedback/comp-a-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Đếm thử: nhóm A có 8, nhóm B có 5. Số nào lớn hơn?",
+          "audio": { "path": "feedback/comp-candy-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh-so", "nhieu-hon-it-hon", "keo", "pham-vi-10"]
+    }
+  ]
+}

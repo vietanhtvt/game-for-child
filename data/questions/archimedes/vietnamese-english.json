@@ -1,0 +1,446 @@
+{
+  "version": "1.0.0",
+  "set_id": "arch-viet-eng-v1",
+  "title": "Tiếng Việt & Tiếng Anh — Nhận Diện Chữ Cái & Từ Vựng (Archimedes LET'S START)",
+  "description": "Bài tập nhận diện chữ cái, ghép âm tiết tiếng Việt và từ vựng tiếng Anh cơ bản. Bám sát cấu trúc bài kiểm tra LET'S START và A/TEST của Archimedes School — GV đọc câu hỏi, trẻ chọn hình hoặc chữ đúng. Nguồn: aschool.edu.vn, review phụ huynh tổng hợp, original.",
+  "school": "archimedes",
+  "skill": "letter-recognition",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 8,
+  "questions": [
+    {
+      "id": "ARCH-LETT-0001",
+      "type": "multiple-choice-image",
+      "skill": "letter-recognition",
+      "difficulty": 2,
+      "school": ["archimedes", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Chữ cái nào là chữ A?",
+        "audio": {
+          "path": "questions/arch-lett-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "A", "audio": { "path": "options/letter-a.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "B", "audio": { "path": "options/letter-b.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "D", "audio": { "path": "options/letter-d.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "O", "audio": { "path": "options/letter-o.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Đây là chữ A — chữ đầu tiên trong bảng chữ cái!",
+          "audio": { "path": "feedback/lett-a-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Chữ A trông như ngôi nhà có hai mái dốc đó.",
+          "audio": { "path": "feedback/lett-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "chu-A", "nhan-dien"]
+    },
+    {
+      "id": "ARCH-LETT-0002",
+      "type": "matching",
+      "skill": "letter-recognition",
+      "difficulty": 3,
+      "school": ["archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nối chữ in hoa với chữ in thường tương ứng.",
+        "audio": {
+          "path": "questions/arch-lett-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "left-A", "text": "M", "audio": { "path": "options/letter-m-upper.mp3", "locale": "vi-VN" } },
+        { "id": "left-B", "text": "G", "audio": { "path": "options/letter-g-upper.mp3", "locale": "vi-VN" } },
+        { "id": "left-C", "text": "P", "audio": { "path": "options/letter-p-upper.mp3", "locale": "vi-VN" } },
+        { "id": "right-1", "text": "p", "audio": { "path": "options/letter-p-lower.mp3", "locale": "vi-VN" } },
+        { "id": "right-2", "text": "m", "audio": { "path": "options/letter-m-lower.mp3", "locale": "vi-VN" } },
+        { "id": "right-3", "text": "g", "audio": { "path": "options/letter-g-lower.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": {
+        "left-A": "right-2",
+        "left-B": "right-3",
+        "left-C": "right-1"
+      },
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Con biết cả chữ hoa lẫn chữ thường rồi!",
+          "audio": { "path": "feedback/lett-match-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Chữ hoa và chữ thường có cùng âm đó.",
+          "audio": { "path": "feedback/lett-match-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["chu-cai", "hoa-thuong", "noi-doi"]
+    },
+    {
+      "id": "ARCH-SYLL-0001",
+      "type": "fill-blank",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điền âm còn thiếu: B + A + __ = BÀ (bà nội)",
+        "audio": {
+          "path": "questions/arch-syll-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-syll-0001-grandma.webp",
+          "alt": "Hình ảnh bà nội đang ngồi với cháu",
+          "width": 280,
+          "height": 280
+        }
+      },
+      "options": [
+        { "id": "A", "text": "dấu huyền (`)", "audio": { "path": "options/tone-huyen.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "dấu sắc (´)", "audio": { "path": "options/tone-sac.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "dấu hỏi (?)", "audio": { "path": "options/tone-hoi.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "dấu nặng (.)", "audio": { "path": "options/tone-nang.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "Đọc thử: BÀ — nghe thấy giọng đi xuống nhẹ nhàng không? Đó là dấu gì?",
+        "audio": { "path": "questions/arch-syll-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! BÀ có dấu huyền. Bà nội ơi, con yêu bà!",
+          "audio": { "path": "feedback/syll-huyen-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nghe GV đọc lại âm BÀ và nhớ dấu thanh nhé.",
+          "audio": { "path": "feedback/syll-tone-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ghep-van",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "dau-thanh", "huyen", "ba-noi"]
+    },
+    {
+      "id": "ARCH-SYLL-0002",
+      "type": "multiple-choice-image",
+      "skill": "syllable-blending",
+      "difficulty": 3,
+      "school": ["archimedes", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Âm nào bắt đầu từ 'GÀ'?",
+        "audio": {
+          "path": "questions/arch-syll-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/arch-syll-0002-hen.webp",
+          "alt": "Con gà mái đang đứng trong sân",
+          "width": 280,
+          "height": 280
+        }
+      },
+      "options": [
+        { "id": "A", "text": "G", "audio": { "path": "options/letter-g.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "K", "audio": { "path": "options/letter-k.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "C", "audio": { "path": "options/letter-c.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "Q", "audio": { "path": "options/letter-q.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! GÀ bắt đầu bằng chữ G. G-à = GÀ!",
+          "audio": { "path": "feedback/syll-ga-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đọc chậm: G... À... GÀ. Chữ đầu tiên là gì?",
+          "audio": { "path": "feedback/syll-first-letter-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "bat-chu",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-van", "phu-am", "chu-g", "con-ga"]
+    },
+    {
+      "id": "ARCH-ENG-0001",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["archimedes", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe và chọn đúng hình!",
+        "text_en": "Listen and touch the right picture!",
+        "audio": {
+          "path": "questions/arch-eng-0001-cat.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 2000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0001-A-cat.webp", "alt": "A cat sitting" },
+          "audio": { "path": "options/eng-cat.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0001-B-dog.webp", "alt": "A dog standing" },
+          "audio": { "path": "options/eng-dog.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0001-C-bird.webp", "alt": "A bird flying" },
+          "audio": { "path": "options/eng-bird.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0001-D-fish.webp", "alt": "A fish swimming" },
+          "audio": { "path": "options/eng-fish.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Đó là 'cat' — con mèo! Great job!",
+          "text_en": "Yes! That's a cat! Great job!",
+          "audio": { "path": "feedback/eng-cat-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Cat = con mèo. Nghe lại và chọn hình con mèo nhé.",
+          "text_en": "Try again! Which one is the cat?",
+          "audio": { "path": "feedback/eng-cat-retry.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "tu-vung", "dong-vat", "cat-meo"]
+    },
+    {
+      "id": "ARCH-ENG-0002",
+      "type": "listen-choose",
+      "skill": "english-following-instructions",
+      "difficulty": 3,
+      "school": ["archimedes", "nguyen-sieu", "vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe và làm theo!",
+        "text_en": "Touch the red apple!",
+        "audio": {
+          "path": "questions/arch-eng-0002-instruction.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 3000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/arch-eng-0002-A-red-apple.webp", "alt": "A red apple" },
+          "audio": { "path": "options/eng-red-apple.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/arch-eng-0002-B-green-apple.webp", "alt": "A green apple" },
+          "audio": { "path": "options/eng-green-apple.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/arch-eng-0002-C-red-ball.webp", "alt": "A red ball" },
+          "audio": { "path": "options/eng-red-ball.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/arch-eng-0002-D-banana.webp", "alt": "A yellow banana" },
+          "audio": { "path": "options/eng-banana.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "A",
+      "hint": {
+        "text": "Red = màu đỏ. Apple = quả táo. Tìm quả táo màu đỏ nhé!",
+        "audio": { "path": "questions/arch-eng-0002-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Đó là quả táo đỏ — red apple! Well done!",
+          "audio": { "path": "feedback/eng-instruction-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Nghe lại nhé! 'Red' = màu đỏ, 'apple' = quả táo.",
+          "audio": { "path": "feedback/eng-instruction-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "lam-theo-chi-dan", "mau-sac", "qua-tao", "red"]
+    },
+    {
+      "id": "ARCH-ENG-0003",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 3,
+      "school": ["archimedes", "ngoi-sao"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào là 'circle'?",
+        "text_en": "Which one is a circle?",
+        "audio": {
+          "path": "questions/arch-eng-0003-circle.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 2500
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/shape-square-blue.webp", "alt": "A blue square" },
+          "audio": { "path": "options/eng-square.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/shape-triangle-red.webp", "alt": "A red triangle" },
+          "audio": { "path": "options/eng-triangle.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/shape-circle-yellow.webp", "alt": "A yellow circle" },
+          "audio": { "path": "options/eng-circle.mp3", "locale": "en-US" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/shape-rectangle-green.webp", "alt": "A green rectangle" },
+          "audio": { "path": "options/eng-rectangle.mp3", "locale": "en-US" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Circle = hình tròn. Great!",
+          "audio": { "path": "feedback/eng-circle-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Circle là hình tròn — không có góc cạnh nào cả. Thử lại nhé!",
+          "audio": { "path": "feedback/eng-circle-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "hinh-hoc", "circle", "hinh-tron"]
+    },
+    {
+      "id": "ARCH-ENG-0004",
+      "type": "listen-choose",
+      "skill": "english-vocabulary",
+      "difficulty": 4,
+      "school": ["archimedes", "nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Bao nhiêu con gà trong tranh? Chọn số đúng bằng tiếng Anh!",
+        "text_en": "How many chickens are there? Choose the right number!",
+        "audio": {
+          "path": "questions/arch-eng-0004-how-many.mp3",
+          "locale": "en-US",
+          "speaker": "native-english",
+          "duration_ms": 4000
+        },
+        "image": {
+          "path": "questions/arch-eng-0004-chickens.webp",
+          "alt": "4 con gà màu vàng đang đứng trong sân",
+          "width": 400,
+          "height": 280
+        }
+      },
+      "options": [
+        { "id": "A", "text": "three", "audio": { "path": "options/eng-three.mp3", "locale": "en-US" } },
+        { "id": "B", "text": "four",  "audio": { "path": "options/eng-four.mp3",  "locale": "en-US" } },
+        { "id": "C", "text": "five",  "audio": { "path": "options/eng-five.mp3",  "locale": "en-US" } },
+        { "id": "D", "text": "six",   "audio": { "path": "options/eng-six.mp3",   "locale": "en-US" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Excellent! Four chickens — bốn con gà! You can count in English!",
+          "audio": { "path": "feedback/eng-four-correct.mp3", "locale": "en-US" }
+        },
+        "incorrect": {
+          "text": "Count slowly: one, two, three, four! Đếm lại nhé: một, hai, ba, bốn gà.",
+          "audio": { "path": "feedback/eng-count-retry.mp3", "locale": "en-US" }
+        }
+      },
+      "game_config": {
+        "mini_game": "touch-and-say",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["tieng-anh", "dem-so", "four", "con-ga"]
+    }
+  ]
+}

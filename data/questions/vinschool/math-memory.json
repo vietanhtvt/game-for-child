@@ -1,0 +1,314 @@
+{
+  "version": "1.0.0",
+  "set_id": "vin-math-memory-v1",
+  "title": "Toán & Trí Nhớ — Khảo Sát Năng Lực Đầu Vào (Vinschool)",
+  "description": "Bài tập toán tư duy và trí nhớ làm việc trong khảo sát năng lực đầu vào lớp 1 Vinschool (hệ chuẩn và nâng cao). Bao gồm: đếm số, so sánh, điền số còn thiếu, và nhớ vị trí đồ vật. Nguồn: vinschool.edu.vn, lamchame.com, original.",
+  "school": "vinschool",
+  "skill": "counting",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 6,
+  "questions": [
+    {
+      "id": "VIN-COUNT-0001",
+      "type": "sequence",
+      "skill": "iq-memory",
+      "difficulty": 4,
+      "school": ["vinschool", "nguyen-sieu"],
+      "source": {
+        "origin": "lamchame.com",
+        "crawled_at": "2026-05-03",
+        "verified": false
+      },
+      "stem": {
+        "text": "Nhìn 5 đồ vật đặt theo hàng trong 5 giây. Sau đó nhớ lại đúng thứ tự.",
+        "audio": {
+          "path": "questions/vin-count-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0001-items-row.webp",
+          "alt": "5 đồ vật theo thứ tự: bút chì → quyển vở → kéo → thước → gôm (hiển thị 5 giây rồi ẩn)",
+          "width": 640,
+          "height": 160
+        }
+      },
+      "options": [
+        { "id": "1", "image": { "path": "options/vin-count-0001-pencil.webp", "alt": "Bút chì" } },
+        { "id": "2", "image": { "path": "options/vin-count-0001-notebook.webp", "alt": "Quyển vở" } },
+        { "id": "3", "image": { "path": "options/vin-count-0001-scissors.webp", "alt": "Kéo" } },
+        { "id": "4", "image": { "path": "options/vin-count-0001-ruler.webp", "alt": "Thước" } },
+        { "id": "5", "image": { "path": "options/vin-count-0001-eraser.webp", "alt": "Gôm tẩy" } }
+      ],
+      "answer": ["1", "2", "3", "4", "5"],
+      "feedback": {
+        "correct": {
+          "text": "Siêu thật! Con nhớ đúng thứ tự 5 đồ vật!",
+          "audio": { "path": "feedback/memory-5items-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Gần đúng rồi! Thử nhớ lại: vật nào ở đầu tiên trong hàng?",
+          "audio": { "path": "feedback/memory-5items-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 30
+      },
+      "tags": ["tri-nho", "working-memory", "thu-tu", "do-dung-hoc-tap"]
+    },
+    {
+      "id": "VIN-COUNT-0002",
+      "type": "counting",
+      "skill": "counting",
+      "difficulty": 2,
+      "school": ["vinschool", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Đếm số ô tô trong tranh và chọn số đúng.",
+        "audio": {
+          "path": "questions/vin-count-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-count-0002-cars.webp",
+          "alt": "Tranh vẽ 6 chiếc ô tô đủ màu sắc khác nhau đang đậu trên đường",
+          "width": 480,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Có 6 chiếc ô tô. Con đếm giỏi lắm!",
+          "audio": { "path": "feedback/count-6-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Đếm lại từ đầu nhé, chạm vào từng xe: một, hai, ba...",
+          "audio": { "path": "feedback/count-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-so", "o-to", "pham-vi-10", "dem-hinh"]
+    },
+    {
+      "id": "VIN-FILL-0001",
+      "type": "fill-blank",
+      "skill": "pattern-recognition",
+      "difficulty": 3,
+      "school": ["vinschool", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điền số còn thiếu vào dãy: 2, 4, 6, ?, 10",
+        "audio": {
+          "path": "questions/vin-fill-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-fill-0001-sequence.webp",
+          "alt": "Dãy số: 2, 4, 6, ô trống có dấu hỏi, 10",
+          "width": 560,
+          "height": 120
+        }
+      },
+      "options": [
+        { "id": "A", "text": "7", "audio": { "path": "options/number-7.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "8", "audio": { "path": "options/number-8.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "9", "audio": { "path": "options/number-9.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "11","audio": { "path": "options/number-11.mp3","locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Dãy số tăng thêm mấy mỗi lần? 2→4 là +2, 4→6 là +2...",
+        "audio": { "path": "questions/vin-fill-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Xuất sắc! Dãy số tăng 2 mỗi bước: 2, 4, 6, 8, 10 — số chẵn đó!",
+          "audio": { "path": "feedback/fill-8-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Từ 2 lên 4 là thêm 2. Từ 6 thêm 2 thì được mấy?",
+          "audio": { "path": "feedback/fill-sequence-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "doan-tau-hoa-tiet",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["quy-luat-so", "so-chan", "dien-so", "pham-vi-20"]
+    },
+    {
+      "id": "VIN-GEO-0001",
+      "type": "counting",
+      "skill": "geometry",
+      "difficulty": 3,
+      "school": ["vinschool", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Đếm số hình TAM GIÁC trong bức tranh (bao gồm cả hình nhỏ bên trong).",
+        "audio": {
+          "path": "questions/vin-geo-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-geo-0001-triangles.webp",
+          "alt": "Bức tranh có 3 tam giác lớn, mỗi tam giác lớn được tạo từ 4 tam giác nhỏ. Tổng cộng có 5 tam giác đếm được rõ ràng.",
+          "width": 400,
+          "height": 320
+        }
+      },
+      "options": [
+        { "id": "A", "text": "3", "audio": { "path": "options/number-3.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "4", "audio": { "path": "options/number-4.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "5", "audio": { "path": "options/number-5.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "6", "audio": { "path": "options/number-6.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "C",
+      "hint": {
+        "text": "Đếm cả tam giác nhỏ lẫn tam giác lớn nhé! Không bỏ sót cái nào.",
+        "audio": { "path": "questions/vin-geo-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt vời! Có 5 tam giác khi đếm cả nhỏ lẫn lớn. Mắt con tinh lắm!",
+          "audio": { "path": "feedback/geo-triangle-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Nhớ đếm cả hình tam giác nhỏ bên trong nữa nhé.",
+          "audio": { "path": "feedback/geo-triangle-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["dem-hinh", "tam-giac", "hinh-hoc", "quan-sat-tinh"]
+    },
+    {
+      "id": "VIN-COMP-0001",
+      "type": "multiple-choice",
+      "skill": "number-comparison",
+      "difficulty": 3,
+      "school": ["vinschool"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Điền dấu thích hợp: 9 ○ 12",
+        "audio": {
+          "path": "questions/vin-comp-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        { "id": "A", "text": "> (chín lớn hơn)", "audio": { "path": "options/sign-greater.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "< (chín nhỏ hơn)", "audio": { "path": "options/sign-less.mp3",    "locale": "vi-VN" } },
+        { "id": "C", "text": "= (bằng nhau)",     "audio": { "path": "options/sign-equal.mp3",   "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! 9 < 12 vì 12 lớn hơn. Miệng cá sấu há về phía 12.",
+          "audio": { "path": "feedback/comp-9-12-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Đếm từ 9 đến 12: mất mấy bước? Số nào lớn hơn?",
+          "audio": { "path": "feedback/comp-less-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "can-voi",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["so-sanh-so", "nho-hon", "pham-vi-20", "dau-so-hoc"]
+    },
+    {
+      "id": "VIN-ADD-0001",
+      "type": "multiple-choice",
+      "skill": "addition",
+      "difficulty": 4,
+      "school": ["vinschool", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Trong rổ có 7 quả cam. Bà thêm vào 4 quả nữa. Bây giờ có tất cả mấy quả cam?",
+        "audio": {
+          "path": "questions/vin-add-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/vin-add-0001-oranges.webp",
+          "alt": "Rổ có 7 quả cam, bên cạnh là 4 quả cam đang được thêm vào",
+          "width": 440,
+          "height": 240
+        }
+      },
+      "options": [
+        { "id": "A", "text": "10", "audio": { "path": "options/number-10.mp3", "locale": "vi-VN" } },
+        { "id": "B", "text": "11", "audio": { "path": "options/number-11.mp3", "locale": "vi-VN" } },
+        { "id": "C", "text": "12", "audio": { "path": "options/number-12.mp3", "locale": "vi-VN" } },
+        { "id": "D", "text": "13", "audio": { "path": "options/number-13.mp3", "locale": "vi-VN" } }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "7 + 4 = ? Đếm thêm từ 7: tám, chín, mười, mười một.",
+        "audio": { "path": "questions/vin-add-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Giỏi! 7 + 4 = 11. Bây giờ có 11 quả cam!",
+          "audio": { "path": "feedback/add-11-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bắt đầu từ 7 rồi đếm thêm 4: 8, 9, 10, 11.",
+          "audio": { "path": "feedback/add-7-4-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "cho-que",
+        "shuffle_options": false,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cong-tru", "them-vao", "pham-vi-20", "toan-van"]
+    }
+  ]
+}

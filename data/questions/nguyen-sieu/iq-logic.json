@@ -1,0 +1,437 @@
+{
+  "version": "1.0.0",
+  "set_id": "nsps-iq-logic-v1",
+  "title": "IQ Quan Sát & Logic (Nguyễn Siêu — Spark in Me)",
+  "description": "Bài tập IQ quan sát, tìm hình khác biệt, trí nhớ làm việc và logic tư duy — đặc trưng của chương trình 'Spark in Me' tại Nguyễn Siêu. Trẻ được quan sát qua hoạt động nhóm, không phải bài thi duy nhất. Nguồn: nsps.edu.vn, review phụ huynh, original.",
+  "school": "nguyen-sieu",
+  "skill": "iq-observation",
+  "difficulty_range": [2, 3, 4],
+  "total_questions": 7,
+  "questions": [
+    {
+      "id": "NSPS-IQ-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Hình nào KHÁC hẳn với các hình còn lại?",
+        "audio": {
+          "path": "questions/nsps-iq-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-iq-0001-A-circle-red.webp", "alt": "Hình tròn màu đỏ" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-iq-0001-B-circle-blue.webp", "alt": "Hình tròn màu xanh" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-iq-0001-C-square-red.webp", "alt": "Hình vuông màu đỏ" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-iq-0001-D-circle-yellow.webp", "alt": "Hình tròn màu vàng" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Giỏi lắm! Hình vuông khác vì 3 hình kia đều là hình tròn.",
+          "audio": { "path": "feedback/iq-correct-01.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ hơn nào! Hình nào có góc cạnh, hình nào tròn trịa?",
+          "audio": { "path": "feedback/iq-shape-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["iq-phan-biet", "hinh-hoc", "hinh-tron", "hinh-vuong"]
+    },
+    {
+      "id": "NSPS-IQ-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-observation",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Vật nào KHÔNG phải là đồ dùng học tập?",
+        "audio": {
+          "path": "questions/nsps-iq-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-iq-0002-A-pencil.webp", "alt": "Cái bút chì" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-iq-0002-B-ruler.webp", "alt": "Cái thước kẻ" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-iq-0002-C-apple.webp", "alt": "Quả táo" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-iq-0002-D-eraser.webp", "alt": "Cục tẩy" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Đúng! Quả táo là đồ ăn, không phải đồ dùng học tập.",
+          "audio": { "path": "feedback/iq-apple-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại! Bút chì, thước, tẩy dùng để làm gì? Còn táo thì sao?",
+          "audio": { "path": "feedback/iq-category-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["iq-phan-loai", "do-dung-hoc-tap", "quan-sat"]
+    },
+    {
+      "id": "NSPS-IQ-0003",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Mảnh nào điền vào ô dấu hỏi để hoàn chỉnh bức tranh?",
+        "audio": {
+          "path": "questions/nsps-iq-0003-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-iq-0003-puzzle-sun.webp",
+          "alt": "Bức tranh mặt trời bị thiếu góc phải dưới — có 4 mảnh ghép để chọn",
+          "width": 400,
+          "height": 400
+        }
+      },
+      "options": [
+        { "id": "A", "image": { "path": "options/nsps-iq-0003-A.webp", "alt": "Mảnh có tia nắng màu vàng" } },
+        { "id": "B", "image": { "path": "options/nsps-iq-0003-B.webp", "alt": "Mảnh có bầu trời xanh trơn" } },
+        { "id": "C", "image": { "path": "options/nsps-iq-0003-C.webp", "alt": "Mảnh có đám mây trắng" } },
+        { "id": "D", "image": { "path": "options/nsps-iq-0003-D.webp", "alt": "Mảnh có cỏ xanh bên dưới" } }
+      ],
+      "answer": "A",
+      "feedback": {
+        "correct": {
+          "text": "Tuyệt! Đúng rồi, tia nắng vàng điền vào đúng chỗ!",
+          "audio": { "path": "feedback/puzzle-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn kỹ phần bị thiếu xem: ở đó có màu gì, hình gì?",
+          "audio": { "path": "feedback/puzzle-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "hai-buc-tranh",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["ghep-hinh", "iq-logic", "mat-troi", "quan-sat"]
+    },
+    {
+      "id": "NSPS-MEM-0002",
+      "type": "multiple-choice-image",
+      "skill": "iq-memory",
+      "difficulty": 4,
+      "school": ["nguyen-sieu", "doan-thi-diem"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nhìn 6 đồ vật này trong 5 giây. Sau đó, VẬT NÀO bị giấu đi?",
+        "audio": {
+          "path": "questions/nsps-mem-0002-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-mem-0002-objects-show.webp",
+          "alt": "6 đồ vật trên bàn: bóng đỏ, con gấu bông, chiếc xe đồ chơi, cốc nước, quyển sách, bút màu. Sau 5 giây ẩn đi bút màu.",
+          "width": 600,
+          "height": 300
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-mem-0002-A-ball.webp", "alt": "Bóng đỏ" },
+          "audio": { "path": "options/vi-bong-do.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-mem-0002-B-bear.webp", "alt": "Con gấu bông" },
+          "audio": { "path": "options/vi-gau-bong.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-mem-0002-C-crayon.webp", "alt": "Bút màu" },
+          "audio": { "path": "options/vi-but-mau.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-mem-0002-D-cup.webp", "alt": "Cốc nước" },
+          "audio": { "path": "options/vi-coc-nuoc.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "C",
+      "feedback": {
+        "correct": {
+          "text": "Trí nhớ của con siêu thật! Bút màu đã bị giấu đi!",
+          "audio": { "path": "feedback/memory-hide-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Thử lại nào! Nhớ lại các vật: bóng, gấu, xe, cốc, sách... còn thiếu gì?",
+          "audio": { "path": "feedback/memory-hide-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "lat-the-doi",
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 30
+      },
+      "tags": ["tri-nho", "working-memory", "vat-bi-giau", "spark-in-me"]
+    },
+    {
+      "id": "NSPS-LOG-0001",
+      "type": "multiple-choice-image",
+      "skill": "iq-logic",
+      "difficulty": 3,
+      "school": ["nguyen-sieu", "archimedes"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Con cá sống trong nước. Con chim sống ở đâu?",
+        "audio": {
+          "path": "questions/nsps-log-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "image": { "path": "options/nsps-log-0001-A-water.webp", "alt": "Trong nước" },
+          "text": "Trong nước",
+          "audio": { "path": "options/vi-trong-nuoc.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "image": { "path": "options/nsps-log-0001-B-sky.webp", "alt": "Trên bầu trời" },
+          "text": "Trên bầu trời",
+          "audio": { "path": "options/vi-tren-bau-troi.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "image": { "path": "options/nsps-log-0001-C-underground.webp", "alt": "Dưới lòng đất" },
+          "text": "Dưới lòng đất",
+          "audio": { "path": "options/vi-duoi-long-dat.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "image": { "path": "options/nsps-log-0001-D-house.webp", "alt": "Trong nhà" },
+          "text": "Trong nhà",
+          "audio": { "path": "options/vi-trong-nha.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "hint": {
+        "text": "Con chim có đôi cánh để làm gì? Nó hay bay ở đâu?",
+        "audio": { "path": "questions/nsps-log-0001-hint.mp3", "locale": "vi-VN" }
+      },
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Con chim bay trên bầu trời, giống như cá bơi trong nước vậy!",
+          "audio": { "path": "feedback/logic-analogy-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghĩ lại xem: con chim dùng cánh để làm gì? Nó sống ở đâu?",
+          "audio": { "path": "feedback/logic-analogy-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["logic-tuong-tu", "con-vat", "moi-truong-song", "suy-luan"]
+    },
+    {
+      "id": "NSPS-STOR-0003",
+      "type": "multiple-choice",
+      "skill": "storytelling",
+      "difficulty": 4,
+      "school": ["nguyen-sieu"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Nghe câu chuyện về bé An. Tại sao bé An khóc?",
+        "audio": {
+          "path": "questions/nsps-stor-0003-story-an.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north",
+          "duration_ms": 40000
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Vì bé bị té",
+          "image": { "path": "options/nsps-stor-0003-A-fall.webp", "alt": "Bé bị té xuống đất" },
+          "audio": { "path": "options/vi-be-bi-te.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Vì bé mất đồ chơi",
+          "image": { "path": "options/nsps-stor-0003-B-lost-toy.webp", "alt": "Bé nhìn vào hộp trống không có đồ chơi" },
+          "audio": { "path": "options/vi-mat-do-choi.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Vì bé đói",
+          "image": { "path": "options/nsps-stor-0003-C-hungry.webp", "alt": "Bé chỉ vào bụng đang đói" },
+          "audio": { "path": "options/vi-be-doi.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Vì bé muốn ngủ",
+          "image": { "path": "options/nsps-stor-0003-D-sleepy.webp", "alt": "Bé đang buồn ngủ" },
+          "audio": { "path": "options/vi-be-ngu.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "B",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Bé An buồn vì mất đồ chơi yêu thích. Con nghe chuyện rất giỏi!",
+          "audio": { "path": "feedback/story-an-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nghe lại câu chuyện nào! Bé An đang tìm gì vậy?",
+          "audio": { "path": "feedback/story-an-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "ke-chuyen",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 2,
+        "time_limit_seconds": 90
+      },
+      "tags": ["ke-chuyen", "nghe-hieu", "cam-xuc", "ly-do"]
+    },
+    {
+      "id": "NSPS-EMO-0001",
+      "type": "multiple-choice-image",
+      "skill": "emotion-recognition",
+      "difficulty": 2,
+      "school": ["nguyen-sieu", "general"],
+      "source": {
+        "origin": "original",
+        "verified": true
+      },
+      "stem": {
+        "text": "Khi được tặng quà, bé cảm thấy thế nào?",
+        "audio": {
+          "path": "questions/nsps-emo-0001-stem.mp3",
+          "locale": "vi-VN",
+          "speaker": "female-child-north"
+        },
+        "image": {
+          "path": "questions/nsps-emo-0001-gift.webp",
+          "alt": "Một bé gái đang nhận hộp quà có nơ đỏ, miệng cười tươi",
+          "width": 320,
+          "height": 400
+        }
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "Tức giận",
+          "image": { "path": "options/emotion-angry.webp", "alt": "Mặt tức giận" },
+          "audio": { "path": "options/emotion-tuc.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "B",
+          "text": "Sợ hãi",
+          "image": { "path": "options/emotion-scared.webp", "alt": "Mặt sợ hãi" },
+          "audio": { "path": "options/emotion-so.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "C",
+          "text": "Buồn",
+          "image": { "path": "options/emotion-sad.webp", "alt": "Mặt buồn" },
+          "audio": { "path": "options/emotion-buon.mp3", "locale": "vi-VN" }
+        },
+        {
+          "id": "D",
+          "text": "Vui sướng",
+          "image": { "path": "options/emotion-happy.webp", "alt": "Mặt vui tươi" },
+          "audio": { "path": "options/emotion-vui.mp3", "locale": "vi-VN" }
+        }
+      ],
+      "answer": "D",
+      "feedback": {
+        "correct": {
+          "text": "Đúng rồi! Được tặng quà thật vui sướng! Con cũng thích nhận quà không?",
+          "audio": { "path": "feedback/emo-happy-correct.mp3", "locale": "vi-VN" }
+        },
+        "incorrect": {
+          "text": "Nhìn miệng bé cười xem! Bé đang vui hay buồn?",
+          "audio": { "path": "feedback/emo-gift-retry.mp3", "locale": "vi-VN" }
+        }
+      },
+      "game_config": {
+        "mini_game": "be-cam-xuc",
+        "shuffle_options": true,
+        "auto_play_audio": true,
+        "max_attempts": 3
+      },
+      "tags": ["cam-xuc", "vui", "qua-tang", "EQ"]
+    }
+  ]
+}

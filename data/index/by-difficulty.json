@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo độ khó (1=3 tuổi, 2=4 tuổi, 3=5 tuổi, 4=6 tuổi/chuẩn bị vào lớp 1).",
-  "_updated": "2026-04-21",
+  "_updated": "2026-05-03",
   "1": {
     "label": "Mức 1 — 3 tuổi",
     "description": "Nhận biết đơn giản: hình dạng, màu sắc cơ bản, chữ cái đơn, số 1-5, cảm xúc cơ bản",
@@ -8,7 +8,10 @@
       { "id": "GEN-LETT-0001", "skill": "letter-recognition", "file": "questions/general/vietnamese-letters.json" },
       { "id": "NGS-COUNT-0001", "skill": "counting", "file": "questions/ngoi-sao/math-counting.json" },
       { "id": "GEN-SPAT-0001", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0003", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0003", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" },
+      { "id": "GEN-COUNT-0001", "skill": "counting", "file": "questions/general/counting-patterns.json" },
+      { "id": "GEN-SPAT-0004", "skill": "spatial-orientation", "file": "questions/general/counting-patterns.json" },
+      { "id": "GEN-EMO-0004", "skill": "emotion-recognition", "file": "questions/general/counting-patterns.json" }
     ]
   },
   "2": {
@@ -29,7 +32,19 @@
       { "id": "ARCH-SPAT-0001", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-SPAT-0002", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
       { "id": "GEN-SPAT-0002", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
-      { "id": "GEN-EMO-0002", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-EMO-0002", "skill": "emotion-recognition", "file": "questions/general/spatial-emotion.json" },
+      { "id": "ARCH-LETT-0001", "skill": "letter-recognition", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "DTD-LETT-0001", "skill": "letter-recognition", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "DTD-LETT-0002", "skill": "letter-recognition", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "VIN-COUNT-0002", "skill": "counting", "file": "questions/vinschool/math-memory.json" },
+      { "id": "NGS-IQ-0001", "skill": "iq-observation", "file": "questions/ngoi-sao/iq-english.json" },
+      { "id": "NGS-GEO-0002", "skill": "counting", "file": "questions/ngoi-sao/iq-english.json" },
+      { "id": "GEN-COUNT-0002", "skill": "counting", "file": "questions/general/counting-patterns.json" },
+      { "id": "GEN-LETT-0004", "skill": "letter-recognition", "file": "questions/general/counting-patterns.json" },
+      { "id": "GEN-PATT-0001", "skill": "pattern-recognition", "file": "questions/general/counting-patterns.json" },
+      { "id": "GEN-NUM-0001", "skill": "number-comparison", "file": "questions/general/counting-patterns.json" },
+      { "id": "GEN-EMO-0005", "skill": "emotion-recognition", "file": "questions/general/counting-patterns.json" },
+      { "id": "NSPS-EMO-0001", "skill": "emotion-recognition", "file": "questions/nguyen-sieu/iq-logic.json" }
     ]
   },
   "3": {
@@ -55,7 +70,29 @@
       { "id": "NGS-READ-0001", "skill": "reading-comprehension", "file": "questions/ngoi-sao/vietnamese-letters.json" },
       { "id": "ARCH-NUM-0001", "skill": "addition", "file": "questions/archimedes/spatial-number.json" },
       { "id": "ARCH-NUM-0002", "skill": "number-comparison", "file": "questions/archimedes/spatial-number.json" },
-      { "id": "GEN-SPAT-0003", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" }
+      { "id": "GEN-SPAT-0003", "skill": "spatial-orientation", "file": "questions/general/spatial-emotion.json" },
+      { "id": "ARCH-LETT-0002", "skill": "letter-recognition", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "ARCH-SYLL-0001", "skill": "syllable-blending", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "ARCH-SYLL-0002", "skill": "syllable-blending", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "ARCH-ENG-0001", "skill": "english-vocabulary", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "ARCH-ENG-0002", "skill": "english-following-instructions", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "ARCH-ENG-0003", "skill": "english-vocabulary", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "DTD-SYLL-0001", "skill": "syllable-blending", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "DTD-SYLL-0002", "skill": "syllable-blending", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "DTD-READ-0001", "skill": "reading-comprehension", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "DTD-COMP-0001", "skill": "number-comparison", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "VIN-FILL-0001", "skill": "pattern-recognition", "file": "questions/vinschool/math-memory.json" },
+      { "id": "VIN-GEO-0001", "skill": "geometry", "file": "questions/vinschool/math-memory.json" },
+      { "id": "VIN-COMP-0001", "skill": "number-comparison", "file": "questions/vinschool/math-memory.json" },
+      { "id": "NGS-IQ-0002", "skill": "iq-observation", "file": "questions/ngoi-sao/iq-english.json" },
+      { "id": "NGS-ADD-0001", "skill": "addition", "file": "questions/ngoi-sao/iq-english.json" },
+      { "id": "NGS-PATT-0003", "skill": "pattern-recognition", "file": "questions/ngoi-sao/iq-english.json" },
+      { "id": "NGS-ENG-0001", "skill": "english-vocabulary", "file": "questions/ngoi-sao/iq-english.json" },
+      { "id": "NGS-ENG-0002", "skill": "english-vocabulary", "file": "questions/ngoi-sao/iq-english.json" },
+      { "id": "NSPS-IQ-0001", "skill": "iq-observation", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-IQ-0002", "skill": "iq-observation", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-IQ-0003", "skill": "iq-logic", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-LOG-0001", "skill": "iq-logic", "file": "questions/nguyen-sieu/iq-logic.json" }
     ]
   },
   "4": {
@@ -73,7 +110,14 @@
       { "id": "GEN-READ-0001", "skill": "reading-comprehension", "file": "questions/general/vietnamese-letters.json" },
       { "id": "VIN-ENG-0004", "skill": "english-following-instructions", "file": "questions/vinschool/english-listening.json" },
       { "id": "VIN-ENG-0005", "skill": "english-vocabulary", "file": "questions/vinschool/english-listening.json" },
-      { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" }
+      { "id": "ARCH-SPAT-0003", "skill": "spatial-orientation", "file": "questions/archimedes/spatial-number.json" },
+      { "id": "ARCH-ENG-0004", "skill": "english-vocabulary", "file": "questions/archimedes/vietnamese-english.json" },
+      { "id": "NSPS-MEM-0002", "skill": "iq-memory", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "NSPS-STOR-0003", "skill": "storytelling", "file": "questions/nguyen-sieu/iq-logic.json" },
+      { "id": "DTD-STORY-0002", "skill": "storytelling", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "DTD-STORY-0003", "skill": "storytelling", "file": "questions/doan-thi-diem/vietnamese-language.json" },
+      { "id": "VIN-COUNT-0001", "skill": "iq-memory", "file": "questions/vinschool/math-memory.json" },
+      { "id": "VIN-ADD-0001", "skill": "addition", "file": "questions/vinschool/math-memory.json" }
     ]
   }
 }

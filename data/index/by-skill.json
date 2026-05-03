@@ -1,6 +1,6 @@
 {
   "_description": "Index câu hỏi theo kỹ năng. Mỗi entry là danh sách các question_id và file chứa câu hỏi đó.",
-  "_updated": "2026-04-21",
+  "_updated": "2026-05-03",
   "letter-recognition": {
     "label": "Nhận diện chữ cái",
     "mini_games": ["bat-chu"],
@@ -9,7 +9,12 @@
       { "id": "GEN-LETT-0002", "file": "questions/general/vietnamese-letters.json", "difficulty": 2 },
       { "id": "GEN-LETT-0003", "file": "questions/general/vietnamese-letters.json", "difficulty": 3 },
       { "id": "NGS-LETT-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 2 },
-      { "id": "NGS-LETT-0002", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 2 }
+      { "id": "NGS-LETT-0002", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 2 },
+      { "id": "ARCH-LETT-0001", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 2 },
+      { "id": "ARCH-LETT-0002", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 3 },
+      { "id": "DTD-LETT-0001", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 2 },
+      { "id": "DTD-LETT-0002", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 2 },
+      { "id": "GEN-LETT-0004", "file": "questions/general/counting-patterns.json", "difficulty": 2 }
     ]
   },
   "syllable-blending": {
@@ -18,7 +23,11 @@
     "questions": [
       { "id": "GEN-SYLL-0001", "file": "questions/general/vietnamese-letters.json", "difficulty": 2 },
       { "id": "GEN-SYLL-0002", "file": "questions/general/vietnamese-letters.json", "difficulty": 3 },
-      { "id": "NGS-SYLL-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 }
+      { "id": "NGS-SYLL-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 },
+      { "id": "ARCH-SYLL-0001", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 3 },
+      { "id": "ARCH-SYLL-0002", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 3 },
+      { "id": "DTD-SYLL-0001", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 3 },
+      { "id": "DTD-SYLL-0002", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 3 }
     ]
   },
   "reading-comprehension": {
@@ -27,7 +36,8 @@
     "questions": [
       { "id": "GEN-READ-0001", "file": "questions/general/vietnamese-letters.json", "difficulty": 4 },
       { "id": "NSPS-STOR-0002", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 },
-      { "id": "NGS-READ-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 }
+      { "id": "NGS-READ-0001", "file": "questions/ngoi-sao/vietnamese-letters.json", "difficulty": 3 },
+      { "id": "DTD-READ-0001", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 3 }
     ]
   },
   "storytelling": {
@@ -35,7 +45,10 @@
     "mini_games": ["ke-chuyen"],
     "questions": [
       { "id": "DTD-STORY-0001", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 },
-      { "id": "NSPS-STOR-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 }
+      { "id": "NSPS-STOR-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 },
+      { "id": "NSPS-STOR-0003", "file": "questions/nguyen-sieu/iq-logic.json", "difficulty": 4 },
+      { "id": "DTD-STORY-0002", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 4 },
+      { "id": "DTD-STORY-0003", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 4 }
     ]
   },
   "counting": {
@@ -46,7 +59,11 @@
       { "id": "NGS-COUNT-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 1 },
       { "id": "NGS-COUNT-0002", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
       { "id": "DTD-COUNT-0001", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 },
-      { "id": "DTD-COUNT-0002", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 }
+      { "id": "DTD-COUNT-0002", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 },
+      { "id": "VIN-COUNT-0002", "file": "questions/vinschool/math-memory.json", "difficulty": 2 },
+      { "id": "NGS-GEO-0002", "file": "questions/ngoi-sao/iq-english.json", "difficulty": 2 },
+      { "id": "GEN-COUNT-0001", "file": "questions/general/counting-patterns.json", "difficulty": 1 },
+      { "id": "GEN-COUNT-0002", "file": "questions/general/counting-patterns.json", "difficulty": 2 }
     ]
   },
   "number-comparison": {
@@ -55,7 +72,10 @@
     "questions": [
       { "id": "NGS-NUM-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
       { "id": "ARCH-NUM-0002", "file": "questions/archimedes/spatial-number.json", "difficulty": 3 },
-      { "id": "DTD-COUNT-0003", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 }
+      { "id": "DTD-COUNT-0003", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 3 },
+      { "id": "DTD-COMP-0001", "file": "questions/doan-thi-diem/vietnamese-language.json", "difficulty": 3 },
+      { "id": "VIN-COMP-0001", "file": "questions/vinschool/math-memory.json", "difficulty": 3 },
+      { "id": "GEN-NUM-0001", "file": "questions/general/counting-patterns.json", "difficulty": 2 }
     ]
   },
   "addition": {
@@ -63,7 +83,9 @@
     "mini_games": ["cho-que"],
     "questions": [
       { "id": "ARCH-NUM-0001", "file": "questions/archimedes/spatial-number.json", "difficulty": 3 },
-      { "id": "DTD-COUNT-0004", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 }
+      { "id": "DTD-COUNT-0004", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 },
+      { "id": "NGS-ADD-0001", "file": "questions/ngoi-sao/iq-english.json", "difficulty": 3 },
+      { "id": "VIN-ADD-0001", "file": "questions/vinschool/math-memory.json", "difficulty": 4 }
     ]
   },
   "pattern-recognition": {
@@ -75,7 +97,10 @@
       { "id": "ARCH-PATT-0003", "file": "questions/archimedes/math-pattern.json", "difficulty": 3 },
       { "id": "NGS-PATT-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
       { "id": "NGS-PATT-0002", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 3 },
-      { "id": "DTD-PATT-0001", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 }
+      { "id": "DTD-PATT-0001", "file": "questions/doan-thi-diem/math-counting.json", "difficulty": 4 },
+      { "id": "NGS-PATT-0003", "file": "questions/ngoi-sao/iq-english.json", "difficulty": 3 },
+      { "id": "VIN-FILL-0001", "file": "questions/vinschool/math-memory.json", "difficulty": 3 },
+      { "id": "GEN-PATT-0001", "file": "questions/general/counting-patterns.json", "difficulty": 2 }
     ]
   },
   "geometry": {
@@ -83,7 +108,8 @@
     "mini_games": ["xep-tangram", "hai-buc-tranh"],
     "questions": [
       { "id": "ARCH-PATT-0005", "file": "questions/archimedes/math-pattern.json", "difficulty": 3 },
-      { "id": "NGS-GEO-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 }
+      { "id": "NGS-GEO-0001", "file": "questions/ngoi-sao/math-counting.json", "difficulty": 2 },
+      { "id": "VIN-GEO-0001", "file": "questions/vinschool/math-memory.json", "difficulty": 3 }
     ]
   },
   "spatial-orientation": {
@@ -95,7 +121,8 @@
       { "id": "ARCH-SPAT-0003", "file": "questions/archimedes/spatial-number.json", "difficulty": 4 },
       { "id": "GEN-SPAT-0001", "file": "questions/general/spatial-emotion.json", "difficulty": 1 },
       { "id": "GEN-SPAT-0002", "file": "questions/general/spatial-emotion.json", "difficulty": 2 },
-      { "id": "GEN-SPAT-0003", "file": "questions/general/spatial-emotion.json", "difficulty": 3 }
+      { "id": "GEN-SPAT-0003", "file": "questions/general/spatial-emotion.json", "difficulty": 3 },
+      { "id": "GEN-SPAT-0004", "file": "questions/general/counting-patterns.json", "difficulty": 1 }
     ]
   },
   "iq-observation": {
@@ -104,7 +131,11 @@
     "questions": [
       { "id": "DTD-IQ-0001", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
       { "id": "DTD-IQ-0002", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
-      { "id": "DTD-IQ-0003", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 }
+      { "id": "DTD-IQ-0003", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 },
+      { "id": "NSPS-IQ-0001", "file": "questions/nguyen-sieu/iq-logic.json", "difficulty": 3 },
+      { "id": "NSPS-IQ-0002", "file": "questions/nguyen-sieu/iq-logic.json", "difficulty": 3 },
+      { "id": "NGS-IQ-0001", "file": "questions/ngoi-sao/iq-english.json", "difficulty": 2 },
+      { "id": "NGS-IQ-0002", "file": "questions/ngoi-sao/iq-english.json", "difficulty": 3 }
     ]
   },
   "iq-memory": {
@@ -112,14 +143,18 @@
     "mini_games": ["lat-the-doi"],
     "questions": [
       { "id": "DTD-MEM-0001", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 4 },
-      { "id": "NSPS-MEM-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 }
+      { "id": "NSPS-MEM-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 4 },
+      { "id": "NSPS-MEM-0002", "file": "questions/nguyen-sieu/iq-logic.json", "difficulty": 4 },
+      { "id": "VIN-COUNT-0001", "file": "questions/vinschool/math-memory.json", "difficulty": 4 }
     ]
   },
   "iq-logic": {
     "label": "Tư duy logic / Nối hình",
     "mini_games": ["ke-chuyen", "doan-tau-hoa-tiet"],
     "questions": [
-      { "id": "DTD-IQ-0004", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 }
+      { "id": "DTD-IQ-0004", "file": "questions/doan-thi-diem/iq-observation.json", "difficulty": 3 },
+      { "id": "NSPS-IQ-0003", "file": "questions/nguyen-sieu/iq-logic.json", "difficulty": 3 },
+      { "id": "NSPS-LOG-0001", "file": "questions/nguyen-sieu/iq-logic.json", "difficulty": 3 }
     ]
   },
   "english-vocabulary": {
@@ -128,7 +163,12 @@
     "questions": [
       { "id": "VIN-ENG-0001", "file": "questions/vinschool/english-listening.json", "difficulty": 3 },
       { "id": "VIN-ENG-0003", "file": "questions/vinschool/english-listening.json", "difficulty": 3 },
-      { "id": "VIN-ENG-0005", "file": "questions/vinschool/english-listening.json", "difficulty": 4 }
+      { "id": "VIN-ENG-0005", "file": "questions/vinschool/english-listening.json", "difficulty": 4 },
+      { "id": "ARCH-ENG-0001", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 3 },
+      { "id": "ARCH-ENG-0003", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 3 },
+      { "id": "ARCH-ENG-0004", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 4 },
+      { "id": "NGS-ENG-0001", "file": "questions/ngoi-sao/iq-english.json", "difficulty": 3 },
+      { "id": "NGS-ENG-0002", "file": "questions/ngoi-sao/iq-english.json", "difficulty": 3 }
     ]
   },
   "english-listening": {
@@ -142,7 +182,8 @@
     "label": "Làm theo chỉ dẫn bằng Tiếng Anh",
     "mini_games": ["touch-and-say"],
     "questions": [
-      { "id": "VIN-ENG-0004", "file": "questions/vinschool/english-listening.json", "difficulty": 4 }
+      { "id": "VIN-ENG-0004", "file": "questions/vinschool/english-listening.json", "difficulty": 4 },
+      { "id": "ARCH-ENG-0002", "file": "questions/archimedes/vietnamese-english.json", "difficulty": 3 }
     ]
   },
   "emotion-recognition": {
@@ -151,7 +192,10 @@
     "questions": [
       { "id": "NSPS-EMOQ-0001", "file": "questions/nguyen-sieu/storytelling.json", "difficulty": 2 },
       { "id": "GEN-EMO-0002", "file": "questions/general/spatial-emotion.json", "difficulty": 2 },
-      { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json", "difficulty": 1 }
+      { "id": "GEN-EMO-0003", "file": "questions/general/spatial-emotion.json", "difficulty": 1 },
+      { "id": "NSPS-EMO-0001", "file": "questions/nguyen-sieu/iq-logic.json", "difficulty": 2 },
+      { "id": "GEN-EMO-0004", "file": "questions/general/counting-patterns.json", "difficulty": 1 },
+      { "id": "GEN-EMO-0005", "file": "questions/general/counting-patterns.json", "difficulty": 2 }
     ]
   }
 }
